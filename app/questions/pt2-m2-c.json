@@ -819,7 +819,8 @@
    "prompt": "<p style=\"text-align:center\">\\(5(x+7)=15(x-17)(x+7)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
    "answer": [
     "31/3",
-    "10.33"
+    "10.33",
+    "10.333"
    ],
    "explanation": "<p>Subtract \\(5(x+7)\\) from each side: \\(0=15(x-17)(x+7)-5(x+7)\\). Factor out the common factor \\((x+7)\\): \\(0=(x+7)\\left(15(x-17)-5\\right)\\), which simplifies to \\(0=(x+7)(15x-260)\\).</p><p>A product is 0 when a factor is 0, so \\(x=-7\\) or \\(x=\\frac{52}{3}\\). The sum of the solutions is \\(-7+\\left(\\frac{52}{3}\\right)=\\frac{31}{3}\\). Examples of ways to enter a correct answer: 31/3, 10.33.</p><p>Watch out: dividing both sides by \\((x+7)\\) at the start loses the solution \\(x=-7\\).</p>"
   },
@@ -836,7 +837,8 @@
    "prompt": "<p style=\"text-align:center\">\\(4(x-5)=12(x-9)(x-5)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
    "answer": [
     "43/3",
-    "14.33"
+    "14.33",
+    "14.333"
    ],
    "explanation": "<p>Subtract \\(4(x-5)\\) from each side: \\(0=12(x-9)(x-5)-4(x-5)\\). Factor out the common factor \\((x-5)\\): \\(0=(x-5)\\left(12(x-9)-4\\right)\\), which simplifies to \\(0=(x-5)(12x-112)\\).</p><p>A product is 0 when a factor is 0, so \\(x=5\\) or \\(x=\\frac{28}{3}\\). The sum of the solutions is \\(5+\\left(\\frac{28}{3}\\right)=\\frac{43}{3}\\). Examples of ways to enter a correct answer: 43/3, 14.33.</p><p>Watch out: dividing both sides by \\((x-5)\\) at the start loses the solution \\(x=5\\).</p>"
   },
@@ -853,7 +855,8 @@
    "prompt": "<p style=\"text-align:center\">\\(6(x+2)=18(x-11)(x+2)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
    "answer": [
     "28/3",
-    "9.333"
+    "9.333",
+    "9.3333"
    ],
    "explanation": "<p>Subtract \\(6(x+2)\\) from each side: \\(0=18(x-11)(x+2)-6(x+2)\\). Factor out the common factor \\((x+2)\\): \\(0=(x+2)\\left(18(x-11)-6\\right)\\), which simplifies to \\(0=(x+2)(18x-204)\\).</p><p>A product is 0 when a factor is 0, so \\(x=-2\\) or \\(x=\\frac{34}{3}\\). The sum of the solutions is \\(-2+\\left(\\frac{34}{3}\\right)=\\frac{28}{3}\\). Examples of ways to enter a correct answer: 28/3, 9.333.</p><p>Watch out: dividing both sides by \\((x+2)\\) at the start loses the solution \\(x=-2\\).</p>"
   },
