@@ -1,0 +1,532 @@
+{
+ "questions": [
+  {
+   "id": "pt2-m1-q01-v5",
+   "family": "pt2-m1-q01",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q1",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(|x+36|=41\\)</p><p>What is the positive solution to the given equation?</p>",
+   "choices": [
+    "41",
+    "77",
+    "82",
+    "5"
+   ],
+   "answer": "D",
+   "explanation": "Choice D is correct. An absolute value equation \\(|x+36|=41\\) splits into two linear equations: \\(x+36=41\\) or \\(x+36=-41\\). Subtracting 36 from both sides of each gives \\(x=5\\) or \\(x=-77\\). Only \\(5\\) is positive, so the positive solution is 5. (Check: \\(|5+36|=|41|=41\\).)<br>Choice A: 41 is the right side of the equation, not a solution; Choice B: 77 is the absolute value of the negative solution, \\(-77\\), which is not positive; Choice C: 82 comes from doubling 41."
+  },
+  {
+   "id": "pt2-m1-q01-v6",
+   "family": "pt2-m1-q01",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q1",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(|x+73|=88\\)</p><p>What is the positive solution to the given equation?</p>",
+   "choices": [
+    "88",
+    "15",
+    "161",
+    "176"
+   ],
+   "answer": "B",
+   "explanation": "Choice B is correct. An absolute value equation \\(|x+73|=88\\) splits into two linear equations: \\(x+73=88\\) or \\(x+73=-88\\). Subtracting 73 from both sides of each gives \\(x=15\\) or \\(x=-161\\). Only \\(15\\) is positive, so the positive solution is 15. (Check: \\(|15+73|=|88|=88\\).)<br>Choice A: 88 is the right side of the equation, not a solution; Choice C: 161 is the absolute value of the negative solution, \\(-161\\), which is not positive; Choice D: 176 comes from doubling 88."
+  },
+  {
+   "id": "pt2-m1-q01-v7",
+   "family": "pt2-m1-q01",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q1",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(|x+29|=64\\)</p><p>What is the positive solution to the given equation?</p>",
+   "choices": [
+    "64",
+    "93",
+    "35",
+    "128"
+   ],
+   "answer": "C",
+   "explanation": "Choice C is correct. An absolute value equation \\(|x+29|=64\\) splits into two linear equations: \\(x+29=64\\) or \\(x+29=-64\\). Subtracting 29 from both sides of each gives \\(x=35\\) or \\(x=-93\\). Only \\(35\\) is positive, so the positive solution is 35. (Check: \\(|35+29|=|64|=64\\).)<br>Choice A: 64 is the right side of the equation, not a solution; Choice B: 93 is the absolute value of the negative solution, \\(-93\\), which is not positive; Choice D: 128 comes from doubling 64."
+  },
+  {
+   "id": "pt2-m1-q02-v5",
+   "family": "pt2-m1-q02",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q2",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x=9\\)<br>\\(y=15-x\\)</p><p>The solution to the given system of equations is \\((x, y)\\). What is the value of \\(y\\)?</p>",
+   "choices": [
+    "9",
+    "15",
+    "6",
+    "24"
+   ],
+   "answer": "C",
+   "explanation": "Choice C is correct. The first equation gives \\(x=9\\). Substituting 9 for \\(x\\) in the second equation gives \\(y=15-9\\), or \\(y=6\\).<br>Choice A: 9 is the value of \\(x\\), not \\(y\\); Choice B: 15 is the constant in the second equation, not the value of \\(y\\); Choice D: 24 comes from adding 9 to 15 instead of subtracting."
+  },
+  {
+   "id": "pt2-m1-q02-v6",
+   "family": "pt2-m1-q02",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q2",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x=4\\)<br>\\(y=17-x\\)</p><p>The solution to the given system of equations is \\((x, y)\\). What is the value of \\(y\\)?</p>",
+   "choices": [
+    "21",
+    "17",
+    "4",
+    "13"
+   ],
+   "answer": "D",
+   "explanation": "Choice D is correct. The first equation gives \\(x=4\\). Substituting 4 for \\(x\\) in the second equation gives \\(y=17-4\\), or \\(y=13\\).<br>Choice A: 21 comes from adding 4 to 17 instead of subtracting; Choice B: 17 is the constant in the second equation, not the value of \\(y\\); Choice C: 4 is the value of \\(x\\), not \\(y\\)."
+  },
+  {
+   "id": "pt2-m1-q02-v7",
+   "family": "pt2-m1-q02",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q2",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x=7\\)<br>\\(y=10-x\\)</p><p>The solution to the given system of equations is \\((x, y)\\). What is the value of \\(y\\)?</p>",
+   "choices": [
+    "7",
+    "3",
+    "10",
+    "17"
+   ],
+   "answer": "B",
+   "explanation": "Choice B is correct. The first equation gives \\(x=7\\). Substituting 7 for \\(x\\) in the second equation gives \\(y=10-7\\), or \\(y=3\\).<br>Choice A: 7 is the value of \\(x\\), not \\(y\\); Choice C: 10 is the constant in the second equation, not the value of \\(y\\); Choice D: 17 comes from adding 7 to 10 instead of subtracting."
+  },
+  {
+   "id": "pt2-m1-q03-v5",
+   "family": "pt2-m1-q03",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q3",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A smoothie consisting of only yogurt and strawberries has a total mass of 320 grams. The mass of yogurt in the smoothie is 185 grams. What is the mass, in grams, of strawberries in the smoothie?</p>",
+   "choices": [
+    "135",
+    "185",
+    "320",
+    "505"
+   ],
+   "answer": "A",
+   "explanation": "Choice A is correct. Since the smoothie contains only yogurt and strawberries, the two amounts add to the total: \\(185+s=320\\), where \\(s\\) is the amount of strawberries. Subtracting 185 from both sides gives \\(s=135\\), so there are 135 grams of strawberries.<br>Choice B: 185 is the amount of yogurt, not strawberries; Choice C: 320 is the total for the smoothie, not the amount of strawberries; Choice D: 505 is the sum of the total and the yogurt, not the strawberries."
+  },
+  {
+   "id": "pt2-m1-q03-v6",
+   "family": "pt2-m1-q03",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q3",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A bag of concrete mix consisting of only cement and gravel has a total mass of 90 kilograms. The mass of cement in the bag is 24 kilograms. What is the mass, in kilograms, of gravel in the bag?</p>",
+   "choices": [
+    "24",
+    "114",
+    "90",
+    "66"
+   ],
+   "answer": "D",
+   "explanation": "Choice D is correct. Since the bag contains only cement and gravel, the two amounts add to the total: \\(24+s=90\\), where \\(s\\) is the amount of gravel. Subtracting 24 from both sides gives \\(s=66\\), so there are 66 kilograms of gravel.<br>Choice A: 24 is the amount of cement, not gravel; Choice B: 114 is the sum of the total and the cement, not the gravel; Choice C: 90 is the total for the bag, not the amount of gravel."
+  },
+  {
+   "id": "pt2-m1-q03-v7",
+   "family": "pt2-m1-q03",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q3",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A diving tank holds a gas mixture consisting of only oxygen and helium with a total volume of 60 liters. The volume of oxygen in the tank is 16 liters. What is the volume, in liters, of helium in the tank?</p>",
+   "choices": [
+    "76",
+    "44",
+    "60",
+    "16"
+   ],
+   "answer": "B",
+   "explanation": "Choice B is correct. Since the tank contains only oxygen and helium, the two amounts add to the total: \\(16+s=60\\), where \\(s\\) is the amount of helium. Subtracting 16 from both sides gives \\(s=44\\), so there are 44 liters of helium.<br>Choice A: 76 is the sum of the total and the oxygen, not the helium; Choice C: 60 is the total for the tank, not the amount of helium; Choice D: 16 is the amount of oxygen, not helium."
+  },
+  {
+   "id": "pt2-m1-q04-v5",
+   "family": "pt2-m1-q04",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q4",
+   "domain": "algebra",
+   "skill": "alg-linear-2var",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A car-sharing service charges a onetime membership fee of $25 and $12 per hour of use. Which equation represents this situation, where \\(c\\) is the total cost, in dollars, of using the service for \\(h\\) hours?</p>",
+   "choices": [
+    "\\(c=12h+25\\)",
+    "\\(c=25h+12\\)",
+    "\\(c=\\dfrac{h}{12}+25\\)",
+    "\\(c=\\dfrac{h}{25}+12\\)"
+   ],
+   "answer": "A",
+   "explanation": "Choice A is correct. The charge of $12 for each of \\(h\\) hours costs \\(12h\\) dollars. Adding the onetime charge of $25 gives the total: \\(c=12h+25\\). (Check: for 2 hours, \\(12(2)+25=49\\) dollars.)<br>Choice B is incorrect because it switches the roles of the onetime fee and the $12 charge per hour; Choice C is incorrect because it divides \\(h\\) by 12 instead of multiplying; Choice D is incorrect because it divides \\(h\\) by the onetime fee and treats 12 as the onetime amount."
+  },
+  {
+   "id": "pt2-m1-q04-v6",
+   "family": "pt2-m1-q04",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q4",
+   "domain": "algebra",
+   "skill": "alg-linear-2var",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A tutoring center charges a onetime assessment fee of $75 and $32 per session. Which equation represents this situation, where \\(T\\) is the total cost, in dollars, of \\(s\\) tutoring sessions?</p>",
+   "choices": [
+    "\\(T=\\dfrac{s}{32}+75\\)",
+    "\\(T=\\dfrac{s}{75}+32\\)",
+    "\\(T=75s+32\\)",
+    "\\(T=32s+75\\)"
+   ],
+   "answer": "D",
+   "explanation": "Choice D is correct. The charge of $32 for each of \\(s\\) sessions costs \\(32s\\) dollars. Adding the onetime charge of $75 gives the total: \\(T=32s+75\\). (Check: for 2 sessions, \\(32(2)+75=139\\) dollars.)<br>Choice A is incorrect because it divides \\(s\\) by 32 instead of multiplying; Choice B is incorrect because it divides \\(s\\) by the onetime fee and treats 32 as the onetime amount; Choice C is incorrect because it switches the roles of the onetime fee and the $32 charge per session."
+  },
+  {
+   "id": "pt2-m1-q04-v7",
+   "family": "pt2-m1-q04",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q4",
+   "domain": "algebra",
+   "skill": "alg-linear-2var",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A dance studio charges a onetime registration fee of $50 and $28 per class. Which equation represents this situation, where \\(c\\) is the total cost, in dollars, of taking \\(k\\) classes at the studio?</p>",
+   "choices": [
+    "\\(c=\\dfrac{k}{50}+28\\)",
+    "\\(c=28k+50\\)",
+    "\\(c=50k+28\\)",
+    "\\(c=\\dfrac{k}{28}+50\\)"
+   ],
+   "answer": "B",
+   "explanation": "Choice B is correct. The charge of $28 for each of \\(k\\) classes costs \\(28k\\) dollars. Adding the onetime charge of $50 gives the total: \\(c=28k+50\\). (Check: for 2 classes, \\(28(2)+50=106\\) dollars.)<br>Choice A is incorrect because it divides \\(k\\) by the onetime fee and treats 28 as the onetime amount; Choice C is incorrect because it switches the roles of the onetime fee and the $28 charge per class; Choice D is incorrect because it divides \\(k\\) by 28 instead of multiplying."
+  },
+  {
+   "id": "pt2-m1-q05-v5",
+   "family": "pt2-m1-q05",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q5",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>The function \\(f\\) is defined by \\(f(x)=7x-5\\). What is the value of \\(f(3)\\)?</p>",
+   "choices": [
+    "−26",
+    "2",
+    "16",
+    "26"
+   ],
+   "answer": "C",
+   "explanation": "Choice C is correct. To find \\(f(3)\\), substitute 3 for \\(x\\): \\(f(3)=7(3)-5=21-5=16\\).<br>Choice A is incorrect; this is \\(f(-3)\\), not \\(f(3)\\). Choice B is incorrect; this is \\(f(1)\\), not \\(f(3)\\). Choice D is incorrect; this is \\(f(3)\\) if the function were \\(f(x)=7x+5\\)."
+  },
+  {
+   "id": "pt2-m1-q05-v6",
+   "family": "pt2-m1-q05",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q5",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>The function \\(p\\) is defined by \\(p(x)=8x-9\\). What is the value of \\(p(4)\\)?</p>",
+   "choices": [
+    "41",
+    "23",
+    "−1",
+    "−41"
+   ],
+   "answer": "B",
+   "explanation": "Choice B is correct. To find \\(p(4)\\), substitute 4 for \\(x\\): \\(p(4)=8(4)-9=32-9=23\\).<br>Choice A is incorrect; this is \\(p(4)\\) if the function were \\(p(x)=8x+9\\). Choice C is incorrect; this is \\(p(1)\\), not \\(p(4)\\). Choice D is incorrect; this is \\(p(-4)\\), not \\(p(4)\\)."
+  },
+  {
+   "id": "pt2-m1-q05-v7",
+   "family": "pt2-m1-q05",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q5",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>The function \\(k\\) is defined by \\(k(x)=2x-15\\). What is the value of \\(k(10)\\)?</p>",
+   "choices": [
+    "−35",
+    "−13",
+    "−10",
+    "5"
+   ],
+   "answer": "D",
+   "explanation": "Choice D is correct. To find \\(k(10)\\), substitute 10 for \\(x\\): \\(k(10)=2(10)-15=20-15=5\\).<br>Choice A is incorrect; this is \\(k(-10)\\), not \\(k(10)\\). Choice B is incorrect; this is \\(k(1)\\), not \\(k(10)\\). Choice C is incorrect; this comes from computing \\(2(10-15)\\), subtracting before multiplying."
+  },
+  {
+   "id": "pt2-m1-q06-v5",
+   "family": "pt2-m1-q06",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q6",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>The \\(y\\)-intercept of the graph shown is \\((x, y)\\). What is the value of \\(y\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 350\" font-family=\"serif\" font-size=\"12\"><g stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"1\"><line x1=\"40.0\" y1=\"20\" x2=\"40.0\" y2=\"320\"/><line x1=\"65.0\" y1=\"20\" x2=\"65.0\" y2=\"320\"/><line x1=\"90.0\" y1=\"20\" x2=\"90.0\" y2=\"320\"/><line x1=\"115.0\" y1=\"20\" x2=\"115.0\" y2=\"320\"/><line x1=\"140.0\" y1=\"20\" x2=\"140.0\" y2=\"320\"/><line x1=\"165.0\" y1=\"20\" x2=\"165.0\" y2=\"320\"/><line x1=\"190.0\" y1=\"20\" x2=\"190.0\" y2=\"320\"/><line x1=\"215.0\" y1=\"20\" x2=\"215.0\" y2=\"320\"/><line x1=\"240.0\" y1=\"20\" x2=\"240.0\" y2=\"320\"/><line x1=\"265.0\" y1=\"20\" x2=\"265.0\" y2=\"320\"/><line x1=\"290.0\" y1=\"20\" x2=\"290.0\" y2=\"320\"/><line x1=\"315.0\" y1=\"20\" x2=\"315.0\" y2=\"320\"/><line x1=\"340.0\" y1=\"20\" x2=\"340.0\" y2=\"320\"/><line x1=\"40\" y1=\"320.0\" x2=\"340\" y2=\"320.0\"/><line x1=\"40\" y1=\"307.5\" x2=\"340\" y2=\"307.5\"/><line x1=\"40\" y1=\"295.0\" x2=\"340\" y2=\"295.0\"/><line x1=\"40\" y1=\"282.5\" x2=\"340\" y2=\"282.5\"/><line x1=\"40\" y1=\"270.0\" x2=\"340\" y2=\"270.0\"/><line x1=\"40\" y1=\"257.5\" x2=\"340\" y2=\"257.5\"/><line x1=\"40\" y1=\"245.0\" x2=\"340\" y2=\"245.0\"/><line x1=\"40\" y1=\"232.5\" x2=\"340\" y2=\"232.5\"/><line x1=\"40\" y1=\"220.0\" x2=\"340\" y2=\"220.0\"/><line x1=\"40\" y1=\"207.5\" x2=\"340\" y2=\"207.5\"/><line x1=\"40\" y1=\"195.0\" x2=\"340\" y2=\"195.0\"/><line x1=\"40\" y1=\"182.5\" x2=\"340\" y2=\"182.5\"/><line x1=\"40\" y1=\"170.0\" x2=\"340\" y2=\"170.0\"/><line x1=\"40\" y1=\"157.5\" x2=\"340\" y2=\"157.5\"/><line x1=\"40\" y1=\"145.0\" x2=\"340\" y2=\"145.0\"/><line x1=\"40\" y1=\"132.5\" x2=\"340\" y2=\"132.5\"/><line x1=\"40\" y1=\"120.0\" x2=\"340\" y2=\"120.0\"/><line x1=\"40\" y1=\"107.5\" x2=\"340\" y2=\"107.5\"/><line x1=\"40\" y1=\"95.0\" x2=\"340\" y2=\"95.0\"/><line x1=\"40\" y1=\"82.5\" x2=\"340\" y2=\"82.5\"/><line x1=\"40\" y1=\"70.0\" x2=\"340\" y2=\"70.0\"/><line x1=\"40\" y1=\"57.5\" x2=\"340\" y2=\"57.5\"/><line x1=\"40\" y1=\"45.0\" x2=\"340\" y2=\"45.0\"/><line x1=\"40\" y1=\"32.5\" x2=\"340\" y2=\"32.5\"/><line x1=\"40\" y1=\"20.0\" x2=\"340\" y2=\"20.0\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"34\" y1=\"195.0\" x2=\"350\" y2=\"195.0\"/><line x1=\"140.0\" y1=\"326\" x2=\"140.0\" y2=\"10\"/></g><polygon fill=\"currentColor\" points=\"354,195.0 346,191.0 346,199.0\"/><polygon fill=\"currentColor\" points=\"140.0,6 136.0,14 144.0,14\"/><g fill=\"currentColor\" stroke=\"none\"><text x=\"40.0\" y=\"210.0\" text-anchor=\"middle\">−4</text><text x=\"90.0\" y=\"210.0\" text-anchor=\"middle\">−2</text><text x=\"190.0\" y=\"210.0\" text-anchor=\"middle\">2</text><text x=\"240.0\" y=\"210.0\" text-anchor=\"middle\">4</text><text x=\"290.0\" y=\"210.0\" text-anchor=\"middle\">6</text><text x=\"340.0\" y=\"210.0\" text-anchor=\"middle\">8</text><text x=\"135.0\" y=\"324.0\" text-anchor=\"end\">−10</text><text x=\"135.0\" y=\"299.0\" text-anchor=\"end\">−8</text><text x=\"135.0\" y=\"274.0\" text-anchor=\"end\">−6</text><text x=\"135.0\" y=\"249.0\" text-anchor=\"end\">−4</text><text x=\"135.0\" y=\"224.0\" text-anchor=\"end\">−2</text><text x=\"135.0\" y=\"174.0\" text-anchor=\"end\">2</text><text x=\"135.0\" y=\"149.0\" text-anchor=\"end\">4</text><text x=\"135.0\" y=\"124.0\" text-anchor=\"end\">6</text><text x=\"135.0\" y=\"99.0\" text-anchor=\"end\">8</text><text x=\"135.0\" y=\"74.0\" text-anchor=\"end\">10</text><text x=\"135.0\" y=\"49.0\" text-anchor=\"end\">12</text><text x=\"135.0\" y=\"24.0\" text-anchor=\"end\">14</text><text x=\"135.0\" y=\"210.0\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"356\" y=\"199.0\" font-style=\"italic\">x</text><text x=\"148.0\" y=\"14\" font-style=\"italic\">y</text></g><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" points=\"70.5,21.9 71.0,24.3 71.5,26.7 72.0,29.0 72.5,31.4 73.0,33.7 73.5,36.1 74.0,38.4 74.5,40.7 75.0,43.0 75.5,45.3 76.0,47.6 76.5,49.9 77.0,52.1 77.5,54.4 78.0,56.6 78.5,58.9 79.0,61.1 79.5,63.3 80.0,65.5 80.5,67.7 81.0,69.9 81.5,72.1 82.0,74.2 82.5,76.4 83.0,78.5 83.5,80.7 84.0,82.8 84.5,84.9 85.0,87.0 85.5,89.1 86.0,91.2 86.5,93.3 87.0,95.3 87.5,97.4 88.0,99.4 88.5,101.5 89.0,103.5 89.5,105.5 90.0,107.5 90.5,109.5 91.0,111.5 91.5,113.5 92.0,115.4 92.5,117.4 93.0,119.3 93.5,121.3 94.0,123.2 94.5,125.1 95.0,127.0 95.5,128.9 96.0,130.8 96.5,132.7 97.0,134.5 97.5,136.4 98.0,138.2 98.5,140.1 99.0,141.9 99.5,143.7 100.0,145.5 100.5,147.3 101.0,149.1 101.5,150.9 102.0,152.6 102.5,154.4 103.0,156.1 103.5,157.9 104.0,159.6 104.5,161.3 105.0,163.0 105.5,164.7 106.0,166.4 106.5,168.1 107.0,169.7 107.5,171.4 108.0,173.0 108.5,174.7 109.0,176.3 109.5,177.9 110.0,179.5 110.5,181.1 111.0,182.7 111.5,184.3 112.0,185.8 112.5,187.4 113.0,188.9 113.5,190.5 114.0,192.0 114.5,193.5 115.0,195.0 115.5,196.5 116.0,198.0 116.5,199.5 117.0,200.9 117.5,202.4 118.0,203.8 118.5,205.3 119.0,206.7 119.5,208.1 120.0,209.5 120.5,210.9 121.0,212.3 121.5,213.7 122.0,215.0 122.5,216.4 123.0,217.7 123.5,219.1 124.0,220.4 124.5,221.7 125.0,223.0 125.5,224.3 126.0,225.6 126.5,226.9 127.0,228.1 127.5,229.4 128.0,230.6 128.5,231.9 129.0,233.1 129.5,234.3 130.0,235.5 130.5,236.7 131.0,237.9 131.5,239.1 132.0,240.2 132.5,241.4 133.0,242.5 133.5,243.7 134.0,244.8 134.5,245.9 135.0,247.0 135.5,248.1 136.0,249.2 136.5,250.3 137.0,251.3 137.5,252.4 138.0,253.4 138.5,254.5 139.0,255.5 139.5,256.5 140.0,257.5 140.5,258.5 141.0,259.5 141.5,260.5 142.0,261.4 142.5,262.4 143.0,263.3 143.5,264.3 144.0,265.2 144.5,266.1 145.0,267.0 145.5,267.9 146.0,268.8 146.5,269.7 147.0,270.5 147.5,271.4 148.0,272.2 148.5,273.1 149.0,273.9 149.5,274.7 150.0,275.5 150.5,276.3 151.0,277.1 151.5,277.9 152.0,278.6 152.5,279.4 153.0,280.1 153.5,280.9 154.0,281.6 154.5,282.3 155.0,283.0 155.5,283.7 156.0,284.4 156.5,285.1 157.0,285.7 157.5,286.4 158.0,287.0 158.5,287.7 159.0,288.3 159.5,288.9 160.0,289.5 160.5,290.1 161.0,290.7 161.5,291.3 162.0,291.8 162.5,292.4 163.0,292.9 163.5,293.5 164.0,294.0 164.5,294.5 165.0,295.0 165.5,295.5 166.0,296.0 166.5,296.5 167.0,296.9 167.5,297.4 168.0,297.8 168.5,298.3 169.0,298.7 169.5,299.1 170.0,299.5 170.5,299.9 171.0,300.3 171.5,300.7 172.0,301.0 172.5,301.4 173.0,301.7 173.5,302.1 174.0,302.4 174.5,302.7 175.0,303.0 175.5,303.3 176.0,303.6 176.5,303.9 177.0,304.1 177.5,304.4 178.0,304.6 178.5,304.9 179.0,305.1 179.5,305.3 180.0,305.5 180.5,305.7 181.0,305.9 181.5,306.1 182.0,306.2 182.5,306.4 183.0,306.5 183.5,306.7 184.0,306.8 184.5,306.9 185.0,307.0 185.5,307.1 186.0,307.2 186.5,307.3 187.0,307.3 187.5,307.4 188.0,307.4 188.5,307.5 189.0,307.5 189.5,307.5 190.0,307.5 190.5,307.5 191.0,307.5 191.5,307.5 192.0,307.4 192.5,307.4 193.0,307.3 193.5,307.3 194.0,307.2 194.5,307.1 195.0,307.0 195.5,306.9 196.0,306.8 196.5,306.7 197.0,306.5 197.5,306.4 198.0,306.2 198.5,306.1 199.0,305.9 199.5,305.7 200.0,305.5 200.5,305.3 201.0,305.1 201.5,304.9 202.0,304.6 202.5,304.4 203.0,304.1 203.5,303.9 204.0,303.6 204.5,303.3 205.0,303.0 205.5,302.7 206.0,302.4 206.5,302.1 207.0,301.7 207.5,301.4 208.0,301.0 208.5,300.7 209.0,300.3 209.5,299.9 210.0,299.5 210.5,299.1 211.0,298.7 211.5,298.3 212.0,297.8 212.5,297.4 213.0,296.9 213.5,296.5 214.0,296.0 214.5,295.5 215.0,295.0 215.5,294.5 216.0,294.0 216.5,293.5 217.0,292.9 217.5,292.4 218.0,291.8 218.5,291.3 219.0,290.7 219.5,290.1 220.0,289.5 220.5,288.9 221.0,288.3 221.5,287.7 222.0,287.0 222.5,286.4 223.0,285.7 223.5,285.1 224.0,284.4 224.5,283.7 225.0,283.0 225.5,282.3 226.0,281.6 226.5,280.9 227.0,280.1 227.5,279.4 228.0,278.6 228.5,277.9 229.0,277.1 229.5,276.3 230.0,275.5 230.5,274.7 231.0,273.9 231.5,273.1 232.0,272.2 232.5,271.4 233.0,270.5 233.5,269.7 234.0,268.8 234.5,267.9 235.0,267.0 235.5,266.1 236.0,265.2 236.5,264.3 237.0,263.3 237.5,262.4 238.0,261.4 238.5,260.5 239.0,259.5 239.5,258.5 240.0,257.5 240.5,256.5 241.0,255.5 241.5,254.5 242.0,253.4 242.5,252.4 243.0,251.3 243.5,250.3 244.0,249.2 244.5,248.1 245.0,247.0 245.5,245.9 246.0,244.8 246.5,243.7 247.0,242.5 247.5,241.4 248.0,240.2 248.5,239.1 249.0,237.9 249.5,236.7 250.0,235.5 250.5,234.3 251.0,233.1 251.5,231.9 252.0,230.6 252.5,229.4 253.0,228.1 253.5,226.9 254.0,225.6 254.5,224.3 255.0,223.0 255.5,221.7 256.0,220.4 256.5,219.1 257.0,217.7 257.5,216.4 258.0,215.0 258.5,213.7 259.0,212.3 259.5,210.9 260.0,209.5 260.5,208.1 261.0,206.7 261.5,205.3 262.0,203.8 262.5,202.4 263.0,200.9 263.5,199.5 264.0,198.0 264.5,196.5 265.0,195.0 265.5,193.5 266.0,192.0 266.5,190.5 267.0,188.9 267.5,187.4 268.0,185.8 268.5,184.3 269.0,182.7 269.5,181.1 270.0,179.5 270.5,177.9 271.0,176.3 271.5,174.7 272.0,173.0 272.5,171.4 273.0,169.7 273.5,168.1 274.0,166.4 274.5,164.7 275.0,163.0 275.5,161.3 276.0,159.6 276.5,157.9 277.0,156.1 277.5,154.4 278.0,152.6 278.5,150.9 279.0,149.1 279.5,147.3 280.0,145.5 280.5,143.7 281.0,141.9 281.5,140.1 282.0,138.2 282.5,136.4 283.0,134.5 283.5,132.7 284.0,130.8 284.5,128.9 285.0,127.0 285.5,125.1 286.0,123.2 286.5,121.3 287.0,119.3 287.5,117.4 288.0,115.4 288.5,113.5 289.0,111.5 289.5,109.5 290.0,107.5 290.5,105.5 291.0,103.5 291.5,101.5 292.0,99.4 292.5,97.4 293.0,95.3 293.5,93.3 294.0,91.2 294.5,89.1 295.0,87.0 295.5,84.9 296.0,82.8 296.5,80.7 297.0,78.5 297.5,76.4 298.0,74.2 298.5,72.1 299.0,69.9 299.5,67.7 300.0,65.5 300.5,63.3 301.0,61.1 301.5,58.9 302.0,56.6 302.5,54.4 303.0,52.1 303.5,49.9 304.0,47.6 304.5,45.3 305.0,43.0 305.5,40.7 306.0,38.4 306.5,36.1 307.0,33.7 307.5,31.4 308.0,29.0 308.5,26.7 309.0,24.3 309.5,21.9\"/><circle cx=\"140.0\" cy=\"257.5\" r=\"4\" fill=\"currentColor\"/></svg>",
+    "alt": "Graph of an upward-opening parabola in the xy-plane with x from -4 to 8 and y from -10 to 14. The curve crosses the x-axis at x = -1 and x = 5, passes through the marked point (0, -5), and reaches its lowest point at (2, -9)."
+   },
+   "answer": [
+    "-5"
+   ],
+   "explanation": "The correct answer is -5. The \\(y\\)-intercept of a graph is the point where it crosses the \\(y\\)-axis, which is where \\(x=0\\). The graph crosses the \\(y\\)-axis at the marked point \\((0, -5)\\), which is below the \\(x\\)-axis, so the value of \\(y\\) is negative. Note that the lowest point of the graph, \\((2, -9)\\), is not the \\(y\\)-intercept, because its \\(x\\)-coordinate is not 0. So \\(y=-5\\)."
+  },
+  {
+   "id": "pt2-m1-q06-v6",
+   "family": "pt2-m1-q06",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q6",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>The \\(y\\)-intercept of the graph shown is \\((x, y)\\). What is the value of \\(y\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 350\" font-family=\"serif\" font-size=\"12\"><g stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"1\"><line x1=\"40.0\" y1=\"20\" x2=\"40.0\" y2=\"320\"/><line x1=\"65.0\" y1=\"20\" x2=\"65.0\" y2=\"320\"/><line x1=\"90.0\" y1=\"20\" x2=\"90.0\" y2=\"320\"/><line x1=\"115.0\" y1=\"20\" x2=\"115.0\" y2=\"320\"/><line x1=\"140.0\" y1=\"20\" x2=\"140.0\" y2=\"320\"/><line x1=\"165.0\" y1=\"20\" x2=\"165.0\" y2=\"320\"/><line x1=\"190.0\" y1=\"20\" x2=\"190.0\" y2=\"320\"/><line x1=\"215.0\" y1=\"20\" x2=\"215.0\" y2=\"320\"/><line x1=\"240.0\" y1=\"20\" x2=\"240.0\" y2=\"320\"/><line x1=\"265.0\" y1=\"20\" x2=\"265.0\" y2=\"320\"/><line x1=\"290.0\" y1=\"20\" x2=\"290.0\" y2=\"320\"/><line x1=\"315.0\" y1=\"20\" x2=\"315.0\" y2=\"320\"/><line x1=\"340.0\" y1=\"20\" x2=\"340.0\" y2=\"320\"/><line x1=\"40\" y1=\"320.0\" x2=\"340\" y2=\"320.0\"/><line x1=\"40\" y1=\"303.3\" x2=\"340\" y2=\"303.3\"/><line x1=\"40\" y1=\"286.7\" x2=\"340\" y2=\"286.7\"/><line x1=\"40\" y1=\"270.0\" x2=\"340\" y2=\"270.0\"/><line x1=\"40\" y1=\"253.3\" x2=\"340\" y2=\"253.3\"/><line x1=\"40\" y1=\"236.7\" x2=\"340\" y2=\"236.7\"/><line x1=\"40\" y1=\"220.0\" x2=\"340\" y2=\"220.0\"/><line x1=\"40\" y1=\"203.3\" x2=\"340\" y2=\"203.3\"/><line x1=\"40\" y1=\"186.7\" x2=\"340\" y2=\"186.7\"/><line x1=\"40\" y1=\"170.0\" x2=\"340\" y2=\"170.0\"/><line x1=\"40\" y1=\"153.3\" x2=\"340\" y2=\"153.3\"/><line x1=\"40\" y1=\"136.7\" x2=\"340\" y2=\"136.7\"/><line x1=\"40\" y1=\"120.0\" x2=\"340\" y2=\"120.0\"/><line x1=\"40\" y1=\"103.3\" x2=\"340\" y2=\"103.3\"/><line x1=\"40\" y1=\"86.7\" x2=\"340\" y2=\"86.7\"/><line x1=\"40\" y1=\"70.0\" x2=\"340\" y2=\"70.0\"/><line x1=\"40\" y1=\"53.3\" x2=\"340\" y2=\"53.3\"/><line x1=\"40\" y1=\"36.7\" x2=\"340\" y2=\"36.7\"/><line x1=\"40\" y1=\"20.0\" x2=\"340\" y2=\"20.0\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"34\" y1=\"286.7\" x2=\"350\" y2=\"286.7\"/><line x1=\"90.0\" y1=\"326\" x2=\"90.0\" y2=\"10\"/></g><polygon fill=\"currentColor\" points=\"354,286.7 346,282.7 346,290.7\"/><polygon fill=\"currentColor\" points=\"90.0,6 86.0,14 94.0,14\"/><g fill=\"currentColor\" stroke=\"none\"><text x=\"40.0\" y=\"301.7\" text-anchor=\"middle\">−2</text><text x=\"140.0\" y=\"301.7\" text-anchor=\"middle\">2</text><text x=\"190.0\" y=\"301.7\" text-anchor=\"middle\">4</text><text x=\"240.0\" y=\"301.7\" text-anchor=\"middle\">6</text><text x=\"290.0\" y=\"301.7\" text-anchor=\"middle\">8</text><text x=\"340.0\" y=\"301.7\" text-anchor=\"middle\">10</text><text x=\"85.0\" y=\"324.0\" text-anchor=\"end\">−10</text><text x=\"85.0\" y=\"257.3\" text-anchor=\"end\">10</text><text x=\"85.0\" y=\"224.0\" text-anchor=\"end\">20</text><text x=\"85.0\" y=\"190.7\" text-anchor=\"end\">30</text><text x=\"85.0\" y=\"157.3\" text-anchor=\"end\">40</text><text x=\"85.0\" y=\"124.0\" text-anchor=\"end\">50</text><text x=\"85.0\" y=\"90.7\" text-anchor=\"end\">60</text><text x=\"85.0\" y=\"57.3\" text-anchor=\"end\">70</text><text x=\"85.0\" y=\"24.0\" text-anchor=\"end\">80</text><text x=\"85.0\" y=\"301.7\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"356\" y=\"290.7\" font-style=\"italic\">x</text><text x=\"98.0\" y=\"14\" font-style=\"italic\">y</text></g><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" points=\"40.0,316.7 40.5,313.9 41.0,311.1 41.5,308.4 42.0,305.6 42.5,302.9 43.0,300.3 43.5,297.6 44.0,295.0 44.5,292.4 45.0,289.8 45.5,287.2 46.0,284.7 46.5,282.2 47.0,279.7 47.5,277.2 48.0,274.7 48.5,272.3 49.0,269.9 49.5,267.5 50.0,265.1 50.5,262.7 51.0,260.4 51.5,258.1 52.0,255.8 52.5,253.5 53.0,251.3 53.5,249.1 54.0,246.9 54.5,244.7 55.0,242.5 55.5,240.4 56.0,238.2 56.5,236.1 57.0,234.0 57.5,232.0 58.0,229.9 58.5,227.9 59.0,225.9 59.5,223.9 60.0,221.9 60.5,220.0 61.0,218.1 61.5,216.2 62.0,214.3 62.5,212.4 63.0,210.6 63.5,208.7 64.0,206.9 64.5,205.1 65.0,203.3 65.5,201.6 66.0,199.8 66.5,198.1 67.0,196.4 67.5,194.7 68.0,193.1 68.5,191.4 69.0,189.8 69.5,188.2 70.0,186.6 70.5,185.0 71.0,183.5 71.5,181.9 72.0,180.4 72.5,178.9 73.0,177.4 73.5,175.9 74.0,174.5 74.5,173.0 75.0,171.6 75.5,170.2 76.0,168.8 76.5,167.5 77.0,166.1 77.5,164.8 78.0,163.5 78.5,162.2 79.0,160.9 79.5,159.6 80.0,158.4 80.5,157.1 81.0,155.9 81.5,154.7 82.0,153.5 82.5,152.4 83.0,151.2 83.5,150.1 84.0,148.9 84.5,147.8 85.0,146.7 85.5,145.7 86.0,144.6 86.5,143.6 87.0,142.5 87.5,141.5 88.0,140.5 88.5,139.5 89.0,138.6 89.5,137.6 90.0,136.7 90.5,135.7 91.0,134.8 91.5,133.9 92.0,133.0 92.5,132.2 93.0,131.3 93.5,130.5 94.0,129.7 94.5,128.9 95.0,128.1 95.5,127.3 96.0,126.5 96.5,125.7 97.0,125.0 97.5,124.3 98.0,123.6 98.5,122.9 99.0,122.2 99.5,121.5 100.0,120.8 100.5,120.2 101.0,119.5 101.5,118.9 102.0,118.3 102.5,117.7 103.0,117.1 103.5,116.6 104.0,116.0 104.5,115.4 105.0,114.9 105.5,114.4 106.0,113.9 106.5,113.4 107.0,112.9 107.5,112.4 108.0,111.9 108.5,111.5 109.0,111.1 109.5,110.6 110.0,110.2 110.5,109.8 111.0,109.4 111.5,109.0 112.0,108.7 112.5,108.3 113.0,108.0 113.5,107.6 114.0,107.3 114.5,107.0 115.0,106.7 115.5,106.4 116.0,106.1 116.5,105.8 117.0,105.6 117.5,105.3 118.0,105.1 118.5,104.8 119.0,104.6 119.5,104.4 120.0,104.2 120.5,104.0 121.0,103.8 121.5,103.6 122.0,103.5 122.5,103.3 123.0,103.2 123.5,103.0 124.0,102.9 124.5,102.8 125.0,102.7 125.5,102.6 126.0,102.5 126.5,102.4 127.0,102.4 127.5,102.3 128.0,102.2 128.5,102.2 129.0,102.2 129.5,102.1 130.0,102.1 130.5,102.1 131.0,102.1 131.5,102.1 132.0,102.1 132.5,102.1 133.0,102.2 133.5,102.2 134.0,102.2 134.5,102.3 135.0,102.3 135.5,102.4 136.0,102.5 136.5,102.6 137.0,102.7 137.5,102.8 138.0,102.9 138.5,103.0 139.0,103.1 139.5,103.2 140.0,103.3 140.5,103.5 141.0,103.6 141.5,103.8 142.0,103.9 142.5,104.1 143.0,104.3 143.5,104.4 144.0,104.6 144.5,104.8 145.0,105.0 145.5,105.2 146.0,105.4 146.5,105.6 147.0,105.8 147.5,106.0 148.0,106.3 148.5,106.5 149.0,106.7 149.5,107.0 150.0,107.2 150.5,107.5 151.0,107.7 151.5,108.0 152.0,108.3 152.5,108.5 153.0,108.8 153.5,109.1 154.0,109.4 154.5,109.7 155.0,110.0 155.5,110.3 156.0,110.6 156.5,110.9 157.0,111.2 157.5,111.5 158.0,111.8 158.5,112.2 159.0,112.5 159.5,112.8 160.0,113.1 160.5,113.5 161.0,113.8 161.5,114.2 162.0,114.5 162.5,114.9 163.0,115.2 163.5,115.6 164.0,115.9 164.5,116.3 165.0,116.7 165.5,117.0 166.0,117.4 166.5,117.8 167.0,118.2 167.5,118.5 168.0,118.9 168.5,119.3 169.0,119.7 169.5,120.1 170.0,120.5 170.5,120.8 171.0,121.2 171.5,121.6 172.0,122.0 172.5,122.4 173.0,122.8 173.5,123.2 174.0,123.6 174.5,124.0 175.0,124.4 175.5,124.8 176.0,125.2 176.5,125.6 177.0,126.1 177.5,126.5 178.0,126.9 178.5,127.3 179.0,127.7 179.5,128.1 180.0,128.5 180.5,128.9 181.0,129.3 181.5,129.7 182.0,130.2 182.5,130.6 183.0,131.0 183.5,131.4 184.0,131.8 184.5,132.2 185.0,132.6 185.5,133.0 186.0,133.4 186.5,133.8 187.0,134.2 187.5,134.7 188.0,135.1 188.5,135.5 189.0,135.9 189.5,136.3 190.0,136.7 190.5,137.1 191.0,137.5 191.5,137.9 192.0,138.3 192.5,138.6 193.0,139.0 193.5,139.4 194.0,139.8 194.5,140.2 195.0,140.6 195.5,141.0 196.0,141.3 196.5,141.7 197.0,142.1 197.5,142.5 198.0,142.8 198.5,143.2 199.0,143.6 199.5,143.9 200.0,144.3 200.5,144.6 201.0,145.0 201.5,145.4 202.0,145.7 202.5,146.0 203.0,146.4 203.5,146.7 204.0,147.1 204.5,147.4 205.0,147.7 205.5,148.0 206.0,148.3 206.5,148.7 207.0,149.0 207.5,149.3 208.0,149.6 208.5,149.9 209.0,150.2 209.5,150.5 210.0,150.7 210.5,151.0 211.0,151.3 211.5,151.6 212.0,151.8 212.5,152.1 213.0,152.4 213.5,152.6 214.0,152.9 214.5,153.1 215.0,153.3 215.5,153.6 216.0,153.8 216.5,154.0 217.0,154.2 217.5,154.4 218.0,154.6 218.5,154.8 219.0,155.0 219.5,155.2 220.0,155.4 220.5,155.6 221.0,155.7 221.5,155.9 222.0,156.0 222.5,156.2 223.0,156.3 223.5,156.5 224.0,156.6 224.5,156.7 225.0,156.8 225.5,156.9 226.0,157.0 226.5,157.1 227.0,157.2 227.5,157.3 228.0,157.4 228.5,157.4 229.0,157.5 229.5,157.5 230.0,157.6 230.5,157.6 231.0,157.6 231.5,157.7 232.0,157.7 232.5,157.7 233.0,157.7 233.5,157.6 234.0,157.6 234.5,157.6 235.0,157.5 235.5,157.5 236.0,157.4 236.5,157.4 237.0,157.3 237.5,157.2 238.0,157.1 238.5,157.0 239.0,156.9 239.5,156.8 240.0,156.7 240.5,156.5 241.0,156.4 241.5,156.2 242.0,156.1 242.5,155.9 243.0,155.7 243.5,155.5 244.0,155.3 244.5,155.1 245.0,154.9 245.5,154.6 246.0,154.4 246.5,154.1 247.0,153.8 247.5,153.6 248.0,153.3 248.5,153.0 249.0,152.7 249.5,152.4 250.0,152.0 250.5,151.7 251.0,151.3 251.5,151.0 252.0,150.6 252.5,150.2 253.0,149.8 253.5,149.4 254.0,149.0 254.5,148.6 255.0,148.1 255.5,147.7 256.0,147.2 256.5,146.7 257.0,146.2 257.5,145.7 258.0,145.2 258.5,144.7 259.0,144.1 259.5,143.6 260.0,143.0 260.5,142.4 261.0,141.8 261.5,141.2 262.0,140.6 262.5,140.0 263.0,139.4 263.5,138.7 264.0,138.0 264.5,137.4 265.0,136.7 265.5,136.0 266.0,135.2 266.5,134.5 267.0,133.8 267.5,133.0 268.0,132.2 268.5,131.4 269.0,130.6 269.5,129.8 270.0,129.0 270.5,128.1 271.0,127.3 271.5,126.4 272.0,125.5 272.5,124.6 273.0,123.7 273.5,122.8 274.0,121.8 274.5,120.9 275.0,119.9 275.5,118.9 276.0,117.9 276.5,116.9 277.0,115.8 277.5,114.8 278.0,113.7 278.5,112.6 279.0,111.5 279.5,110.4 280.0,109.3 280.5,108.2 281.0,107.0 281.5,105.8 282.0,104.6 282.5,103.4 283.0,102.2 283.5,101.0 284.0,99.7 284.5,98.4 285.0,97.1 285.5,95.8 286.0,94.5 286.5,93.2 287.0,91.8 287.5,90.5 288.0,89.1 288.5,87.7 289.0,86.2 289.5,84.8 290.0,83.3 290.5,81.9 291.0,80.4 291.5,78.9 292.0,77.3 292.5,75.8 293.0,74.2 293.5,72.6 294.0,71.0 294.5,69.4 295.0,67.8 295.5,66.1 296.0,64.5 296.5,62.8 297.0,61.1 297.5,59.3 298.0,57.6 298.5,55.8 299.0,54.0 299.5,52.2 300.0,50.4 300.5,48.6 301.0,46.7 301.5,44.9 302.0,43.0 302.5,41.0 303.0,39.1 303.5,37.2 304.0,35.2 304.5,33.2 305.0,31.2 305.5,29.1 306.0,27.1 306.5,25.0 307.0,22.9 307.5,20.8\"/><circle cx=\"90.0\" cy=\"136.7\" r=\"4\" fill=\"currentColor\"/></svg>",
+    "alt": "Graph of a curve in the xy-plane with x from -2 to 10 and y from -10 to 80, with gridlines every 5 units in y. The curve rises steeply from the lower left, crosses the x-axis near x = -1.8, passes through the marked point (0, 45), reaches a peak near (1.6, 55.4), falls to a low point near (5.7, 38.7), then rises steeply past (8, 61)."
+   },
+   "answer": [
+    "45"
+   ],
+   "explanation": "The correct answer is 45. The \\(y\\)-intercept of a graph is the point where it crosses the \\(y\\)-axis, which is where \\(x=0\\). Each horizontal gridline is 5 units apart. The marked point on the \\(y\\)-axis lies halfway between the lines labeled 40 and 50, at \\((0, 45)\\). Note that the peak of the graph, near \\(y=55\\), is not the \\(y\\)-intercept because it does not lie on the \\(y\\)-axis. So \\(y=45\\)."
+  },
+  {
+   "id": "pt2-m1-q06-v7",
+   "family": "pt2-m1-q06",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q6",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>The \\(y\\)-intercept of the graph shown is \\((x, y)\\). What is the value of \\(y\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 350\" font-family=\"serif\" font-size=\"12\"><g stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"1\"><line x1=\"40.0\" y1=\"20\" x2=\"40.0\" y2=\"320\"/><line x1=\"65.0\" y1=\"20\" x2=\"65.0\" y2=\"320\"/><line x1=\"90.0\" y1=\"20\" x2=\"90.0\" y2=\"320\"/><line x1=\"115.0\" y1=\"20\" x2=\"115.0\" y2=\"320\"/><line x1=\"140.0\" y1=\"20\" x2=\"140.0\" y2=\"320\"/><line x1=\"165.0\" y1=\"20\" x2=\"165.0\" y2=\"320\"/><line x1=\"190.0\" y1=\"20\" x2=\"190.0\" y2=\"320\"/><line x1=\"215.0\" y1=\"20\" x2=\"215.0\" y2=\"320\"/><line x1=\"240.0\" y1=\"20\" x2=\"240.0\" y2=\"320\"/><line x1=\"265.0\" y1=\"20\" x2=\"265.0\" y2=\"320\"/><line x1=\"290.0\" y1=\"20\" x2=\"290.0\" y2=\"320\"/><line x1=\"315.0\" y1=\"20\" x2=\"315.0\" y2=\"320\"/><line x1=\"340.0\" y1=\"20\" x2=\"340.0\" y2=\"320\"/><line x1=\"40\" y1=\"320.0\" x2=\"340\" y2=\"320.0\"/><line x1=\"40\" y1=\"301.2\" x2=\"340\" y2=\"301.2\"/><line x1=\"40\" y1=\"282.5\" x2=\"340\" y2=\"282.5\"/><line x1=\"40\" y1=\"263.8\" x2=\"340\" y2=\"263.8\"/><line x1=\"40\" y1=\"245.0\" x2=\"340\" y2=\"245.0\"/><line x1=\"40\" y1=\"226.2\" x2=\"340\" y2=\"226.2\"/><line x1=\"40\" y1=\"207.5\" x2=\"340\" y2=\"207.5\"/><line x1=\"40\" y1=\"188.8\" x2=\"340\" y2=\"188.8\"/><line x1=\"40\" y1=\"170.0\" x2=\"340\" y2=\"170.0\"/><line x1=\"40\" y1=\"151.2\" x2=\"340\" y2=\"151.2\"/><line x1=\"40\" y1=\"132.5\" x2=\"340\" y2=\"132.5\"/><line x1=\"40\" y1=\"113.8\" x2=\"340\" y2=\"113.8\"/><line x1=\"40\" y1=\"95.0\" x2=\"340\" y2=\"95.0\"/><line x1=\"40\" y1=\"76.2\" x2=\"340\" y2=\"76.2\"/><line x1=\"40\" y1=\"57.5\" x2=\"340\" y2=\"57.5\"/><line x1=\"40\" y1=\"38.8\" x2=\"340\" y2=\"38.8\"/><line x1=\"40\" y1=\"20.0\" x2=\"340\" y2=\"20.0\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"34\" y1=\"282.5\" x2=\"350\" y2=\"282.5\"/><line x1=\"190.0\" y1=\"326\" x2=\"190.0\" y2=\"10\"/></g><polygon fill=\"currentColor\" points=\"354,282.5 346,278.5 346,286.5\"/><polygon fill=\"currentColor\" points=\"190.0,6 186.0,14 194.0,14\"/><g fill=\"currentColor\" stroke=\"none\"><text x=\"40.0\" y=\"297.5\" text-anchor=\"middle\">−6</text><text x=\"90.0\" y=\"297.5\" text-anchor=\"middle\">−4</text><text x=\"140.0\" y=\"297.5\" text-anchor=\"middle\">−2</text><text x=\"240.0\" y=\"297.5\" text-anchor=\"middle\">2</text><text x=\"290.0\" y=\"297.5\" text-anchor=\"middle\">4</text><text x=\"340.0\" y=\"297.5\" text-anchor=\"middle\">6</text><text x=\"185.0\" y=\"324.0\" text-anchor=\"end\">−4</text><text x=\"185.0\" y=\"249.0\" text-anchor=\"end\">4</text><text x=\"185.0\" y=\"211.5\" text-anchor=\"end\">8</text><text x=\"185.0\" y=\"174.0\" text-anchor=\"end\">12</text><text x=\"185.0\" y=\"136.5\" text-anchor=\"end\">16</text><text x=\"185.0\" y=\"99.0\" text-anchor=\"end\">20</text><text x=\"185.0\" y=\"61.5\" text-anchor=\"end\">24</text><text x=\"185.0\" y=\"24.0\" text-anchor=\"end\">28</text><text x=\"185.0\" y=\"297.5\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"356\" y=\"286.5\" font-style=\"italic\">x</text><text x=\"198.0\" y=\"14\" font-style=\"italic\">y</text></g><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" points=\"40.0,279.2 40.5,279.2 41.0,279.2 41.5,279.1 42.0,279.1 42.5,279.1 43.0,279.0 43.5,279.0 44.0,279.0 44.5,279.0 45.0,278.9 45.5,278.9 46.0,278.9 46.5,278.8 47.0,278.8 47.5,278.8 48.0,278.8 48.5,278.7 49.0,278.7 49.5,278.7 50.0,278.6 50.5,278.6 51.0,278.6 51.5,278.5 52.0,278.5 52.5,278.5 53.0,278.4 53.5,278.4 54.0,278.4 54.5,278.3 55.0,278.3 55.5,278.3 56.0,278.2 56.5,278.2 57.0,278.2 57.5,278.1 58.0,278.1 58.5,278.1 59.0,278.0 59.5,278.0 60.0,277.9 60.5,277.9 61.0,277.9 61.5,277.8 62.0,277.8 62.5,277.8 63.0,277.7 63.5,277.7 64.0,277.6 64.5,277.6 65.0,277.6 65.5,277.5 66.0,277.5 66.5,277.4 67.0,277.4 67.5,277.4 68.0,277.3 68.5,277.3 69.0,277.2 69.5,277.2 70.0,277.1 70.5,277.1 71.0,277.1 71.5,277.0 72.0,277.0 72.5,276.9 73.0,276.9 73.5,276.8 74.0,276.8 74.5,276.7 75.0,276.7 75.5,276.6 76.0,276.6 76.5,276.5 77.0,276.5 77.5,276.5 78.0,276.4 78.5,276.4 79.0,276.3 79.5,276.3 80.0,276.2 80.5,276.2 81.0,276.1 81.5,276.0 82.0,276.0 82.5,275.9 83.0,275.9 83.5,275.8 84.0,275.8 84.5,275.7 85.0,275.7 85.5,275.6 86.0,275.6 86.5,275.5 87.0,275.4 87.5,275.4 88.0,275.3 88.5,275.3 89.0,275.2 89.5,275.2 90.0,275.1 90.5,275.0 91.0,275.0 91.5,274.9 92.0,274.8 92.5,274.8 93.0,274.7 93.5,274.7 94.0,274.6 94.5,274.5 95.0,274.5 95.5,274.4 96.0,274.3 96.5,274.3 97.0,274.2 97.5,274.1 98.0,274.1 98.5,274.0 99.0,273.9 99.5,273.9 100.0,273.8 100.5,273.7 101.0,273.6 101.5,273.6 102.0,273.5 102.5,273.4 103.0,273.4 103.5,273.3 104.0,273.2 104.5,273.1 105.0,273.1 105.5,273.0 106.0,272.9 106.5,272.8 107.0,272.7 107.5,272.7 108.0,272.6 108.5,272.5 109.0,272.4 109.5,272.3 110.0,272.3 110.5,272.2 111.0,272.1 111.5,272.0 112.0,271.9 112.5,271.8 113.0,271.7 113.5,271.7 114.0,271.6 114.5,271.5 115.0,271.4 115.5,271.3 116.0,271.2 116.5,271.1 117.0,271.0 117.5,270.9 118.0,270.8 118.5,270.7 119.0,270.6 119.5,270.5 120.0,270.5 120.5,270.4 121.0,270.3 121.5,270.2 122.0,270.1 122.5,270.0 123.0,269.8 123.5,269.7 124.0,269.6 124.5,269.5 125.0,269.4 125.5,269.3 126.0,269.2 126.5,269.1 127.0,269.0 127.5,268.9 128.0,268.8 128.5,268.7 129.0,268.6 129.5,268.4 130.0,268.3 130.5,268.2 131.0,268.1 131.5,268.0 132.0,267.9 132.5,267.7 133.0,267.6 133.5,267.5 134.0,267.4 134.5,267.3 135.0,267.1 135.5,267.0 136.0,266.9 136.5,266.8 137.0,266.6 137.5,266.5 138.0,266.4 138.5,266.2 139.0,266.1 139.5,266.0 140.0,265.8 140.5,265.7 141.0,265.6 141.5,265.4 142.0,265.3 142.5,265.1 143.0,265.0 143.5,264.9 144.0,264.7 144.5,264.6 145.0,264.4 145.5,264.3 146.0,264.1 146.5,264.0 147.0,263.8 147.5,263.7 148.0,263.5 148.5,263.4 149.0,263.2 149.5,263.1 150.0,262.9 150.5,262.7 151.0,262.6 151.5,262.4 152.0,262.3 152.5,262.1 153.0,261.9 153.5,261.8 154.0,261.6 154.5,261.4 155.0,261.2 155.5,261.1 156.0,260.9 156.5,260.7 157.0,260.5 157.5,260.4 158.0,260.2 158.5,260.0 159.0,259.8 159.5,259.6 160.0,259.4 160.5,259.3 161.0,259.1 161.5,258.9 162.0,258.7 162.5,258.5 163.0,258.3 163.5,258.1 164.0,257.9 164.5,257.7 165.0,257.5 165.5,257.3 166.0,257.1 166.5,256.9 167.0,256.7 167.5,256.5 168.0,256.3 168.5,256.0 169.0,255.8 169.5,255.6 170.0,255.4 170.5,255.2 171.0,254.9 171.5,254.7 172.0,254.5 172.5,254.3 173.0,254.0 173.5,253.8 174.0,253.6 174.5,253.3 175.0,253.1 175.5,252.9 176.0,252.6 176.5,252.4 177.0,252.1 177.5,251.9 178.0,251.6 178.5,251.4 179.0,251.1 179.5,250.9 180.0,250.6 180.5,250.4 181.0,250.1 181.5,249.8 182.0,249.6 182.5,249.3 183.0,249.0 183.5,248.8 184.0,248.5 184.5,248.2 185.0,247.9 185.5,247.6 186.0,247.4 186.5,247.1 187.0,246.8 187.5,246.5 188.0,246.2 188.5,245.9 189.0,245.6 189.5,245.3 190.0,245.0 190.5,244.7 191.0,244.4 191.5,244.1 192.0,243.8 192.5,243.4 193.0,243.1 193.5,242.8 194.0,242.5 194.5,242.2 195.0,241.8 195.5,241.5 196.0,241.2 196.5,240.8 197.0,240.5 197.5,240.1 198.0,239.8 198.5,239.5 199.0,239.1 199.5,238.8 200.0,238.4 200.5,238.0 201.0,237.7 201.5,237.3 202.0,236.9 202.5,236.6 203.0,236.2 203.5,235.8 204.0,235.4 204.5,235.1 205.0,234.7 205.5,234.3 206.0,233.9 206.5,233.5 207.0,233.1 207.5,232.7 208.0,232.3 208.5,231.9 209.0,231.5 209.5,231.1 210.0,230.6 210.5,230.2 211.0,229.8 211.5,229.4 212.0,228.9 212.5,228.5 213.0,228.0 213.5,227.6 214.0,227.2 214.5,226.7 215.0,226.2 215.5,225.8 216.0,225.3 216.5,224.9 217.0,224.4 217.5,223.9 218.0,223.4 218.5,223.0 219.0,222.5 219.5,222.0 220.0,221.5 220.5,221.0 221.0,220.5 221.5,220.0 222.0,219.5 222.5,219.0 223.0,218.5 223.5,217.9 224.0,217.4 224.5,216.9 225.0,216.3 225.5,215.8 226.0,215.3 226.5,214.7 227.0,214.2 227.5,213.6 228.0,213.0 228.5,212.5 229.0,211.9 229.5,211.3 230.0,210.8 230.5,210.2 231.0,209.6 231.5,209.0 232.0,208.4 232.5,207.8 233.0,207.2 233.5,206.6 234.0,205.9 234.5,205.3 235.0,204.7 235.5,204.1 236.0,203.4 236.5,202.8 237.0,202.1 237.5,201.5 238.0,200.8 238.5,200.2 239.0,199.5 239.5,198.8 240.0,198.1 240.5,197.4 241.0,196.7 241.5,196.0 242.0,195.3 242.5,194.6 243.0,193.9 243.5,193.2 244.0,192.5 244.5,191.7 245.0,191.0 245.5,190.3 246.0,189.5 246.5,188.7 247.0,188.0 247.5,187.2 248.0,186.4 248.5,185.7 249.0,184.9 249.5,184.1 250.0,183.3 250.5,182.5 251.0,181.6 251.5,180.8 252.0,180.0 252.5,179.2 253.0,178.3 253.5,177.5 254.0,176.6 254.5,175.8 255.0,174.9 255.5,174.0 256.0,173.1 256.5,172.2 257.0,171.3 257.5,170.4 258.0,169.5 258.5,168.6 259.0,167.7 259.5,166.7 260.0,165.8 260.5,164.8 261.0,163.9 261.5,162.9 262.0,161.9 262.5,161.0 263.0,160.0 263.5,159.0 264.0,158.0 264.5,157.0 265.0,155.9 265.5,154.9 266.0,153.9 266.5,152.8 267.0,151.8 267.5,150.7 268.0,149.6 268.5,148.5 269.0,147.5 269.5,146.4 270.0,145.2 270.5,144.1 271.0,143.0 271.5,141.9 272.0,140.7 272.5,139.6 273.0,138.4 273.5,137.2 274.0,136.0 274.5,134.9 275.0,133.7 275.5,132.4 276.0,131.2 276.5,130.0 277.0,128.7 277.5,127.5 278.0,126.2 278.5,125.0 279.0,123.7 279.5,122.4 280.0,121.1 280.5,119.8 281.0,118.4 281.5,117.1 282.0,115.8 282.5,114.4 283.0,113.0 283.5,111.7 284.0,110.3 284.5,108.9 285.0,107.4 285.5,106.0 286.0,104.6 286.5,103.1 287.0,101.7 287.5,100.2 288.0,98.7 288.5,97.2 289.0,95.7 289.5,94.2 290.0,92.7 290.5,91.1 291.0,89.6 291.5,88.0 292.0,86.4 292.5,84.8 293.0,83.2 293.5,81.6 294.0,79.9 294.5,78.3 295.0,76.6 295.5,74.9 296.0,73.3 296.5,71.5 297.0,69.8 297.5,68.1 298.0,66.4 298.5,64.6 299.0,62.8 299.5,61.0 300.0,59.2 300.5,57.4 301.0,55.6 301.5,53.7 302.0,51.9 302.5,50.0 303.0,48.1 303.5,46.2 304.0,44.3 304.5,42.3 305.0,40.4 305.5,38.4 306.0,36.4 306.5,34.4 307.0,32.4 307.5,30.3 308.0,28.3 308.5,26.2 309.0,24.1 309.5,22.0\"/><circle cx=\"190.0\" cy=\"245.0\" r=\"4\" fill=\"currentColor\"/></svg>",
+    "alt": "Graph of an increasing exponential curve in the xy-plane with x from -6 to 6 and y from -4 to 28. The curve stays just above the x-axis on the left, passes through the marked point (0, 4), and rises steeply through (2, 9) and (4, 20.25)."
+   },
+   "answer": [
+    "4"
+   ],
+   "explanation": "The correct answer is 4. The \\(y\\)-intercept of a graph is the point where it crosses the \\(y\\)-axis, which is where \\(x=0\\). The graph crosses the \\(y\\)-axis at the marked point \\((0, 4)\\). The curve never crosses the \\(x\\)-axis, so it has no \\(x\\)-intercept to confuse with the answer. So \\(y=4\\)."
+  },
+  {
+   "id": "pt2-m1-q07-v5",
+   "family": "pt2-m1-q07",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q7",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(7x - 6x + 59 = 143\\)</p><p>What value of \\(x\\) is the solution to the given equation?</p>",
+   "answer": [
+    "84"
+   ],
+   "explanation": "The correct answer is 84. Combining like terms on the left side, \\(7x-6x=x\\), so the equation becomes \\(x + 59 = 143\\). Subtracting 59 from each side gives \\(x=84\\)."
+  },
+  {
+   "id": "pt2-m1-q07-v6",
+   "family": "pt2-m1-q07",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q7",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(5x - 4x - 27 = 46\\)</p><p>What value of \\(x\\) is the solution to the given equation?</p>",
+   "answer": [
+    "73"
+   ],
+   "explanation": "The correct answer is 73. Combining like terms on the left side, \\(5x-4x=x\\), so the equation becomes \\(x - 27 = 46\\). Adding 27 to each side gives \\(x=73\\)."
+  },
+  {
+   "id": "pt2-m1-q07-v7",
+   "family": "pt2-m1-q07",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q7",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 1,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(11x - 10x + 312 = 500\\)</p><p>What value of \\(x\\) is the solution to the given equation?</p>",
+   "answer": [
+    "188"
+   ],
+   "explanation": "The correct answer is 188. Combining like terms on the left side, \\(11x-10x=x\\), so the equation becomes \\(x + 312 = 500\\). Subtracting 312 from each side gives \\(x=188\\)."
+  },
+  {
+   "id": "pt2-m1-q08-v5",
+   "family": "pt2-m1-q08",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q8",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A volunteer needs to log at least 40 hours of community service this semester. If the volunteer has already logged 23 hours, what is the minimum number of additional hours the volunteer needs to log this semester?</p>",
+   "choices": [
+    "63",
+    "17",
+    "0",
+    "23"
+   ],
+   "answer": "B",
+   "explanation": "Choice B is correct. Let \\(x\\) be the number of additional hours. The total will be \\(23+x\\), and it must be at least 40: \\(23+x\\ge 40\\). Subtracting 23 from each side gives \\(x\\ge 17\\), so the minimum is 17.<br>Choice A: 63 is the sum of 40 and 23; Choice C: with 0 more, the total would be only 23, which is less than 40; Choice D: 23 is the number already completed, not the number still needed."
+  },
+  {
+   "id": "pt2-m1-q08-v6",
+   "family": "pt2-m1-q08",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q8",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A bakery must bake at least 150 loaves of bread for a weekend market. If the bakery has already baked 112 loaves, what is the minimum number of additional loaves the bakery needs to bake?</p>",
+   "choices": [
+    "262",
+    "150",
+    "112",
+    "38"
+   ],
+   "answer": "D",
+   "explanation": "Choice D is correct. Let \\(x\\) be the number of additional loaves. The total will be \\(112+x\\), and it must be at least 150: \\(112+x\\ge 150\\). Subtracting 112 from each side gives \\(x\\ge 38\\), so the minimum is 38.<br>Choice A: 262 is the sum of 150 and 112; Choice B: 150 is the total required, not the additional amount; Choice C: 112 is the number already completed, not the number still needed."
+  },
+  {
+   "id": "pt2-m1-q08-v7",
+   "family": "pt2-m1-q08",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q8",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A beekeeper needs to harvest at least 64 frames of honey this season. If the beekeeper has already harvested 55 frames, what is the minimum number of additional frames the beekeeper needs to harvest this season?</p>",
+   "choices": [
+    "9",
+    "55",
+    "64",
+    "119"
+   ],
+   "answer": "A",
+   "explanation": "Choice A is correct. Let \\(x\\) be the number of additional frames. The total will be \\(55+x\\), and it must be at least 64: \\(55+x\\ge 64\\). Subtracting 55 from each side gives \\(x\\ge 9\\), so the minimum is 9.<br>Choice B: 55 is the number already completed, not the number still needed; Choice C: 64 is the total required, not the additional amount; Choice D: 119 is the sum of 64 and 55."
+  },
+  {
+   "id": "pt2-m1-q09-v5",
+   "family": "pt2-m1-q09",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q9",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>Each of the 173 vehicles in a parking lot is classified by type, as shown in the frequency table.</p><table><tr><th>Type</th><th>Frequency</th></tr><tr><td>sedan</td><td>88</td></tr><tr><td>SUV</td><td>61</td></tr><tr><td>pickup truck</td><td>24</td></tr></table><p>If one of the vehicles in the parking lot is selected at random, what is the probability of selecting a sedan?</p>",
+   "choices": [
+    "\\(\\dfrac{24}{173}\\)",
+    "\\(\\dfrac{61}{173}\\)",
+    "\\(\\dfrac{85}{173}\\)",
+    "\\(\\dfrac{88}{173}\\)"
+   ],
+   "answer": "D",
+   "explanation": "Choice D is correct. When one of the 173 vehicles is selected at random, the probability of selecting a sedan equals the number of such vehicles divided by the total number of vehicles. The table shows 88 such vehicles, so the probability is \\(\\dfrac{88}{173}\\).<br>Choice A is incorrect; this is the probability of selecting a pickup truck. Choice B is incorrect; this is the probability of selecting an SUV. Choice C is incorrect; this is the probability of <em>not</em> selecting a sedan (85 of the 173 vehicles)."
+  },
+  {
+   "id": "pt2-m1-q09-v6",
+   "family": "pt2-m1-q09",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q9",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>Each of the 149 birds counted at a backyard feeder was classified by species, as shown in the frequency table.</p><table><tr><th>Species</th><th>Frequency</th></tr><tr><td>sparrow</td><td>72</td></tr><tr><td>finch</td><td>46</td></tr><tr><td>cardinal</td><td>31</td></tr></table><p>If one of these birds is selected at random, what is the probability of selecting a finch?</p>",
+   "choices": [
+    "\\(\\dfrac{31}{149}\\)",
+    "\\(\\dfrac{46}{149}\\)",
+    "\\(\\dfrac{72}{149}\\)",
+    "\\(\\dfrac{103}{149}\\)"
+   ],
+   "answer": "B",
+   "explanation": "Choice B is correct. When one of the 149 birds is selected at random, the probability of selecting a finch equals the number of such birds divided by the total number of birds. The table shows 46 such birds, so the probability is \\(\\dfrac{46}{149}\\).<br>Choice A is incorrect; this is the probability of selecting a cardinal. Choice C is incorrect; this is the probability of selecting a sparrow. Choice D is incorrect; this is the probability of <em>not</em> selecting a finch (103 of the 149 birds)."
+  },
+  {
+   "id": "pt2-m1-q09-v7",
+   "family": "pt2-m1-q09",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q9",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>Each of the 127 songs in a playlist is classified by genre, as shown in the frequency table.</p><table><tr><th>Genre</th><th>Frequency</th></tr><tr><td>rock</td><td>51</td></tr><tr><td>pop</td><td>58</td></tr><tr><td>jazz</td><td>18</td></tr></table><p>If one of the songs in the playlist is selected at random, what is the probability of selecting a pop song?</p>",
+   "choices": [
+    "\\(\\dfrac{18}{127}\\)",
+    "\\(\\dfrac{51}{127}\\)",
+    "\\(\\dfrac{58}{127}\\)",
+    "\\(\\dfrac{69}{127}\\)"
+   ],
+   "answer": "C",
+   "explanation": "Choice C is correct. When one of the 127 songs is selected at random, the probability of selecting a pop song equals the number of such songs divided by the total number of songs. The table shows 58 such songs, so the probability is \\(\\dfrac{58}{127}\\).<br>Choice A is incorrect; this is the probability of selecting a jazz song. Choice B is incorrect; this is the probability of selecting a rock song. Choice D is incorrect; this is the probability of <em>not</em> selecting a pop song (69 of the 127 songs)."
+  }
+ ]
+}
