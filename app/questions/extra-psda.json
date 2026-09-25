@@ -1,0 +1,1276 @@
+{
+ "questions": [
+  {
+   "id": "extra-claims-01",
+   "family": "extra-claims-01",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A researcher selected a random sample of 400 adults from a large city. Half of the adults were randomly assigned to take a daily vitamin supplement, and the other half were assigned to take a placebo. After six months, the adults who took the supplement had significantly fewer colds, on average, than those who took the placebo. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Taking the supplement is likely to reduce the number of colds for all adults in the country.",
+    "Taking the supplement is likely to reduce the number of colds for adults in the city.",
+    "No conclusion about cause and effect can be made, because the study was an observational study.",
+    "There is an association between the supplement and colds, but only for the 400 adults in the study."
+   ],
+   "answer": "B",
+   "explanation": "Because the adults were randomly <em>assigned</em> to the two groups, the study supports a cause-and-effect conclusion. Because the adults were randomly <em>selected</em> from the city, the conclusion can be generalized to adults in the city, but not beyond. That is choice B. Choice A is incorrect: the sample was selected only from adults in one city, so the conclusion cannot be generalized to the whole country. Choice C is incorrect: the researcher assigned the treatments at random, so this was an experiment, not an observational study. Choice D is incorrect: random assignment allows a cause-and-effect conclusion, and random selection allows it to be generalized to adults in the city."
+  },
+  {
+   "id": "extra-claims-01-v1",
+   "family": "extra-claims-01",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A researcher asked for volunteers from among the students at a high school, and 120 students volunteered. The researcher randomly assigned 60 of the volunteers to use a new study technique and the other 60 to use their usual study methods. On the next exam, the students who used the new technique scored significantly higher, on average. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "The new technique is likely to cause higher scores for all students at the school.",
+    "No conclusion about cause and effect can be made, because the students were volunteers.",
+    "The new technique likely caused higher scores for the students in the study, but the results cannot be generalized to all students at the school.",
+    "The new technique is likely to cause higher scores for all high school students in the country."
+   ],
+   "answer": "C",
+   "explanation": "Random assignment of the volunteers to the two groups allows a cause-and-effect conclusion for the students in the study. However, the students were volunteers, not a random sample, so the conclusion cannot be generalized to all students at the school. That is choice C. Choice A is incorrect: the students were volunteers rather than a random sample, so the results may not apply to all students at the school. Choice B is incorrect: the volunteers were randomly assigned to the groups, which allows a cause-and-effect conclusion for the students in the study. Choice D is incorrect: the students were volunteers from a single school, so the results cannot be generalized this broadly."
+  },
+  {
+   "id": "extra-claims-01-v2",
+   "family": "extra-claims-01",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A greenhouse contains 1,000 tomato plants. An agronomist selected 60 of the plants at random and randomly assigned 30 of them to receive Fertilizer A and the other 30 to receive Fertilizer B. After eight weeks, the plants that received Fertilizer A were significantly taller, on average, than the plants that received Fertilizer B. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Fertilizer A is likely to cause greater growth than Fertilizer B for all tomato plants.",
+    "Fertilizer A is associated with greater growth, but it cannot be concluded that Fertilizer A causes greater growth.",
+    "Fertilizer A caused greater growth only for the 30 plants that received it.",
+    "Fertilizer A is likely to cause greater growth than Fertilizer B for tomato plants in the greenhouse."
+   ],
+   "answer": "D",
+   "explanation": "The fertilizers were randomly assigned, so the study supports a cause-and-effect conclusion. The plants were randomly selected from the 1,000 plants in the greenhouse, so the conclusion can be generalized to tomato plants in that greenhouse. That is choice D. Choice A is incorrect: the plants were selected from only one greenhouse, so the results cannot be generalized to all tomato plants. Choice B is incorrect: because the fertilizers were randomly assigned, a cause-and-effect conclusion is appropriate. Choice C is incorrect: because the plants were randomly selected from the greenhouse, the conclusion applies to plants in the greenhouse, not only to the plants in the study."
+  },
+  {
+   "id": "extra-claims-01-v3",
+   "family": "extra-claims-01",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A company selected 300 of its employees at random. Of these, 150 were randomly assigned to work a four-day workweek for three months, and the other 150 kept a five-day workweek. The employees on the four-day workweek reported significantly lower stress levels, on average. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Working a four-day workweek is likely to lower stress levels for the company's employees.",
+    "Working a four-day workweek is likely to lower stress levels for all workers in the country.",
+    "Lower stress levels are associated with a four-day workweek, but a four-day workweek cannot be said to cause lower stress.",
+    "A four-day workweek lowered stress levels only for the 150 employees who worked it."
+   ],
+   "answer": "A",
+   "explanation": "Random assignment to the two schedules supports a cause-and-effect conclusion, and random selection from the company's employees allows the conclusion to be generalized to the company's employees. That is choice A. Choice B is incorrect: only employees of this company were sampled, so the conclusion cannot be generalized to all workers. Choice C is incorrect: the schedules were randomly assigned, so a cause-and-effect conclusion is appropriate. Choice D is incorrect: because the 300 employees were randomly selected, the conclusion applies to the company's employees, not only to those in the study."
+  },
+  {
+   "id": "extra-claims-01-v4",
+   "family": "extra-claims-01",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A gym posted a sign asking members to volunteer for a study, and 90 members volunteered. The volunteers were randomly assigned to follow either Workout Plan X or Workout Plan Y for 10 weeks. The members who followed Plan X improved their running times significantly more, on average, than those who followed Plan Y. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Plan X is likely to cause greater improvement than Plan Y for all members of the gym.",
+    "Plan X is associated with greater improvement, but no cause-and-effect conclusion can be made for any group.",
+    "Plan X is likely to cause greater improvement than Plan Y for all adults who exercise.",
+    "Plan X likely caused greater improvement than Plan Y for the members in the study, but the results should not be generalized to all members of the gym."
+   ],
+   "answer": "D",
+   "explanation": "Because the volunteers were randomly assigned to the plans, it is appropriate to conclude that Plan X caused greater improvement for the members in the study. Because they were volunteers rather than a random sample of gym members, the results should not be generalized to all members of the gym. That is choice D. Choice A is incorrect: the participants were volunteers, not a random sample of gym members. Choice B is incorrect: random assignment allows a cause-and-effect conclusion for the members in the study. Choice C is incorrect: the participants were volunteers from one gym, so the results cannot be generalized this broadly."
+  },
+  {
+   "id": "extra-claims-01-v5",
+   "family": "extra-claims-01",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Researchers selected a random sample of 500 registered voters in a state. Before an election, 250 of the voters, chosen at random, were sent a text message reminding them to vote, and the other 250 were not. The voters who received the reminder voted at a significantly higher rate. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Receiving a text reminder is likely to increase the chance of voting for registered voters in every state.",
+    "Receiving a text reminder is likely to increase the chance of voting for registered voters in the state.",
+    "Receiving a text reminder increased the chance of voting only for the 250 voters who received it.",
+    "The results show an association, but it cannot be concluded that the reminder caused any change in voting."
+   ],
+   "answer": "B",
+   "explanation": "Randomly assigning which voters received the reminder supports a cause-and-effect conclusion, and randomly selecting the voters from the state's registered voters allows the conclusion to be generalized to that population. That is choice B. Choice A is incorrect: only voters in one state were sampled. Choice C is incorrect: the voters were randomly selected from the state, so the conclusion applies to the state's registered voters. Choice D is incorrect: the reminders were randomly assigned, so a cause-and-effect conclusion is appropriate."
+  },
+  {
+   "id": "extra-claims-01-v6",
+   "family": "extra-claims-01",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A school district has 60 elementary schools. The district randomly selected 12 of these schools and then randomly assigned 6 of them to use a new reading program; the other 6 continued using the current program. After one year, reading scores improved significantly more at the schools that used the new program. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "The new program is likely to cause greater improvement in reading scores at all elementary schools in the country.",
+    "The new program caused greater improvement only at the 6 schools that used it.",
+    "The new program is likely to cause greater improvement in reading scores at elementary schools in the district.",
+    "No conclusion about cause and effect can be made, because only 12 schools were studied."
+   ],
+   "answer": "C",
+   "explanation": "The program was randomly assigned to the schools, which supports a cause-and-effect conclusion, and the schools were randomly selected from the district's 60 elementary schools, which allows the conclusion to be generalized to elementary schools in the district. That is choice C. Choice A is incorrect: only schools in one district were sampled. Choice B is incorrect: because the schools were randomly selected from the district, the conclusion applies to elementary schools in the district. Choice D is incorrect: a small experiment with random assignment can still support a cause-and-effect conclusion when the difference is significant."
+  },
+  {
+   "id": "extra-claims-01-v7",
+   "family": "extra-claims-01",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A sleep researcher placed an online advertisement asking adults to take part in a study, and 200 adults responded. The researcher randomly assigned 100 of them to sleep 8 hours per night for a week and the other 100 to sleep 6 hours per night. At the end of the week, the adults who slept 8 hours scored significantly higher on a memory test, on average. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Sleeping 8 hours instead of 6 hours likely caused higher memory scores for the adults in the study, but the results should not be generalized to all adults.",
+    "Sleeping 8 hours instead of 6 hours is likely to cause higher memory scores for all adults.",
+    "No conclusion about cause and effect can be made, because the participants were not randomly selected.",
+    "Higher memory scores cause adults to sleep more."
+   ],
+   "answer": "A",
+   "explanation": "Random assignment of the participants to the two amounts of sleep allows a cause-and-effect conclusion for the participants. However, the participants responded to an advertisement and were not randomly selected from any larger population, so the conclusion should not be generalized to all adults. That is choice A. Choice B is incorrect: the participants responded to an advertisement and were not a random sample of all adults. Choice C is incorrect: random <em>assignment</em>, not random selection, is what allows a cause-and-effect conclusion for the participants. Choice D is incorrect: the researcher controlled the amount of sleep, so the study provides evidence about the effect of sleep on memory scores, not the reverse."
+  },
+  {
+   "id": "extra-claims-02",
+   "family": "extra-claims-02",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Researchers surveyed a random sample of 1,000 adults in a city about how many cups of coffee they drink per day and how many hours they sleep per night. The adults who drank more coffee tended to sleep fewer hours. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Drinking coffee causes adults in the city to sleep fewer hours.",
+    "Sleeping fewer hours causes adults in the city to drink more coffee.",
+    "For adults in the city, drinking more coffee is associated with sleeping fewer hours.",
+    "There is no relationship between coffee drinking and sleep for adults in the city."
+   ],
+   "answer": "C",
+   "explanation": "This is an observational study: the researchers did not assign how much coffee people drink. It can show an association between the variables, and because the sample was random, the association can be generalized to adults in the city. It cannot show that one variable causes the other. That is choice C. Choice A is incorrect: the researchers did not randomly assign coffee drinking, so the study cannot show cause and effect. Choice B is incorrect: an observational study cannot show cause and effect in either direction. Choice D is incorrect: the study found that adults who drank more coffee tended to sleep less, which is a relationship."
+  },
+  {
+   "id": "extra-claims-02-v1",
+   "family": "extra-claims-02",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A school district collected data from a random sample of 500 of its students. Students who reported eating breakfast every day had higher average test scores than students who did not. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Among students in the district, eating breakfast every day is associated with higher test scores.",
+    "Eating breakfast every day causes students in the district to earn higher test scores.",
+    "If the district required every student to eat breakfast, test scores would increase.",
+    "Among all students in the country, eating breakfast every day is associated with higher test scores."
+   ],
+   "answer": "A",
+   "explanation": "The students were not assigned to eat or skip breakfast, so this is an observational study. It shows an association between eating breakfast and test scores among students in the district, but it cannot show that eating breakfast causes higher scores. That is choice A. Choice B is incorrect: the students chose whether to eat breakfast, so other factors could explain the difference. Choice C is incorrect: this assumes that eating breakfast causes higher scores, which an observational study cannot show. Choice D is incorrect: the sample was selected from only one district."
+  },
+  {
+   "id": "extra-claims-02-v2",
+   "family": "extra-claims-02",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Researchers selected a random sample of 600 adults in a state and recorded whether each adult owns a dog and each adult's blood pressure. On average, the dog owners had lower blood pressure than the adults who did not own a dog. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Owning a dog lowers blood pressure for adults in the state.",
+    "Having low blood pressure causes adults in the state to own dogs.",
+    "There is no association between owning a dog and blood pressure, because the study was not an experiment.",
+    "Adults in the state who own a dog tend to have lower blood pressure than those who do not, but the study does not show that owning a dog lowers blood pressure."
+   ],
+   "answer": "D",
+   "explanation": "The researchers observed, but did not assign, dog ownership. So the study shows an association for adults in the state, but not that owning a dog lowers blood pressure. That is choice D. Choice A is incorrect: the adults were not randomly assigned to own dogs, so the study cannot show cause and effect. Choice B is incorrect: an observational study cannot show cause and effect in either direction. Choice C is incorrect: observational studies can show associations, and this one found that dog owners tended to have lower blood pressure."
+  },
+  {
+   "id": "extra-claims-02-v3",
+   "family": "extra-claims-02",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A researcher collected data on a random sample of 50 cities in a country. Cities with more park space per resident tended to have lower rates of obesity. Which of the following conclusions is best supported by the data?",
+   "choices": [
+    "Building more parks in a city will lower its rate of obesity.",
+    "Among cities in the country, more park space per resident is associated with lower rates of obesity.",
+    "Having lower rates of obesity causes cities to build more parks.",
+    "There is no relationship between park space and obesity rates among cities in the country."
+   ],
+   "answer": "B",
+   "explanation": "The researcher observed existing cities without assigning park space, so the data show only an association: among cities in the country, more park space per resident is associated with lower obesity rates. That is choice B. Choice A is incorrect: this is a cause-and-effect claim, which the observational data cannot support. Choice C is incorrect: the data cannot show cause and effect in either direction. Choice D is incorrect: the data show that cities with more park space tended to have lower obesity rates."
+  },
+  {
+   "id": "extra-claims-02-v4",
+   "family": "extra-claims-02",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A survey of a random sample of 800 teenagers in a country found that teenagers who spent more time on social media each day tended to get fewer hours of sleep. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Spending more time on social media causes teenagers in the country to sleep less.",
+    "If teenagers in the country spent less time on social media, they would sleep more.",
+    "For teenagers in the country, more time on social media is associated with fewer hours of sleep.",
+    "Getting less sleep causes teenagers in the country to spend more time on social media."
+   ],
+   "answer": "C",
+   "explanation": "The teenagers were not assigned amounts of social media use, so the survey can show only an association for teenagers in the country. That is choice C. Choice A is incorrect: a survey is an observational study and cannot show cause and effect. Choice B is incorrect: this assumes a cause-and-effect relationship that the survey cannot show. Choice D is incorrect: an observational study cannot show cause and effect in either direction."
+  },
+  {
+   "id": "extra-claims-02-v5",
+   "family": "extra-claims-02",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Researchers selected a random sample of 2,000 adults over age 60 in a region and asked whether they take a vitamin D supplement. Over the next five years, those who reported taking the supplement had fewer bone fractures, on average, than those who did not. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Among adults over 60 in the region, taking a vitamin D supplement is associated with fewer bone fractures.",
+    "Taking a vitamin D supplement prevents bone fractures in adults over 60 in the region.",
+    "Taking a vitamin D supplement prevents bone fractures in all adults.",
+    "There is no association between vitamin D supplements and bone fractures among adults over 60 in the region."
+   ],
+   "answer": "A",
+   "explanation": "The adults chose whether to take the supplement; the researchers did not assign it. So the study shows an association among adults over 60 in the region, not cause and effect. That is choice A. Choice B is incorrect: the adults were not randomly assigned to take the supplement, so the study cannot show that the supplement prevents fractures. Choice C is incorrect: the study cannot show cause and effect, and the sample included only adults over 60 in one region. Choice D is incorrect: the study found that those who took the supplement had fewer fractures, on average."
+  },
+  {
+   "id": "extra-claims-02-v6",
+   "family": "extra-claims-02",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A random sample of 300 students at a high school was selected. The students who take music lessons had higher average math grades than the students who do not take music lessons. Which of the following statements is supported by these results?",
+   "choices": [
+    "Taking music lessons causes students at the school to earn higher math grades.",
+    "Students at the school who start taking music lessons will earn higher math grades.",
+    "Earning higher math grades causes students at the school to take music lessons.",
+    "Among students at the school, taking music lessons is associated with higher math grades."
+   ],
+   "answer": "D",
+   "explanation": "The students chose whether to take music lessons, so this is an observational study. It supports an association among students at the school, but not a cause-and-effect conclusion. That is choice D. Choice A is incorrect: the students were not randomly assigned to take music lessons. Choice B is incorrect: this assumes that music lessons cause higher grades, which the study cannot show. Choice C is incorrect: an observational study cannot show cause and effect in either direction."
+  },
+  {
+   "id": "extra-claims-02-v7",
+   "family": "extra-claims-02",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Researchers surveyed a random sample of 800 adults in a county about how many hours they exercise each week and their stress levels. Adults who exercised more tended to report lower stress levels. The researchers concluded that the results do not show that exercising more causes lower stress. Which of the following best explains why?",
+   "choices": [
+    "The sample of 800 adults was too small.",
+    "The adults were not randomly assigned to exercise different amounts.",
+    "The adults were selected at random from the county.",
+    "The study measured more than one variable."
+   ],
+   "answer": "B",
+   "explanation": "A cause-and-effect conclusion requires random assignment to treatment groups. The adults in this survey chose how much to exercise, so other factors could explain the association. That is choice B. Choice A is incorrect: a sample of any size cannot show cause and effect without random assignment; the sample size is not the issue. Choice C is incorrect: random selection allows the results to be generalized to the county; it does not prevent a cause-and-effect conclusion. Choice D is incorrect: every study of a relationship between variables measures more than one variable."
+  },
+  {
+   "id": "extra-claims-03",
+   "family": "extra-claims-03",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A local television station asked viewers to call in and say whether the city should build a new stadium. Of the 2,300 viewers who called, 78% said the city should not build the stadium. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "About 78% of the city's residents think the city should not build the stadium.",
+    "About 78% of the station's viewers think the city should not build the stadium.",
+    "Because 2,300 people called, the results can be generalized to all of the city's residents.",
+    "The results may not represent the opinions of the city's residents, because the people who called chose to respond."
+   ],
+   "answer": "D",
+   "explanation": "The callers chose to respond, so they are a voluntary response sample. People with strong opinions are more likely to call, so the results may not represent the city's residents, or even the station's viewers. That is choice D. Choice A is incorrect: the callers were not a random sample of the city's residents. Choice B is incorrect: viewers who chose to call may have different opinions from viewers who did not call. Choice C is incorrect: a large sample does not fix bias; the respondents still chose to respond."
+  },
+  {
+   "id": "extra-claims-03-v1",
+   "family": "extra-claims-03",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "To estimate the mean number of hours per week that students at a university spend in the campus library, a researcher surveyed 150 students who were in the library on a Tuesday evening. The mean for these students was 11 hours per week. Which of the following statements about this estimate is most likely true?",
+   "choices": [
+    "It is likely too high, because students in the library are likely to spend more time there than typical students at the university.",
+    "It is likely too low, because students in the library are likely to spend less time there than typical students at the university.",
+    "It is an unbiased estimate, because a sample of 150 students is large.",
+    "It is an unbiased estimate, because the students were surveyed without regard to their majors."
+   ],
+   "answer": "A",
+   "explanation": "Students who are in the library on a Tuesday evening are likely to spend more time in the library than a typical student. So the sample is biased, and 11 hours per week is most likely greater than the mean for all students at the university. That is choice A. Choice B is incorrect: students found in the library are likely to spend <em>more</em> time there than typical students, not less. Choice C is incorrect: a large sample does not correct bias caused by where the students were surveyed. Choice D is incorrect: the students were still chosen based on being in the library, which is related to the quantity being measured."
+  },
+  {
+   "id": "extra-claims-03-v2",
+   "family": "extra-claims-03",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "An online fitness magazine posted a poll on its website asking, “Do you exercise at least four days a week?” Of the 5,000 people who responded, 70% answered yes. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "About 70% of all adults exercise at least four days a week.",
+    "Because 5,000 people responded, the results can be generalized to all adults in the country.",
+    "The results are likely not representative of all adults, because the respondents were fitness magazine readers who chose to respond.",
+    "Reading the magazine causes people to exercise at least four days a week."
+   ],
+   "answer": "C",
+   "explanation": "The respondents were readers of a fitness magazine who chose to respond. They are likely more interested in exercise than adults in general, so the results are likely not representative of all adults. That is choice C. Choice A is incorrect: the respondents were not a random sample of all adults. Choice B is incorrect: a large number of responses does not fix a biased sampling method. Choice D is incorrect: a poll cannot show cause and effect, and no comparison group was studied."
+  },
+  {
+   "id": "extra-claims-03-v3",
+   "family": "extra-claims-03",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "To estimate the percent of a town's residents who support building a new dog park, a surveyor asked 200 people who were walking dogs at the town's existing park. Of those asked, 85% supported the new dog park. Which of the following is most likely true?",
+   "choices": [
+    "The survey most likely underestimates the percent of all residents who support the new dog park.",
+    "The survey most likely overestimates the percent of all residents who support the new dog park.",
+    "About 85% of all residents of the town support the new dog park.",
+    "The survey is unbiased, because 200 people is a large sample."
+   ],
+   "answer": "B",
+   "explanation": "People walking dogs at a park are more likely to support a new dog park than residents in general. So the sample is biased, and 85% most likely overestimates the percent of all residents who support the new dog park. That is choice B. Choice A is incorrect: dog walkers are likely <em>more</em> supportive than residents in general, so the estimate is likely too high. Choice C is incorrect: the people surveyed were not a random sample of the town's residents. Choice D is incorrect: surveying more dog walkers would not remove the bias."
+  },
+  {
+   "id": "extra-claims-03-v4",
+   "family": "extra-claims-03",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A restaurant left comment cards on its tables for one month. Of the 120 customers who filled out a card, 40% rated the service as poor. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "About 40% of all of the restaurant's customers rated the service as poor.",
+    "The results would represent all of the restaurant's customers if 1,200 customers had filled out cards.",
+    "The restaurant's service caused 40% of all its customers to leave.",
+    "The results may not represent all of the restaurant's customers, because only customers who chose to fill out a card were included."
+   ],
+   "answer": "D",
+   "explanation": "Only customers who chose to fill out a card were included. Customers with strong opinions, especially negative ones, may be more likely to respond, so the results may not represent all customers. That is choice D. Choice A is incorrect: the customers who filled out cards were a voluntary response sample, not a random sample. Choice B is incorrect: more voluntary responses would still be biased. Choice C is incorrect: the survey asked about ratings, not whether customers left, and it cannot show cause and effect."
+  },
+  {
+   "id": "extra-claims-03-v5",
+   "family": "extra-claims-03",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "To estimate the percent of students at a high school who play on a sports team, a student surveyed 80 students who were attending a varsity basketball game at the school. Of those surveyed, 60% said they play on a sports team. Which of the following is most likely true?",
+   "choices": [
+    "The value 60% is most likely less than the percent of all students at the school who play on a sports team.",
+    "The value 60% is an unbiased estimate, because all of the students surveyed attend the school.",
+    "The value 60% is most likely greater than the percent of all students at the school who play on a sports team.",
+    "Exactly 60% of all students at the school play on a sports team."
+   ],
+   "answer": "C",
+   "explanation": "Students who attend a varsity basketball game are more likely than typical students to play sports, so the sample is biased. The value 60% most likely overestimates the percent of all students at the school who play on a sports team. That is choice C. Choice A is incorrect: students at a basketball game are likely <em>more</em> involved in sports than typical students. Choice B is incorrect: being students at the school does not make them representative; they were chosen based on attending a sports event. Choice D is incorrect: the sample was not random, and even a random sample gives only an estimate."
+  },
+  {
+   "id": "extra-claims-03-v6",
+   "family": "extra-claims-03",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A senator's office asked constituents to send emails expressing their opinions about a proposed bill. Of the 900 emails received, 65% opposed the bill. The senator concluded that most of her constituents oppose the bill. Which of the following best explains why this conclusion may not be valid?",
+   "choices": [
+    "The people who sent emails chose to respond, so they may not represent all of the senator's constituents.",
+    "A sample of 900 is too small to support any conclusion.",
+    "65% is not a majority.",
+    "The emails were not all received on the same day."
+   ],
+   "answer": "A",
+   "explanation": "The people who sent emails chose to respond. People with strong opinions are more likely to respond, so the sample may not represent all constituents. That is choice A. Choice B is incorrect: a random sample of 900 could support a conclusion; the problem is how the sample was chosen, not its size. Choice C is incorrect: 65% is greater than 50%, so it is a majority of the emails. Choice D is incorrect: when the emails were received is not what makes the sample unrepresentative."
+  },
+  {
+   "id": "extra-claims-03-v7",
+   "family": "extra-claims-03",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "To estimate the percent of adults in a county who work full time, a pollster called randomly selected home phone numbers in the county between 10:00 a.m. and 2:00 p.m. on weekdays. Of the adults who answered, 31% said they work full time. Which of the following is most likely true?",
+   "choices": [
+    "The value 31% is most likely greater than the percent of all adults in the county who work full time.",
+    "The value 31% is most likely less than the percent of all adults in the county who work full time.",
+    "The value 31% is an unbiased estimate, because the phone numbers were selected at random.",
+    "The value 31% is an unbiased estimate, because the adults surveyed live throughout the county."
+   ],
+   "answer": "B",
+   "explanation": "Adults who work full time are less likely to be home to answer the phone on weekdays between 10:00 a.m. and 2:00 p.m. So they are underrepresented in the sample, and 31% most likely underestimates the percent of adults in the county who work full time. That is choice B. Choice A is incorrect: full-time workers are less likely to be home at these times, so they are underrepresented, not overrepresented. Choice C is incorrect: random phone numbers do not help when the timing of the calls makes some groups less likely to answer. Choice D is incorrect: the adults who answered still exclude many people who were at work during the calls."
+  },
+  {
+   "id": "extra-claims-04",
+   "family": "extra-claims-04",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A school district wants to know whether a new online tutoring program improves math scores for the 2,000 ninth graders in the district. Which of the following study designs would best allow the district to conclude that the program causes improvement in math scores for ninth graders in the district?",
+   "choices": [
+    "Ask for 200 ninth-grade volunteers, let each volunteer decide whether to use the program, and compare the changes in math scores.",
+    "Select a random sample of 200 ninth graders in the district, ask which of them already use a similar program, and compare their math scores with those of students who do not.",
+    "Select a random sample of 200 ninth graders in the district, randomly assign half of them to use the program and the other half not to, and compare the changes in their math scores.",
+    "Give the program to all ninth graders at one school in the district, and compare their math scores with those of ninth graders at another school in the district."
+   ],
+   "answer": "C",
+   "explanation": "To conclude cause and effect, the treatment must be randomly assigned. To generalize to the district's ninth graders, the participants must be randomly selected from the district's ninth graders. Only choice C does both. Choice A is incorrect: the students choose whether to use the program, so other differences between the groups could explain any difference in scores; the volunteers also may not represent all ninth graders. Choice B is incorrect: this is an observational study; the program is not randomly assigned, so it can show only an association. Choice D is incorrect: the schools may differ in many ways other than the program, so any difference cannot be attributed to the program."
+  },
+  {
+   "id": "extra-claims-04-v1",
+   "family": "extra-claims-04",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "An agricultural agency wants to know whether a new irrigation method increases corn yields on farms in a region. Which of the following study designs would best allow the agency to conclude that the new method causes higher yields on farms in the region?",
+   "choices": [
+    "Ask farmers in the region to volunteer, randomly assign half of the volunteer farms to use the new method and the other half to use their current method, and compare yields.",
+    "Select a random sample of farms in the region, randomly assign half of them to use the new method and the other half to use their current method, and compare yields.",
+    "Select a random sample of farms in the region, compare yields of the farms that already use the new method with yields of those that do not.",
+    "Have every farm in the region use the new method this year, and compare this year's yields with last year's yields."
+   ],
+   "answer": "B",
+   "explanation": "A cause-and-effect conclusion requires random assignment of the irrigation method, and generalizing to farms in the region requires a random sample of farms from the region. Only choice B does both. Choice A randomly assigns the method, but the conclusion would apply only to the volunteer farms. Choice A is incorrect: random assignment would support a causal conclusion for the volunteer farms, but volunteers may not represent all farms in the region. Choice C is incorrect: the farms chose their methods, so other differences between the farms could explain any difference in yields. Choice D is incorrect: changes in weather or other conditions from one year to the next could explain any difference in yields."
+  },
+  {
+   "id": "extra-claims-04-v2",
+   "family": "extra-claims-04",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A hospital wants to know whether a new pain medication shortens recovery time for its surgery patients, compared with the medication it currently uses. Which of the following study designs would best allow the hospital to conclude that the new medication causes shorter recovery times for its surgery patients?",
+   "choices": [
+    "Compare recovery times of past patients who chose the new medication with those of past patients who chose the current medication.",
+    "Give the new medication to all surgery patients this year, and compare their recovery times with those of last year's patients.",
+    "Let each patient's doctor choose which medication the patient receives, and compare recovery times.",
+    "Randomly select a group of the hospital's surgery patients, randomly assign half to receive the new medication and half to receive the current medication, and compare recovery times."
+   ],
+   "answer": "D",
+   "explanation": "The medication must be randomly assigned to support a cause-and-effect conclusion, and the patients must be randomly selected from the hospital's surgery patients to generalize to them. Only choice D does both. Choice A is incorrect: the patients chose their medication, so other differences between the groups could explain differences in recovery times. Choice B is incorrect: other changes between the two years could explain any difference in recovery times. Choice C is incorrect: doctors might give the new medication to patients who differ in health, so the groups would not be comparable."
+  },
+  {
+   "id": "extra-claims-04-v3",
+   "family": "extra-claims-04",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Two studies examined meditation and stress. In Study 1, researchers surveyed a random sample of 500 adults in a country and found that adults who meditate regularly reported lower stress levels. In Study 2, researchers randomly assigned 500 volunteers to either meditate daily for 8 weeks or not meditate, and those who meditated reported lower stress levels at the end. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Only Study 2 supports the conclusion that meditation causes lower stress, and that conclusion should not be generalized to all adults in the country.",
+    "Only Study 1 supports the conclusion that meditation causes lower stress, and that conclusion applies to all adults in the country.",
+    "Both studies show that meditation causes lower stress for all adults in the country.",
+    "Neither study supports a conclusion that meditation causes lower stress for anyone."
+   ],
+   "answer": "A",
+   "explanation": "Study 1 is observational, so it shows only an association. Study 2 used random assignment, so it supports a cause-and-effect conclusion, but because its participants were volunteers, that conclusion applies to the participants and should not be generalized to all adults in the country. That is choice A. Choice B is incorrect: Study 1 did not assign meditation, so it cannot show cause and effect. Choice C is incorrect: Study 1 cannot show cause and effect, and Study 2 used volunteers rather than a random sample. Choice D is incorrect: Study 2 randomly assigned meditation, so it supports a cause-and-effect conclusion for its participants."
+  },
+  {
+   "id": "extra-claims-04-v4",
+   "family": "extra-claims-04",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A city's utility company wants to know whether mailing households a monthly report that compares their energy use with that of their neighbors reduces energy use for households in the city. Which of the following study designs would best allow the company to conclude that the report causes reduced energy use for households in the city?",
+   "choices": [
+    "Send the report to households that request it, and compare their energy use with that of households that do not request it.",
+    "Send the report to all households in one neighborhood, and compare their energy use with that of households in another neighborhood.",
+    "Select a random sample of households in the city, randomly assign half of them to receive the report, and compare the energy use of the two groups.",
+    "Select a random sample of households in the city, and ask them whether they would use less energy if they received the report."
+   ],
+   "answer": "C",
+   "explanation": "Random selection of households from the city allows the results to be generalized to the city, and random assignment of the report allows a cause-and-effect conclusion. Only choice C does both. Choice A is incorrect: households that request the report may already be more interested in saving energy, so the groups are not comparable. Choice B is incorrect: the neighborhoods may differ in housing size, income, and other factors that affect energy use. Choice D is incorrect: what households say they would do is not a measurement of the report's actual effect, and no treatment is assigned."
+  },
+  {
+   "id": "extra-claims-04-v5",
+   "family": "extra-claims-04",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A company selected 300 of its employees at random. Researchers compared the employees who had chosen to use standing desks with those who had chosen regular desks and found that the standing-desk users reported fewer back problems. Which of the following changes to the study would allow the researchers to conclude that using a standing desk causes fewer back problems among the company's employees?",
+   "choices": [
+    "Increase the sample to 600 employees who choose their own desks.",
+    "Study only the employees who already use standing desks.",
+    "Survey employees at several companies instead of just one.",
+    "Randomly assign the 300 selected employees to use either standing desks or regular desks, and then compare back problems."
+   ],
+   "answer": "D",
+   "explanation": "The missing feature is random assignment. If the 300 randomly selected employees were randomly assigned to standing desks or regular desks, the study would support a cause-and-effect conclusion that could be generalized to the company's employees. That is choice D. Choice A is incorrect: a larger sample does not fix the problem that employees chose their desks. Choice B is incorrect: with no comparison group, the study could not show any effect of standing desks. Choice C is incorrect: this broadens the population but still does not randomly assign desks, so it cannot show cause and effect."
+  },
+  {
+   "id": "extra-claims-04-v6",
+   "family": "extra-claims-04",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A state education department wants to know whether starting the school day later improves attendance at high schools in the state. Which of the following study designs would best allow the department to conclude that a later start time causes improved attendance at high schools in the state?",
+   "choices": [
+    "Compare attendance at high schools in the state that already start later with attendance at those that start earlier.",
+    "Randomly select 40 high schools in the state, randomly assign 20 of them to start later, and compare attendance at the two groups of schools.",
+    "Ask principals to volunteer their schools, let each principal choose the start time, and compare attendance.",
+    "Change the start time at all high schools in one district, and compare attendance with that at high schools in another district."
+   ],
+   "answer": "B",
+   "explanation": "Random selection of schools from the state allows generalization to high schools in the state, and random assignment of start times allows a cause-and-effect conclusion. Only choice B does both. Choice A is incorrect: schools chose their start times, so other differences between the schools could explain differences in attendance. Choice C is incorrect: neither the selection of schools nor the start times are random. Choice D is incorrect: the districts may differ in many ways other than start time."
+  },
+  {
+   "id": "extra-claims-04-v7",
+   "family": "extra-claims-04",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-claims",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A veterinarian wants to know whether a daily dental chew reduces tartar buildup in dogs treated at her clinic. Which of the following study designs would best allow her to conclude that the dental chew causes less tartar buildup for dogs treated at her clinic?",
+   "choices": [
+    "Randomly select dogs from the clinic's patients, randomly assign half of them to receive the chew daily and half not to, and compare tartar buildup.",
+    "Compare tartar buildup in the clinic's patients whose owners already give them dental chews with buildup in patients whose owners do not.",
+    "Ask owners of the clinic's patients to volunteer, randomly assign half of the volunteers' dogs to receive the chew daily and half not to, and compare tartar buildup.",
+    "Give the chew to every dog treated at the clinic for six months, and compare each dog's tartar buildup with its buildup in the previous six months."
+   ],
+   "answer": "A",
+   "explanation": "A random sample of the clinic's dogs allows generalization to dogs treated at the clinic, and random assignment of the chew allows a cause-and-effect conclusion. Only choice A does both. Choice C uses random assignment, but its conclusion would apply only to the dogs of owners who volunteered. Choice B is incorrect: owners who give dental chews may also care for their dogs' teeth in other ways, so the chew cannot be isolated as the cause. Choice C is incorrect: this supports a causal conclusion only for the volunteers' dogs, which may not represent all dogs treated at the clinic. Choice D is incorrect: there is no comparison group, and other changes over time could explain any difference."
+  },
+  {
+   "id": "extra-inference-01",
+   "family": "extra-inference-01",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A high school has 1,850 students. A random sample of 200 of these students was asked how they get to school, and 36 of the students in the sample said they walk. Based on this sample, which of the following is the best estimate of the number of students at the school who walk to school?",
+   "choices": [
+    "36",
+    "333",
+    "1,517",
+    "1,814"
+   ],
+   "answer": "B",
+   "explanation": "Because the sample was selected at random, the proportion of students in the sample who walk, \\(\\frac{36}{200} = 0.18\\), is a reasonable estimate of the proportion of all students at the school who walk. So the best estimate is \\(0.18(1{,}850) = 333\\) students, which is choice B. Choice A is incorrect: 36 is the number of walkers in the sample, not an estimate for the whole school. Choice C is incorrect: 1,517 is the estimated number of students who do <em>not</em> walk to school. Choice D is incorrect: this is the total number of students minus the number of walkers in the sample, which does not use the sample proportion."
+  },
+  {
+   "id": "extra-inference-01-v1",
+   "family": "extra-inference-01",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A forest contains 12,000 trees. A forester examined a random sample of 150 of these trees and found that 21 of them were infected with a beetle. Based on this sample, which of the following is the best estimate of the number of trees in the forest that are <em>not</em> infected with the beetle?",
+   "choices": [
+    "21",
+    "129",
+    "1,680",
+    "10,320"
+   ],
+   "answer": "D",
+   "explanation": "In the random sample, \\(150 - 21 = 129\\) trees were not infected, so the proportion not infected is \\(\\frac{129}{150} = 0.86\\). Applying this proportion to the whole forest gives \\(0.86(12{,}000) = 10{,}320\\) trees, which is choice D. Choice A is incorrect: this is the number of infected trees in the sample. Choice B is incorrect: this is the number of uninfected trees in the sample, not in the whole forest. Choice C is incorrect: 1,680 is the estimated number of trees that <em>are</em> infected."
+  },
+  {
+   "id": "extra-inference-01-v2",
+   "family": "extra-inference-01",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A factory produced 45,000 light bulbs last week. An inspector tested a random sample of 300 of these bulbs and found that 6 were defective. Based on this sample, which of the following is the best estimate of the number of defective bulbs the factory produced last week?",
+   "choices": [
+    "6",
+    "90",
+    "900",
+    "44,100"
+   ],
+   "answer": "C",
+   "explanation": "The proportion of defective bulbs in the random sample is \\(\\frac{6}{300} = 0.02\\), or 2%. So the best estimate of the number of defective bulbs among all 45,000 is \\(0.02(45{,}000) = 900\\), which is choice C. Choice A is incorrect: this is the number of defective bulbs in the sample only. Choice B is incorrect: this uses a proportion of 0.002 (0.2%) instead of 0.02 (2%). Choice D is incorrect: 44,100 is the estimated number of bulbs that are <em>not</em> defective."
+  },
+  {
+   "id": "extra-inference-01-v3",
+   "family": "extra-inference-01",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A town has 8,400 registered voters. In a random sample of 350 of these voters, 147 said they support a proposal to build a new library. Based on this sample, what is the best estimate of the number of registered voters in the town who support the proposal?",
+   "answer": [
+    "3528"
+   ],
+   "explanation": "The proportion of voters in the random sample who support the proposal is \\(\\frac{147}{350} = 0.42\\). Because the sample was selected at random from the town's registered voters, this proportion can be applied to all 8,400 voters: \\(0.42(8{,}400) = 3{,}528\\)."
+  },
+  {
+   "id": "extra-inference-01-v4",
+   "family": "extra-inference-01",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Biologists estimate that a lake contains 5,000 fish. In a random sample of 80 fish caught and released from the lake, 12 were trout. Based on this sample, which of the following is the best estimate of the number of trout in the lake?",
+   "choices": [
+    "12",
+    "600",
+    "750",
+    "4,250"
+   ],
+   "answer": "C",
+   "explanation": "The proportion of trout in the random sample is \\(\\frac{12}{80} = 0.15\\). Applying this proportion to the estimated 5,000 fish in the lake gives \\(0.15(5{,}000) = 750\\) trout, which is choice C. Choice A is incorrect: this is the number of trout in the sample, not in the lake. Choice B is incorrect: this treats the 12 trout as 12% of the fish, but 12 out of 80 is 15%. Choice D is incorrect: 4,250 is the estimated number of fish in the lake that are <em>not</em> trout."
+  },
+  {
+   "id": "extra-inference-01-v5",
+   "family": "extra-inference-01",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "An online store has 64,000 customers. The store surveyed a random sample of 400 of its customers, and 88 of them said they had made a purchase in the past month. Based on this survey, which of the following is the best estimate of the number of the store's customers who made a purchase in the past month?",
+   "choices": [
+    "88",
+    "14,080",
+    "49,920",
+    "63,912"
+   ],
+   "answer": "B",
+   "explanation": "In the random sample, \\(\\frac{88}{400} = 0.22\\) of the customers made a purchase in the past month. Applying this proportion to all 64,000 customers gives \\(0.22(64{,}000) = 14{,}080\\), which is choice B. Choice A is incorrect: this is the number of customers in the sample who made a purchase. Choice C is incorrect: 49,920 is the estimated number of customers who did <em>not</em> make a purchase. Choice D is incorrect: this subtracts the sample count from the total number of customers, which does not use the sample proportion."
+  },
+  {
+   "id": "extra-inference-01-v6",
+   "family": "extra-inference-01",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A city has 96,000 households. A random sample of 800 of these households was surveyed, and 184 of the households in the sample reported owning a dog. Based on the survey, what is the best estimate of the number of households in the city that own a dog?",
+   "answer": [
+    "22080"
+   ],
+   "explanation": "The proportion of households in the random sample that own a dog is \\(\\frac{184}{800} = 0.23\\). Applying this proportion to all 96,000 households gives \\(0.23(96{,}000) = 22{,}080\\)."
+  },
+  {
+   "id": "extra-inference-01-v7",
+   "family": "extra-inference-01",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A university has 15,600 students. In a random sample of 240 of these students, 90 said they live off campus and the rest said they live on campus. Based on this sample, which of the following is the best estimate of the number of students at the university who live on campus?",
+   "choices": [
+    "90",
+    "150",
+    "5,850",
+    "9,750"
+   ],
+   "answer": "D",
+   "explanation": "In the random sample, \\(240 - 90 = 150\\) students live on campus, so the proportion living on campus is \\(\\frac{150}{240} = 0.625\\). Applying this proportion to all 15,600 students gives \\(0.625(15{,}600) = 9{,}750\\), which is choice D. Choice A is incorrect: this is the number of students in the sample who live off campus. Choice B is incorrect: this is the number of students in the sample who live on campus, not an estimate for the whole university. Choice C is incorrect: 5,850 is the estimated number of students who live <em>off</em> campus."
+  },
+  {
+   "id": "extra-inference-02",
+   "family": "extra-inference-02",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A researcher selected a random sample of 150 adults who live in a county and asked each how long their commute to work takes. The mean commute time for the sample was 27 minutes, with an associated margin of error of 3 minutes. Which of the following is the most appropriate conclusion based on these results?",
+   "choices": [
+    "Every adult in the sample has a commute time between 24 minutes and 30 minutes.",
+    "The mean commute time of all adults in the county is exactly 27 minutes.",
+    "It is plausible that the mean commute time of all adults in the county is between 24 minutes and 30 minutes.",
+    "It is plausible that the mean commute time of all adults in the county is greater than 30 minutes."
+   ],
+   "answer": "C",
+   "explanation": "The margin of error gives a range of plausible values for the <em>population</em> mean: from \\(27 - 3 = 24\\) minutes to \\(27 + 3 = 30\\) minutes. So it is plausible that the mean commute time of all adults in the county is between 24 and 30 minutes, which is choice C. Choice A is incorrect: the margin of error describes the uncertainty in estimating a mean, not the commute times of individual adults. Choice B is incorrect: 27 minutes is the sample mean; the population mean is only estimated, which is why there is a margin of error. Choice D is incorrect: values greater than 30 minutes are outside the interval of plausible values, 24 to 30 minutes."
+  },
+  {
+   "id": "extra-inference-02-v1",
+   "family": "extra-inference-02",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A polling organization surveyed a random sample of 500 registered voters in a state. Of the voters surveyed, 54% said they support a ballot measure. The margin of error for this estimate is 4.4%. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "It is plausible that between 49.6% and 58.4% of all registered voters in the state support the measure.",
+    "Exactly 54% of all registered voters in the state support the measure.",
+    "A majority of all registered voters in the state definitely support the measure.",
+    "Between 49.6% and 58.4% of the 500 voters in the sample support the measure."
+   ],
+   "answer": "A",
+   "explanation": "The margin of error means the percent of <em>all</em> registered voters in the state who support the measure is plausibly between \\(54\\% - 4.4\\% = 49.6\\%\\) and \\(54\\% + 4.4\\% = 58.4\\%\\), which is choice A. Choice B is incorrect: 54% is the sample percent; the percent for all voters is only estimated. Choice C is incorrect: the interval of plausible values includes 49.6%, which is less than 50%, so a majority is not certain. Choice D is incorrect: exactly 54% of the voters in the sample support the measure; the interval describes all voters in the state."
+  },
+  {
+   "id": "extra-inference-02-v2",
+   "family": "extra-inference-02",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A marine biologist measured the shell lengths of a random sample of 60 sea turtles that nest on a certain island. The mean shell length for the sample was 82 centimeters, with an associated margin of error of 2.5 centimeters. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Every sea turtle that nests on the island has a shell length between 79.5 centimeters and 84.5 centimeters.",
+    "It is plausible that the mean shell length of all sea turtles that nest on the island is 86 centimeters.",
+    "The mean shell length of all sea turtles that nest on the island is greater than 82 centimeters.",
+    "It is plausible that the mean shell length of all sea turtles that nest on the island is between 79.5 centimeters and 84.5 centimeters."
+   ],
+   "answer": "D",
+   "explanation": "The plausible values for the mean shell length of all sea turtles that nest on the island are from \\(82 - 2.5 = 79.5\\) centimeters to \\(82 + 2.5 = 84.5\\) centimeters. This matches choice D. Choice A is incorrect: the margin of error is about the mean, not the lengths of individual turtles, many of which may be outside this interval. Choice B is incorrect: 86 centimeters is greater than 84.5 centimeters, so it is outside the interval of plausible values. Choice C is incorrect: the population mean could plausibly be less than, equal to, or greater than 82 centimeters."
+  },
+  {
+   "id": "extra-inference-02-v3",
+   "family": "extra-inference-02",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A random sample of 400 smartphone users in a country reported their daily screen time. The mean daily screen time for the sample was 4.1 hours, with an associated margin of error of 0.3 hours. Which of the following is a plausible value for the mean daily screen time, in hours, of all smartphone users in the country?",
+   "choices": [
+    "3.6",
+    "3.9",
+    "4.5",
+    "4.8"
+   ],
+   "answer": "B",
+   "explanation": "The plausible values for the population mean are from \\(4.1 - 0.3 = 3.8\\) hours to \\(4.1 + 0.3 = 4.4\\) hours. Of the choices, only 3.9 hours is in this interval, so choice B is correct. Choice A is incorrect: 3.6 is less than 3.8, the lower end of the interval of plausible values. Choice C is incorrect: 4.5 is greater than 4.4, the upper end of the interval of plausible values. Choice D is incorrect: 4.8 is greater than 4.4, the upper end of the interval of plausible values."
+  },
+  {
+   "id": "extra-inference-02-v4",
+   "family": "extra-inference-02",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A transit agency surveyed a random sample of 250 residents of a town. Of those surveyed, 38% said they would ride a proposed new bus route. The margin of error for this estimate is 6%. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "Fewer than 32% of all residents of the town would ride the new bus route.",
+    "It is plausible that between 32% and 44% of all residents of the town would ride the new bus route.",
+    "Exactly 38% of all residents of the town would ride the new bus route.",
+    "Between 32% and 44% of the 250 residents surveyed would ride the new bus route."
+   ],
+   "answer": "B",
+   "explanation": "The interval of plausible values for the percent of <em>all</em> residents who would ride the route is from \\(38\\% - 6\\% = 32\\%\\) to \\(38\\% + 6\\% = 44\\%\\), which is choice B. Choice A is incorrect: percents less than 32% are outside the interval of plausible values. Choice C is incorrect: 38% is the sample percent; the percent for all residents is only estimated. Choice D is incorrect: exactly 38% of the residents surveyed said they would ride the route; the interval describes all residents of the town."
+  },
+  {
+   "id": "extra-inference-02-v5",
+   "family": "extra-inference-02",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A nutritionist measured the sodium content of a random sample of 80 sandwiches sold by a restaurant chain. The mean sodium content for the sample was 910 milligrams, with an associated margin of error of 45 milligrams. Which of the following is the most appropriate conclusion about the mean sodium content of all sandwiches sold by the chain?",
+   "choices": [
+    "It is plausible that the mean is between 865 milligrams and 955 milligrams.",
+    "It is plausible that the mean is 980 milligrams.",
+    "The mean is at most 910 milligrams.",
+    "Each sandwich sold by the chain has between 865 milligrams and 955 milligrams of sodium."
+   ],
+   "answer": "A",
+   "explanation": "The plausible values for the mean sodium content of all sandwiches sold by the chain are from \\(910 - 45 = 865\\) milligrams to \\(910 + 45 = 955\\) milligrams, which is choice A. Choice B is incorrect: 980 milligrams is greater than 955 milligrams, so it is outside the interval of plausible values. Choice C is incorrect: the population mean could plausibly be greater than 910 milligrams, up to 955 milligrams. Choice D is incorrect: the margin of error describes the estimate of the mean, not the sodium content of individual sandwiches."
+  },
+  {
+   "id": "extra-inference-02-v6",
+   "family": "extra-inference-02",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "An engineer tested a random sample of 50 batteries from a large production run. The mean lifetime of the batteries in the sample was 19.4 hours, with an associated margin of error of 0.8 hours. The manufacturer claims that the mean lifetime of all batteries in the production run is 21 hours. Which of the following statements is best supported by the engineer's results?",
+   "choices": [
+    "The claim is plausible, because 21 hours is within 2 hours of 19.4 hours.",
+    "The claim is plausible, because 21 hours is greater than 19.4 hours.",
+    "The claim is not plausible, because 21 hours is greater than 20.2 hours.",
+    "The claim is not plausible, because 21 hours is not equal to 19.4 hours."
+   ],
+   "answer": "C",
+   "explanation": "The plausible values for the mean lifetime of all batteries in the production run are from \\(19.4 - 0.8 = 18.6\\) hours to \\(19.4 + 0.8 = 20.2\\) hours. Since 21 hours is greater than 20.2 hours, the claim is not plausible, which is choice C. Choice A is incorrect: the interval of plausible values extends only 0.8 hours on each side of 19.4 hours, not 2 hours. Choice B is incorrect: a value is plausible only if it is within the margin of error of the sample mean, and 21 hours is not. Choice D is incorrect: values other than 19.4 hours can be plausible; for example, 20 hours is within the margin of error."
+  },
+  {
+   "id": "extra-inference-02-v7",
+   "family": "extra-inference-02",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A city has 40,000 households. In a random sample of 300 of these households, 23% had a smart speaker. The margin of error for this estimate is 5%. Based on these results, which of the following is a plausible value for the number of households in the city that have a smart speaker?",
+   "choices": [
+    "5,000",
+    "10,000",
+    "12,000",
+    "14,000"
+   ],
+   "answer": "B",
+   "explanation": "The plausible values for the percent of all households in the city with a smart speaker are from \\(23\\% - 5\\% = 18\\%\\) to \\(23\\% + 5\\% = 28\\%\\). So plausible numbers of households are from \\(0.18(40{,}000) = 7{,}200\\) to \\(0.28(40{,}000) = 11{,}200\\). Only 10,000 is in this interval, so choice B is correct. Choice A is incorrect: 5,000 is 12.5% of 40,000, which is less than 18%. Choice C is incorrect: 12,000 is 30% of 40,000, which is greater than 28%. Choice D is incorrect: 14,000 is 35% of 40,000, which is greater than 28%."
+  },
+  {
+   "id": "extra-inference-03",
+   "family": "extra-inference-03",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Two researchers each estimated the mean height of the sunflowers in the same large field. Researcher A measured a random sample of 40 sunflowers, and Researcher B measured a random sample of 160 sunflowers. Both researchers used the same method to calculate a margin of error. Which of the following is most likely true?",
+   "choices": [
+    "The margin of error for Researcher A's estimate is smaller than the margin of error for Researcher B's estimate.",
+    "The margin of error for Researcher B's estimate is smaller than the margin of error for Researcher A's estimate.",
+    "The margins of error for the two estimates are the same.",
+    "Researcher B's estimate is exactly equal to the mean height of all sunflowers in the field."
+   ],
+   "answer": "B",
+   "explanation": "When random samples are taken from the same population and the margin of error is calculated the same way, a larger sample generally gives a smaller margin of error. Researcher B's sample is larger, so choice B is correct. Choice A is incorrect: Researcher A used the smaller sample, which generally gives a larger margin of error. Choice C is incorrect: the sample sizes differ, so the margins of error are most likely different. Choice D is incorrect: any estimate from a sample, even a large one, has some uncertainty."
+  },
+  {
+   "id": "extra-inference-03-v1",
+   "family": "extra-inference-03",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A polling organization surveyed a random sample of 600 voters in a city, and the margin of error for its estimate was 4%. Suppose the organization had instead surveyed a random sample of 1,500 voters from the same city, using the same method. Which of the following is most likely true about the margin of error for this larger survey?",
+   "choices": [
+    "It would be greater than 4%.",
+    "It would be equal to 4%.",
+    "It would be exactly 10%.",
+    "It would be less than 4%."
+   ],
+   "answer": "D",
+   "explanation": "Increasing the size of a random sample from the same population generally decreases the margin of error. So the margin of error for the survey of 1,500 voters would most likely be less than 4%, which is choice D. Choice A is incorrect: a larger random sample generally gives a smaller margin of error, not a larger one. Choice B is incorrect: the margin of error depends on the sample size, so it would most likely change. Choice C is incorrect: a larger sample would not increase the margin of error, and there is no reason for it to be exactly 10%."
+  },
+  {
+   "id": "extra-inference-03-v2",
+   "family": "extra-inference-03",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A school counselor surveyed a random sample of 250 students at a large high school to estimate the mean number of hours per week that students at the school spend on homework. Which of the following changes to the survey would most likely decrease the margin of error of the estimate?",
+   "choices": [
+    "Surveying a random sample of 500 students at the school instead of 250",
+    "Surveying a random sample of 125 students at the school instead of 250",
+    "Surveying only the students who volunteer to respond",
+    "Surveying only students in one grade level"
+   ],
+   "answer": "A",
+   "explanation": "The margin of error of an estimate from a random sample generally decreases as the sample size increases. Surveying a random sample of 500 students instead of 250 would most likely decrease the margin of error, which is choice A. Choice B is incorrect: a smaller sample would most likely increase the margin of error. Choice C is incorrect: a sample of volunteers is not a random sample and may be biased; this does not reliably reduce the margin of error. Choice D is incorrect: this would not be a random sample of all students at the school, so it would not give a better estimate for the whole school."
+  },
+  {
+   "id": "extra-inference-03-v3",
+   "family": "extra-inference-03",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A state agency wants to estimate the proportion of adults in the state who use public libraries. Four teams will each select a random sample of adults in the state and use the same method to calculate a margin of error. Team P will survey 200 adults, Team Q will survey 1,200 adults, Team R will survey 450 adults, and Team S will survey 800 adults. Which team's estimate will most likely have the smallest margin of error?",
+   "choices": [
+    "Team P",
+    "Team Q",
+    "Team R",
+    "Team S"
+   ],
+   "answer": "B",
+   "explanation": "All four teams take random samples from the same population and use the same method, so the team with the largest sample will most likely have the smallest margin of error. Team Q surveys the most adults, 1,200, so choice B is correct. Choice A is incorrect: Team P has the smallest sample, so its margin of error will most likely be the <em>largest</em>. Choice C is incorrect: Team R's sample of 450 is smaller than Team Q's sample of 1,200. Choice D is incorrect: Team S's sample of 800 is smaller than Team Q's sample of 1,200."
+  },
+  {
+   "id": "extra-inference-03-v4",
+   "family": "extra-inference-03",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "In Study 1, a random sample of 25 apples from an orchard was weighed, and the mean weight was estimated with a margin of error of 12 grams. In Study 2, a random sample of 100 apples from the same orchard was weighed, and the mean weight was estimated using the same method. Which of the following could be the margin of error for Study 2?",
+   "choices": [
+    "6 grams",
+    "12 grams",
+    "18 grams",
+    "48 grams"
+   ],
+   "answer": "A",
+   "explanation": "Study 2 uses a larger random sample from the same orchard, so its margin of error is most likely smaller than Study 1's margin of error of 12 grams. The only choice less than 12 grams is 6 grams, choice A. Choice B is incorrect: the larger sample in Study 2 would most likely give a margin of error smaller than 12 grams. Choice C is incorrect: a larger sample would most likely decrease the margin of error, not increase it. Choice D is incorrect: this multiplies the margin of error by 4, but a larger sample decreases the margin of error."
+  },
+  {
+   "id": "extra-inference-03-v5",
+   "family": "extra-inference-03",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Two surveys were conducted to estimate the percent of households in a county that have high-speed internet. Each survey used a random sample of households in the county and the same method to calculate a margin of error. The margin of error for Survey A was 2.1%, and the margin of error for Survey B was 5.3%. Which of the following is most likely true?",
+   "choices": [
+    "Survey B used a larger sample of households than Survey A did.",
+    "The two surveys used samples of the same size.",
+    "Survey A used a larger sample of households than Survey B did.",
+    "Survey A's estimate is exactly equal to the percent of all households in the county that have high-speed internet."
+   ],
+   "answer": "C",
+   "explanation": "For random samples from the same population with the same method, a smaller margin of error generally comes from a larger sample. Survey A has the smaller margin of error, so Survey A most likely used the larger sample, which is choice C. Choice A is incorrect: a larger sample would most likely give Survey B the smaller margin of error, but Survey B's margin of error is larger. Choice B is incorrect: samples of the same size would most likely give similar margins of error, but 2.1% and 5.3% are quite different. Choice D is incorrect: a margin of error of 2.1% means Survey A's estimate still has some uncertainty."
+  },
+  {
+   "id": "extra-inference-03-v6",
+   "family": "extra-inference-03",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A city planner used a random sample of 90 households in a city to estimate the mean daily water use of households in the city. The planner wants to repeat the study with a smaller margin of error. Which of the following samples would most likely give a smaller margin of error for an estimate of the mean daily water use of all households in the city?",
+   "choices": [
+    "A random sample of 45 households from the city",
+    "A random sample of 90 households from one neighborhood in the city",
+    "The 90 households in the city with the greatest water use",
+    "A random sample of 360 households from the city"
+   ],
+   "answer": "D",
+   "explanation": "To estimate a mean for all households in the city, the sample should be randomly selected from all households in the city, and a larger random sample generally gives a smaller margin of error. A random sample of 360 households from the city does both, so choice D is correct. Choice A is incorrect: a smaller sample would most likely give a larger margin of error. Choice B is incorrect: the sample is the same size, and households from one neighborhood may not represent all households in the city. Choice C is incorrect: this sample is not random and would give a biased estimate."
+  },
+  {
+   "id": "extra-inference-03-v7",
+   "family": "extra-inference-03",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A scientist measured a random sample of 30 fish from a river and estimated the mean length of the fish in the river with a margin of error of 1.8 centimeters. A second scientist used the same method to estimate the mean length from a random sample of 12 fish from the same river. Which of the following is most likely true about the second scientist's margin of error?",
+   "choices": [
+    "It is less than 1.8 centimeters.",
+    "It is greater than 1.8 centimeters.",
+    "It is equal to 1.8 centimeters.",
+    "It is 0 centimeters."
+   ],
+   "answer": "B",
+   "explanation": "A smaller random sample from the same population generally gives a larger margin of error. The second scientist's sample of 12 fish is smaller than 30 fish, so the margin of error is most likely greater than 1.8 centimeters, which is choice B. Choice A is incorrect: a smaller sample generally gives a larger margin of error, not a smaller one. Choice C is incorrect: the sample sizes differ, so the margins of error are most likely different. Choice D is incorrect: every estimate from a random sample has some margin of error."
+  },
+  {
+   "id": "extra-inference-04",
+   "family": "extra-inference-04",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A researcher selected 300 students at random from all the students at Lincoln High School and asked each student how many hours of sleep they get on a typical school night. The mean for the sample was 7.1 hours, with an associated margin of error of 0.2 hours. What is the largest population to which the results of this survey can be generalized?",
+   "choices": [
+    "Only the 300 students who were surveyed",
+    "All students at Lincoln High School",
+    "All high school students in the state",
+    "All teenagers in the United States"
+   ],
+   "answer": "B",
+   "explanation": "Results from a random sample can be generalized only to the population the sample was selected from. The students were selected at random from all students at Lincoln High School, so the results can be generalized to all students at Lincoln High School, choice B. Choice A is incorrect: because the sample was selected at random, the results can be generalized beyond the 300 students surveyed. Choice C is incorrect: the sample was selected from only one high school, so it may not represent all high school students in the state. Choice D is incorrect: the sample was selected from only one high school, so it may not represent all teenagers in the United States."
+  },
+  {
+   "id": "extra-inference-04-v1",
+   "family": "extra-inference-04",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A grocery chain has 14 stores. The manager of the chain's downtown store selected a random sample of 500 customers who shopped at the downtown store and asked them to rate their satisfaction with the store. Which of the following statements about the results is most appropriate?",
+   "choices": [
+    "The results can be generalized to all customers of the downtown store, but not to customers of the chain's other stores.",
+    "The results can be generalized to all customers of all 14 stores in the chain.",
+    "The results can be generalized to all grocery shoppers in the city.",
+    "The results cannot be generalized beyond the 500 customers surveyed."
+   ],
+   "answer": "A",
+   "explanation": "The customers were randomly selected from the customers of the downtown store, so the results can be generalized to that population, and no larger one. That is choice A. Choice B is incorrect: only customers of the downtown store were sampled, so customers of the other 13 stores were not represented. Choice C is incorrect: shoppers at other stores or other grocery chains had no chance of being selected. Choice D is incorrect: because the 500 customers were selected at random, the results can be generalized to all customers of the downtown store."
+  },
+  {
+   "id": "extra-inference-04-v2",
+   "family": "extra-inference-04",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A county has 200 ponds. A biologist randomly selected 40 of these ponds and tested the water in each one. Of the ponds tested, 30% were found to be acidic. Which of the following conclusions is best supported by these results?",
+   "choices": [
+    "About 30% of all ponds in the state are acidic.",
+    "Exactly 12 of the 200 ponds in the county are acidic.",
+    "About 60 ponds in the state are acidic.",
+    "About 60 of the 200 ponds in the county are acidic."
+   ],
+   "answer": "D",
+   "explanation": "The 40 ponds were randomly selected from the 200 ponds in the county, so the sample percent can be applied to the county's ponds: \\(0.30(200) = 60\\). A reasonable estimate is that about 60 of the 200 ponds in the county are acidic, which is choice D. Choice A is incorrect: the sample was selected only from ponds in one county, so it cannot be generalized to ponds throughout the state. Choice B is incorrect: 12 is the number of acidic ponds in the sample; the other 160 ponds in the county were not tested, so the total is estimated to be about 60. Choice C is incorrect: 60 is an estimate for the 200 ponds in the county, not for all ponds in the state."
+  },
+  {
+   "id": "extra-inference-04-v3",
+   "family": "extra-inference-04",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A national association of nurses selected a random sample of 1,000 of its members and asked whether they favor a proposed change to work schedules. Of those surveyed, 72% said they favor the change. Which of the following is the largest population to which the results of this survey can be generalized?",
+   "choices": [
+    "Only the 1,000 members who were surveyed",
+    "All nurses in the country",
+    "All members of the association",
+    "All health care workers in the country"
+   ],
+   "answer": "C",
+   "explanation": "The sample was selected at random from the members of the association, so the results can be generalized to all members of the association, choice C. Choice A is incorrect: because the sample was random, the results can be generalized beyond the people surveyed. Choice B is incorrect: nurses who are not members of the association had no chance of being selected. Choice D is incorrect: health care workers who are not members of the association had no chance of being selected."
+  },
+  {
+   "id": "extra-inference-04-v4",
+   "family": "extra-inference-04",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A company has offices in four cities. The company selected a random sample of 250 employees who work at its office in Denver and found that their mean commute time was 34 minutes, with an associated margin of error of 4 minutes. Which of the following is the most appropriate conclusion?",
+   "choices": [
+    "It is plausible that the mean commute time of all employees of the company is between 30 minutes and 38 minutes.",
+    "It is plausible that the mean commute time of all employees at the Denver office is between 30 minutes and 38 minutes.",
+    "Every employee at the Denver office has a commute time between 30 minutes and 38 minutes.",
+    "The mean commute time of employees at each of the company's four offices is 34 minutes."
+   ],
+   "answer": "B",
+   "explanation": "The employees were randomly selected from the Denver office, so the plausible interval, 30 to 38 minutes, applies to the mean commute time of all employees at the Denver office. Employees at the other offices were not sampled, so the results cannot be generalized to them. That is choice B. Choice A is incorrect: employees at the other three offices were not sampled, so the results cannot be generalized to all employees of the company. Choice C is incorrect: the interval describes plausible values of the mean, not the commute times of individual employees. Choice D is incorrect: only the Denver office was sampled, and even for Denver the mean is estimated, not known exactly."
+  },
+  {
+   "id": "extra-inference-04-v5",
+   "family": "extra-inference-04",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A high school's chess club has 85 members. A student selected a random sample of 30 members of the chess club and asked how many hours they practice chess each week. What is the largest population to which the results of this survey can be generalized?",
+   "choices": [
+    "Only the 30 members who were surveyed",
+    "All students at the high school",
+    "All high school chess players in the state",
+    "All members of the school's chess club"
+   ],
+   "answer": "D",
+   "explanation": "The 30 students were randomly selected from the members of the chess club, so the results can be generalized to all 85 members of the chess club, choice D. Choice A is incorrect: because the sample was random, the results can be generalized to all members of the club. Choice B is incorrect: students who are not in the chess club had no chance of being selected, and they likely practice chess much less. Choice C is incorrect: the sample was selected from only one school's chess club."
+  },
+  {
+   "id": "extra-inference-04-v6",
+   "family": "extra-inference-04",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A state agency selected a random sample of 2,000 people from its list of all licensed drivers in the state and asked each person how many miles they drive in a typical week. What is the largest population to which the results of this survey can be generalized?",
+   "choices": [
+    "All licensed drivers in the state",
+    "All residents of the state",
+    "All licensed drivers in the country",
+    "Only the 2,000 drivers who were surveyed"
+   ],
+   "answer": "A",
+   "explanation": "The sample was selected at random from all licensed drivers in the state, so the results can be generalized to all licensed drivers in the state, choice A. Choice B is incorrect: residents who are not licensed drivers had no chance of being selected. Choice C is incorrect: only drivers licensed in this state were sampled. Choice D is incorrect: because the sample was random, the results can be generalized beyond the drivers surveyed."
+  },
+  {
+   "id": "extra-inference-04-v7",
+   "family": "extra-inference-04",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-inference",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Researchers selected a random sample of 120 adults from among all adults who visited a certain national park in July and asked how many hours they spent hiking during their visit. What is the largest population to which the results of this survey can be generalized?",
+   "choices": [
+    "All adults who visited the park during the year",
+    "All adults in the United States",
+    "All adults who visited the park in July",
+    "All adults who visit national parks"
+   ],
+   "answer": "C",
+   "explanation": "The sample was selected at random from adults who visited the park in July, so the results can be generalized only to that group, choice C. Visitors in other months or to other parks had no chance of being selected. Choice A is incorrect: visitors in months other than July had no chance of being selected, and their hiking habits may differ. Choice B is incorrect: only visitors to this park in July were sampled. Choice D is incorrect: visitors to other parks had no chance of being selected."
+  }
+ ]
+}

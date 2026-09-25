@@ -1,0 +1,1253 @@
+{
+ "questions": [
+  {
+   "id": "extra-prob-01",
+   "family": "extra-prob-01",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A botanist gave each of 200 plants one of two fertilizers and recorded whether the plant flowered within 30 days. The results are shown in the table.</p><table><tr><th>Fertilizer</th><th>Flowered</th><th>Did not flower</th><th>Total</th></tr><tr><td>A</td><td>46</td><td>34</td><td>80</td></tr><tr><td>B</td><td>72</td><td>48</td><td>120</td></tr><tr><td>Total</td><td>118</td><td>82</td><td>200</td></tr></table><p>If one of the plants that flowered is selected at random, what is the probability that the plant received fertilizer B?</p>",
+   "choices": [
+    "\\(\\frac{72}{120}\\)",
+    "\\(\\frac{72}{200}\\)",
+    "\\(\\frac{72}{118}\\)",
+    "\\(\\frac{46}{118}\\)"
+   ],
+   "answer": "C",
+   "explanation": "Because the selection is made only from the “Flowered” group, the sample space is that group, which has a total of 118. Of these, 72 are in the “B” category. So the probability is \\(\\frac{72}{118}\\). Choice A is incorrect: it divides by 120, the total in the “B” category, which reverses the condition. Choice B is incorrect: it divides by 200, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice D is incorrect: it uses 46, the count for “A,” instead of the count for “B.”"
+  },
+  {
+   "id": "extra-prob-01-v1",
+   "family": "extra-prob-01",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>The table shows the number of juniors and seniors in a school club who do or do not own a pet.</p><table><tr><th>Class</th><th>Owns a pet</th><th>Does not own a pet</th><th>Total</th></tr><tr><td>Juniors</td><td>38</td><td>27</td><td>65</td></tr><tr><td>Seniors</td><td>44</td><td>31</td><td>75</td></tr><tr><td>Total</td><td>82</td><td>58</td><td>140</td></tr></table><p>If one of the seniors in the club is selected at random, what is the probability that the senior owns a pet?</p>",
+   "choices": [
+    "\\(\\frac{44}{75}\\)",
+    "\\(\\frac{44}{82}\\)",
+    "\\(\\frac{44}{140}\\)",
+    "\\(\\frac{31}{75}\\)"
+   ],
+   "answer": "A",
+   "explanation": "Because the selection is made only from the “Seniors” group, the sample space is that group, which has a total of 75. Of these, 44 are in the “Owns a pet” category. So the probability is \\(\\frac{44}{75}\\). Choice B is incorrect: it divides by 82, the total in the “Owns a pet” category, which reverses the condition. Choice C is incorrect: it divides by 140, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice D is incorrect: it uses 31, the count for “Does not own a pet,” instead of the count for “Owns a pet.”"
+  },
+  {
+   "id": "extra-prob-01-v2",
+   "family": "extra-prob-01",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A museum recorded whether each of 250 visitors on a Saturday was an adult or a child and whether the visitor took a guided tour or a self-guided tour.</p><table><tr><th>Visitor</th><th>Guided tour</th><th>Self-guided tour</th><th>Total</th></tr><tr><td>Adult</td><td>63</td><td>87</td><td>150</td></tr><tr><td>Child</td><td>45</td><td>55</td><td>100</td></tr><tr><td>Total</td><td>108</td><td>142</td><td>250</td></tr></table><p>If one of the visitors who took a guided tour is selected at random, what is the probability that the visitor is a child?</p>",
+   "choices": [
+    "\\(\\frac{45}{100}\\)",
+    "\\(\\frac{45}{250}\\)",
+    "\\(\\frac{63}{108}\\)",
+    "\\(\\frac{45}{108}\\)"
+   ],
+   "answer": "D",
+   "explanation": "Because the selection is made only from the “Guided tour” group, the sample space is that group, which has a total of 108. Of these, 45 are in the “Child” category. So the probability is \\(\\frac{45}{108}\\). Choice A is incorrect: it divides by 100, the total in the “Child” category, which reverses the condition. Choice B is incorrect: it divides by 250, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice C is incorrect: it uses 63, the count for “Adult,” instead of the count for “Child.”"
+  },
+  {
+   "id": "extra-prob-01-v3",
+   "family": "extra-prob-01",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A café classified 300 drink orders by type of drink and by the time of day the order was placed.</p><table><tr><th>Drink</th><th>Morning</th><th>Afternoon</th><th>Total</th></tr><tr><td>Hot</td><td>124</td><td>56</td><td>180</td></tr><tr><td>Cold</td><td>41</td><td>79</td><td>120</td></tr><tr><td>Total</td><td>165</td><td>135</td><td>300</td></tr></table><p>If one of the afternoon orders is selected at random, what is the probability that it is an order for a cold drink?</p>",
+   "choices": [
+    "\\(\\frac{79}{120}\\)",
+    "\\(\\frac{79}{135}\\)",
+    "\\(\\frac{79}{300}\\)",
+    "\\(\\frac{56}{135}\\)"
+   ],
+   "answer": "B",
+   "explanation": "Because the selection is made only from the “Afternoon” group, the sample space is that group, which has a total of 135. Of these, 79 are in the “Cold” category. So the probability is \\(\\frac{79}{135}\\). Choice A is incorrect: it divides by 120, the total in the “Cold” category, which reverses the condition. Choice C is incorrect: it divides by 300, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice D is incorrect: it uses 56, the count for “Hot,” instead of the count for “Cold.”"
+  },
+  {
+   "id": "extra-prob-01-v4",
+   "family": "extra-prob-01",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>The table shows the number of athletes on a school's swim team and track team who are left-handed or right-handed. No athlete is on both teams.</p><table><tr><th>Team</th><th>Left-handed</th><th>Right-handed</th><th>Total</th></tr><tr><td>Swim</td><td>9</td><td>51</td><td>60</td></tr><tr><td>Track</td><td>14</td><td>86</td><td>100</td></tr><tr><td>Total</td><td>23</td><td>137</td><td>160</td></tr></table><p>If one of the left-handed athletes is selected at random, what is the probability that the athlete is on the track team?</p>",
+   "choices": [
+    "\\(\\frac{14}{100}\\)",
+    "\\(\\frac{14}{160}\\)",
+    "\\(\\frac{14}{23}\\)",
+    "\\(\\frac{9}{23}\\)"
+   ],
+   "answer": "C",
+   "explanation": "Because the selection is made only from the “Left-handed” group, the sample space is that group, which has a total of 23. Of these, 14 are in the “Track” category. So the probability is \\(\\frac{14}{23}\\). Choice A is incorrect: it divides by 100, the total in the “Track” category, which reverses the condition. Choice B is incorrect: it divides by 160, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice D is incorrect: it uses 9, the count for “Swim,” instead of the count for “Track.”"
+  },
+  {
+   "id": "extra-prob-01-v5",
+   "family": "extra-prob-01",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A survey of 250 vehicles in a parking garage recorded the body style and the fuel type of each vehicle.</p><table><tr><th>Body style</th><th>Electric</th><th>Gasoline</th><th>Total</th></tr><tr><td>Sedan</td><td>27</td><td>93</td><td>120</td></tr><tr><td>SUV</td><td>18</td><td>112</td><td>130</td></tr><tr><td>Total</td><td>45</td><td>205</td><td>250</td></tr></table><p>If one of the SUVs is selected at random, what is the probability that it is electric?</p>",
+   "choices": [
+    "\\(\\frac{18}{130}\\)",
+    "\\(\\frac{18}{45}\\)",
+    "\\(\\frac{18}{250}\\)",
+    "\\(\\frac{112}{130}\\)"
+   ],
+   "answer": "A",
+   "explanation": "Because the selection is made only from the “SUV” group, the sample space is that group, which has a total of 130. Of these, 18 are in the “Electric” category. So the probability is \\(\\frac{18}{130}\\). Choice B is incorrect: it divides by 45, the total in the “Electric” category, which reverses the condition. Choice C is incorrect: it divides by 250, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice D is incorrect: it uses 112, the count for “Gasoline,” instead of the count for “Electric.”"
+  },
+  {
+   "id": "extra-prob-01-v6",
+   "family": "extra-prob-01",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>In an experiment, 160 seeds were planted in either clay soil or sandy soil, and each seed was recorded as having germinated or not.</p><table><tr><th>Soil</th><th>Germinated</th><th>Did not germinate</th><th>Total</th></tr><tr><td>Clay</td><td>52</td><td>28</td><td>80</td></tr><tr><td>Sandy</td><td>39</td><td>41</td><td>80</td></tr><tr><td>Total</td><td>91</td><td>69</td><td>160</td></tr></table><p>If one of the seeds planted in sandy soil is selected at random, what is the probability that the seed did not germinate?</p>",
+   "choices": [
+    "\\(\\frac{41}{69}\\)",
+    "\\(\\frac{41}{160}\\)",
+    "\\(\\frac{39}{80}\\)",
+    "\\(\\frac{41}{80}\\)"
+   ],
+   "answer": "D",
+   "explanation": "Because the selection is made only from the “Sandy” group, the sample space is that group, which has a total of 80. Of these, 41 are in the “Did not germinate” category. So the probability is \\(\\frac{41}{80}\\). Choice A is incorrect: it divides by 69, the total in the “Did not germinate” category, which reverses the condition. Choice B is incorrect: it divides by 160, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice C is incorrect: it uses 39, the count for “Germinated,” instead of the count for “Did not germinate.”"
+  },
+  {
+   "id": "extra-prob-01-v7",
+   "family": "extra-prob-01",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A library tracked 240 books checked out in one day by genre and by format.</p><table><tr><th>Genre</th><th>Print</th><th>E-book</th><th>Total</th></tr><tr><td>Fiction</td><td>88</td><td>62</td><td>150</td></tr><tr><td>Nonfiction</td><td>57</td><td>33</td><td>90</td></tr><tr><td>Total</td><td>145</td><td>95</td><td>240</td></tr></table><p>If one of the e-books checked out that day is selected at random, what is the probability that it is nonfiction?</p>",
+   "choices": [
+    "\\(\\frac{33}{90}\\)",
+    "\\(\\frac{33}{95}\\)",
+    "\\(\\frac{33}{240}\\)",
+    "\\(\\frac{62}{95}\\)"
+   ],
+   "answer": "B",
+   "explanation": "Because the selection is made only from the “E-book” group, the sample space is that group, which has a total of 95. Of these, 33 are in the “Nonfiction” category. So the probability is \\(\\frac{33}{95}\\). Choice A is incorrect: it divides by 90, the total in the “Nonfiction” category, which reverses the condition. Choice C is incorrect: it divides by 240, the total of the whole table, which gives the probability of both events rather than a conditional probability. Choice D is incorrect: it uses 62, the count for “Fiction,” instead of the count for “Nonfiction.”"
+  },
+  {
+   "id": "extra-prob-02",
+   "family": "extra-prob-02",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A jar contains only red and blue marbles: 8 red marbles and 24 blue marbles. How many red marbles must be added to the jar so that the probability of randomly selecting a red marble is \\(\\frac{2}{5}\\)?",
+   "answer": [
+    "8"
+   ],
+   "explanation": "Let \\(k\\) be the number of red marbles added. Then there are \\(8+k\\) red marbles out of \\(32+k\\) total, so \\(\\frac{8+k}{32+k}=\\frac{2}{5}\\). Cross-multiplying gives \\(5(8+k)=2(32+k)\\), or \\(40+5k=64+2k\\). So \\(3k=24\\) and \\(k=8\\). Check: \\(\\frac{16}{40}=\\frac{2}{5}\\). A common mistake is to set \\(\\frac{8+k}{24}\\) equal to the probability, comparing red marbles to blue marbles only instead of to the total."
+  },
+  {
+   "id": "extra-prob-02-v1",
+   "family": "extra-prob-02",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A playlist contains only pop songs and rock songs. It has 18 pop songs and 30 rock songs. Kenji adds only pop songs to the playlist. After he adds them, the probability that a song chosen at random from the playlist is a pop song is \\(\\frac{1}{2}\\). How many pop songs did Kenji add?",
+   "answer": [
+    "12"
+   ],
+   "explanation": "Let \\(k\\) be the number of pop songs added. Then there are \\(18+k\\) pop songs out of \\(48+k\\) total, so \\(\\frac{18+k}{48+k}=\\frac{1}{2}\\). Cross-multiplying gives \\(2(18+k)=1(48+k)\\), or \\(36+2k=48+1k\\). So \\(1k=12\\) and \\(k=12\\). Check: \\(\\frac{30}{60}=\\frac{1}{2}\\). A common mistake is to set \\(\\frac{18+k}{30}\\) equal to the probability, comparing pop songs to rock songs only instead of to the total."
+  },
+  {
+   "id": "extra-prob-02-v2",
+   "family": "extra-prob-02",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "An aquarium contains 6 goldfish and 21 guppies and no other fish. Some goldfish are added to the aquarium, and no other fish are added. If one fish is then selected at random, the probability that it is a goldfish is \\(\\frac{5}{12}\\). How many goldfish were added?",
+   "answer": [
+    "9"
+   ],
+   "explanation": "Let \\(k\\) be the number of goldfish added. Then there are \\(6+k\\) goldfish out of \\(27+k\\) total, so \\(\\frac{6+k}{27+k}=\\frac{5}{12}\\). Cross-multiplying gives \\(12(6+k)=5(27+k)\\), or \\(72+12k=135+5k\\). So \\(7k=63\\) and \\(k=9\\). Check: \\(\\frac{15}{36}=\\frac{5}{12}\\). A common mistake is to set \\(\\frac{6+k}{21}\\) equal to the probability, comparing goldfish to guppies only instead of to the total."
+  },
+  {
+   "id": "extra-prob-02-v3",
+   "family": "extra-prob-02",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A stack of index cards contains 10 blue cards and 35 white cards and no other cards. How many blue cards must be added to the stack so that the probability of selecting a blue card at random is \\(\\frac{3}{8}\\)?",
+   "answer": [
+    "11"
+   ],
+   "explanation": "Let \\(k\\) be the number of blue cards added. Then there are \\(10+k\\) blue cards out of \\(45+k\\) total, so \\(\\frac{10+k}{45+k}=\\frac{3}{8}\\). Cross-multiplying gives \\(8(10+k)=3(45+k)\\), or \\(80+8k=135+3k\\). So \\(5k=55\\) and \\(k=11\\). Check: \\(\\frac{21}{56}=\\frac{3}{8}\\). A common mistake is to set \\(\\frac{10+k}{35}\\) equal to the probability, comparing blue cards to white cards only instead of to the total."
+  },
+  {
+   "id": "extra-prob-02-v4",
+   "family": "extra-prob-02",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A bin contains 40 tennis balls: 14 are green and 26 are yellow. A coach adds only green tennis balls to the bin. After the balls are added, the probability that a ball selected at random from the bin is green is \\(\\frac{3}{5}\\). How many green tennis balls did the coach add?",
+   "answer": [
+    "25"
+   ],
+   "explanation": "Let \\(k\\) be the number of green balls added. Then there are \\(14+k\\) green balls out of \\(40+k\\) total, so \\(\\frac{14+k}{40+k}=\\frac{3}{5}\\). Cross-multiplying gives \\(5(14+k)=3(40+k)\\), or \\(70+5k=120+3k\\). So \\(2k=50\\) and \\(k=25\\). Check: \\(\\frac{39}{65}=\\frac{3}{5}\\). A common mistake is to set \\(\\frac{14+k}{26}\\) equal to the probability, comparing green balls to yellow balls only instead of to the total."
+  },
+  {
+   "id": "extra-prob-02-v5",
+   "family": "extra-prob-02",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A robotics club has 9 juniors and 27 seniors as members. After some new members join, all of whom are juniors, the probability that a randomly chosen member of the club is a junior is \\(\\frac{2}{5}\\). How many juniors joined the club?",
+   "answer": [
+    "9"
+   ],
+   "explanation": "Let \\(k\\) be the number of juniors added. Then there are \\(9+k\\) juniors out of \\(36+k\\) total, so \\(\\frac{9+k}{36+k}=\\frac{2}{5}\\). Cross-multiplying gives \\(5(9+k)=2(36+k)\\), or \\(45+5k=72+2k\\). So \\(3k=27\\) and \\(k=9\\). Check: \\(\\frac{18}{45}=\\frac{2}{5}\\). A common mistake is to set \\(\\frac{9+k}{27}\\) equal to the probability, comparing juniors to seniors only instead of to the total."
+  },
+  {
+   "id": "extra-prob-02-v6",
+   "family": "extra-prob-02",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A fruit bowl contains only lemons and limes: 20 lemons and 45 limes. How many lemons must be added to the bowl so that the probability of randomly selecting a lemon is \\(\\frac{4}{9}\\)?",
+   "answer": [
+    "16"
+   ],
+   "explanation": "Let \\(k\\) be the number of lemons added. Then there are \\(20+k\\) lemons out of \\(65+k\\) total, so \\(\\frac{20+k}{65+k}=\\frac{4}{9}\\). Cross-multiplying gives \\(9(20+k)=4(65+k)\\), or \\(180+9k=260+4k\\). So \\(5k=80\\) and \\(k=16\\). Check: \\(\\frac{36}{81}=\\frac{4}{9}\\). A common mistake is to set \\(\\frac{20+k}{45}\\) equal to the probability, comparing lemons to limes only instead of to the total."
+  },
+  {
+   "id": "extra-prob-02-v7",
+   "family": "extra-prob-02",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-probability",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A parking lot contains 12 electric cars and 48 gasoline cars and no other vehicles. Later, only electric cars enter the lot, and no cars leave. Then 40% of the cars in the lot are electric. How many electric cars entered the lot?",
+   "answer": [
+    "20"
+   ],
+   "explanation": "Let \\(k\\) be the number of electric cars added. Then there are \\(12+k\\) electric cars out of \\(60+k\\) total, so \\(\\frac{12+k}{60+k}=0.4\\). Cross-multiplying gives \\(5(12+k)=2(60+k)\\), or \\(60+5k=120+2k\\). So \\(3k=60\\) and \\(k=20\\). Check: \\(\\frac{32}{80}=\\frac{2}{5}\\). A common mistake is to set \\(\\frac{12+k}{48}\\) equal to the probability, comparing electric cars to gasoline cars only instead of to the total."
+  },
+  {
+   "id": "extra-trig-01",
+   "family": "extra-trig-01",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the equation \\(\\sin((2x+14)^\\circ)=\\cos((3x-9)^\\circ)\\), both \\((2x+14)^\\circ\\) and \\((3x-9)^\\circ\\) are the measures of acute angles. What is the value of \\(x\\)?",
+   "answer": [
+    "17"
+   ],
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((2x+14)+(3x-9)=90\\), which simplifies to \\(5x+5=90\\). Then \\(5x=85\\) and \\(x=17\\). Check: the angles measure \\(48^\\circ\\) and \\(42^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-01-v1",
+   "family": "extra-trig-01",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "For acute angles, \\(\\cos((4x-6)^\\circ)=\\sin((x+21)^\\circ)\\). What is the value of \\(x\\)?",
+   "answer": [
+    "15"
+   ],
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((4x-6)+(x+21)=90\\), which simplifies to \\(5x+15=90\\). Then \\(5x=75\\) and \\(x=15\\). Check: the angles measure \\(54^\\circ\\) and \\(36^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-01-v2",
+   "family": "extra-trig-01",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In right triangle \\(PQR\\), angle \\(Q\\) is the right angle and the measure of angle \\(P\\) is \\((6x+5)^\\circ\\). If \\(\\sin P=\\cos((2x+13)^\\circ)\\), where \\(0<2x+13<90\\), what is the value of \\(x\\)?",
+   "answer": [
+    "9"
+   ],
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((6x+5)+(2x+13)=90\\), which simplifies to \\(8x+18=90\\). Then \\(8x=72\\) and \\(x=9\\). Check: the angles measure \\(59^\\circ\\) and \\(31^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-01-v3",
+   "family": "extra-trig-01",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "For acute angles, \\(\\cos((7x+4)^\\circ)=\\sin((3x+6)^\\circ)\\). What is the value of \\(x\\)?",
+   "answer": [
+    "8"
+   ],
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((7x+4)+(3x+6)=90\\), which simplifies to \\(10x+10=90\\). Then \\(10x=80\\) and \\(x=8\\). Check: the angles measure \\(60^\\circ\\) and \\(30^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-01-v4",
+   "family": "extra-trig-01",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the equation \\(\\sin((4x+3)^\\circ)=\\cos((2x+10)^\\circ)\\), both \\((4x+3)^\\circ\\) and \\((2x+10)^\\circ\\) are the measures of acute angles. What is the value of \\(x\\)?",
+   "answer": [
+    "77/6",
+    "12.83"
+   ],
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((4x+3)+(2x+10)=90\\), which simplifies to \\(6x+13=90\\). Then \\(6x=77\\) and \\(x=\\frac{77}{6}\\). Check: the angles measure \\(54.33^\\circ\\) and \\(35.67^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-01-v5",
+   "family": "extra-trig-01",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In right triangle \\(JKL\\), angle \\(L\\) is the right angle. The measure of angle \\(J\\) is \\((5x-12)^\\circ\\) and the measure of angle \\(K\\) is \\((x+18)^\\circ\\). Given that \\(\\sin J=\\cos K\\), what is the value of \\(x\\)?",
+   "answer": [
+    "14"
+   ],
+   "explanation": "The acute angles of a right triangle are complementary, so their measures add to \\(90^\\circ\\) (this is also why \\(\\sin J=\\cos K\\)). So \\((5x-12)+(x+18)=90\\), which simplifies to \\(6x+6=90\\). Then \\(6x=84\\) and \\(x=14\\). Check: the angles measure \\(58^\\circ\\) and \\(32^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-01-v6",
+   "family": "extra-trig-01",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "For acute angles, \\(\\cos((4x-5)^\\circ)=\\sin((3x+11)^\\circ)\\). What is the value of \\(x\\)?",
+   "answer": [
+    "12"
+   ],
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((4x-5)+(3x+11)=90\\), which simplifies to \\(7x+6=90\\). Then \\(7x=84\\) and \\(x=12\\). Check: the angles measure \\(43^\\circ\\) and \\(47^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-01-v7",
+   "family": "extra-trig-01",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the equation \\(\\sin((2x+25)^\\circ)=\\cos((5x-12)^\\circ)\\), both \\((2x+25)^\\circ\\) and \\((5x-12)^\\circ\\) are the measures of acute angles. What is the value of \\(x\\)?",
+   "answer": [
+    "11"
+   ],
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((2x+25)+(5x-12)=90\\), which simplifies to \\(7x+13=90\\). Then \\(7x=77\\) and \\(x=11\\). Check: the angles measure \\(47^\\circ\\) and \\(43^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+  },
+  {
+   "id": "extra-trig-02",
+   "family": "extra-trig-02",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{AC}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"40.0,245.0 330,245 330.0,77.6\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 78.0 245.0 A 38 38 0 0 0 72.9 226.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"32.0\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">A</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">C</text><text x=\"338.0\" y=\"79.6\" font-style=\"italic\" font-size=\"18\">B</text><text x=\"101.8\" y=\"234.4\" font-size=\"16\" text-anchor=\"middle\">30°</text><text x=\"174.0\" y=\"149.2\" font-size=\"20\" text-anchor=\"middle\">18</text></g></svg>",
+    "alt": "Right triangle ABC with the right angle at C. Angle A measures 30 degrees. Side AB is labeled 18."
+   },
+   "choices": [
+    "\\(9\\)",
+    "\\(9\\sqrt{2}\\)",
+    "\\(9\\sqrt{3}\\)",
+    "\\(18\\sqrt{3}\\)"
+   ],
+   "answer": "C",
+   "explanation": "The acute angles are \\(30^\\circ\\) and \\(60^\\circ\\), so this is a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle, whose sides are in the ratio \\(1:\\sqrt{3}:2\\) (shorter leg : longer leg : hypotenuse). The shorter leg, \\(BC\\), is opposite the \\(30^\\circ\\) angle. The hypotenuse is 18, so \\(BC=\\frac{18}{2}=9\\). The longer leg is \\(\\sqrt{3}\\) times the shorter leg: \\(AC=\\sqrt{3}(9)=9\\sqrt{3}\\). Choice A is incorrect: 9 is the length of the side opposite the \\(30^\\circ\\) angle, \\(BC\\), not \\(AC\\). Choice B is incorrect: it uses the \\(\\sqrt{2}\\) factor from a \\(45^\\circ\\)-\\(45^\\circ\\)-\\(90^\\circ\\) triangle. Choice D is incorrect: it multiplies the hypotenuse, rather than the shorter leg, by \\(\\sqrt{3}\\)."
+  },
+  {
+   "id": "extra-trig-02-v1",
+   "family": "extra-trig-02",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{DE}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"130.0,245.0 330,245 330.0,45.0\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 168.0 245.0 A 38 38 0 0 0 156.9 218.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"122.0\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">D</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">E</text><text x=\"338.0\" y=\"47.0\" font-style=\"italic\" font-size=\"18\">F</text><text x=\"189.1\" y=\"226.5\" font-size=\"16\" text-anchor=\"middle\">45°</text><text x=\"214.4\" y=\"136.4\" font-size=\"20\" text-anchor=\"middle\">10</text></g></svg>",
+    "alt": "Right triangle DEF with the right angle at E. Angle D measures 45 degrees. Side DF is labeled 10."
+   },
+   "choices": [
+    "\\(5\\)",
+    "\\(5\\sqrt{2}\\)",
+    "\\(10\\sqrt{2}\\)",
+    "\\(5\\sqrt{3}\\)"
+   ],
+   "answer": "B",
+   "explanation": "Since the triangle is a right triangle with a \\(45^\\circ\\) angle, the other acute angle is also \\(45^\\circ\\), so it is a \\(45^\\circ\\)-\\(45^\\circ\\)-\\(90^\\circ\\) triangle. Its side lengths are in the ratio \\(1:1:\\sqrt{2}\\): the hypotenuse is \\(\\sqrt{2}\\) times the length of each leg. The hypotenuse \\(DF\\) is 10, so each leg is \\(\\frac{10}{\\sqrt{2}}=5\\sqrt{2}\\). Choice A is incorrect: it divides the hypotenuse by 2 instead of by \\(\\sqrt{2}\\). Choice C is incorrect: it multiplies the hypotenuse by \\(\\sqrt{2}\\) instead of dividing by \\(\\sqrt{2}\\). Choice D is incorrect: it uses the \\(\\sqrt{3}\\) factor from a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle."
+  },
+  {
+   "id": "extra-trig-02-v2",
+   "family": "extra-trig-02",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{PQ}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"40.0,245.0 330,245 330.0,77.6\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 330.0 109.6 A 32 32 0 0 1 302.3 93.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"32.0\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">Q</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">R</text><text x=\"338.0\" y=\"79.6\" font-style=\"italic\" font-size=\"18\">P</text><text x=\"303.0\" y=\"130.3\" font-size=\"16\" text-anchor=\"middle\">60°</text><text x=\"342\" y=\"168.3\" font-size=\"20\">7</text></g></svg>",
+    "alt": "Right triangle PQR with the right angle at R. Angle P measures 60 degrees. Side PR is labeled 7."
+   },
+   "choices": [
+    "\\(7\\sqrt{2}\\)",
+    "\\(7\\sqrt{3}\\)",
+    "\\(14\\)",
+    "\\(14\\sqrt{3}\\)"
+   ],
+   "answer": "C",
+   "explanation": "The acute angles are \\(30^\\circ\\) and \\(60^\\circ\\), so this is a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle, whose sides are in the ratio \\(1:\\sqrt{3}:2\\) (shorter leg : longer leg : hypotenuse). The shorter leg, \\(PR\\), is opposite the \\(30^\\circ\\) angle. \\(PR=7\\). The hypotenuse is twice the shorter leg: \\(PQ=2(7)=14\\). Choice A is incorrect: it uses the \\(\\sqrt{2}\\) factor from a \\(45^\\circ\\)-\\(45^\\circ\\)-\\(90^\\circ\\) triangle. Choice B is incorrect: \\(7\\sqrt{3}\\) is the length of the longer leg, \\(QR\\), not the hypotenuse. Choice D is incorrect: it multiplies the hypotenuse by \\(\\sqrt{3}\\) as well."
+  },
+  {
+   "id": "extra-trig-02-v3",
+   "family": "extra-trig-02",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{KL}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"40.0,245.0 330,245 330.0,77.6\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 78.0 245.0 A 38 38 0 0 0 72.9 226.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"32.0\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">J</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">K</text><text x=\"338.0\" y=\"79.6\" font-style=\"italic\" font-size=\"18\">L</text><text x=\"101.8\" y=\"234.4\" font-size=\"16\" text-anchor=\"middle\">30°</text><text x=\"185.0\" y=\"273\" font-size=\"20\" text-anchor=\"middle\">12</text></g></svg>",
+    "alt": "Right triangle JKL with the right angle at K. Angle J measures 30 degrees. Side JK is labeled 12."
+   },
+   "choices": [
+    "\\(4\\sqrt{3}\\)",
+    "\\(6\\)",
+    "\\(6\\sqrt{3}\\)",
+    "\\(12\\sqrt{3}\\)"
+   ],
+   "answer": "A",
+   "explanation": "The acute angles are \\(30^\\circ\\) and \\(60^\\circ\\), so this is a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle, whose sides are in the ratio \\(1:\\sqrt{3}:2\\) (shorter leg : longer leg : hypotenuse). The shorter leg, \\(KL\\), is opposite the \\(30^\\circ\\) angle. The longer leg \\(JK\\) is 12, so \\(KL=\\frac{12}{\\sqrt{3}}=4\\sqrt{3}\\). So \\(KL=4\\sqrt{3}\\). Choice B is incorrect: it takes half of \\(JK\\), treating \\(JK\\) as the hypotenuse. Choice C is incorrect: it treats \\(JK\\) as the hypotenuse and then finds the longer leg. Choice D is incorrect: it multiplies by \\(\\sqrt{3}\\) instead of dividing by \\(\\sqrt{3}\\)."
+  },
+  {
+   "id": "extra-trig-02-v4",
+   "family": "extra-trig-02",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{XZ}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"130.0,245.0 330,245 330.0,45.0\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 168.0 245.0 A 38 38 0 0 0 156.9 218.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"122.0\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">X</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">Y</text><text x=\"338.0\" y=\"47.0\" font-style=\"italic\" font-size=\"18\">Z</text><text x=\"189.1\" y=\"226.5\" font-size=\"16\" text-anchor=\"middle\">45°</text><text x=\"230.0\" y=\"273\" font-size=\"20\" text-anchor=\"middle\">6</text></g></svg>",
+    "alt": "Right triangle XYZ with the right angle at Y. Angle X measures 45 degrees. Side XY is labeled 6."
+   },
+   "choices": [
+    "\\(3\\sqrt{2}\\)",
+    "\\(6\\sqrt{3}\\)",
+    "\\(12\\)",
+    "\\(6\\sqrt{2}\\)"
+   ],
+   "answer": "D",
+   "explanation": "Since the triangle is a right triangle with a \\(45^\\circ\\) angle, the other acute angle is also \\(45^\\circ\\), so it is a \\(45^\\circ\\)-\\(45^\\circ\\)-\\(90^\\circ\\) triangle. Its side lengths are in the ratio \\(1:1:\\sqrt{2}\\): the hypotenuse is \\(\\sqrt{2}\\) times the length of each leg. Each leg is 6, so the hypotenuse \\(XZ\\) is \\(6\\sqrt{2}\\). Choice A is incorrect: it divides the leg by \\(\\sqrt{2}\\) instead of multiplying by \\(\\sqrt{2}\\). Choice B is incorrect: it uses the \\(\\sqrt{3}\\) factor from a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle. Choice C is incorrect: it doubles the leg, as in a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle."
+  },
+  {
+   "id": "extra-trig-02-v5",
+   "family": "extra-trig-02",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{MO}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"214.5,245.0 330,245 330.0,45.0\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 252.5 245.0 A 38 38 0 0 0 233.5 212.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"206.5\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">M</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">N</text><text x=\"338.0\" y=\"47.0\" font-style=\"italic\" font-size=\"18\">O</text><text x=\"270.0\" y=\"219.0\" font-size=\"16\" text-anchor=\"middle\">60°</text><text x=\"342\" y=\"152.0\" font-size=\"20\">15</text></g></svg>",
+    "alt": "Right triangle MNO with the right angle at N. Angle M measures 60 degrees. Side NO is labeled 15."
+   },
+   "choices": [
+    "\\(5\\sqrt{3}\\)",
+    "\\(10\\sqrt{3}\\)",
+    "\\(15\\sqrt{2}\\)",
+    "\\(30\\)"
+   ],
+   "answer": "B",
+   "explanation": "The acute angles are \\(30^\\circ\\) and \\(60^\\circ\\), so this is a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle, whose sides are in the ratio \\(1:\\sqrt{3}:2\\) (shorter leg : longer leg : hypotenuse). The shorter leg, \\(MN\\), is opposite the \\(30^\\circ\\) angle. The longer leg \\(NO\\) is 15, so \\(MN=\\frac{15}{\\sqrt{3}}=5\\sqrt{3}\\). The hypotenuse is twice the shorter leg: \\(MO=2(5\\sqrt{3})=10\\sqrt{3}\\). Choice A is incorrect: \\(5\\sqrt{3}\\) is the length of the shorter leg, \\(MN\\), not the hypotenuse. Choice C is incorrect: it uses the \\(\\sqrt{2}\\) factor from a \\(45^\\circ\\)-\\(45^\\circ\\)-\\(90^\\circ\\) triangle. Choice D is incorrect: it doubles \\(NO\\), but \\(NO\\) is the longer leg, not the shorter leg."
+  },
+  {
+   "id": "extra-trig-02-v6",
+   "family": "extra-trig-02",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{SU}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"130.0,245.0 330,245 330.0,45.0\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 330.0 77.0 A 32 32 0 0 1 307.4 67.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"122.0\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">S</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">T</text><text x=\"338.0\" y=\"47.0\" font-style=\"italic\" font-size=\"18\">U</text><text x=\"309.3\" y=\"100.9\" font-size=\"16\" text-anchor=\"middle\">45°</text><text x=\"342\" y=\"152.0\" font-size=\"20\">11</text></g></svg>",
+    "alt": "Right triangle STU with the right angle at T. Angle U measures 45 degrees. Side TU is labeled 11."
+   },
+   "choices": [
+    "\\(11\\)",
+    "\\(11\\sqrt{2}\\)",
+    "\\(11\\sqrt{3}\\)",
+    "\\(22\\)"
+   ],
+   "answer": "B",
+   "explanation": "Since the triangle is a right triangle with a \\(45^\\circ\\) angle, the other acute angle is also \\(45^\\circ\\), so it is a \\(45^\\circ\\)-\\(45^\\circ\\)-\\(90^\\circ\\) triangle. Its side lengths are in the ratio \\(1:1:\\sqrt{2}\\): the hypotenuse is \\(\\sqrt{2}\\) times the length of each leg. Each leg is 11, so the hypotenuse \\(SU\\) is \\(11\\sqrt{2}\\). Choice A is incorrect: 11 is the length of each leg, not the hypotenuse. Choice C is incorrect: it uses the \\(\\sqrt{3}\\) factor from a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle. Choice D is incorrect: it doubles the leg, as in a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle."
+  },
+  {
+   "id": "extra-trig-02-v7",
+   "family": "extra-trig-02",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In the triangle shown, what is the length of \\(\\overline{GW}\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" fill=\"none\"><polygon points=\"214.5,245.0 330,245 330.0,45.0\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316,245 316,231 330,231\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 330.0 77.0 A 32 32 0 0 1 314.0 72.7\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"206.5\" y=\"253.0\" font-style=\"italic\" font-size=\"18\" text-anchor=\"end\">G</text><text x=\"338\" y=\"261\" font-style=\"italic\" font-size=\"18\">B</text><text x=\"338.0\" y=\"47.0\" font-style=\"italic\" font-size=\"18\">W</text><text x=\"316.0\" y=\"103.2\" font-size=\"16\" text-anchor=\"middle\">30°</text><text x=\"272.3\" y=\"273\" font-size=\"20\" text-anchor=\"middle\">13</text></g></svg>",
+    "alt": "Right triangle BGW with the right angle at B. Angle W measures 30 degrees. Side BG is labeled 13."
+   },
+   "choices": [
+    "\\(13\\sqrt{2}\\)",
+    "\\(13\\sqrt{3}\\)",
+    "\\(26\\sqrt{3}\\)",
+    "\\(26\\)"
+   ],
+   "answer": "D",
+   "explanation": "The acute angles are \\(30^\\circ\\) and \\(60^\\circ\\), so this is a \\(30^\\circ\\)-\\(60^\\circ\\)-\\(90^\\circ\\) triangle, whose sides are in the ratio \\(1:\\sqrt{3}:2\\) (shorter leg : longer leg : hypotenuse). The shorter leg, \\(BG\\), is opposite the \\(30^\\circ\\) angle. \\(BG=13\\). The hypotenuse is twice the shorter leg: \\(GW=2(13)=26\\). Choice A is incorrect: it uses the \\(\\sqrt{2}\\) factor from a \\(45^\\circ\\)-\\(45^\\circ\\)-\\(90^\\circ\\) triangle. Choice B is incorrect: \\(13\\sqrt{3}\\) is the length of the longer leg, \\(BW\\), not the hypotenuse. Choice C is incorrect: it multiplies the hypotenuse by \\(\\sqrt{3}\\) as well."
+  },
+  {
+   "id": "extra-circle-01",
+   "family": "extra-circle-01",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(x^2+y^2+6x-8y=11\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(\\sqrt{11}\\)",
+    "\\(6\\)",
+    "\\(36\\)",
+    "\\(5\\)"
+   ],
+   "answer": "B",
+   "explanation": "Complete the square for \\(x\\) by adding \\(\\left(\\frac{6}{2}\\right)^2=9\\) and for \\(y\\) by adding \\(\\left(\\frac{-8}{2}\\right)^2=16\\) to both sides: \\((x+3)^2+(y-4)^2=11+9+16=36\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((-3, 4)\\) and \\(r^2=36\\), so the radius is \\(6\\). Choice A is incorrect: it takes the square root of the constant, 11, without first completing the square. Choice C is incorrect: 36 is \\(r^2\\), the square of the radius, not the radius. Choice D is incorrect: it takes the square root of \\(9+16=25\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-01-v1",
+   "family": "extra-circle-01",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(x^2+y^2-10x+4y=20\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(2\\sqrt{5}\\)",
+    "\\(49\\)",
+    "\\(\\sqrt{29}\\)",
+    "\\(7\\)"
+   ],
+   "answer": "D",
+   "explanation": "Complete the square for \\(x\\) by adding \\(\\left(\\frac{-10}{2}\\right)^2=25\\) and for \\(y\\) by adding \\(\\left(\\frac{4}{2}\\right)^2=4\\) to both sides: \\((x-5)^2+(y+2)^2=20+25+4=49\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((5, -2)\\) and \\(r^2=49\\), so the radius is \\(7\\). Choice A is incorrect: it takes the square root of the constant, 20, without first completing the square. Choice B is incorrect: 49 is \\(r^2\\), the square of the radius, not the radius. Choice C is incorrect: it takes the square root of \\(25+4=29\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-01-v2",
+   "family": "extra-circle-01",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(x^2+y^2+2x+12y=44\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(9\\)",
+    "\\(2\\sqrt{11}\\)",
+    "\\(81\\)",
+    "\\(\\sqrt{37}\\)"
+   ],
+   "answer": "A",
+   "explanation": "Complete the square for \\(x\\) by adding \\(\\left(\\frac{2}{2}\\right)^2=1\\) and for \\(y\\) by adding \\(\\left(\\frac{12}{2}\\right)^2=36\\) to both sides: \\((x+1)^2+(y+6)^2=44+1+36=81\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((-1, -6)\\) and \\(r^2=81\\), so the radius is \\(9\\). Choice B is incorrect: it takes the square root of the constant, 44, without first completing the square. Choice C is incorrect: 81 is \\(r^2\\), the square of the radius, not the radius. Choice D is incorrect: it takes the square root of \\(1+36=37\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-01-v3",
+   "family": "extra-circle-01",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(x^2+y^2-8x-6y+12=0\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(2\\sqrt{3}\\)",
+    "\\(13\\)",
+    "\\(\\sqrt{13}\\)",
+    "\\(5\\)"
+   ],
+   "answer": "C",
+   "explanation": "First move the constant to the right side: \\(x^2+y^2-8x-6y=-12\\). Complete the square for \\(x\\) by adding \\(\\left(\\frac{-8}{2}\\right)^2=16\\) and for \\(y\\) by adding \\(\\left(\\frac{-6}{2}\\right)^2=9\\) to both sides: \\((x-4)^2+(y-3)^2=-12+16+9=13\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((4, 3)\\) and \\(r^2=13\\), so the radius is \\(\\sqrt{13}\\). Choice A is incorrect: it takes the square root of 12, the constant term, without completing the square. Choice B is incorrect: 13 is \\(r^2\\), the square of the radius, not the radius. Choice D is incorrect: it takes the square root of \\(16+9=25\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-01-v4",
+   "family": "extra-circle-01",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(x^2-4x+y^2+14y-11=0\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(8\\)",
+    "\\(\\sqrt{11}\\)",
+    "\\(64\\)",
+    "\\(\\sqrt{53}\\)"
+   ],
+   "answer": "A",
+   "explanation": "First move the constant to the right side: \\(x^2+y^2-4x+14y=11\\). Complete the square for \\(x\\) by adding \\(\\left(\\frac{-4}{2}\\right)^2=4\\) and for \\(y\\) by adding \\(\\left(\\frac{14}{2}\\right)^2=49\\) to both sides: \\((x-2)^2+(y+7)^2=11+4+49=64\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((2, -7)\\) and \\(r^2=64\\), so the radius is \\(8\\). Choice B is incorrect: it takes the square root of the constant, 11, without first completing the square. Choice C is incorrect: 64 is \\(r^2\\), the square of the radius, not the radius. Choice D is incorrect: it takes the square root of \\(4+49=53\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-01-v5",
+   "family": "extra-circle-01",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(2x^2+2y^2+16x-4y=16\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(2\\sqrt{2}\\)",
+    "\\(25\\)",
+    "\\(5\\)",
+    "\\(\\sqrt{17}\\)"
+   ],
+   "answer": "C",
+   "explanation": "First divide both sides by 2: \\(x^2+y^2+8x-2y=8\\). Complete the square for \\(x\\) by adding \\(\\left(\\frac{8}{2}\\right)^2=16\\) and for \\(y\\) by adding \\(\\left(\\frac{-2}{2}\\right)^2=1\\) to both sides: \\((x+4)^2+(y-1)^2=8+16+1=25\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((-4, 1)\\) and \\(r^2=25\\), so the radius is \\(5\\). Choice A is incorrect: it divides by 2 but then takes the square root of the constant, 8, without completing the square. Choice B is incorrect: 25 is \\(r^2\\), the square of the radius, not the radius. Choice D is incorrect: it takes the square root of \\(16+1=17\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-01-v6",
+   "family": "extra-circle-01",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(x^2+y^2+12x+10y=39\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(\\sqrt{39}\\)",
+    "\\(100\\)",
+    "\\(\\sqrt{61}\\)",
+    "\\(10\\)"
+   ],
+   "answer": "D",
+   "explanation": "Complete the square for \\(x\\) by adding \\(\\left(\\frac{12}{2}\\right)^2=36\\) and for \\(y\\) by adding \\(\\left(\\frac{10}{2}\\right)^2=25\\) to both sides: \\((x+6)^2+(y+5)^2=39+36+25=100\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((-6, -5)\\) and \\(r^2=100\\), so the radius is \\(10\\). Choice A is incorrect: it takes the square root of the constant, 39, without first completing the square. Choice B is incorrect: 100 is \\(r^2\\), the square of the radius, not the radius. Choice C is incorrect: it takes the square root of \\(36+25=61\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-01-v7",
+   "family": "extra-circle-01",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The equation \\(x^2+y^2-2x-16y+56=0\\) defines a circle in the \\(xy\\)-plane. What is the radius of the circle?",
+   "choices": [
+    "\\(2\\sqrt{14}\\)",
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(\\sqrt{65}\\)"
+   ],
+   "answer": "B",
+   "explanation": "First move the constant to the right side: \\(x^2+y^2-2x-16y=-56\\). Complete the square for \\(x\\) by adding \\(\\left(\\frac{-2}{2}\\right)^2=1\\) and for \\(y\\) by adding \\(\\left(\\frac{-16}{2}\\right)^2=64\\) to both sides: \\((x-1)^2+(y-8)^2=-56+1+64=9\\). This is the form \\((x-h)^2+(y-k)^2=r^2\\) with center \\((1, 8)\\) and \\(r^2=9\\), so the radius is \\(3\\). Choice A is incorrect: it takes the square root of 56, the constant term, without completing the square. Choice C is incorrect: 9 is \\(r^2\\), the square of the radius, not the radius. Choice D is incorrect: it takes the square root of \\(1+64=65\\), the numbers added to complete the squares, and ignores the constant term."
+  },
+  {
+   "id": "extra-circle-02",
+   "family": "extra-circle-02",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\). The radius of the circle is 9, and the length of minor arc \\(AB\\) is \\(6\\pi\\). What is the measure, in degrees, of angle \\(AOB\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 278.1 110.7 A 115 115 0 0 0 81.9 76.1\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"278.1\" y2=\"110.7\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"81.9\" y2=\"76.1\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"278.1\" cy=\"110.7\" r=\"3.5\" stroke=\"none\"/><text x=\"295.0\" y=\"110.5\" text-anchor=\"middle\">A</text><circle cx=\"81.9\" cy=\"76.1\" r=\"3.5\" stroke=\"none\"/><text x=\"68.1\" y=\"70.5\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"166.9\" y=\"173.7\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of about 120 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "120"
+   ],
+   "explanation": "The circumference of the circle is \\(2\\pi(9)=18\\pi\\). The fraction of the circle's circumference that arc \\(AB\\) makes up equals the fraction of \\(360^\\circ\\) that angle \\(AOB\\) makes up: \\(\\frac{6\\pi}{18\\pi}=\\frac{\\theta}{360}\\). So \\(\\theta=360\\cdot\\frac{6}{18}=120\\). A common mistake is to use the radius, 9, in place of the circumference, or to use \\(\\pi r^2\\), the area, instead of \\(2\\pi r\\)."
+  },
+  {
+   "id": "extra-circle-02-v1",
+   "family": "extra-circle-02",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\). The radius of the circle is 15, and the length of minor arc \\(AB\\) is \\(5\\pi\\). What is the measure, in degrees, of angle \\(AOB\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 227.5 50.4 A 115 115 0 0 0 112.5 50.4\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"227.5\" y2=\"50.4\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"112.5\" y2=\"50.4\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"227.5\" cy=\"50.4\" r=\"3.5\" stroke=\"none\"/><text x=\"236.5\" y=\"40.8\" text-anchor=\"middle\">A</text><circle cx=\"112.5\" cy=\"50.4\" r=\"3.5\" stroke=\"none\"/><text x=\"103.5\" y=\"40.8\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"170.0\" y=\"174.0\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of about 60 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "60"
+   ],
+   "explanation": "The circumference of the circle is \\(2\\pi(15)=30\\pi\\). The fraction of the circle's circumference that arc \\(AB\\) makes up equals the fraction of \\(360^\\circ\\) that angle \\(AOB\\) makes up: \\(\\frac{5\\pi}{30\\pi}=\\frac{\\theta}{360}\\). So \\(\\theta=360\\cdot\\frac{5}{30}=60\\). A common mistake is to use the radius, 15, in place of the circumference, or to use \\(\\pi r^2\\), the area, instead of \\(2\\pi r\\)."
+  },
+  {
+   "id": "extra-circle-02-v2",
+   "family": "extra-circle-02",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\), and the radius of the circle is 8. The measure of angle \\(AOB\\) is \\(\\frac{3}{4}\\pi\\) radians. The length of minor arc \\(AB\\) is \\(k\\pi\\). What is the value of \\(k\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 283.3 130.0 A 115 115 0 0 0 75.8 84.0\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"283.3\" y2=\"130.0\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"75.8\" y2=\"84.0\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"283.3\" cy=\"130.0\" r=\"3.5\" stroke=\"none\"/><text x=\"301.0\" y=\"132.9\" text-anchor=\"middle\">A</text><circle cx=\"75.8\" cy=\"84.0\" r=\"3.5\" stroke=\"none\"/><text x=\"61.1\" y=\"79.7\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"166.1\" y=\"173.6\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of 135 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "6"
+   ],
+   "explanation": "For a central angle \\(\\theta\\) measured in radians, the arc length is \\(s=r\\theta\\). So \\(s=8\\cdot \\frac{3}{4}\\pi=6\\pi\\), and \\(k=6\\). Equivalently, \\(\\frac{3}{4}\\pi\\) radians is \\(\\frac{\\frac{3}{4}\\pi}{2\\pi}=\\frac{3}{8}\\) of a full turn, and \\(\\frac{3}{8}\\) of the circumference \\(16\\pi\\) is \\(6\\pi\\). Using the diameter instead of the radius would give \\(k=12\\)."
+  },
+  {
+   "id": "extra-circle-02-v3",
+   "family": "extra-circle-02",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\). The radius of the circle is 12, and the length of minor arc \\(AB\\) is \\(10\\pi\\). What is the measure, in degrees, of angle \\(AOB\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 283.3 170.0 A 115 115 0 0 0 81.9 76.1\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"283.3\" y2=\"170.0\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"81.9\" y2=\"76.1\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"283.3\" cy=\"170.0\" r=\"3.5\" stroke=\"none\"/><text x=\"301.0\" y=\"179.1\" text-anchor=\"middle\">A</text><circle cx=\"81.9\" cy=\"76.1\" r=\"3.5\" stroke=\"none\"/><text x=\"68.1\" y=\"70.5\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"162.4\" y=\"172.3\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of about 150 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "150"
+   ],
+   "explanation": "The circumference of the circle is \\(2\\pi(12)=24\\pi\\). The fraction of the circle's circumference that arc \\(AB\\) makes up equals the fraction of \\(360^\\circ\\) that angle \\(AOB\\) makes up: \\(\\frac{10\\pi}{24\\pi}=\\frac{\\theta}{360}\\). So \\(\\theta=360\\cdot\\frac{10}{24}=150\\). A common mistake is to use the radius, 12, in place of the circumference, or to use \\(\\pi r^2\\), the area, instead of \\(2\\pi r\\)."
+  },
+  {
+   "id": "extra-circle-02-v4",
+   "family": "extra-circle-02",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\). The radius of the circle is 20, and the length of minor arc \\(AB\\) is \\(7\\pi\\). What is the measure, in degrees, of angle \\(AOB\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 258.1 76.1 A 115 115 0 0 0 144.1 37.9\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"258.1\" y2=\"76.1\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"144.1\" y2=\"37.9\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"258.1\" cy=\"76.1\" r=\"3.5\" stroke=\"none\"/><text x=\"271.9\" y=\"70.5\" text-anchor=\"middle\">A</text><circle cx=\"144.1\" cy=\"37.9\" r=\"3.5\" stroke=\"none\"/><text x=\"140.1\" y=\"26.4\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"164.3\" y=\"173.1\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of about 63 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "63"
+   ],
+   "explanation": "The circumference of the circle is \\(2\\pi(20)=40\\pi\\). The fraction of the circle's circumference that arc \\(AB\\) makes up equals the fraction of \\(360^\\circ\\) that angle \\(AOB\\) makes up: \\(\\frac{7\\pi}{40\\pi}=\\frac{\\theta}{360}\\). So \\(\\theta=360\\cdot\\frac{7}{40}=63\\). A common mistake is to use the radius, 20, in place of the circumference, or to use \\(\\pi r^2\\), the area, instead of \\(2\\pi r\\)."
+  },
+  {
+   "id": "extra-circle-02-v5",
+   "family": "extra-circle-02",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\), and the radius of the circle is 6. The measure of angle \\(AOB\\) is \\(\\frac{5}{6}\\pi\\) radians. The length of minor arc \\(AB\\) is \\(k\\pi\\). What is the value of \\(k\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 285.0 150.0 A 115 115 0 0 0 70.4 92.5\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"285.0\" y2=\"150.0\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"70.4\" y2=\"92.5\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"285.0\" cy=\"150.0\" r=\"3.5\" stroke=\"none\"/><text x=\"303.0\" y=\"156.0\" text-anchor=\"middle\">A</text><circle cx=\"70.4\" cy=\"92.5\" r=\"3.5\" stroke=\"none\"/><text x=\"54.8\" y=\"89.5\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"165.3\" y=\"173.4\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of 150 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "5"
+   ],
+   "explanation": "For a central angle \\(\\theta\\) measured in radians, the arc length is \\(s=r\\theta\\). So \\(s=6\\cdot \\frac{5}{6}\\pi=5\\pi\\), and \\(k=5\\). Equivalently, \\(\\frac{5}{6}\\pi\\) radians is \\(\\frac{\\frac{5}{6}\\pi}{2\\pi}=\\frac{5}{12}\\) of a full turn, and \\(\\frac{5}{12}\\) of the circumference \\(12\\pi\\) is \\(5\\pi\\). Using the diameter instead of the radius would give \\(k=10\\)."
+  },
+  {
+   "id": "extra-circle-02-v6",
+   "family": "extra-circle-02",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\). The radius of the circle is 10, and the length of minor arc \\(AB\\) is \\(4\\pi\\). What is the measure, in degrees, of angle \\(AOB\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 199.8 38.9 A 115 115 0 0 0 73.6 87.4\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"199.8\" y2=\"38.9\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"73.6\" y2=\"87.4\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"199.8\" cy=\"38.9\" r=\"3.5\" stroke=\"none\"/><text x=\"204.4\" y=\"27.5\" text-anchor=\"middle\">A</text><circle cx=\"73.6\" cy=\"87.4\" r=\"3.5\" stroke=\"none\"/><text x=\"58.5\" y=\"83.6\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"176.5\" y=\"172.8\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of about 72 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "72"
+   ],
+   "explanation": "The circumference of the circle is \\(2\\pi(10)=20\\pi\\). The fraction of the circle's circumference that arc \\(AB\\) makes up equals the fraction of \\(360^\\circ\\) that angle \\(AOB\\) makes up: \\(\\frac{4\\pi}{20\\pi}=\\frac{\\theta}{360}\\). So \\(\\theta=360\\cdot\\frac{4}{20}=72\\). A common mistake is to use the radius, 10, in place of the circumference, or to use \\(\\pi r^2\\), the area, instead of \\(2\\pi r\\)."
+  },
+  {
+   "id": "extra-circle-02-v7",
+   "family": "extra-circle-02",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure shown, points \\(A\\) and \\(B\\) lie on the circle with center \\(O\\). The diameter of the circle is 24, and the measure of angle \\(AOB\\) is \\(135^\\circ\\). The length of minor arc \\(AB\\) is \\(k\\pi\\). What is the value of \\(k\\)?",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" fill=\"none\"><circle cx=\"170\" cy=\"150\" r=\"115\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 281.1 120.2 A 115 115 0 0 0 70.4 92.5\" stroke=\"currentColor\" stroke-width=\"4.5\"/><line x1=\"170\" y1=\"150\" x2=\"281.1\" y2=\"120.2\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"170\" y1=\"150\" x2=\"70.4\" y2=\"92.5\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\"><circle cx=\"281.1\" cy=\"120.2\" r=\"3.5\" stroke=\"none\"/><text x=\"298.5\" y=\"121.6\" text-anchor=\"middle\">A</text><circle cx=\"70.4\" cy=\"92.5\" r=\"3.5\" stroke=\"none\"/><text x=\"54.8\" y=\"89.5\" text-anchor=\"middle\">B</text><circle cx=\"170\" cy=\"150\" r=\"3.5\" stroke=\"none\"/><text x=\"167.7\" y=\"173.8\" text-anchor=\"middle\">O</text></g></svg>",
+    "alt": "Circle with center O. Radii OA and OB form a central angle of 135 degrees, and minor arc AB is drawn in bold."
+   },
+   "answer": [
+    "9"
+   ],
+   "explanation": "The radius is half the diameter, \\(12\\), so the circumference is \\(24\\pi\\). Arc \\(AB\\) is \\(\\frac{135}{360}=\\frac{3}{8}\\) of the circle, so its length is \\(\\frac{3}{8}\\cdot 24\\pi=9\\pi\\), and \\(k=9\\). Using 24 as the radius would give \\(k=18\\)."
+  },
+  {
+   "id": "extra-percent-01",
+   "family": "extra-percent-01",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A store raised the price of a jacket, originally \\$80, by 25%. Later, during a sale, the store decreased the new price by 20%. What was the sale price of the jacket?",
+   "choices": [
+    "\\(\\$84\\)",
+    "\\(\\$80\\)",
+    "\\(\\$100\\)",
+    "\\(\\$64\\)"
+   ],
+   "answer": "B",
+   "explanation": "An increase of 25% multiplies the amount by \\(1.25\\): \\(\\$80(1.25)=\\$100\\). The second change is applied to this new amount, so a decrease of 20% multiplies it by \\(0.8\\): \\(\\$100(0.8)=\\$80\\). Choice A is incorrect: it combines the changes by adding the percents (\\(+25\\%\\) and \\(-20\\%\\) give \\(+5\\%\\)), but the second change applies to the new amount, not the original amount. Choice C is incorrect: it applies only the first change. Choice D is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-percent-01-v1",
+   "family": "extra-percent-01",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "The population of a town was 12,000. The population increased by 10% during one year and then decreased by 10% during the next year. What was the population of the town at the end of the second year?",
+   "choices": [
+    "\\(12{,}000\\)",
+    "\\(13{,}200\\)",
+    "\\(10{,}800\\)",
+    "\\(11{,}880\\)"
+   ],
+   "answer": "D",
+   "explanation": "An increase of 10% multiplies the amount by \\(1.1\\): \\(12{,}000(1.1)=13{,}200\\). The second change is applied to this new amount, so a decrease of 10% multiplies it by \\(0.9\\): \\(13{,}200(0.9)=11{,}880\\). Choice A is incorrect: it combines the changes by adding the percents (\\(+10\\%\\) and \\(-10\\%\\) give \\(+0\\%\\)), but the second change applies to the new amount, not the original amount. Choice B is incorrect: it applies only the first change. Choice C is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-percent-01-v2",
+   "family": "extra-percent-01",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "The price of one share of a stock was \\$50. The price fell by 40% in March and then rose by 50% in April. What was the price of one share at the end of April?",
+   "choices": [
+    "\\(\\$45\\)",
+    "\\(\\$55\\)",
+    "\\(\\$30\\)",
+    "\\(\\$75\\)"
+   ],
+   "answer": "A",
+   "explanation": "A decrease of 40% multiplies the amount by \\(0.6\\): \\(\\$50(0.6)=\\$30\\). The second change is applied to this new amount, so an increase of 50% multiplies it by \\(1.5\\): \\(\\$30(1.5)=\\$45\\). Choice B is incorrect: it combines the changes by adding the percents (\\(-40\\%\\) and \\(+50\\%\\) give \\(+10\\%\\)), but the second change applies to the new amount, not the original amount. Choice C is incorrect: it applies only the first change. Choice D is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-percent-01-v3",
+   "family": "extra-percent-01",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "The number of visitors to a website increased by 30% from May to June and then decreased by 30% from June to July. The number of visitors in July was what percent of the number of visitors in May?",
+   "choices": [
+    "\\(100\\%\\)",
+    "\\(130\\%\\)",
+    "\\(91\\%\\)",
+    "\\(70\\%\\)"
+   ],
+   "answer": "C",
+   "explanation": "An increase of 30% multiplies the amount by \\(1.3\\), and a decrease of 30% multiplies the new amount by \\(0.7\\). Together they multiply the original amount by \\((1.3)(0.7)=0.91\\), which is \\(91\\%\\) of the original. Choice A is incorrect: it combines the changes by adding the percents (\\(+30\\%\\) and \\(-30\\%\\) give \\(+0\\%\\)), but the second change applies to the new amount, not the original amount. Choice B is incorrect: it applies only the first change. Choice D is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-percent-01-v4",
+   "family": "extra-percent-01",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A gym had 1,500 members at the start of the year. Membership increased by 20% by June and then decreased by 15% from June to December. How many members did the gym have in December?",
+   "choices": [
+    "\\(1{,}575\\)",
+    "\\(1{,}800\\)",
+    "\\(1{,}530\\)",
+    "\\(1{,}275\\)"
+   ],
+   "answer": "C",
+   "explanation": "An increase of 20% multiplies the amount by \\(1.2\\): \\(1{,}500(1.2)=1{,}800\\). The second change is applied to this new amount, so a decrease of 15% multiplies it by \\(0.85\\): \\(1{,}800(0.85)=1{,}530\\). Choice A is incorrect: it combines the changes by adding the percents (\\(+20\\%\\) and \\(-15\\%\\) give \\(+5\\%\\)), but the second change applies to the new amount, not the original amount. Choice B is incorrect: it applies only the first change. Choice D is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-percent-01-v5",
+   "family": "extra-percent-01",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "The monthly rent for an apartment was \\$1,400. The rent increased by 5% one year and then increased by 10% the following year. What was the monthly rent after both increases?",
+   "choices": [
+    "\\(\\$1{,}617\\)",
+    "\\(\\$1{,}610\\)",
+    "\\(\\$1{,}470\\)",
+    "\\(\\$1{,}540\\)"
+   ],
+   "answer": "A",
+   "explanation": "An increase of 5% multiplies the amount by \\(1.05\\): \\(\\$1{,}400(1.05)=\\$1{,}470\\). The second change is applied to this new amount, so an increase of 10% multiplies it by \\(1.1\\): \\(\\$1{,}470(1.1)=\\$1{,}617\\). Choice B is incorrect: it combines the changes by adding the percents (\\(+5\\%\\) and \\(+10\\%\\) give \\(+15\\%\\)), but the second change applies to the new amount, not the original amount. Choice C is incorrect: it applies only the first change. Choice D is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-percent-01-v6",
+   "family": "extra-percent-01",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A car was purchased for \\$24,000. Its value decreased by 15% during the first year and then decreased by 10% of its new value during the second year. What was the value of the car at the end of the second year?",
+   "choices": [
+    "\\(\\$18{,}000\\)",
+    "\\(\\$20{,}400\\)",
+    "\\(\\$21{,}600\\)",
+    "\\(\\$18{,}360\\)"
+   ],
+   "answer": "D",
+   "explanation": "A decrease of 15% multiplies the amount by \\(0.85\\): \\(\\$24{,}000(0.85)=\\$20{,}400\\). The second change is applied to this new amount, so a decrease of 10% multiplies it by \\(0.9\\): \\(\\$20{,}400(0.9)=\\$18{,}360\\). Choice A is incorrect: it combines the changes by adding the percents (\\(-15\\%\\) and \\(-10\\%\\) give \\(-25\\%\\)), but the second change applies to the new amount, not the original amount. Choice B is incorrect: it applies only the first change. Choice C is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-percent-01-v7",
+   "family": "extra-percent-01",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A bakery increased the price of a cake by 40%. A month later, the bakery offered a 25% discount off the increased price. The discounted price is what percent of the original price?",
+   "choices": [
+    "\\(115\\%\\)",
+    "\\(105\\%\\)",
+    "\\(140\\%\\)",
+    "\\(75\\%\\)"
+   ],
+   "answer": "B",
+   "explanation": "An increase of 40% multiplies the amount by \\(1.4\\), and a decrease of 25% multiplies the new amount by \\(0.75\\). Together they multiply the original amount by \\((1.4)(0.75)=1.05\\), which is \\(105\\%\\) of the original. Choice A is incorrect: it combines the changes by adding the percents (\\(+40\\%\\) and \\(-25\\%\\) give \\(+15\\%\\)), but the second change applies to the new amount, not the original amount. Choice C is incorrect: it applies only the first change. Choice D is incorrect: it applies only the second change, and applies it to the original amount."
+  },
+  {
+   "id": "extra-ineq-01",
+   "family": "extra-ineq-01",
+   "variant": 0,
+   "source": "Original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Nadia has at most \\$60 to spend on art supplies. Sketchbooks cost \\$8 each and packs of markers cost \\$3 each. Which inequality represents the possible numbers of sketchbooks, \\(s\\), and packs of markers, \\(m\\), that Nadia can buy?",
+   "choices": [
+    "\\(8s+3m\\le 60\\)",
+    "\\(8s+3m\\ge 60\\)",
+    "\\(3s+8m\\le 60\\)",
+    "\\(s+m\\le 60\\)"
+   ],
+   "answer": "A",
+   "explanation": "Each sketchbook costs \\$8, so \\(s\\) sketchbooks cost \\(8s\\) dollars; each pack of markers costs \\$3, so \\(m\\) packs cost \\(3m\\) dollars. The total cost is \\(8s+3m\\), and “at most \\$60” means the total cost is less than or equal to 60: \\(8s+3m\\le 60\\). Choice B is incorrect: the inequality symbol is reversed. Choice C is incorrect: it pairs each rate with the wrong variable. Choice D is incorrect: it limits the number of items, not the total amount; it ignores the rate for each item."
+  },
+  {
+   "id": "extra-ineq-01-v1",
+   "family": "extra-ineq-01",
+   "variant": 1,
+   "source": "Variant of original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Theo mows lawns for \\$30 per lawn and washes cars for \\$18 per car. He wants to earn at least \\$450 this month. Which inequality represents the numbers of lawns, \\(x\\), and cars, \\(y\\), that would allow Theo to meet his goal?",
+   "choices": [
+    "\\(30x+18y\\le 450\\)",
+    "\\(18x+30y\\ge 450\\)",
+    "\\(48(x+y)\\ge 450\\)",
+    "\\(30x+18y\\ge 450\\)"
+   ],
+   "answer": "D",
+   "explanation": "Theo earns \\(30x\\) dollars from \\(x\\) lawns and \\(18y\\) dollars from \\(y\\) cars, for a total of \\(30x+18y\\) dollars. “At least \\$450” means the total is greater than or equal to 450: \\(30x+18y\\ge 450\\). Choice A is incorrect: the inequality symbol is reversed. Choice B is incorrect: it pairs each rate with the wrong variable. Choice C is incorrect: it adds the two rates, which would be correct only if every item had the combined rate."
+  },
+  {
+   "id": "extra-ineq-01-v2",
+   "family": "extra-ineq-01",
+   "variant": 2,
+   "source": "Variant of original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A freight elevator can safely carry a maximum of 2,000 pounds. A worker is loading boxes that weigh 45 pounds each and crates that weigh 70 pounds each. Which inequality represents the numbers of boxes, \\(b\\), and crates, \\(c\\), that the elevator can safely carry at one time?",
+   "choices": [
+    "\\(45b+70c\\ge 2{,}000\\)",
+    "\\(45b+70c\\le 2{,}000\\)",
+    "\\(70b+45c\\le 2{,}000\\)",
+    "\\(b+c\\le 2{,}000\\)"
+   ],
+   "answer": "B",
+   "explanation": "The boxes weigh a total of \\(45b\\) pounds and the crates weigh a total of \\(70c\\) pounds. A “maximum of 2,000 pounds” means the total weight must be less than or equal to 2,000: \\(45b+70c\\le 2{,}000\\). Choice A is incorrect: the inequality symbol is reversed. Choice C is incorrect: it pairs each rate with the wrong variable. Choice D is incorrect: it limits the number of items, not the total amount; it ignores the rate for each item."
+  },
+  {
+   "id": "extra-ineq-01-v3",
+   "family": "extra-ineq-01",
+   "variant": 3,
+   "source": "Variant of original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A bakery sells muffins for \\$2.50 each and loaves of bread for \\$6 each. The bakery's goal is to bring in at least \\$600 from these two items on Saturday. Which inequality represents the numbers of muffins, \\(m\\), and loaves of bread, \\(b\\), the bakery could sell to meet its goal?",
+   "choices": [
+    "\\(2.50m+6b\\le 600\\)",
+    "\\(6m+2.50b\\ge 600\\)",
+    "\\(2.50m+6b\\ge 600\\)",
+    "\\(8.50(m+b)\\ge 600\\)"
+   ],
+   "answer": "C",
+   "explanation": "Selling \\(m\\) muffins brings in \\(2.50m\\) dollars and selling \\(b\\) loaves brings in \\(6b\\) dollars. “At least \\$600” means the total is greater than or equal to 600: \\(2.50m+6b\\ge 600\\). Choice A is incorrect: the inequality symbol is reversed. Choice B is incorrect: it pairs each rate with the wrong variable. Choice D is incorrect: it adds the two rates, which would be correct only if every item had the combined rate."
+  },
+  {
+   "id": "extra-ineq-01-v4",
+   "family": "extra-ineq-01",
+   "variant": 4,
+   "source": "Variant of original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A club is renting a bus for a field trip. The rental costs a flat fee of \\$250 plus \\$14 per student. The club can spend no more than \\$900 on the bus. Which inequality represents the possible numbers of students, \\(n\\), who can go on the trip?",
+   "choices": [
+    "\\(250+14n\\le 900\\)",
+    "\\(250+14n\\ge 900\\)",
+    "\\(14+250n\\le 900\\)",
+    "\\(264n\\le 900\\)"
+   ],
+   "answer": "A",
+   "explanation": "The cost is the flat fee plus \\$14 for each of the \\(n\\) students, or \\(250+14n\\) dollars. “No more than \\$900” means the cost is less than or equal to 900: \\(250+14n\\le 900\\). Choice B is incorrect: the inequality symbol is reversed. Choice C is incorrect: it switches the flat amount and the per-unit rate. Choice D is incorrect: it adds the flat amount to the per-unit rate, as if the flat amount were charged for each unit."
+  },
+  {
+   "id": "extra-ineq-01-v5",
+   "family": "extra-ineq-01",
+   "variant": 5,
+   "source": "Variant of original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Lena wants to eat at most 800 calories in snacks today. Each serving of yogurt has 150 calories and each apple has 95 calories. Which inequality represents the numbers of servings of yogurt, \\(x\\), and apples, \\(y\\), that Lena can eat and stay within her limit?",
+   "choices": [
+    "\\(95x+150y\\le 800\\)",
+    "\\(150x+95y\\ge 800\\)",
+    "\\(245(x+y)\\le 800\\)",
+    "\\(150x+95y\\le 800\\)"
+   ],
+   "answer": "D",
+   "explanation": "The yogurt provides \\(150x\\) calories and the apples provide \\(95y\\) calories, for a total of \\(150x+95y\\). “At most 800” means the total is less than or equal to 800: \\(150x+95y\\le 800\\). Choice A is incorrect: it pairs each rate with the wrong variable. Choice B is incorrect: the inequality symbol is reversed. Choice C is incorrect: it adds the two rates, which would be correct only if every item had the combined rate."
+  },
+  {
+   "id": "extra-ineq-01-v6",
+   "family": "extra-ineq-01",
+   "variant": 6,
+   "source": "Variant of original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A drama club is selling adult tickets for \\$12 each and student tickets for \\$5 each. The club needs to raise at least \\$1,800 from ticket sales. Which inequality represents the numbers of adult tickets, \\(a\\), and student tickets, \\(s\\), the club must sell to reach its goal?",
+   "choices": [
+    "\\(5a+12s\\ge 1{,}800\\)",
+    "\\(12a+5s\\ge 1{,}800\\)",
+    "\\(a+s\\ge 1{,}800\\)",
+    "\\(12a+5s\\le 1{,}800\\)"
+   ],
+   "answer": "B",
+   "explanation": "Adult tickets bring in \\(12a\\) dollars and student tickets bring in \\(5s\\) dollars. “At least \\$1,800” means the total is greater than or equal to 1,800: \\(12a+5s\\ge 1{,}800\\). Choice A is incorrect: it pairs each rate with the wrong variable. Choice C is incorrect: it limits the number of items, not the total amount; it ignores the rate for each item. Choice D is incorrect: the inequality symbol is reversed."
+  },
+  {
+   "id": "extra-ineq-01-v7",
+   "family": "extra-ineq-01",
+   "variant": 7,
+   "source": "Variant of original PSAT-style question",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 1,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Marco's phone plan charges \\$35 per month plus \\$0.10 for each text message he sends. Marco wants his bill for one month to be no more than \\$50. Which inequality represents the numbers of text messages, \\(t\\), that Marco can send that month?",
+   "choices": [
+    "\\(0.10+35t\\le 50\\)",
+    "\\(35.10t\\le 50\\)",
+    "\\(35+0.10t\\le 50\\)",
+    "\\(35+0.10t\\ge 50\\)"
+   ],
+   "answer": "C",
+   "explanation": "The bill is the \\$35 monthly charge plus \\$0.10 for each of \\(t\\) texts, or \\(35+0.10t\\) dollars. “No more than \\$50” means the bill is less than or equal to 50: \\(35+0.10t\\le 50\\). Choice A is incorrect: it switches the flat amount and the per-unit rate. Choice B is incorrect: it adds the flat amount to the per-unit rate, as if the flat amount were charged for each unit. Choice D is incorrect: the inequality symbol is reversed."
+  }
+ ]
+}
