@@ -735,7 +735,7 @@
     "The estimated number of subscribers at \\(x=1\\) is \\(12\\) times the estimated number of subscribers at \\(x=0\\)."
    ],
    "answer": "A",
-   "explanation": "From the graph, when \\(x=0\\) the \\(y\\)-coordinate is \\(10\\), and when \\(x=1\\) the \\(y\\)-coordinate is \\(12\\). Dividing gives \\(\\dfrac{12}{10}=1.2\\), so the estimated number of subscribers at \\(x=1\\) is \\(1.2\\) times the estimated number of subscribers at \\(x=0\\). Choice B is the difference \\(12-10\\), not a ratio. Choice C may result from adding 1 to the wrong ratio, and choice D is the value at \\(x=1\\), not a comparison."
+   "explanation": "From the graph, when \\(x=0\\) the \\(y\\)-coordinate is \\(10\\), and when \\(x=1\\) the \\(y\\)-coordinate is \\(12\\). Dividing gives \\(\\dfrac{12}{10}=1.2\\), so the estimated number of subscribers at \\(x=1\\) is \\(1.2\\) times the estimated number of subscribers at \\(x=0\\). Choice B is the difference \\(12-10\\), not a ratio. Choice C is \\(1+1.2\\): it adds 1 to the multiplier, as if \\(1.2\\) were the relative increase. Choice D is the value at \\(x=1\\), not a comparison."
   },
   {
    "id": "pt2-m2-q17-v3",
@@ -783,7 +783,7 @@
     "The estimated number of trout at \\(x=1\\) is \\(3\\) times the estimated number of trout at \\(x=0\\)."
    ],
    "answer": "B",
-   "explanation": "From the graph, when \\(x=0\\) the \\(y\\)-coordinate is \\(5\\), and when \\(x=1\\) the \\(y\\)-coordinate is \\(8\\). Dividing gives \\(\\dfrac{8}{5}=1.6\\), so the estimated number of trout at \\(x=1\\) is \\(1.6\\) times the estimated number of trout at \\(x=0\\). Choice A is \\(\\tfrac{8-5}{5}\\), the relative increase rather than the multiplier. Choice D is the difference \\(8-5\\), not a ratio. Choice C may result from adding 1 to the wrong value."
+   "explanation": "From the graph, when \\(x=0\\) the \\(y\\)-coordinate is \\(5\\), and when \\(x=1\\) the \\(y\\)-coordinate is \\(8\\). Dividing gives \\(\\dfrac{8}{5}=1.6\\), so the estimated number of trout at \\(x=1\\) is \\(1.6\\) times the estimated number of trout at \\(x=0\\). Choice A is \\(\\tfrac{8-5}{5}\\), the relative increase rather than the multiplier. Choice D is the difference \\(8-5\\), not a ratio. Choice C is \\(1+1.6\\): it adds 1 to the multiplier, as if \\(1.6\\) were the relative increase."
   },
   {
    "id": "pt2-m2-q18",

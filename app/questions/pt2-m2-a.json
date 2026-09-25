@@ -94,7 +94,7 @@
     "\\(7\\)"
    ],
    "answer": "D",
-   "explanation": "Each bar's height is the number of games (the frequency) with the value written under it. The bar above 2 has a height of 7, so <b>7</b> games had exactly 2 goals.<br>\\(2\\) is the number of goals, not the number of games. \\(3\\) is the height of the bar for 0 goals, not 2. \\(5\\) is the height of the bar for 1 goals, not 2."
+   "explanation": "Each bar's height is the number of games (the frequency) with the value written under it. The bar above 2 has a height of 7, so <b>7</b> games had exactly 2 goals.<br>\\(2\\) is the number of goals, not the number of games. \\(3\\) is the height of the bar for 0 goals, not 2. \\(5\\) is the height of the bar for 1 goal, not 2."
   },
   {
    "id": "pt2-m2-q01-v4",

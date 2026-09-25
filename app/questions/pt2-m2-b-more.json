@@ -1,0 +1,535 @@
+{
+ "questions": [
+  {
+   "id": "pt2-m2-q10-v5",
+   "family": "pt2-m2-q10",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q10",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(g(x)=8x+3\\)</p><p>For the given linear function \\(g\\), which table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\)?</p>",
+   "choices": [
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-1\\)</td><td>\\(5\\)</td></tr><tr><td>\\(0\\)</td><td>\\(8\\)</td></tr><tr><td>\\(1\\)</td><td>\\(11\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-1\\)</td><td>\\(-8\\)</td></tr><tr><td>\\(0\\)</td><td>\\(0\\)</td></tr><tr><td>\\(1\\)</td><td>\\(8\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-1\\)</td><td>\\(-3\\)</td></tr><tr><td>\\(0\\)</td><td>\\(0\\)</td></tr><tr><td>\\(1\\)</td><td>\\(3\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-1\\)</td><td>\\(-5\\)</td></tr><tr><td>\\(0\\)</td><td>\\(3\\)</td></tr><tr><td>\\(1\\)</td><td>\\(11\\)</td></tr></table>"
+   ],
+   "answer": "D",
+   "explanation": "Substitute each \\(x\\)-value into \\(g(x)=8x+3\\): \\(g(-1)=8(-1)+3=-5\\), \\(g(0)=8(0)+3=3\\), \\(g(1)=8(1)+3=11\\). Only the table in choice D shows these values. Choice A shows values of \\(g(x)=3x+8\\), not \\(g(x)=8x+3\\). Choice B shows values of \\(g(x)=8x\\), not \\(g(x)=8x+3\\). Choice C shows values of \\(g(x)=3x\\), not \\(g(x)=8x+3\\)."
+  },
+  {
+   "id": "pt2-m2-q10-v6",
+   "family": "pt2-m2-q10",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q10",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(g(x)=14x+9\\)</p><p>For the given linear function \\(g\\), which table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\)?</p>",
+   "choices": [
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(0\\)</td><td>\\(9\\)</td></tr><tr><td>\\(1\\)</td><td>\\(23\\)</td></tr><tr><td>\\(2\\)</td><td>\\(37\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(0\\)</td><td>\\(0\\)</td></tr><tr><td>\\(1\\)</td><td>\\(14\\)</td></tr><tr><td>\\(2\\)</td><td>\\(28\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(0\\)</td><td>\\(14\\)</td></tr><tr><td>\\(1\\)</td><td>\\(23\\)</td></tr><tr><td>\\(2\\)</td><td>\\(32\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(0\\)</td><td>\\(0\\)</td></tr><tr><td>\\(1\\)</td><td>\\(9\\)</td></tr><tr><td>\\(2\\)</td><td>\\(18\\)</td></tr></table>"
+   ],
+   "answer": "A",
+   "explanation": "Substitute each \\(x\\)-value into \\(g(x)=14x+9\\): \\(g(0)=14(0)+9=9\\), \\(g(1)=14(1)+9=23\\), \\(g(2)=14(2)+9=37\\). Only the table in choice A shows these values. Choice B shows values of \\(g(x)=14x\\), not \\(g(x)=14x+9\\). Choice C shows values of \\(g(x)=9x+14\\), not \\(g(x)=14x+9\\). Choice D shows values of \\(g(x)=9x\\), not \\(g(x)=14x+9\\)."
+  },
+  {
+   "id": "pt2-m2-q10-v7",
+   "family": "pt2-m2-q10",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q10",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(g(x)=7x+10\\)</p><p>For the given linear function \\(g\\), which table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\)?</p>",
+   "choices": [
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-2\\)</td><td>\\(-20\\)</td></tr><tr><td>\\(0\\)</td><td>\\(0\\)</td></tr><tr><td>\\(2\\)</td><td>\\(20\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-2\\)</td><td>\\(-13\\)</td></tr><tr><td>\\(0\\)</td><td>\\(7\\)</td></tr><tr><td>\\(2\\)</td><td>\\(27\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-2\\)</td><td>\\(-4\\)</td></tr><tr><td>\\(0\\)</td><td>\\(10\\)</td></tr><tr><td>\\(2\\)</td><td>\\(24\\)</td></tr></table>",
+    "<table><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-2\\)</td><td>\\(-14\\)</td></tr><tr><td>\\(0\\)</td><td>\\(0\\)</td></tr><tr><td>\\(2\\)</td><td>\\(14\\)</td></tr></table>"
+   ],
+   "answer": "C",
+   "explanation": "Substitute each \\(x\\)-value into \\(g(x)=7x+10\\): \\(g(-2)=7(-2)+10=-4\\), \\(g(0)=7(0)+10=10\\), \\(g(2)=7(2)+10=24\\). Only the table in choice C shows these values. Choice A shows values of \\(g(x)=10x\\), not \\(g(x)=7x+10\\). Choice B shows values of \\(g(x)=10x+7\\), not \\(g(x)=7x+10\\). Choice D shows values of \\(g(x)=7x\\), not \\(g(x)=7x+10\\)."
+  },
+  {
+   "id": "pt2-m2-q11-v5",
+   "family": "pt2-m2-q11",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q11",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A taxi company charges a flat fee of $3.25 for each ride plus $2.15 for each mile driven. What is the total charge, in dollars, for a ride of 18 miles?</p>",
+   "choices": [
+    "\\(3.25\\)",
+    "\\(38.70\\)",
+    "\\(41.95\\)",
+    "\\(97.20\\)"
+   ],
+   "answer": "C",
+   "explanation": "The charge starts at $3.25 and increases by $2.15 per mile, so after \\(m\\) miles the total is \\(3.25+2.15m\\). Substituting \\(18\\) gives \\(3.25+2.15(18)=3.25+38.70=41.95\\), so the answer is 41.95 dollars. Choice A is the starting amount. Choice B is only the amount added, without the starting amount. Choice D is \\((3.25+2.15)(18)\\), which wrongly multiplies the starting amount by 18."
+  },
+  {
+   "id": "pt2-m2-q11-v6",
+   "family": "pt2-m2-q11",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q11",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>When a tree seedling is planted, it is 14.50 inches tall. For each week after planting, the seedling's height increases by 1.75 inches. What is the height, in inches, of the seedling 36 weeks after it is planted?</p>",
+   "choices": [
+    "\\(77.50\\)",
+    "\\(48.50\\)",
+    "\\(14.50\\)",
+    "\\(1.75\\)"
+   ],
+   "answer": "A",
+   "explanation": "The height starts at 14.50 inches and increases by 1.75 inches per week, so after \\(w\\) weeks the total is \\(14.50+1.75w\\). Substituting \\(36\\) gives \\(14.50+1.75(36)=14.50+63.00=77.50\\), so the answer is 77.50 inches. Choice B is \\(1.75(36)-14.50\\), which subtracts the starting amount instead of adding it. Choice C is the starting amount. Choice D is the increase per week."
+  },
+  {
+   "id": "pt2-m2-q11-v7",
+   "family": "pt2-m2-q11",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q11",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A 3D printer has already deposited 42.6 grams of plastic for a model. The printer deposits another 0.85 gram of plastic each minute. What is the total mass, in grams, of plastic deposited for the model after the printer runs for another 120 minutes?</p>",
+   "choices": [
+    "\\(5{,}214.0\\)",
+    "\\(144.6\\)",
+    "\\(102.0\\)",
+    "\\(42.6\\)"
+   ],
+   "answer": "B",
+   "explanation": "The mass starts at 42.6 grams and increases by 0.85 gram per minute, so after \\(t\\) minutes the total is \\(42.6+0.85t\\). Substituting \\(120\\) gives \\(42.6+0.85(120)=42.6+102.0=144.6\\), so the answer is 144.6 grams. Choice A is \\((42.6+0.85)(120)\\), which wrongly multiplies the starting amount by 120. Choice C is only the amount added, without the starting amount. Choice D is the starting amount."
+  },
+  {
+   "id": "pt2-m2-q12-v5",
+   "family": "pt2-m2-q12",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>The function \\(f\\) is defined by \\(f(x)=5x^{-1}\\). What is the value of \\(f(33)\\)?</p>",
+   "choices": [
+    "\\(\\dfrac{5}{33}\\)",
+    "\\(\\dfrac{33}{5}\\)",
+    "\\(165\\)",
+    "\\(160\\)"
+   ],
+   "answer": "A",
+   "explanation": "Since \\(x^{-1}=\\dfrac{1}{x}\\), \\(f(x)=5x^{-1}=\\dfrac{5}{x}\\). Then \\(f(33)=5(33)^{-1}=\\dfrac{5}{33}\\). Note that the exponent \\(-1\\) applies only to \\(x\\), not to \\(5\\). Choice B is the reciprocal of the correct value. Choice C is \\(5(33)\\): the negative exponent was ignored. Choice D is \\(5(33-1)\\): \\(x^{-1}\\) was misread as \\(x-1\\)."
+  },
+  {
+   "id": "pt2-m2-q12-v6",
+   "family": "pt2-m2-q12",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>The function \\(f\\) is defined by \\(f(x)=9x^{-1}\\). What is the value of \\(f(20)\\)?</p>",
+   "choices": [
+    "\\(-180\\)",
+    "\\(\\dfrac{1}{180}\\)",
+    "\\(\\dfrac{20}{9}\\)",
+    "\\(\\dfrac{9}{20}\\)"
+   ],
+   "answer": "D",
+   "explanation": "Since \\(x^{-1}=\\dfrac{1}{x}\\), \\(f(x)=9x^{-1}=\\dfrac{9}{x}\\). Then \\(f(20)=9(20)^{-1}=\\dfrac{9}{20}\\). Note that the exponent \\(-1\\) applies only to \\(x\\), not to \\(9\\). Choice A is \\(-9(20)\\): the exponent \\(-1\\) was treated as multiplying by \\(-1\\). Choice B is \\((9\\cdot 20)^{-1}\\): the exponent was applied to the 9 as well as to \\(x\\). Choice C is the reciprocal of the correct value."
+  },
+  {
+   "id": "pt2-m2-q12-v7",
+   "family": "pt2-m2-q12",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>The function \\(f\\) is defined by \\(f(x)=2x^{-1}\\). What is the value of \\(f(45)\\)?</p>",
+   "choices": [
+    "\\(-90\\)",
+    "\\(\\dfrac{2}{45}\\)",
+    "\\(\\dfrac{45}{2}\\)",
+    "\\(88\\)"
+   ],
+   "answer": "B",
+   "explanation": "Since \\(x^{-1}=\\dfrac{1}{x}\\), \\(f(x)=2x^{-1}=\\dfrac{2}{x}\\). Then \\(f(45)=2(45)^{-1}=\\dfrac{2}{45}\\). Note that the exponent \\(-1\\) applies only to \\(x\\), not to \\(2\\). Choice A is \\(-2(45)\\): the exponent \\(-1\\) was treated as multiplying by \\(-1\\). Choice C is the reciprocal of the correct value. Choice D is \\(2(45-1)\\): \\(x^{-1}\\) was misread as \\(x-1\\)."
+  },
+  {
+   "id": "pt2-m2-q13-v5",
+   "family": "pt2-m2-q13",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>The area of a rectangle is 96 square millimeters. The length of the longest side of the rectangle is 16 millimeters. What is the length, in millimeters, of the shortest side of this rectangle?</p>",
+   "answer": [
+    "6"
+   ],
+   "explanation": "The area of a rectangle is the product of its longest side and its shortest side. Let \\(x\\) be the length, in millimeters, of the shortest side. Then \\(16x=96\\), so \\(x=\\dfrac{96}{16}=6\\)."
+  },
+  {
+   "id": "pt2-m2-q13-v6",
+   "family": "pt2-m2-q13",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "<p>A rectangular stone patio has an area of 33 square meters. The longest side of the patio is 8 meters long. What is the length, in meters, of the shortest side of the patio?</p>",
+   "answer": [
+    "4.125",
+    "33/8"
+   ],
+   "explanation": "The area of a rectangle is the product of its longest side and its shortest side. Let \\(x\\) be the length, in meters, of the shortest side. Then \\(8x=33\\), so \\(x=\\dfrac{33}{8}=4.125\\)."
+  },
+  {
+   "id": "pt2-m2-q13-v7",
+   "family": "pt2-m2-q13",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>The area of a rectangle is 136 square inches. The length of the longest side of the rectangle is 17 inches. What is the length, in inches, of the shortest side of this rectangle?</p>",
+   "answer": [
+    "8"
+   ],
+   "explanation": "The area of a rectangle is the product of its longest side and its shortest side. Let \\(x\\) be the length, in inches, of the shortest side. Then \\(17x=136\\), so \\(x=\\dfrac{136}{17}=8\\)."
+  },
+  {
+   "id": "pt2-m2-q14-v5",
+   "family": "pt2-m2-q14",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q14",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>How many <u>feet</u> are equivalent to 47 fathoms? (6 feet = 1 fathom)</p>",
+   "answer": [
+    "282"
+   ],
+   "explanation": "It's given that \\(1\\) fathom \\(=6\\) feet. So 47 fathoms is \\(47\\text{ fathoms }\\cdot\\dfrac{6\\text{ feet}}{1\\text{ fathom}}=282\\) feet."
+  },
+  {
+   "id": "pt2-m2-q14-v6",
+   "family": "pt2-m2-q14",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q14",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>How many <u>feet</u> are equivalent to 85 links? (0.66 feet = 1 link)</p>",
+   "answer": [
+    "56.1",
+    "561/10"
+   ],
+   "explanation": "It's given that \\(1\\) link \\(=0.66\\) feet. So 85 links is \\(85\\text{ links }\\cdot\\dfrac{0.66\\text{ feet}}{1\\text{ link}}=56.1\\) feet. Note that 56.1 and 561/10 are examples of ways to enter a correct answer."
+  },
+  {
+   "id": "pt2-m2-q14-v7",
+   "family": "pt2-m2-q14",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q14",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>How many <u>grams</u> are equivalent to 24 ounces? (28.35 grams = 1 ounce)</p>",
+   "answer": [
+    "680.4",
+    "3402/5"
+   ],
+   "explanation": "It's given that \\(1\\) ounce \\(=28.35\\) grams. So 24 ounces is \\(24\\text{ ounces }\\cdot\\dfrac{28.35\\text{ grams}}{1\\text{ ounce}}=680.4\\) grams. Note that 680.4 and 3402/5 are examples of ways to enter a correct answer."
+  },
+  {
+   "id": "pt2-m2-q15-v5",
+   "family": "pt2-m2-q15",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(4x^2-12x+9=0\\)</p><p>How many distinct real solutions does the given equation have?</p>",
+   "choices": [
+    "Exactly two",
+    "Exactly one",
+    "Zero",
+    "Infinitely many"
+   ],
+   "answer": "B",
+   "explanation": "For \\(ax^2+bx+c=0\\), the discriminant \\(b^2-4ac\\) determines the number of real solutions: positive means two, zero means one, negative means none. Here \\(a=4\\), \\(b=-12\\), and \\(c=9\\), so \\(b^2-4ac=(-12)^2-4(4)(9)=0\\). Since the discriminant is zero, the equation has exactly one real solution. A quadratic equation can never have infinitely many solutions."
+  },
+  {
+   "id": "pt2-m2-q15-v6",
+   "family": "pt2-m2-q15",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(2x^2+3x+7=0\\)</p><p>How many distinct real solutions does the given equation have?</p>",
+   "choices": [
+    "Exactly two",
+    "Exactly one",
+    "Zero",
+    "Infinitely many"
+   ],
+   "answer": "C",
+   "explanation": "For \\(ax^2+bx+c=0\\), the discriminant \\(b^2-4ac\\) determines the number of real solutions: positive means two, zero means one, negative means none. Here \\(a=2\\), \\(b=3\\), and \\(c=7\\), so \\(b^2-4ac=(3)^2-4(2)(7)=-47\\). Since the discriminant is negative, the equation has zero real solutions. A quadratic equation can never have infinitely many solutions."
+  },
+  {
+   "id": "pt2-m2-q15-v7",
+   "family": "pt2-m2-q15",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x^2+2x-35=0\\)</p><p>How many distinct real solutions does the given equation have?</p>",
+   "choices": [
+    "Exactly two",
+    "Exactly one",
+    "Zero",
+    "Infinitely many"
+   ],
+   "answer": "A",
+   "explanation": "For \\(ax^2+bx+c=0\\), the discriminant \\(b^2-4ac\\) determines the number of real solutions: positive means two, zero means one, negative means none. Here \\(a=1\\), \\(b=2\\), and \\(c=-35\\), so \\(b^2-4ac=(2)^2-4(1)(-35)=144\\). Since the discriminant is positive, the equation has exactly two distinct real solutions. A quadratic equation can never have infinitely many solutions."
+  },
+  {
+   "id": "pt2-m2-q16-v5",
+   "family": "pt2-m2-q16",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q16",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>For the linear function \\(g\\), the graph of \\(y=g(x)\\) in the \\(xy\\)-plane has a slope of \\(6\\) and passes through the point \\((1, 20)\\). Which equation defines \\(g\\)?</p>",
+   "choices": [
+    "\\(g(x)=6x+6\\)",
+    "\\(g(x)=6x+14\\)",
+    "\\(g(x)=6x+20\\)",
+    "\\(g(x)=6x+26\\)"
+   ],
+   "answer": "B",
+   "explanation": "A linear function can be written \\(g(x)=mx+b\\). The slope is \\(6\\), so \\(m=6\\). Since the graph passes through \\((1, 20)\\), substitute: \\(20=6(1)+b\\), so \\(20=6+b\\) and \\(b=14\\). Therefore \\(g(x)=6x+14\\). Choice A: the graph of \\(g(x)=6x+6\\) passes through \\((1, 12)\\), not \\((1, 20)\\) — this uses the slope as the \\(y\\)-intercept. Choice C: the graph of \\(g(x)=6x+20\\) passes through \\((1, 26)\\), not \\((1, 20)\\) — this uses the \\(y\\)-coordinate as the \\(y\\)-intercept. Choice D: the graph of \\(g(x)=6x+26\\) passes through \\((1, 32)\\), not \\((1, 20)\\) — this adds \\(6(1)\\) instead of subtracting it."
+  },
+  {
+   "id": "pt2-m2-q16-v6",
+   "family": "pt2-m2-q16",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q16",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>For the linear function \\(g\\), the graph of \\(y=g(x)\\) in the \\(xy\\)-plane has a slope of \\(-3\\) and passes through the point \\((2, 4)\\). Which equation defines \\(g\\)?</p>",
+   "choices": [
+    "\\(g(x)=-3x-2\\)",
+    "\\(g(x)=-3x+4\\)",
+    "\\(g(x)=-3x+7\\)",
+    "\\(g(x)=-3x+10\\)"
+   ],
+   "answer": "D",
+   "explanation": "A linear function can be written \\(g(x)=mx+b\\). The slope is \\(-3\\), so \\(m=-3\\). Since the graph passes through \\((2, 4)\\), substitute: \\(4=-3(2)+b\\), so \\(4=-6+b\\) and \\(b=10\\). Therefore \\(g(x)=-3x+10\\). Choice A: the graph of \\(g(x)=-3x-2\\) passes through \\((2, -8)\\), not \\((2, 4)\\) — this is a sign error when solving for \\(b\\). Choice B: the graph of \\(g(x)=-3x+4\\) passes through \\((2, -2)\\), not \\((2, 4)\\) — this uses the \\(y\\)-coordinate as the \\(y\\)-intercept. Choice C: the graph of \\(g(x)=-3x+7\\) passes through \\((2, 1)\\), not \\((2, 4)\\) — this subtracts the slope instead of \\(-3(2)\\)."
+  },
+  {
+   "id": "pt2-m2-q16-v7",
+   "family": "pt2-m2-q16",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q16",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>For the linear function \\(g\\), the graph of \\(y=g(x)\\) in the \\(xy\\)-plane has a slope of \\(7\\) and passes through the point \\((3, 25)\\). Which equation defines \\(g\\)?</p>",
+   "choices": [
+    "\\(g(x)=7x+4\\)",
+    "\\(g(x)=7x+18\\)",
+    "\\(g(x)=7x+25\\)",
+    "\\(g(x)=7x+46\\)"
+   ],
+   "answer": "A",
+   "explanation": "A linear function can be written \\(g(x)=mx+b\\). The slope is \\(7\\), so \\(m=7\\). Since the graph passes through \\((3, 25)\\), substitute: \\(25=7(3)+b\\), so \\(25=21+b\\) and \\(b=4\\). Therefore \\(g(x)=7x+4\\). Choice B: the graph of \\(g(x)=7x+18\\) passes through \\((3, 39)\\), not \\((3, 25)\\) — this subtracts the slope instead of \\(7(3)\\). Choice C: the graph of \\(g(x)=7x+25\\) passes through \\((3, 46)\\), not \\((3, 25)\\) — this uses the \\(y\\)-coordinate as the \\(y\\)-intercept. Choice D: the graph of \\(g(x)=7x+46\\) passes through \\((3, 67)\\), not \\((3, 25)\\) — this adds \\(7(3)\\) instead of subtracting it."
+  },
+  {
+   "id": "pt2-m2-q17-v5",
+   "family": "pt2-m2-q17",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q17",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>The graph gives the estimated number of members \\(y\\), in hundreds, of an online gardening forum \\(x\\) months after it opened, where \\(0\\le x\\le 5\\). Which of the following best describes the increase in the estimated number of members from \\(x=0\\) to \\(x=1\\)?</p>",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 330 292\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.3\"><line x1=\"94.0\" y1=\"266.0\" x2=\"94.0\" y2=\"16.0\"/><line x1=\"144.0\" y1=\"266.0\" x2=\"144.0\" y2=\"16.0\"/><line x1=\"194.0\" y1=\"266.0\" x2=\"194.0\" y2=\"16.0\"/><line x1=\"244.0\" y1=\"266.0\" x2=\"244.0\" y2=\"16.0\"/><line x1=\"294.0\" y1=\"266.0\" x2=\"294.0\" y2=\"16.0\"/><line x1=\"44.0\" y1=\"257.7\" x2=\"294.0\" y2=\"257.7\"/><line x1=\"44.0\" y1=\"249.3\" x2=\"294.0\" y2=\"249.3\"/><line x1=\"44.0\" y1=\"241.0\" x2=\"294.0\" y2=\"241.0\"/><line x1=\"44.0\" y1=\"232.7\" x2=\"294.0\" y2=\"232.7\"/><line x1=\"44.0\" y1=\"224.3\" x2=\"294.0\" y2=\"224.3\"/><line x1=\"44.0\" y1=\"216.0\" x2=\"294.0\" y2=\"216.0\"/><line x1=\"44.0\" y1=\"207.7\" x2=\"294.0\" y2=\"207.7\"/><line x1=\"44.0\" y1=\"199.3\" x2=\"294.0\" y2=\"199.3\"/><line x1=\"44.0\" y1=\"191.0\" x2=\"294.0\" y2=\"191.0\"/><line x1=\"44.0\" y1=\"182.7\" x2=\"294.0\" y2=\"182.7\"/><line x1=\"44.0\" y1=\"174.3\" x2=\"294.0\" y2=\"174.3\"/><line x1=\"44.0\" y1=\"166.0\" x2=\"294.0\" y2=\"166.0\"/><line x1=\"44.0\" y1=\"157.7\" x2=\"294.0\" y2=\"157.7\"/><line x1=\"44.0\" y1=\"149.3\" x2=\"294.0\" y2=\"149.3\"/><line x1=\"44.0\" y1=\"141.0\" x2=\"294.0\" y2=\"141.0\"/><line x1=\"44.0\" y1=\"132.7\" x2=\"294.0\" y2=\"132.7\"/><line x1=\"44.0\" y1=\"124.3\" x2=\"294.0\" y2=\"124.3\"/><line x1=\"44.0\" y1=\"116.0\" x2=\"294.0\" y2=\"116.0\"/><line x1=\"44.0\" y1=\"107.7\" x2=\"294.0\" y2=\"107.7\"/><line x1=\"44.0\" y1=\"99.3\" x2=\"294.0\" y2=\"99.3\"/><line x1=\"44.0\" y1=\"91.0\" x2=\"294.0\" y2=\"91.0\"/><line x1=\"44.0\" y1=\"82.7\" x2=\"294.0\" y2=\"82.7\"/><line x1=\"44.0\" y1=\"74.3\" x2=\"294.0\" y2=\"74.3\"/><line x1=\"44.0\" y1=\"66.0\" x2=\"294.0\" y2=\"66.0\"/><line x1=\"44.0\" y1=\"57.7\" x2=\"294.0\" y2=\"57.7\"/><line x1=\"44.0\" y1=\"49.3\" x2=\"294.0\" y2=\"49.3\"/><line x1=\"44.0\" y1=\"41.0\" x2=\"294.0\" y2=\"41.0\"/><line x1=\"44.0\" y1=\"32.7\" x2=\"294.0\" y2=\"32.7\"/><line x1=\"44.0\" y1=\"24.3\" x2=\"294.0\" y2=\"24.3\"/><line x1=\"44.0\" y1=\"16.0\" x2=\"294.0\" y2=\"16.0\"/></g><g stroke=\"currentColor\" stroke-width=\"1.6\"><line x1=\"44.0\" y1=\"266.0\" x2=\"308.0\" y2=\"266.0\"/><line x1=\"44.0\" y1=\"266.0\" x2=\"44.0\" y2=\"6.0\"/></g><path d=\"M314.0 266.0 l-8 -4 v8 z M44.0 0.0 l-4 8 h8 z\" fill=\"currentColor\"/><g fill=\"currentColor\" font-size=\"12\" font-family=\"serif\"><text x=\"94.0\" y=\"282.0\" text-anchor=\"middle\">1</text><text x=\"144.0\" y=\"282.0\" text-anchor=\"middle\">2</text><text x=\"194.0\" y=\"282.0\" text-anchor=\"middle\">3</text><text x=\"244.0\" y=\"282.0\" text-anchor=\"middle\">4</text><text x=\"294.0\" y=\"282.0\" text-anchor=\"middle\">5</text><text x=\"38.0\" y=\"253.3\" text-anchor=\"end\">2</text><text x=\"38.0\" y=\"236.7\" text-anchor=\"end\">4</text><text x=\"38.0\" y=\"220.0\" text-anchor=\"end\">6</text><text x=\"38.0\" y=\"203.3\" text-anchor=\"end\">8</text><text x=\"38.0\" y=\"186.7\" text-anchor=\"end\">10</text><text x=\"38.0\" y=\"170.0\" text-anchor=\"end\">12</text><text x=\"38.0\" y=\"153.3\" text-anchor=\"end\">14</text><text x=\"38.0\" y=\"136.7\" text-anchor=\"end\">16</text><text x=\"38.0\" y=\"120.0\" text-anchor=\"end\">18</text><text x=\"38.0\" y=\"103.3\" text-anchor=\"end\">20</text><text x=\"38.0\" y=\"86.7\" text-anchor=\"end\">22</text><text x=\"38.0\" y=\"70.0\" text-anchor=\"end\">24</text><text x=\"38.0\" y=\"53.3\" text-anchor=\"end\">26</text><text x=\"38.0\" y=\"36.7\" text-anchor=\"end\">28</text><text x=\"38.0\" y=\"20.0\" text-anchor=\"end\">30</text><text x=\"38.0\" y=\"282.0\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"318.0\" y=\"270.0\" font-style=\"italic\">x</text><text x=\"52.0\" y=\"8.0\" font-style=\"italic\">y</text></g><polyline points=\"44.0,224.3 44.6,224.2 45.2,224.0 45.9,223.8 46.5,223.6 47.1,223.4 47.8,223.3 48.4,223.1 49.0,222.9 49.6,222.7 50.2,222.5 50.9,222.4 51.5,222.2 52.1,222.0 52.8,221.8 53.4,221.6 54.0,221.4 54.6,221.2 55.2,221.1 55.9,220.9 56.5,220.7 57.1,220.5 57.8,220.3 58.4,220.1 59.0,219.9 59.6,219.7 60.2,219.5 60.9,219.3 61.5,219.1 62.1,218.9 62.8,218.7 63.4,218.5 64.0,218.3 64.6,218.1 65.2,217.9 65.9,217.7 66.5,217.5 67.1,217.3 67.8,217.1 68.4,216.9 69.0,216.7 69.6,216.5 70.2,216.3 70.9,216.1 71.5,215.9 72.1,215.7 72.8,215.4 73.4,215.2 74.0,215.0 74.6,214.8 75.2,214.6 75.9,214.4 76.5,214.1 77.1,213.9 77.8,213.7 78.4,213.5 79.0,213.3 79.6,213.0 80.2,212.8 80.9,212.6 81.5,212.4 82.1,212.1 82.8,211.9 83.4,211.7 84.0,211.5 84.6,211.2 85.2,211.0 85.9,210.8 86.5,210.5 87.1,210.3 87.8,210.1 88.4,209.8 89.0,209.6 89.6,209.4 90.2,209.1 90.9,208.9 91.5,208.6 92.1,208.4 92.8,208.2 93.4,207.9 94.0,207.7 94.6,207.4 95.2,207.2 95.9,206.9 96.5,206.7 97.1,206.4 97.8,206.2 98.4,205.9 99.0,205.7 99.6,205.4 100.2,205.2 100.9,204.9 101.5,204.6 102.1,204.4 102.8,204.1 103.4,203.9 104.0,203.6 104.6,203.3 105.2,203.1 105.9,202.8 106.5,202.5 107.1,202.3 107.8,202.0 108.4,201.7 109.0,201.5 109.6,201.2 110.2,200.9 110.9,200.7 111.5,200.4 112.1,200.1 112.8,199.8 113.4,199.5 114.0,199.3 114.6,199.0 115.2,198.7 115.9,198.4 116.5,198.1 117.1,197.8 117.8,197.6 118.4,197.3 119.0,197.0 119.6,196.7 120.2,196.4 120.9,196.1 121.5,195.8 122.1,195.5 122.8,195.2 123.4,194.9 124.0,194.6 124.6,194.3 125.2,194.0 125.9,193.7 126.5,193.4 127.1,193.1 127.8,192.8 128.4,192.5 129.0,192.2 129.6,191.9 130.2,191.6 130.9,191.2 131.5,190.9 132.1,190.6 132.8,190.3 133.4,190.0 134.0,189.6 134.6,189.3 135.2,189.0 135.9,188.7 136.5,188.4 137.1,188.0 137.8,187.7 138.4,187.4 139.0,187.0 139.6,186.7 140.2,186.4 140.9,186.0 141.5,185.7 142.1,185.4 142.8,185.0 143.4,184.7 144.0,184.3 144.6,184.0 145.2,183.6 145.9,183.3 146.5,182.9 147.1,182.6 147.8,182.2 148.4,181.9 149.0,181.5 149.6,181.2 150.2,180.8 150.9,180.5 151.5,180.1 152.1,179.7 152.8,179.4 153.4,179.0 154.0,178.6 154.6,178.3 155.2,177.9 155.9,177.5 156.5,177.2 157.1,176.8 157.8,176.4 158.4,176.0 159.0,175.7 159.6,175.3 160.2,174.9 160.9,174.5 161.5,174.1 162.1,173.7 162.8,173.4 163.4,173.0 164.0,172.6 164.6,172.2 165.2,171.8 165.9,171.4 166.5,171.0 167.1,170.6 167.8,170.2 168.4,169.8 169.0,169.4 169.6,169.0 170.2,168.6 170.9,168.1 171.5,167.7 172.1,167.3 172.8,166.9 173.4,166.5 174.0,166.1 174.6,165.6 175.2,165.2 175.9,164.8 176.5,164.4 177.1,163.9 177.8,163.5 178.4,163.1 179.0,162.6 179.6,162.2 180.2,161.8 180.9,161.3 181.5,160.9 182.1,160.4 182.8,160.0 183.4,159.6 184.0,159.1 184.6,158.7 185.2,158.2 185.9,157.8 186.5,157.3 187.1,156.8 187.8,156.4 188.4,155.9 189.0,155.4 189.6,155.0 190.2,154.5 190.9,154.0 191.5,153.6 192.1,153.1 192.8,152.6 193.4,152.1 194.0,151.7 194.6,151.2 195.2,150.7 195.9,150.2 196.5,149.7 197.1,149.2 197.8,148.7 198.4,148.3 199.0,147.8 199.6,147.3 200.2,146.8 200.9,146.3 201.5,145.7 202.1,145.2 202.8,144.7 203.4,144.2 204.0,143.7 204.6,143.2 205.2,142.7 205.9,142.2 206.5,141.6 207.1,141.1 207.8,140.6 208.4,140.1 209.0,139.5 209.6,139.0 210.2,138.5 210.9,137.9 211.5,137.4 212.1,136.8 212.8,136.3 213.4,135.7 214.0,135.2 214.6,134.6 215.2,134.1 215.9,133.5 216.5,133.0 217.1,132.4 217.8,131.9 218.4,131.3 219.0,130.7 219.6,130.1 220.2,129.6 220.9,129.0 221.5,128.4 222.1,127.8 222.8,127.3 223.4,126.7 224.0,126.1 224.6,125.5 225.2,124.9 225.9,124.3 226.5,123.7 227.1,123.1 227.8,122.5 228.4,121.9 229.0,121.3 229.6,120.7 230.2,120.1 230.9,119.5 231.5,118.8 232.1,118.2 232.8,117.6 233.4,117.0 234.0,116.4 234.6,115.7 235.2,115.1 235.9,114.5 236.5,113.8 237.1,113.2 237.8,112.5 238.4,111.9 239.0,111.2 239.6,110.6 240.2,109.9 240.9,109.3 241.5,108.6 242.1,107.9 242.8,107.3 243.4,106.6 244.0,105.9 244.6,105.3 245.3,104.6 245.9,103.9 246.5,103.2 247.1,102.5 247.8,101.8 248.4,101.2 249.0,100.5 249.6,99.8 250.2,99.1 250.9,98.4 251.5,97.6 252.1,96.9 252.8,96.2 253.4,95.5 254.0,94.8 254.6,94.1 255.2,93.3 255.9,92.6 256.5,91.9 257.1,91.2 257.8,90.4 258.4,89.7 259.0,88.9 259.6,88.2 260.2,87.4 260.9,86.7 261.5,85.9 262.1,85.2 262.8,84.4 263.4,83.6 264.0,82.9 264.6,82.1 265.2,81.3 265.9,80.5 266.5,79.8 267.1,79.0 267.8,78.2 268.4,77.4 269.0,76.6 269.6,75.8 270.2,75.0 270.9,74.2 271.5,73.4 272.1,72.6 272.8,71.8 273.4,70.9 274.0,70.1 274.6,69.3 275.2,68.5 275.9,67.6 276.5,66.8 277.1,66.0 277.8,65.1 278.4,64.3 279.0,63.4 279.6,62.6 280.2,61.7 280.9,60.9 281.5,60.0 282.1,59.1 282.8,58.2 283.4,57.4 284.0,56.5 284.6,55.6 285.2,54.7 285.9,53.8 286.5,52.9 287.1,52.0 287.8,51.1 288.4,50.2 289.0,49.3 289.6,48.4 290.2,47.5 290.9,46.6 291.5,45.6 292.1,44.7 292.8,43.8 293.4,42.8 294.0,41.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/></svg>",
+    "alt": "Graph in the xy-plane, x from 0 to 5 and y from 0 to 30 with gridlines every 1. An increasing curve starts at (0, 5), passes through (1, 7), and curves upward to about (5, 26.9)."
+   },
+   "choices": [
+    "The estimated number of members at \\(x=1\\) is \\(0.4\\) times the estimated number of members at \\(x=0\\).",
+    "The estimated number of members at \\(x=1\\) is \\(1.4\\) times the estimated number of members at \\(x=0\\).",
+    "The estimated number of members at \\(x=1\\) is \\(2\\) times the estimated number of members at \\(x=0\\).",
+    "The estimated number of members at \\(x=1\\) is \\(7\\) times the estimated number of members at \\(x=0\\)."
+   ],
+   "answer": "B",
+   "explanation": "From the graph, when \\(x=0\\) the \\(y\\)-coordinate is \\(5\\), and when \\(x=1\\) the \\(y\\)-coordinate is \\(7\\). Dividing gives \\(\\dfrac{7}{5}=1.4\\), so the estimated number of members at \\(x=1\\) is \\(1.4\\) times the estimated number of members at \\(x=0\\). Choice A is \\(\\tfrac{7-5}{5}\\), the relative increase rather than the multiplier. Choice C is the difference \\(7-5\\), not a ratio. Choice D is the value at \\(x=1\\), not a comparison."
+  },
+  {
+   "id": "pt2-m2-q17-v6",
+   "family": "pt2-m2-q17",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q17",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>The graph gives the estimated number of honeybees \\(y\\), in thousands, in a hive \\(x\\) weeks after the hive was established, where \\(0\\le x\\le 6\\). Which of the following best describes the increase in the estimated number of honeybees from \\(x=0\\) to \\(x=1\\)?</p>",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 330 292\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.3\"><line x1=\"85.7\" y1=\"266.0\" x2=\"85.7\" y2=\"16.0\"/><line x1=\"127.3\" y1=\"266.0\" x2=\"127.3\" y2=\"16.0\"/><line x1=\"169.0\" y1=\"266.0\" x2=\"169.0\" y2=\"16.0\"/><line x1=\"210.7\" y1=\"266.0\" x2=\"210.7\" y2=\"16.0\"/><line x1=\"252.3\" y1=\"266.0\" x2=\"252.3\" y2=\"16.0\"/><line x1=\"294.0\" y1=\"266.0\" x2=\"294.0\" y2=\"16.0\"/><line x1=\"44.0\" y1=\"250.4\" x2=\"294.0\" y2=\"250.4\"/><line x1=\"44.0\" y1=\"234.8\" x2=\"294.0\" y2=\"234.8\"/><line x1=\"44.0\" y1=\"219.1\" x2=\"294.0\" y2=\"219.1\"/><line x1=\"44.0\" y1=\"203.5\" x2=\"294.0\" y2=\"203.5\"/><line x1=\"44.0\" y1=\"187.9\" x2=\"294.0\" y2=\"187.9\"/><line x1=\"44.0\" y1=\"172.2\" x2=\"294.0\" y2=\"172.2\"/><line x1=\"44.0\" y1=\"156.6\" x2=\"294.0\" y2=\"156.6\"/><line x1=\"44.0\" y1=\"141.0\" x2=\"294.0\" y2=\"141.0\"/><line x1=\"44.0\" y1=\"125.4\" x2=\"294.0\" y2=\"125.4\"/><line x1=\"44.0\" y1=\"109.8\" x2=\"294.0\" y2=\"109.8\"/><line x1=\"44.0\" y1=\"94.1\" x2=\"294.0\" y2=\"94.1\"/><line x1=\"44.0\" y1=\"78.5\" x2=\"294.0\" y2=\"78.5\"/><line x1=\"44.0\" y1=\"62.9\" x2=\"294.0\" y2=\"62.9\"/><line x1=\"44.0\" y1=\"47.2\" x2=\"294.0\" y2=\"47.2\"/><line x1=\"44.0\" y1=\"31.6\" x2=\"294.0\" y2=\"31.6\"/><line x1=\"44.0\" y1=\"16.0\" x2=\"294.0\" y2=\"16.0\"/></g><g stroke=\"currentColor\" stroke-width=\"1.6\"><line x1=\"44.0\" y1=\"266.0\" x2=\"308.0\" y2=\"266.0\"/><line x1=\"44.0\" y1=\"266.0\" x2=\"44.0\" y2=\"6.0\"/></g><path d=\"M314.0 266.0 l-8 -4 v8 z M44.0 0.0 l-4 8 h8 z\" fill=\"currentColor\"/><g fill=\"currentColor\" font-size=\"12\" font-family=\"serif\"><text x=\"85.7\" y=\"282.0\" text-anchor=\"middle\">1</text><text x=\"127.3\" y=\"282.0\" text-anchor=\"middle\">2</text><text x=\"169.0\" y=\"282.0\" text-anchor=\"middle\">3</text><text x=\"210.7\" y=\"282.0\" text-anchor=\"middle\">4</text><text x=\"252.3\" y=\"282.0\" text-anchor=\"middle\">5</text><text x=\"294.0\" y=\"282.0\" text-anchor=\"middle\">6</text><text x=\"38.0\" y=\"238.8\" text-anchor=\"end\">2</text><text x=\"38.0\" y=\"207.5\" text-anchor=\"end\">4</text><text x=\"38.0\" y=\"176.2\" text-anchor=\"end\">6</text><text x=\"38.0\" y=\"145.0\" text-anchor=\"end\">8</text><text x=\"38.0\" y=\"113.8\" text-anchor=\"end\">10</text><text x=\"38.0\" y=\"82.5\" text-anchor=\"end\">12</text><text x=\"38.0\" y=\"51.2\" text-anchor=\"end\">14</text><text x=\"38.0\" y=\"20.0\" text-anchor=\"end\">16</text><text x=\"38.0\" y=\"282.0\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"318.0\" y=\"270.0\" font-style=\"italic\">x</text><text x=\"52.0\" y=\"8.0\" font-style=\"italic\">y</text></g><polyline points=\"44.0,203.5 44.6,203.3 45.2,203.1 45.9,202.9 46.5,202.7 47.1,202.4 47.8,202.2 48.4,202.0 49.0,201.8 49.6,201.6 50.2,201.4 50.9,201.2 51.5,200.9 52.1,200.7 52.8,200.5 53.4,200.3 54.0,200.1 54.6,199.8 55.2,199.6 55.9,199.4 56.5,199.2 57.1,198.9 57.8,198.7 58.4,198.5 59.0,198.3 59.6,198.0 60.2,197.8 60.9,197.6 61.5,197.4 62.1,197.1 62.8,196.9 63.4,196.7 64.0,196.4 64.6,196.2 65.2,196.0 65.9,195.7 66.5,195.5 67.1,195.3 67.8,195.0 68.4,194.8 69.0,194.5 69.6,194.3 70.2,194.1 70.9,193.8 71.5,193.6 72.1,193.3 72.8,193.1 73.4,192.9 74.0,192.6 74.6,192.4 75.2,192.1 75.9,191.9 76.5,191.6 77.1,191.4 77.8,191.1 78.4,190.9 79.0,190.6 79.6,190.4 80.2,190.1 80.9,189.9 81.5,189.6 82.1,189.3 82.8,189.1 83.4,188.8 84.0,188.6 84.6,188.3 85.2,188.0 85.9,187.8 86.5,187.5 87.1,187.3 87.8,187.0 88.4,186.7 89.0,186.5 89.6,186.2 90.2,185.9 90.9,185.7 91.5,185.4 92.1,185.1 92.8,184.9 93.4,184.6 94.0,184.3 94.6,184.0 95.2,183.8 95.9,183.5 96.5,183.2 97.1,182.9 97.8,182.7 98.4,182.4 99.0,182.1 99.6,181.8 100.2,181.5 100.9,181.2 101.5,181.0 102.1,180.7 102.8,180.4 103.4,180.1 104.0,179.8 104.6,179.5 105.2,179.2 105.9,178.9 106.5,178.7 107.1,178.4 107.8,178.1 108.4,177.8 109.0,177.5 109.6,177.2 110.2,176.9 110.9,176.6 111.5,176.3 112.1,176.0 112.8,175.7 113.4,175.4 114.0,175.1 114.6,174.8 115.2,174.5 115.9,174.2 116.5,173.8 117.1,173.5 117.8,173.2 118.4,172.9 119.0,172.6 119.6,172.3 120.2,172.0 120.9,171.7 121.5,171.3 122.1,171.0 122.8,170.7 123.4,170.4 124.0,170.1 124.6,169.7 125.2,169.4 125.9,169.1 126.5,168.8 127.1,168.5 127.7,168.1 128.4,167.8 129.0,167.5 129.6,167.1 130.2,166.8 130.9,166.5 131.5,166.1 132.1,165.8 132.8,165.5 133.4,165.1 134.0,164.8 134.6,164.5 135.2,164.1 135.9,163.8 136.5,163.4 137.1,163.1 137.8,162.7 138.4,162.4 139.0,162.0 139.6,161.7 140.2,161.3 140.9,161.0 141.5,160.6 142.1,160.3 142.8,159.9 143.4,159.6 144.0,159.2 144.6,158.9 145.2,158.5 145.9,158.1 146.5,157.8 147.1,157.4 147.8,157.1 148.4,156.7 149.0,156.3 149.6,156.0 150.2,155.6 150.9,155.2 151.5,154.9 152.1,154.5 152.8,154.1 153.4,153.7 154.0,153.4 154.6,153.0 155.2,152.6 155.9,152.2 156.5,151.8 157.1,151.5 157.8,151.1 158.4,150.7 159.0,150.3 159.6,149.9 160.2,149.5 160.9,149.1 161.5,148.7 162.1,148.3 162.8,147.9 163.4,147.6 164.0,147.2 164.6,146.8 165.2,146.4 165.9,146.0 166.5,145.6 167.1,145.1 167.8,144.7 168.4,144.3 169.0,143.9 169.6,143.5 170.2,143.1 170.9,142.7 171.5,142.3 172.1,141.9 172.8,141.5 173.4,141.0 174.0,140.6 174.6,140.2 175.2,139.8 175.9,139.4 176.5,138.9 177.1,138.5 177.8,138.1 178.4,137.6 179.0,137.2 179.6,136.8 180.2,136.3 180.9,135.9 181.5,135.5 182.1,135.0 182.8,134.6 183.4,134.2 184.0,133.7 184.6,133.3 185.2,132.8 185.9,132.4 186.5,131.9 187.1,131.5 187.8,131.0 188.4,130.6 189.0,130.1 189.6,129.7 190.2,129.2 190.9,128.8 191.5,128.3 192.1,127.8 192.8,127.4 193.4,126.9 194.0,126.4 194.6,126.0 195.2,125.5 195.9,125.0 196.5,124.6 197.1,124.1 197.8,123.6 198.4,123.1 199.0,122.7 199.6,122.2 200.2,121.7 200.9,121.2 201.5,120.7 202.1,120.2 202.8,119.7 203.4,119.3 204.0,118.8 204.6,118.3 205.2,117.8 205.9,117.3 206.5,116.8 207.1,116.3 207.8,115.8 208.4,115.3 209.0,114.8 209.6,114.3 210.2,113.8 210.9,113.2 211.5,112.7 212.1,112.2 212.8,111.7 213.4,111.2 214.0,110.7 214.6,110.1 215.2,109.6 215.9,109.1 216.5,108.6 217.1,108.0 217.8,107.5 218.4,107.0 219.0,106.4 219.6,105.9 220.2,105.4 220.9,104.8 221.5,104.3 222.1,103.8 222.8,103.2 223.4,102.7 224.0,102.1 224.6,101.6 225.2,101.0 225.9,100.5 226.5,99.9 227.1,99.4 227.8,98.8 228.4,98.2 229.0,97.7 229.6,97.1 230.2,96.5 230.9,96.0 231.5,95.4 232.1,94.8 232.8,94.3 233.4,93.7 234.0,93.1 234.6,92.5 235.2,91.9 235.9,91.4 236.5,90.8 237.1,90.2 237.8,89.6 238.4,89.0 239.0,88.4 239.6,87.8 240.2,87.2 240.9,86.6 241.5,86.0 242.1,85.4 242.8,84.8 243.4,84.2 244.0,83.6 244.6,83.0 245.2,82.4 245.9,81.7 246.5,81.1 247.1,80.5 247.8,79.9 248.4,79.3 249.0,78.6 249.6,78.0 250.2,77.4 250.9,76.7 251.5,76.1 252.1,75.5 252.8,74.8 253.4,74.2 254.0,73.6 254.6,72.9 255.2,72.3 255.9,71.6 256.5,71.0 257.1,70.3 257.8,69.7 258.4,69.0 259.0,68.3 259.6,67.7 260.2,67.0 260.9,66.3 261.5,65.7 262.1,65.0 262.8,64.3 263.4,63.6 264.0,63.0 264.6,62.3 265.2,61.6 265.9,60.9 266.5,60.2 267.1,59.5 267.8,58.8 268.4,58.2 269.0,57.5 269.6,56.8 270.2,56.1 270.9,55.4 271.5,54.6 272.1,53.9 272.8,53.2 273.4,52.5 274.0,51.8 274.6,51.1 275.2,50.4 275.9,49.6 276.5,48.9 277.1,48.2 277.8,47.5 278.4,46.7 279.0,46.0 279.6,45.2 280.2,44.5 280.9,43.8 281.5,43.0 282.1,42.3 282.8,41.5 283.4,40.8 284.0,40.0 284.6,39.3 285.2,38.5 285.9,37.7 286.5,37.0 287.1,36.2 287.8,35.4 288.4,34.7 289.0,33.9 289.6,33.1 290.2,32.3 290.9,31.5 291.5,30.8 292.1,30.0 292.8,29.2 293.4,28.4 294.0,27.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/></svg>",
+    "alt": "Graph in the xy-plane, x from 0 to 6 and y from 0 to 16 with gridlines every 1. An increasing curve starts at (0, 4), passes through (1, 5), and curves gently upward to about (6, 15.3)."
+   },
+   "choices": [
+    "The estimated number of honeybees at \\(x=1\\) is \\(0.25\\) times the estimated number of honeybees at \\(x=0\\).",
+    "The estimated number of honeybees at \\(x=1\\) is \\(0.8\\) times the estimated number of honeybees at \\(x=0\\).",
+    "The estimated number of honeybees at \\(x=1\\) is \\(1\\) times the estimated number of honeybees at \\(x=0\\).",
+    "The estimated number of honeybees at \\(x=1\\) is \\(1.25\\) times the estimated number of honeybees at \\(x=0\\)."
+   ],
+   "answer": "D",
+   "explanation": "From the graph, when \\(x=0\\) the \\(y\\)-coordinate is \\(4\\), and when \\(x=1\\) the \\(y\\)-coordinate is \\(5\\). Dividing gives \\(\\dfrac{5}{4}=1.25\\), so the estimated number of honeybees at \\(x=1\\) is \\(1.25\\) times the estimated number of honeybees at \\(x=0\\). Choice A is \\(\\tfrac{5-4}{4}\\), the relative increase rather than the multiplier. Choice B is \\(\\tfrac{4}{5}\\), which compares the two values in the wrong order. Choice C is the difference \\(5-4\\), not a ratio."
+  },
+  {
+   "id": "pt2-m2-q17-v7",
+   "family": "pt2-m2-q17",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q17",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>The graph gives the estimated area covered by algae \\(y\\), in square meters, on the surface of a pond \\(x\\) weeks after the algae was first observed, where \\(0\\le x\\le 3\\). Which of the following best describes the increase in the estimated area covered by algae from \\(x=0\\) to \\(x=1\\)?</p>",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 330 292\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.3\"><line x1=\"127.3\" y1=\"266.0\" x2=\"127.3\" y2=\"16.0\"/><line x1=\"210.7\" y1=\"266.0\" x2=\"210.7\" y2=\"16.0\"/><line x1=\"294.0\" y1=\"266.0\" x2=\"294.0\" y2=\"16.0\"/><line x1=\"44.0\" y1=\"257.7\" x2=\"294.0\" y2=\"257.7\"/><line x1=\"44.0\" y1=\"249.3\" x2=\"294.0\" y2=\"249.3\"/><line x1=\"44.0\" y1=\"241.0\" x2=\"294.0\" y2=\"241.0\"/><line x1=\"44.0\" y1=\"232.7\" x2=\"294.0\" y2=\"232.7\"/><line x1=\"44.0\" y1=\"224.3\" x2=\"294.0\" y2=\"224.3\"/><line x1=\"44.0\" y1=\"216.0\" x2=\"294.0\" y2=\"216.0\"/><line x1=\"44.0\" y1=\"207.7\" x2=\"294.0\" y2=\"207.7\"/><line x1=\"44.0\" y1=\"199.3\" x2=\"294.0\" y2=\"199.3\"/><line x1=\"44.0\" y1=\"191.0\" x2=\"294.0\" y2=\"191.0\"/><line x1=\"44.0\" y1=\"182.7\" x2=\"294.0\" y2=\"182.7\"/><line x1=\"44.0\" y1=\"174.3\" x2=\"294.0\" y2=\"174.3\"/><line x1=\"44.0\" y1=\"166.0\" x2=\"294.0\" y2=\"166.0\"/><line x1=\"44.0\" y1=\"157.7\" x2=\"294.0\" y2=\"157.7\"/><line x1=\"44.0\" y1=\"149.3\" x2=\"294.0\" y2=\"149.3\"/><line x1=\"44.0\" y1=\"141.0\" x2=\"294.0\" y2=\"141.0\"/><line x1=\"44.0\" y1=\"132.7\" x2=\"294.0\" y2=\"132.7\"/><line x1=\"44.0\" y1=\"124.3\" x2=\"294.0\" y2=\"124.3\"/><line x1=\"44.0\" y1=\"116.0\" x2=\"294.0\" y2=\"116.0\"/><line x1=\"44.0\" y1=\"107.7\" x2=\"294.0\" y2=\"107.7\"/><line x1=\"44.0\" y1=\"99.3\" x2=\"294.0\" y2=\"99.3\"/><line x1=\"44.0\" y1=\"91.0\" x2=\"294.0\" y2=\"91.0\"/><line x1=\"44.0\" y1=\"82.7\" x2=\"294.0\" y2=\"82.7\"/><line x1=\"44.0\" y1=\"74.3\" x2=\"294.0\" y2=\"74.3\"/><line x1=\"44.0\" y1=\"66.0\" x2=\"294.0\" y2=\"66.0\"/><line x1=\"44.0\" y1=\"57.7\" x2=\"294.0\" y2=\"57.7\"/><line x1=\"44.0\" y1=\"49.3\" x2=\"294.0\" y2=\"49.3\"/><line x1=\"44.0\" y1=\"41.0\" x2=\"294.0\" y2=\"41.0\"/><line x1=\"44.0\" y1=\"32.7\" x2=\"294.0\" y2=\"32.7\"/><line x1=\"44.0\" y1=\"24.3\" x2=\"294.0\" y2=\"24.3\"/><line x1=\"44.0\" y1=\"16.0\" x2=\"294.0\" y2=\"16.0\"/></g><g stroke=\"currentColor\" stroke-width=\"1.6\"><line x1=\"44.0\" y1=\"266.0\" x2=\"308.0\" y2=\"266.0\"/><line x1=\"44.0\" y1=\"266.0\" x2=\"44.0\" y2=\"6.0\"/></g><path d=\"M314.0 266.0 l-8 -4 v8 z M44.0 0.0 l-4 8 h8 z\" fill=\"currentColor\"/><g fill=\"currentColor\" font-size=\"12\" font-family=\"serif\"><text x=\"127.3\" y=\"282.0\" text-anchor=\"middle\">1</text><text x=\"210.7\" y=\"282.0\" text-anchor=\"middle\">2</text><text x=\"294.0\" y=\"282.0\" text-anchor=\"middle\">3</text><text x=\"38.0\" y=\"253.3\" text-anchor=\"end\">2</text><text x=\"38.0\" y=\"236.7\" text-anchor=\"end\">4</text><text x=\"38.0\" y=\"220.0\" text-anchor=\"end\">6</text><text x=\"38.0\" y=\"203.3\" text-anchor=\"end\">8</text><text x=\"38.0\" y=\"186.7\" text-anchor=\"end\">10</text><text x=\"38.0\" y=\"170.0\" text-anchor=\"end\">12</text><text x=\"38.0\" y=\"153.3\" text-anchor=\"end\">14</text><text x=\"38.0\" y=\"136.7\" text-anchor=\"end\">16</text><text x=\"38.0\" y=\"120.0\" text-anchor=\"end\">18</text><text x=\"38.0\" y=\"103.3\" text-anchor=\"end\">20</text><text x=\"38.0\" y=\"86.7\" text-anchor=\"end\">22</text><text x=\"38.0\" y=\"70.0\" text-anchor=\"end\">24</text><text x=\"38.0\" y=\"53.3\" text-anchor=\"end\">26</text><text x=\"38.0\" y=\"36.7\" text-anchor=\"end\">28</text><text x=\"38.0\" y=\"20.0\" text-anchor=\"end\">30</text><text x=\"38.0\" y=\"282.0\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"318.0\" y=\"270.0\" font-style=\"italic\">x</text><text x=\"52.0\" y=\"8.0\" font-style=\"italic\">y</text></g><polyline points=\"44.0,249.3 44.6,249.2 45.2,249.0 45.9,248.8 46.5,248.6 47.1,248.4 47.8,248.3 48.4,248.1 49.0,247.9 49.6,247.7 50.2,247.5 50.9,247.3 51.5,247.1 52.1,246.9 52.8,246.7 53.4,246.5 54.0,246.3 54.6,246.1 55.2,245.9 55.9,245.7 56.5,245.5 57.1,245.3 57.8,245.0 58.4,244.8 59.0,244.6 59.6,244.4 60.2,244.2 60.9,243.9 61.5,243.7 62.1,243.5 62.8,243.2 63.4,243.0 64.0,242.8 64.6,242.5 65.2,242.3 65.9,242.0 66.5,241.8 67.1,241.5 67.8,241.3 68.4,241.0 69.0,240.7 69.6,240.5 70.2,240.2 70.9,239.9 71.5,239.7 72.1,239.4 72.8,239.1 73.4,238.8 74.0,238.5 74.6,238.3 75.2,238.0 75.9,237.7 76.5,237.4 77.1,237.1 77.8,236.8 78.4,236.5 79.0,236.2 79.6,235.9 80.2,235.5 80.9,235.2 81.5,234.9 82.1,234.6 82.8,234.2 83.4,233.9 84.0,233.6 84.6,233.2 85.2,232.9 85.9,232.6 86.5,232.2 87.1,231.8 87.8,231.5 88.4,231.1 89.0,230.8 89.6,230.4 90.2,230.0 90.9,229.6 91.5,229.3 92.1,228.9 92.8,228.5 93.4,228.1 94.0,227.7 94.6,227.3 95.2,226.9 95.9,226.5 96.5,226.1 97.1,225.7 97.8,225.2 98.4,224.8 99.0,224.4 99.6,224.0 100.2,223.5 100.9,223.1 101.5,222.6 102.1,222.2 102.8,221.7 103.4,221.2 104.0,220.8 104.6,220.3 105.2,219.8 105.9,219.3 106.5,218.9 107.1,218.4 107.8,217.9 108.4,217.4 109.0,216.9 109.6,216.3 110.2,215.8 110.9,215.3 111.5,214.8 112.1,214.2 112.8,213.7 113.4,213.1 114.0,212.6 114.6,212.0 115.2,211.5 115.9,210.9 116.5,210.3 117.1,209.7 117.8,209.2 118.4,208.6 119.0,208.0 119.6,207.4 120.2,206.7 120.9,206.1 121.5,205.5 122.1,204.9 122.8,204.2 123.4,203.6 124.0,202.9 124.6,202.3 125.2,201.6 125.9,200.9 126.5,200.3 127.1,199.6 127.7,198.9 128.4,198.2 129.0,197.5 129.6,196.7 130.2,196.0 130.9,195.3 131.5,194.5 132.1,193.8 132.8,193.0 133.4,192.3 134.0,191.5 134.6,190.7 135.2,189.9 135.9,189.2 136.5,188.4 137.1,187.5 137.8,186.7 138.4,185.9 139.0,185.1 139.6,184.2 140.2,183.4 140.9,182.5 141.5,181.6 142.1,180.7 142.8,179.8 143.4,178.9 144.0,178.0 144.6,177.1 145.2,176.2 145.9,175.2 146.5,174.3 147.1,173.3 147.8,172.4 148.4,171.4 149.0,170.4 149.6,169.4 150.2,168.4 150.9,167.4 151.5,166.3 152.1,165.3 152.8,164.2 153.4,163.2 154.0,162.1 154.6,161.0 155.2,159.9 155.9,158.8 156.5,157.7 157.1,156.6 157.8,155.4 158.4,154.3 159.0,153.1 159.6,151.9 160.2,150.7 160.9,149.5 161.5,148.3 162.1,147.1 162.8,145.8 163.4,144.6 164.0,143.3 164.6,142.0 165.2,140.7 165.9,139.4 166.5,138.1 167.1,136.8 167.8,135.4 168.4,134.0 169.0,132.7 169.6,131.3 170.2,129.9 170.9,128.4 171.5,127.0 172.1,125.6 172.8,124.1 173.4,122.6 174.0,121.1 174.6,119.6 175.2,118.1 175.9,116.5 176.5,114.9 177.1,113.4 177.8,111.8 178.4,110.2 179.0,108.5 179.6,106.9 180.2,105.2 180.9,103.5 181.5,101.8 182.1,100.1 182.8,98.4 183.4,96.6 184.0,94.9 184.6,93.1 185.2,91.3 185.9,89.5 186.5,87.6 187.1,85.7 187.8,83.9 188.4,82.0 189.0,80.0 189.6,78.1 190.2,76.1 190.9,74.1 191.5,72.1 192.1,70.1 192.8,68.1 193.4,66.0 194.0,63.9 194.6,61.8 195.2,59.7 195.9,57.5 196.5,55.3 197.1,53.1 197.8,50.9 198.4,48.6 199.0,46.4 199.6,44.1 200.2,41.8 200.9,39.4 201.5,37.0 202.1,34.7 202.8,32.2 203.4,29.8 204.0,27.3 204.6,24.8 205.2,22.3 205.9,19.8 206.5,17.2 206.8,16.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/></svg>",
+    "alt": "Graph in the xy-plane, x from 0 to 3 and y from 0 to 30 with gridlines every 1. An increasing curve starts at (0, 2), passes through (1, 8), and curves steeply upward, leaving the top of the grid just before x = 2."
+   },
+   "choices": [
+    "The estimated area covered by algae at \\(x=1\\) is \\(0.25\\) times the estimated area covered by algae at \\(x=0\\).",
+    "The estimated area covered by algae at \\(x=1\\) is \\(3\\) times the estimated area covered by algae at \\(x=0\\).",
+    "The estimated area covered by algae at \\(x=1\\) is \\(4\\) times the estimated area covered by algae at \\(x=0\\).",
+    "The estimated area covered by algae at \\(x=1\\) is \\(6\\) times the estimated area covered by algae at \\(x=0\\)."
+   ],
+   "answer": "C",
+   "explanation": "From the graph, when \\(x=0\\) the \\(y\\)-coordinate is \\(2\\), and when \\(x=1\\) the \\(y\\)-coordinate is \\(8\\). Dividing gives \\(\\dfrac{8}{2}=4\\), so the estimated area covered by algae at \\(x=1\\) is \\(4\\) times the estimated area covered by algae at \\(x=0\\). Choice A is \\(\\tfrac{2}{8}\\), which compares the two values in the wrong order. Choice B is \\(\\tfrac{8-2}{2}\\), the relative increase rather than the multiplier. Choice D is the difference \\(8-2\\), not a ratio."
+  },
+  {
+   "id": "pt2-m2-q18-v5",
+   "family": "pt2-m2-q18",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 2 · Q18",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A bicycle helmet was priced at $24.00 in 2021. In 2022, the same helmet was priced at $30.00. The 2022 price was \\(p\\%\\) of the 2021 price. What is the value of \\(p\\)?</p>",
+   "choices": [
+    "\\(20\\)",
+    "\\(25\\)",
+    "\\(80\\)",
+    "\\(125\\)"
+   ],
+   "answer": "D",
+   "explanation": "The 2022 price ($30.00) is \\(p\\%\\) of the 2021 price ($24.00), so \\(30.00=\\dfrac{p}{100}(24.00)\\). Then \\(p=\\dfrac{100(30.00)}{24.00}=125\\). Choice A, 20, is the $6.00 increase as a percent of the 2022 price, not the 2021 price. Choice B, 25, is the percent <em>increase</em> from 2021 to 2022, not the 2022 price as a percent of the 2021 price. Choice C is the 2021 price as a percent of the 2022 price."
+  },
+  {
+   "id": "pt2-m2-q18-v6",
+   "family": "pt2-m2-q18",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 2 · Q18",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A snow-cone stand sold 1,200 snow cones in July and 360 snow cones in October. The number of snow cones sold in October was \\(p\\%\\) of the number sold in July. What is the value of \\(p\\)?</p>",
+   "choices": [
+    "\\(30\\)",
+    "\\(70\\)",
+    "\\(130\\)",
+    "\\(333\\tfrac{1}{3}\\)"
+   ],
+   "answer": "A",
+   "explanation": "The October count (360) is \\(p\\%\\) of the July count (1,200), so \\(360=\\dfrac{p}{100}(1{,}200)\\). Then \\(p=\\dfrac{100(360)}{1{,}200}=30\\). Choice B, 70, is the percent <em>decrease</em> from July to October, not the October count as a percent of the July count. Choice C is \\(100+30\\), which treats the October count as if it were 30% more than the July count. Choice D is the July count as a percent of the October count."
+  },
+  {
+   "id": "pt2-m2-q18-v7",
+   "family": "pt2-m2-q18",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 2 · Q18",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p>A fitness center had 5,600 members at the start of the year and 5,180 members at the end of the year. The number of members at the end of the year was \\(p\\%\\) of the number at the start of the year. What is the value of \\(p\\)?</p>",
+   "choices": [
+    "\\(7.5\\)",
+    "\\(92.5\\)",
+    "\\(107.5\\)",
+    "\\(192.5\\)"
+   ],
+   "answer": "B",
+   "explanation": "The end-of-year count (5,180) is \\(p\\%\\) of the start-of-year count (5,600), so \\(5{,}180=\\dfrac{p}{100}(5{,}600)\\). Then \\(p=\\dfrac{100(5{,}180)}{5{,}600}=92.5\\). Choice A, 7.5, is the percent <em>decrease</em>, not the end-of-year count as a percent of the start-of-year count. Choice C adds the 7.5% decrease to 100%. Choice D may result from conceptual or calculation errors."
+  }
+ ]
+}
