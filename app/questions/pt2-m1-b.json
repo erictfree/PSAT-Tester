@@ -850,7 +850,7 @@
    "difficulty": 2,
    "inContext": true,
    "type": "mc",
-   "prompt": "A block of stone has a mass of 234 grams and a volume of 26 cubic centimeters. What is the density, in grams per cubic centimeter, of the block?",
+   "prompt": "A copper figurine has a mass of 234 grams and a volume of 26 cubic centimeters. What is the density, in grams per cubic centimeter, of the figurine?",
    "choices": [
     "\\(\\frac{1}{9}\\)",
     "9",
@@ -870,7 +870,7 @@
    "difficulty": 2,
    "inContext": true,
    "type": "mc",
-   "prompt": "A glass paperweight has a mass of 450 grams and a volume of 25 cubic centimeters. What is the density, in grams per cubic centimeter, of the paperweight?",
+   "prompt": "A tungsten alloy weight has a mass of 450 grams and a volume of 25 cubic centimeters. What is the density, in grams per cubic centimeter, of the weight?",
    "choices": [
     "11,250",
     "425",
