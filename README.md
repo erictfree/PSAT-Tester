@@ -35,6 +35,10 @@ The practice-test questions are College Board material, included for personal st
 3. Run `python3 tools/validate.py`.
 4. Republish the app. The student's progress is stored separately and is kept.
 
+## GitHub Pages
+
+Pages serves the repo root from `main`. The root `index.html` is generated from `app/index.html` by `python3 tools/build_pages.py`, which adds the page header the artifact normally supplies and points it at `app/`. Re-run it after changing the app, and commit both files. The Pages site is public, and its progress is saved only in the student's browser.
+
 ## Where progress is stored
 
 In the published artifact, progress lives in the artifact's database (`progress/state` for scheduling state, `logs/c0`, `logs/c1`, … for the answer log in chunks of 300). It follows the student across devices. The student needs **Contributor** access to the artifact to save progress. If the database isn't available (for example when the file is opened locally), the app saves to the browser's local storage instead, and the header shows "Saved on this device only".
