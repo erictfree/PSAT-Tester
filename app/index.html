@@ -546,7 +546,16 @@ function isCorrect(q, resp) {
   if (q.type === "mc") return resp === q.answer;
   const v = parseNum(resp);
   if (v == null) return false;
-  return q.answer.some(a => { const t = parseNum(a); return t != null && Math.abs(t - v) <= 1e-9 * Math.max(1, Math.abs(t)); });
+  const r = String(resp).trim();
+  // PSAT rule: a decimal that fills the answer box (5 characters, 6 with a minus sign) may be truncated or rounded.
+  const fullDecimal = r.includes(".") && !r.includes("/") && r.length >= (r.startsWith("-") ? 6 : 5);
+  const step = fullDecimal ? Math.pow(10, -(r.length - r.indexOf(".") - 1)) : 0;
+  return q.answer.some(a => {
+    const t = parseNum(a);
+    if (t == null) return false;
+    if (Math.abs(t - v) <= 1e-9 * Math.max(1, Math.abs(t))) return true;
+    return fullDecimal && Math.abs(t - v) < step - 1e-12;
+  });
 }
 const answerText = q => q.type === "mc" ? q.answer : q.answer[0];
 

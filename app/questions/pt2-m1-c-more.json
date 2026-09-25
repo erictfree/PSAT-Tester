@@ -1,0 +1,544 @@
+{
+ "questions": [
+  {
+   "id": "pt2-m1-q19-v5",
+   "family": "pt2-m1-q19",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q19",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A digital library had 4,500 e-books in its collection in September 2019. For the next 36 months after September 2019, the total number of e-books in the collection each month was 3% greater than the total number the previous month. Which equation gives the total number of e-books, \\(E\\), in the collection \\(m\\) months after September 2019, where \\(m \\le 36\\)?",
+   "choices": [
+    "\\(E = 4{,}500(1.03)^{m}\\)",
+    "\\(E = 4{,}500(0.03)^{m}\\)",
+    "\\(E = 4{,}500(1.3)^{m}\\)",
+    "\\(E = 4{,}500(0.97)^{m}\\)"
+   ],
+   "answer": "A",
+   "explanation": "In September 2019 there were 4,500 e-books, and each month the total is 3% greater than the previous month's total. Increasing a quantity by 3% means multiplying it by \\(1 + \\frac{3}{100} = 1.03\\). Starting from 4{,}500 and multiplying by 1.03 once for each month gives \\(E = 4{,}500(1.03)^{m}\\), which is choice A. Choice B represents each month's total being 97% <em>less</em> than the previous month's. Choice C represents a 30% monthly increase, not 3%. Choice D represents a 3% monthly <em>decrease</em>."
+  },
+  {
+   "id": "pt2-m1-q19-v6",
+   "family": "pt2-m1-q19",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q19",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A city's bike-share program recorded 720 riders during its first week of operation. For each of the next 20 weeks, the total number of riders was 15% greater than the total number of riders the previous week. Which equation gives the total number of riders, \\(R\\), \\(w\\) weeks after the first week, where \\(w \\le 20\\)?",
+   "choices": [
+    "\\(R = 720(0.15)^{w}\\)",
+    "\\(R = 720(0.85)^{w}\\)",
+    "\\(R = 720(1.5)^{w}\\)",
+    "\\(R = 720(1.15)^{w}\\)"
+   ],
+   "answer": "D",
+   "explanation": "In the first week there were 720 riders, and each week the total is 15% greater than the previous week's total. Increasing a quantity by 15% means multiplying it by \\(1 + \\frac{15}{100} = 1.15\\). Starting from 720 and multiplying by 1.15 once for each week gives \\(R = 720(1.15)^{w}\\), which is choice D. Choice A represents each week's total being 85% <em>less</em> than the previous week's. Choice B represents a 15% weekly <em>decrease</em>. Choice C represents a 50% weekly increase, not 15%."
+  },
+  {
+   "id": "pt2-m1-q19-v7",
+   "family": "pt2-m1-q19",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q19",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A wildlife preserve counted 260 nesting pairs of herons in 2010. For each of the next 12 years, the number of nesting pairs was 6% greater than the number of nesting pairs the previous year. Which equation gives the number of nesting pairs, \\(N\\), \\(t\\) years after 2010, where \\(t \\le 12\\)?",
+   "choices": [
+    "\\(N = 260(0.06)^{t}\\)",
+    "\\(N = 260(6)^{t}\\)",
+    "\\(N = 260(1.06)^{t}\\)",
+    "\\(N = 260(1.6)^{t}\\)"
+   ],
+   "answer": "C",
+   "explanation": "In 2010 there were 260 nesting pairs, and each year the number is 6% greater than the previous year's number. Increasing a quantity by 6% means multiplying it by \\(1 + \\frac{6}{100} = 1.06\\). Starting from 260 and multiplying by 1.06 once for each year gives \\(N = 260(1.06)^{t}\\), which is choice C. Choice A represents each year's total being 94% <em>less</em> than the previous year's. Choice B represents a 500% yearly increase (each year 6 times the previous). Choice D represents a 60% yearly increase, not 6%."
+  },
+  {
+   "id": "pt2-m1-q20-v5",
+   "family": "pt2-m1-q20",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q20",
+   "domain": "psda",
+   "skill": "psda-two-var",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "The scatterplot shows the relationship between two variables, \\(x\\) and \\(y\\). A line of best fit is also shown. For how many of the 14 data points does the line of best fit predict a greater \\(y\\)-value than the actual \\(y\\)-value?",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 310 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"13\"><line x1=\"64.0\" y1=\"266.0\" x2=\"64.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"242.0\" x2=\"280.0\" y2=\"242.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"88.0\" y1=\"266.0\" x2=\"88.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"218.0\" x2=\"280.0\" y2=\"218.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"112.0\" y1=\"266.0\" x2=\"112.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"194.0\" x2=\"280.0\" y2=\"194.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"136.0\" y1=\"266.0\" x2=\"136.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"170.0\" x2=\"280.0\" y2=\"170.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"160.0\" y1=\"266.0\" x2=\"160.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"146.0\" x2=\"280.0\" y2=\"146.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"184.0\" y1=\"266.0\" x2=\"184.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"122.0\" x2=\"280.0\" y2=\"122.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"208.0\" y1=\"266.0\" x2=\"208.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"98.0\" x2=\"280.0\" y2=\"98.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"232.0\" y1=\"266.0\" x2=\"232.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"74.0\" x2=\"280.0\" y2=\"74.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"256.0\" y1=\"266.0\" x2=\"256.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"50.0\" x2=\"280.0\" y2=\"50.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"280.0\" y1=\"266.0\" x2=\"280.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"26.0\" x2=\"280.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"266.0\" x2=\"294.4\" y2=\"266.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"266.0\" x2=\"40.0\" y2=\"14.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"298.0\" y=\"270.0\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"36.0\" y=\"11.6\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"28.0\" y=\"280.0\" fill=\"currentColor\" font-style=\"italic\">O</text><text x=\"88.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"34.0\" y=\"222.0\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"136.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"34.0\" y=\"174.0\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"184.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"34.0\" y=\"126.0\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"232.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"34.0\" y=\"78.0\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"280.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"34.0\" y=\"30.0\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"47.2\" y1=\"59.1\" x2=\"272.8\" y2=\"200.7\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"49.6\" cy=\"47.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"64.0\" cy=\"59.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"92.8\" cy=\"62.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"107.2\" cy=\"86.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"119.2\" cy=\"146.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"148.0\" cy=\"162.8\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"160.0\" cy=\"100.4\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"174.4\" cy=\"174.8\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"188.8\" cy=\"167.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"200.8\" cy=\"124.4\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"217.6\" cy=\"203.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"232.0\" cy=\"146.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"246.4\" cy=\"167.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"258.4\" cy=\"182.0\" r=\"3.6\" fill=\"currentColor\"/></svg>",
+    "alt": "Scatterplot of 14 points on a grid from 0 to 10 on each axis, with a decreasing line of best fit from about (0.3, 8.6) to (9.7, 2.7). The points are at approximately (0.4, 9.1); (1.0, 8.6); (2.2, 8.5); (2.8, 7.5); (3.3, 5.0); (4.5, 4.3); (5.0, 6.9); (5.6, 3.8); (6.2, 4.1); (6.7, 5.9); (7.4, 2.6); (8.0, 5.0); (8.6, 4.1); (9.1, 3.5)."
+   },
+   "answer": [
+    "5"
+   ],
+   "explanation": "The line of best fit predicts a greater \\(y\\)-value than the actual \\(y\\)-value when the actual value is less than the predicted value, which happens exactly when the data point lies <em>below</em> the line. In the scatterplot, 5 of the 14 data points lie below the line, so the answer is 5. (The other 9 points lie above the line, where the prediction is less than the actual value.)"
+  },
+  {
+   "id": "pt2-m1-q20-v6",
+   "family": "pt2-m1-q20",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q20",
+   "domain": "psda",
+   "skill": "psda-two-var",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "The scatterplot shows the relationship between two variables, \\(x\\) and \\(y\\). A line of best fit is also shown. For how many of the 12 data points does the line of best fit predict a smaller \\(y\\)-value than the actual \\(y\\)-value?",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 310 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"13\"><line x1=\"64.0\" y1=\"266.0\" x2=\"64.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"242.0\" x2=\"280.0\" y2=\"242.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"88.0\" y1=\"266.0\" x2=\"88.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"218.0\" x2=\"280.0\" y2=\"218.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"112.0\" y1=\"266.0\" x2=\"112.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"194.0\" x2=\"280.0\" y2=\"194.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"136.0\" y1=\"266.0\" x2=\"136.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"170.0\" x2=\"280.0\" y2=\"170.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"160.0\" y1=\"266.0\" x2=\"160.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"146.0\" x2=\"280.0\" y2=\"146.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"184.0\" y1=\"266.0\" x2=\"184.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"122.0\" x2=\"280.0\" y2=\"122.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"208.0\" y1=\"266.0\" x2=\"208.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"98.0\" x2=\"280.0\" y2=\"98.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"232.0\" y1=\"266.0\" x2=\"232.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"74.0\" x2=\"280.0\" y2=\"74.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"256.0\" y1=\"266.0\" x2=\"256.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"50.0\" x2=\"280.0\" y2=\"50.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"280.0\" y1=\"266.0\" x2=\"280.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"26.0\" x2=\"280.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"266.0\" x2=\"294.4\" y2=\"266.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"266.0\" x2=\"40.0\" y2=\"14.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"298.0\" y=\"270.0\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"36.0\" y=\"11.6\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"28.0\" y=\"280.0\" fill=\"currentColor\" font-style=\"italic\">O</text><text x=\"88.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"34.0\" y=\"222.0\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"136.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"34.0\" y=\"174.0\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"184.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"34.0\" y=\"126.0\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"232.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"34.0\" y=\"78.0\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"280.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"34.0\" y=\"30.0\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"47.2\" y1=\"220.8\" x2=\"272.8\" y2=\"72.8\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"52.0\" cy=\"201.2\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"76.0\" cy=\"230.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"90.4\" cy=\"220.4\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"102.4\" cy=\"153.2\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"140.8\" cy=\"143.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"152.8\" cy=\"141.2\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"164.8\" cy=\"179.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"188.8\" cy=\"107.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"203.2\" cy=\"107.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"222.4\" cy=\"86.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"244.0\" cy=\"138.8\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"263.2\" cy=\"64.4\" r=\"3.6\" fill=\"currentColor\"/></svg>",
+    "alt": "Scatterplot of 12 points on a grid from 0 to 10 on each axis, with an increasing line of best fit from about (0.3, 1.9) to (9.7, 8.0). The points are at approximately (0.5, 2.7); (1.5, 1.5); (2.1, 1.9); (2.6, 4.7); (4.2, 5.1); (4.7, 5.2); (5.2, 3.6); (6.2, 6.6); (6.8, 6.6); (7.6, 7.5); (8.5, 5.3); (9.3, 8.4)."
+   },
+   "answer": [
+    "8"
+   ],
+   "explanation": "The line of best fit predicts a smaller \\(y\\)-value than the actual \\(y\\)-value when the actual value is greater than the predicted value, which happens exactly when the data point lies <em>above</em> the line. In the scatterplot, 8 of the 12 data points lie above the line, so the answer is 8. (The other 4 points lie below the line, where the prediction is greater than the actual value.)"
+  },
+  {
+   "id": "pt2-m1-q20-v7",
+   "family": "pt2-m1-q20",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q20",
+   "domain": "psda",
+   "skill": "psda-two-var",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "The scatterplot shows the relationship between two variables, \\(x\\) and \\(y\\). A line of best fit is also shown. For how many of the 9 data points does the line of best fit predict a greater \\(y\\)-value than the actual \\(y\\)-value?",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 310 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"13\"><line x1=\"64.0\" y1=\"266.0\" x2=\"64.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"242.0\" x2=\"280.0\" y2=\"242.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"88.0\" y1=\"266.0\" x2=\"88.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"218.0\" x2=\"280.0\" y2=\"218.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"112.0\" y1=\"266.0\" x2=\"112.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"194.0\" x2=\"280.0\" y2=\"194.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"136.0\" y1=\"266.0\" x2=\"136.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"170.0\" x2=\"280.0\" y2=\"170.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"160.0\" y1=\"266.0\" x2=\"160.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"146.0\" x2=\"280.0\" y2=\"146.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"184.0\" y1=\"266.0\" x2=\"184.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"122.0\" x2=\"280.0\" y2=\"122.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"208.0\" y1=\"266.0\" x2=\"208.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"98.0\" x2=\"280.0\" y2=\"98.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"232.0\" y1=\"266.0\" x2=\"232.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"74.0\" x2=\"280.0\" y2=\"74.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"256.0\" y1=\"266.0\" x2=\"256.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"50.0\" x2=\"280.0\" y2=\"50.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"280.0\" y1=\"266.0\" x2=\"280.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"26.0\" x2=\"280.0\" y2=\"26.0\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"40.0\" y1=\"266.0\" x2=\"294.4\" y2=\"266.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"266.0\" x2=\"40.0\" y2=\"14.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"298.0\" y=\"270.0\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"36.0\" y=\"11.6\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"28.0\" y=\"280.0\" fill=\"currentColor\" font-style=\"italic\">O</text><text x=\"88.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"34.0\" y=\"222.0\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"136.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"34.0\" y=\"174.0\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"184.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"34.0\" y=\"126.0\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"232.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"34.0\" y=\"78.0\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"280.0\" y=\"282.0\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"34.0\" y=\"30.0\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"47.2\" y1=\"233.9\" x2=\"272.8\" y2=\"50.0\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"73.6\" cy=\"186.8\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"92.8\" cy=\"182.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"109.6\" cy=\"208.4\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"124.0\" cy=\"196.4\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"143.2\" cy=\"124.4\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"157.6\" cy=\"170.0\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"169.6\" cy=\"172.4\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"186.4\" cy=\"107.6\" r=\"3.6\" fill=\"currentColor\"/><circle cx=\"208.0\" cy=\"71.6\" r=\"3.6\" fill=\"currentColor\"/></svg>",
+    "alt": "Scatterplot of 9 points on a grid from 0 to 10 on each axis, with an increasing line of best fit from about (0.3, 1.3) to (9.7, 9.0). The points are at approximately (1.4, 3.3); (2.2, 3.5); (2.9, 2.4); (3.5, 2.9); (4.3, 5.9); (4.9, 4.0); (5.4, 3.9); (6.1, 6.6); (7.0, 8.1)."
+   },
+   "answer": [
+    "4"
+   ],
+   "explanation": "The line of best fit predicts a greater \\(y\\)-value than the actual \\(y\\)-value when the actual value is less than the predicted value, which happens exactly when the data point lies <em>below</em> the line. In the scatterplot, 4 of the 9 data points lie below the line, so the answer is 4. (The other 5 points lie above the line, where the prediction is less than the actual value.)"
+  },
+  {
+   "id": "pt2-m1-q21-v5",
+   "family": "pt2-m1-q21",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q21",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure, \\(EB = BA\\), the measure of angle \\(CDB\\) is \\(16^\\circ\\), and the measure of angle \\(ECD\\) is \\(53^\\circ\\). What is the value of \\(x\\)?<br><em>Note: Figure not drawn to scale.</em>",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 394 314\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\"><line x1=\"30.0\" y1=\"283.8\" x2=\"210.6\" y2=\"283.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"30.0\" y1=\"283.8\" x2=\"364.4\" y2=\"31.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"120.3\" y1=\"215.7\" x2=\"210.6\" y2=\"283.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"174.5\" y1=\"283.8\" x2=\"364.4\" y2=\"31.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"24.0\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">A</text><text x=\"174.5\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">C</text><text x=\"216.6\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">E</text><text x=\"374.4\" y=\"27.8\" fill=\"currentColor\" text-anchor=\"middle\">D</text><text x=\"112.3\" y=\"207.7\" fill=\"currentColor\" text-anchor=\"middle\">B</text><text x=\"120.3\" y=\"246.7\" fill=\"currentColor\" text-anchor=\"middle\">x°</text></svg>",
+    "alt": "Points A, C, and E lie on a horizontal line in that order. Point D is above and to the right. Segment AD passes through point B; segments BE and CD are drawn. The angle at B between BA and BE is labeled x degrees."
+   },
+   "answer": [
+    "106"
+   ],
+   "explanation": "Angles \\(ACD\\) and \\(ECD\\) form a straight line, so angle \\(ACD\\) measures \\(180^\\circ - 53^\\circ = 127^\\circ\\). In triangle \\(ACD\\), the angles sum to \\(180^\\circ\\), so angle \\(CAD\\) measures \\(180^\\circ - 127^\\circ - 16^\\circ = 37^\\circ\\). Since \\(EB = BA\\), triangle \\(BAE\\) is isosceles, and the base angles are equal: angle \\(BEA\\) also measures \\(37^\\circ\\). Therefore angle \\(ABE\\) measures \\(180^\\circ - 37^\\circ - 37^\\circ = 106^\\circ\\), so \\(x = 106\\)."
+  },
+  {
+   "id": "pt2-m1-q21-v6",
+   "family": "pt2-m1-q21",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q21",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure, the measure of angle \\(LMQ\\) is \\(75^\\circ\\), the measure of angle \\(MQP\\) is \\(31^\\circ\\), and \\(LP = PN\\). What is the value of \\(x\\)?<br><em>Note: Figure not drawn to scale.</em>",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 321 314\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\"><line x1=\"291.0\" y1=\"283.8\" x2=\"49.2\" y2=\"283.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"291.0\" y1=\"283.8\" x2=\"30.0\" y2=\"31.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"170.1\" y1=\"167.1\" x2=\"49.2\" y2=\"283.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"97.5\" y1=\"283.8\" x2=\"30.0\" y2=\"31.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"297.0\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">N</text><text x=\"97.5\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">M</text><text x=\"43.2\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">L</text><text x=\"20.0\" y=\"27.8\" fill=\"currentColor\" text-anchor=\"middle\">Q</text><text x=\"178.1\" y=\"159.1\" fill=\"currentColor\" text-anchor=\"middle\">P</text><text x=\"170.1\" y=\"198.1\" fill=\"currentColor\" text-anchor=\"middle\">x°</text></svg>",
+    "alt": "Points N, M, and L lie on a horizontal line in that order from right to left. Point Q is above and to the left. Segment NQ passes through point P; segments PL and MQ are drawn. The angle at P between PN and PL is labeled x degrees."
+   },
+   "answer": [
+    "92"
+   ],
+   "explanation": "Angles \\(NMQ\\) and \\(LMQ\\) form a straight line, so angle \\(NMQ\\) measures \\(180^\\circ - 75^\\circ = 105^\\circ\\). In triangle \\(NMQ\\), the angles sum to \\(180^\\circ\\), so angle \\(MNQ\\) measures \\(180^\\circ - 105^\\circ - 31^\\circ = 44^\\circ\\). Since \\(LP = PN\\), triangle \\(PNL\\) is isosceles, and the base angles are equal: angle \\(PLN\\) also measures \\(44^\\circ\\). Therefore angle \\(NPL\\) measures \\(180^\\circ - 44^\\circ - 44^\\circ = 92^\\circ\\), so \\(x = 92\\)."
+  },
+  {
+   "id": "pt2-m1-q21-v7",
+   "family": "pt2-m1-q21",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q21",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "In the figure, the measure of angle \\(GFE\\) is \\(14^\\circ\\), \\(HE = ED\\), and the measure of angle \\(HGF\\) is \\(34^\\circ\\). What is the value of \\(x\\)?<br><em>Note: Figure not drawn to scale.</em>",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 433 314\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\"><line x1=\"30.0\" y1=\"283.8\" x2=\"279.3\" y2=\"283.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"30.0\" y1=\"283.8\" x2=\"403.4\" y2=\"147.9\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"154.6\" y1=\"238.4\" x2=\"279.3\" y2=\"283.8\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"201.9\" y1=\"283.8\" x2=\"403.4\" y2=\"147.9\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"24.0\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">D</text><text x=\"201.9\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">G</text><text x=\"285.3\" y=\"303.8\" fill=\"currentColor\" text-anchor=\"middle\">H</text><text x=\"413.4\" y=\"143.9\" fill=\"currentColor\" text-anchor=\"middle\">F</text><text x=\"146.6\" y=\"230.4\" fill=\"currentColor\" text-anchor=\"middle\">E</text><text x=\"154.6\" y=\"269.4\" fill=\"currentColor\" text-anchor=\"middle\">x°</text></svg>",
+    "alt": "Points D, G, and H lie on a horizontal line in that order. Point F is above and to the right. Segment DF passes through point E; segments EH and GF are drawn. The angle at E between ED and EH is labeled x degrees."
+   },
+   "answer": [
+    "140"
+   ],
+   "explanation": "Angles \\(DGF\\) and \\(HGF\\) form a straight line, so angle \\(DGF\\) measures \\(180^\\circ - 34^\\circ = 146^\\circ\\). In triangle \\(DGF\\), the angles sum to \\(180^\\circ\\), so angle \\(GDF\\) measures \\(180^\\circ - 146^\\circ - 14^\\circ = 20^\\circ\\). Since \\(HE = ED\\), triangle \\(EDH\\) is isosceles, and the base angles are equal: angle \\(EHD\\) also measures \\(20^\\circ\\). Therefore angle \\(DEH\\) measures \\(180^\\circ - 20^\\circ - 20^\\circ = 140^\\circ\\), so \\(x = 140\\)."
+  },
+  {
+   "id": "pt2-m1-q22-v5",
+   "family": "pt2-m1-q22",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q22",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(14x - 21y = 35\\)<br>\\(6x - 9y = 10\\)</p>How many solutions does the given system of equations have?",
+   "choices": [
+    "Exactly one",
+    "Zero",
+    "Infinitely many",
+    "Exactly two"
+   ],
+   "answer": "B",
+   "explanation": "Write each equation in slope-intercept form \\(y = mx + b\\). The first equation becomes \\(y = \\frac{2}{3}x - \\frac{5}{3}\\), and the second becomes \\(y = \\frac{2}{3}x - \\frac{10}{9}\\). The slopes are equal (\\(\\frac{2}{3}\\)) but the \\(y\\)-intercepts are different, so the lines are distinct and parallel and never intersect. The system has zero solutions. (Alternatively, multiplying the second equation by \\(\\frac{7}{3}\\) gives the same left side as the first equation with a constant of \\(\\frac{70}{3}\\) instead of \\(35\\), which is impossible.) Choice C would require the constants to be in the same ratio as the coefficients, and choice A would require different slopes. A system of two linear equations can never have exactly two solutions."
+  },
+  {
+   "id": "pt2-m1-q22-v6",
+   "family": "pt2-m1-q22",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q22",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(-10x + 4y = -6\\)<br>\\(15x - 6y = 9\\)</p>How many solutions does the given system of equations have?",
+   "choices": [
+    "Infinitely many",
+    "Exactly one",
+    "Zero",
+    "Exactly two"
+   ],
+   "answer": "A",
+   "explanation": "Write each equation in slope-intercept form \\(y = mx + b\\). The first equation becomes \\(y = \\frac{5}{2}x - \\frac{3}{2}\\), and the second becomes \\(y = \\frac{5}{2}x - \\frac{3}{2}\\). The slopes and the \\(y\\)-intercepts are both the same, so the two equations describe the same line. (Multiplying the second equation by \\(-\\frac{2}{3}\\) gives exactly the first equation.) Every point on the line is a solution, so the system has infinitely many solutions. Choice C would be correct only if the lines had the same slope but different intercepts, and choice B would require different slopes. A system of two linear equations can never have exactly two solutions."
+  },
+  {
+   "id": "pt2-m1-q22-v7",
+   "family": "pt2-m1-q22",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q22",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(8x - 12y = 20\\)<br>\\(-6x + 9y = 15\\)</p>How many solutions does the given system of equations have?",
+   "choices": [
+    "Exactly one",
+    "Exactly two",
+    "Infinitely many",
+    "Zero"
+   ],
+   "answer": "D",
+   "explanation": "Write each equation in slope-intercept form \\(y = mx + b\\). The first equation becomes \\(y = \\frac{2}{3}x - \\frac{5}{3}\\), and the second becomes \\(y = \\frac{2}{3}x + \\frac{5}{3}\\). The slopes are equal (\\(\\frac{2}{3}\\)) but the \\(y\\)-intercepts are different, so the lines are distinct and parallel and never intersect. The system has zero solutions. (Alternatively, multiplying the second equation by \\(-\\frac{4}{3}\\) gives the same left side as the first equation with a constant of \\(-20\\) instead of \\(20\\), which is impossible.) Choice C would require the constants to be in the same ratio as the coefficients, and choice A would require different slopes. A system of two linear equations can never have exactly two solutions."
+  },
+  {
+   "id": "pt2-m1-q23-v5",
+   "family": "pt2-m1-q23",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q23",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The expression \\(0.27x\\) represents the result of decreasing a positive quantity \\(x\\) by what percent?",
+   "choices": [
+    "\\(2.7\\%\\)",
+    "\\(73\\%\\)",
+    "\\(27\\%\\)",
+    "\\(7.3\\%\\)"
+   ],
+   "answer": "B",
+   "explanation": "Decreasing \\(x\\) by \\(n\\%\\) gives \\(x - \\frac{n}{100}x = \\left(1 - \\frac{n}{100}\\right)x\\). Setting this equal to \\(0.27x\\) gives \\(1 - \\frac{n}{100} = 0.27\\), so \\(\\frac{n}{100} = 0.73\\) and \\(n = 73\\). So \\(0.27x\\) is the result of decreasing \\(x\\) by \\(73\\%\\) (the result is \\(27\\%\\) of the original). Choice A is incorrect: decreasing \\(x\\) by \\(2.7\\%\\) gives \\(0.973x\\), not \\(0.27x\\). Choice C is incorrect: decreasing \\(x\\) by \\(27\\%\\) gives \\(0.73x\\), not \\(0.27x\\). Choice D is incorrect: decreasing \\(x\\) by \\(7.3\\%\\) gives \\(0.927x\\), not \\(0.27x\\)."
+  },
+  {
+   "id": "pt2-m1-q23-v6",
+   "family": "pt2-m1-q23",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q23",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The expression \\(0.71x\\) represents the result of decreasing a positive quantity \\(x\\) by what percent?",
+   "choices": [
+    "\\(29\\%\\)",
+    "\\(71\\%\\)",
+    "\\(7.1\\%\\)",
+    "\\(2.9\\%\\)"
+   ],
+   "answer": "A",
+   "explanation": "Decreasing \\(x\\) by \\(n\\%\\) gives \\(x - \\frac{n}{100}x = \\left(1 - \\frac{n}{100}\\right)x\\). Setting this equal to \\(0.71x\\) gives \\(1 - \\frac{n}{100} = 0.71\\), so \\(\\frac{n}{100} = 0.29\\) and \\(n = 29\\). So \\(0.71x\\) is the result of decreasing \\(x\\) by \\(29\\%\\) (the result is \\(71\\%\\) of the original). Choice B is incorrect: decreasing \\(x\\) by \\(71\\%\\) gives \\(0.29x\\), not \\(0.71x\\). Choice C is incorrect: decreasing \\(x\\) by \\(7.1\\%\\) gives \\(0.929x\\), not \\(0.71x\\). Choice D is incorrect: decreasing \\(x\\) by \\(2.9\\%\\) gives \\(0.971x\\), not \\(0.71x\\)."
+  },
+  {
+   "id": "pt2-m1-q23-v7",
+   "family": "pt2-m1-q23",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q23",
+   "domain": "psda",
+   "skill": "psda-percent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The expression \\(0.03x\\) represents the result of decreasing a positive quantity \\(x\\) by what percent?",
+   "choices": [
+    "\\(0.3\\%\\)",
+    "\\(3\\%\\)",
+    "\\(97\\%\\)",
+    "\\(9.7\\%\\)"
+   ],
+   "answer": "C",
+   "explanation": "Decreasing \\(x\\) by \\(n\\%\\) gives \\(x - \\frac{n}{100}x = \\left(1 - \\frac{n}{100}\\right)x\\). Setting this equal to \\(0.03x\\) gives \\(1 - \\frac{n}{100} = 0.03\\), so \\(\\frac{n}{100} = 0.97\\) and \\(n = 97\\). So \\(0.03x\\) is the result of decreasing \\(x\\) by \\(97\\%\\) (the result is \\(3\\%\\) of the original). Choice A is incorrect: decreasing \\(x\\) by \\(0.3\\%\\) gives \\(0.997x\\), not \\(0.03x\\). Choice B is incorrect: decreasing \\(x\\) by \\(3\\%\\) gives \\(0.97x\\), not \\(0.03x\\). Choice D is incorrect: decreasing \\(x\\) by \\(9.7\\%\\) gives \\(0.903x\\), not \\(0.03x\\)."
+  },
+  {
+   "id": "pt2-m1-q24-v5",
+   "family": "pt2-m1-q24",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q24",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Trains F and G each travel at a constant speed. The speed of train F is three-fourths the speed of train G. Train F travels a distance of \\(12x\\) kilometers in \\(y\\) hours. Which expression represents the time, in hours, it takes train G to travel a distance of \\(144x\\) kilometers?",
+   "choices": [
+    "\\(9y\\)",
+    "\\(12y\\)",
+    "\\(16y\\)",
+    "\\(108y\\)"
+   ],
+   "answer": "A",
+   "explanation": "Train F's speed is \\(\\frac{12x}{y}\\) kilometers per hour. Since F's speed is \\(\\frac{3}{4}\\) of G's, G's speed is \\(\\frac{4}{3}\\) of F's: \\(\\frac{4}{3}\\cdot\\frac{12x}{y} = \\frac{16x}{y}\\) kilometers per hour. Time equals distance divided by speed, so train G needs \\(144x \\div \\frac{16x}{y} = \\frac{144xy}{16x} = 9y\\) hours. Choice B is the time for train F, not G, to travel \\(144x\\) kilometers. Choice C would be the time if G's speed were three-fourths of F's (the relationship reversed). Choice D comes from multiplying 144 by \\(\\frac{3}{4}\\) and ignoring F's distance of \\(12x\\)."
+  },
+  {
+   "id": "pt2-m1-q24-v6",
+   "family": "pt2-m1-q24",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q24",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Printers X and Y each print at a constant rate. The rate of printer X is 5 times the rate of printer Y. Printer X prints \\(20p\\) pages in \\(m\\) minutes. Which expression represents the time, in minutes, it takes printer Y to print \\(3p\\) pages?",
+   "choices": [
+    "\\(15m\\)",
+    "\\(\\frac{3m}{100}\\)",
+    "\\(\\frac{3m}{20}\\)",
+    "\\(\\frac{3m}{4}\\)"
+   ],
+   "answer": "D",
+   "explanation": "Printer X's rate is \\(\\frac{20p}{m}\\) pages per minute. Since X's rate is 5 times Y's, Y's rate is one-fifth of X's: \\(\\frac{1}{5}\\cdot\\frac{20p}{m} = \\frac{4p}{m}\\) pages per minute. Time equals amount divided by rate, so printer Y needs \\(3p \\div \\frac{4p}{m} = \\frac{3pm}{4p} = \\frac{3m}{4}\\) minutes. Choice A comes from multiplying 3 by 5 and ignoring X's amount of \\(20p\\). Choice B would be the time if Y's rate were 5 times X's (the relationship reversed). Choice C is the time for printer X, not Y, to print \\(3p\\) pages."
+  },
+  {
+   "id": "pt2-m1-q24-v7",
+   "family": "pt2-m1-q24",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q24",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "Runners U and V each run at a constant speed. The speed of runner U is two-fifths the speed of runner V. Runner U runs a distance of \\(4r\\) meters in \\(t\\) seconds. Which expression represents the time, in seconds, it takes runner V to run a distance of \\(30r\\) meters?",
+   "choices": [
+    "\\(\\frac{15t}{2}\\)",
+    "\\(12t\\)",
+    "\\(3t\\)",
+    "\\(\\frac{75t}{4}\\)"
+   ],
+   "answer": "C",
+   "explanation": "Runner U's speed is \\(\\frac{4r}{t}\\) meters per second. Since U's speed is \\(\\frac{2}{5}\\) of V's, V's speed is \\(\\frac{5}{2}\\) of U's: \\(\\frac{5}{2}\\cdot\\frac{4r}{t} = \\frac{10r}{t}\\) meters per second. Time equals distance divided by speed, so runner V needs \\(30r \\div \\frac{10r}{t} = \\frac{30rt}{10r} = 3t\\) seconds. Choice A is the time for runner U, not V, to run \\(30r\\) meters. Choice B comes from multiplying 30 by \\(\\frac{2}{5}\\) and ignoring U's distance of \\(4r\\). Choice D would be the time if V's speed were two-fifths of U's (the relationship reversed)."
+  },
+  {
+   "id": "pt2-m1-q25-v5",
+   "family": "pt2-m1-q25",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q25",
+   "domain": "algebra",
+   "skill": "alg-linear-2var",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The graph shows a linear relationship between \\(x\\) and \\(y\\). Which equation represents this relationship, where \\(R\\) is a positive constant?",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 360 360\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"11\"><line x1=\"30\" y1=\"330\" x2=\"30\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"330\" x2=\"330\" y2=\"330\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"45\" y1=\"330\" x2=\"45\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"315\" x2=\"330\" y2=\"315\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"60\" y1=\"330\" x2=\"60\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"300\" x2=\"330\" y2=\"300\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"75\" y1=\"330\" x2=\"75\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"285\" x2=\"330\" y2=\"285\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"90\" y1=\"330\" x2=\"90\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"270\" x2=\"330\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"105\" y1=\"330\" x2=\"105\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"255\" x2=\"330\" y2=\"255\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"120\" y1=\"330\" x2=\"120\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"240\" x2=\"330\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"135\" y1=\"330\" x2=\"135\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"225\" x2=\"330\" y2=\"225\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"150\" y1=\"330\" x2=\"150\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"210\" x2=\"330\" y2=\"210\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"165\" y1=\"330\" x2=\"165\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"195\" x2=\"330\" y2=\"195\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"195\" y1=\"330\" x2=\"195\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"165\" x2=\"330\" y2=\"165\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"210\" y1=\"330\" x2=\"210\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"150\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"225\" y1=\"330\" x2=\"225\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"135\" x2=\"330\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"240\" y1=\"330\" x2=\"240\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"120\" x2=\"330\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"255\" y1=\"330\" x2=\"255\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"105\" x2=\"330\" y2=\"105\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"270\" y1=\"330\" x2=\"270\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"285\" y1=\"330\" x2=\"285\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"75\" x2=\"330\" y2=\"75\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"300\" y1=\"330\" x2=\"300\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"60\" x2=\"330\" y2=\"60\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"315\" y1=\"330\" x2=\"315\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"45\" x2=\"330\" y2=\"45\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"330\" y1=\"330\" x2=\"330\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"30\" x2=\"330\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"18.0\" y1=\"180\" x2=\"342.0\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"342.0\" x2=\"180\" y2=\"18.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"346.5\" y=\"184\" fill=\"currentColor\" font-style=\"italic\" font-size=\"13\">x</text><text x=\"176\" y=\"12.0\" fill=\"currentColor\" font-style=\"italic\" font-size=\"13\">y</text><text x=\"176\" y=\"192\" fill=\"currentColor\" font-style=\"italic\" text-anchor=\"end\">O</text><text x=\"30\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−10</text><text x=\"176\" y=\"334\" fill=\"currentColor\" text-anchor=\"end\">−10</text><text x=\"60\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−8</text><text x=\"176\" y=\"304\" fill=\"currentColor\" text-anchor=\"end\">−8</text><text x=\"90\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−6</text><text x=\"176\" y=\"274\" fill=\"currentColor\" text-anchor=\"end\">−6</text><text x=\"120\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−4</text><text x=\"176\" y=\"244\" fill=\"currentColor\" text-anchor=\"end\">−4</text><text x=\"150\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−2</text><text x=\"176\" y=\"214\" fill=\"currentColor\" text-anchor=\"end\">−2</text><text x=\"210\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"176\" y=\"154\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"240\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"176\" y=\"124\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"270\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"176\" y=\"94\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"300\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"176\" y=\"64\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"330\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"176\" y=\"34\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"30.0\" y1=\"150.0\" x2=\"330.0\" y2=\"270.0\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"210\" r=\"3.5\" fill=\"currentColor\"/></svg>",
+    "alt": "A line in the xy-plane, graphed on a grid from −10 to 10 on each axis, passing through the points (0, -2), marked with a dot, and (-5, 0), and decreasing from left to right."
+   },
+   "choices": [
+    "\\(8x - Ry = -40\\)",
+    "\\(8x + Ry = -40\\)",
+    "\\(Rx + 8y = -40\\)",
+    "\\(Rx - 8y = 40\\)"
+   ],
+   "answer": "B",
+   "explanation": "The line passes through \\((0, -2)\\) and \\((-5, 0)\\). Its slope is \\(\\frac{0 - (-2)}{-5 - 0} = -\\frac{2}{5}\\), and its \\(y\\)-intercept is \\((0, -2)\\), so the line is \\(y = -\\frac{2}{5}x - 2\\). Rearranging gives \\(2x + 5y = -10\\). Multiplying both sides by \\(4\\) gives \\(8x + 20y = -40\\), which matches choice B, \\(8x + Ry = -40\\), with \\(R = 20\\), a positive constant. Choice A is incorrect: its graph passes through \\((-5, 0)\\), but for a positive \\(R\\) its \\(y\\)-intercept \\(\\frac{40}{R}\\) would be positive, and the graph's \\(y\\)-intercept is negative. Choice C is incorrect: its graph passes through \\((0, -5)\\), not \\((0, -2)\\). Choice D is incorrect: its graph passes through \\((0, -5)\\), not \\((0, -2)\\)."
+  },
+  {
+   "id": "pt2-m1-q25-v6",
+   "family": "pt2-m1-q25",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q25",
+   "domain": "algebra",
+   "skill": "alg-linear-2var",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The graph shows a linear relationship between \\(x\\) and \\(y\\). Which equation represents this relationship, where \\(R\\) is a positive constant?",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 360 360\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"11\"><line x1=\"30\" y1=\"330\" x2=\"30\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"330\" x2=\"330\" y2=\"330\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"45\" y1=\"330\" x2=\"45\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"315\" x2=\"330\" y2=\"315\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"60\" y1=\"330\" x2=\"60\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"300\" x2=\"330\" y2=\"300\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"75\" y1=\"330\" x2=\"75\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"285\" x2=\"330\" y2=\"285\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"90\" y1=\"330\" x2=\"90\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"270\" x2=\"330\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"105\" y1=\"330\" x2=\"105\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"255\" x2=\"330\" y2=\"255\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"120\" y1=\"330\" x2=\"120\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"240\" x2=\"330\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"135\" y1=\"330\" x2=\"135\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"225\" x2=\"330\" y2=\"225\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"150\" y1=\"330\" x2=\"150\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"210\" x2=\"330\" y2=\"210\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"165\" y1=\"330\" x2=\"165\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"195\" x2=\"330\" y2=\"195\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"195\" y1=\"330\" x2=\"195\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"165\" x2=\"330\" y2=\"165\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"210\" y1=\"330\" x2=\"210\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"150\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"225\" y1=\"330\" x2=\"225\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"135\" x2=\"330\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"240\" y1=\"330\" x2=\"240\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"120\" x2=\"330\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"255\" y1=\"330\" x2=\"255\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"105\" x2=\"330\" y2=\"105\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"270\" y1=\"330\" x2=\"270\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"285\" y1=\"330\" x2=\"285\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"75\" x2=\"330\" y2=\"75\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"300\" y1=\"330\" x2=\"300\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"60\" x2=\"330\" y2=\"60\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"315\" y1=\"330\" x2=\"315\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"45\" x2=\"330\" y2=\"45\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"330\" y1=\"330\" x2=\"330\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"30\" x2=\"330\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"18.0\" y1=\"180\" x2=\"342.0\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"342.0\" x2=\"180\" y2=\"18.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"346.5\" y=\"184\" fill=\"currentColor\" font-style=\"italic\" font-size=\"13\">x</text><text x=\"176\" y=\"12.0\" fill=\"currentColor\" font-style=\"italic\" font-size=\"13\">y</text><text x=\"176\" y=\"192\" fill=\"currentColor\" font-style=\"italic\" text-anchor=\"end\">O</text><text x=\"30\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−10</text><text x=\"176\" y=\"334\" fill=\"currentColor\" text-anchor=\"end\">−10</text><text x=\"60\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−8</text><text x=\"176\" y=\"304\" fill=\"currentColor\" text-anchor=\"end\">−8</text><text x=\"90\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−6</text><text x=\"176\" y=\"274\" fill=\"currentColor\" text-anchor=\"end\">−6</text><text x=\"120\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−4</text><text x=\"176\" y=\"244\" fill=\"currentColor\" text-anchor=\"end\">−4</text><text x=\"150\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−2</text><text x=\"176\" y=\"214\" fill=\"currentColor\" text-anchor=\"end\">−2</text><text x=\"210\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"176\" y=\"154\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"240\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"176\" y=\"124\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"270\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"176\" y=\"94\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"300\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"176\" y=\"64\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"330\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"176\" y=\"34\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"160.0\" y1=\"330.0\" x2=\"260.0\" y2=\"30.0\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"270\" r=\"3.5\" fill=\"currentColor\"/></svg>",
+    "alt": "A line in the xy-plane, graphed on a grid from −10 to 10 on each axis, passing through the points (0, -6), marked with a dot, and (2, 0), and increasing from left to right."
+   },
+   "choices": [
+    "\\(Rx + 7y = 42\\)",
+    "\\(7x - Ry = 42\\)",
+    "\\(7x + Ry = -42\\)",
+    "\\(Rx - 7y = 42\\)"
+   ],
+   "answer": "D",
+   "explanation": "The line passes through \\((0, -6)\\) and \\((2, 0)\\). Its slope is \\(\\frac{0 - (-6)}{2 - 0} = 3\\), and its \\(y\\)-intercept is \\((0, -6)\\), so the line is \\(y = 3x - 6\\). Rearranging gives \\(3x - y = 6\\). Multiplying both sides by \\(7\\) gives \\(21x - 7y = 42\\), which matches choice D, \\(Rx - 7y = 42\\), with \\(R = 21\\), a positive constant. Choice A is incorrect: its graph passes through \\((0, 6)\\), not \\((0, -6)\\). Choice B is incorrect: its graph passes through \\((6, 0)\\), not \\((2, 0)\\). Choice C is incorrect: its graph passes through \\((-6, 0)\\), not \\((2, 0)\\)."
+  },
+  {
+   "id": "pt2-m1-q25-v7",
+   "family": "pt2-m1-q25",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q25",
+   "domain": "algebra",
+   "skill": "alg-linear-2var",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "The graph shows a linear relationship between \\(x\\) and \\(y\\). Which equation represents this relationship, where \\(R\\) is a positive constant?",
+   "figure": {
+    "svg": "<svg viewBox=\"0 0 360 360\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"serif\" font-size=\"11\"><line x1=\"30\" y1=\"330\" x2=\"30\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"330\" x2=\"330\" y2=\"330\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"45\" y1=\"330\" x2=\"45\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"315\" x2=\"330\" y2=\"315\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"60\" y1=\"330\" x2=\"60\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"300\" x2=\"330\" y2=\"300\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"75\" y1=\"330\" x2=\"75\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"285\" x2=\"330\" y2=\"285\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"90\" y1=\"330\" x2=\"90\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"270\" x2=\"330\" y2=\"270\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"105\" y1=\"330\" x2=\"105\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"255\" x2=\"330\" y2=\"255\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"120\" y1=\"330\" x2=\"120\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"240\" x2=\"330\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"135\" y1=\"330\" x2=\"135\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"225\" x2=\"330\" y2=\"225\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"150\" y1=\"330\" x2=\"150\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"210\" x2=\"330\" y2=\"210\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"165\" y1=\"330\" x2=\"165\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"195\" x2=\"330\" y2=\"195\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"195\" y1=\"330\" x2=\"195\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"165\" x2=\"330\" y2=\"165\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"210\" y1=\"330\" x2=\"210\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"150\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"225\" y1=\"330\" x2=\"225\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"135\" x2=\"330\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"240\" y1=\"330\" x2=\"240\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"120\" x2=\"330\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"255\" y1=\"330\" x2=\"255\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"105\" x2=\"330\" y2=\"105\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"270\" y1=\"330\" x2=\"270\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"285\" y1=\"330\" x2=\"285\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"75\" x2=\"330\" y2=\"75\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"300\" y1=\"330\" x2=\"300\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"60\" x2=\"330\" y2=\"60\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"315\" y1=\"330\" x2=\"315\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"45\" x2=\"330\" y2=\"45\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"330\" y1=\"330\" x2=\"330\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"30\" y1=\"30\" x2=\"330\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.25\"/><line x1=\"18.0\" y1=\"180\" x2=\"342.0\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"342.0\" x2=\"180\" y2=\"18.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"346.5\" y=\"184\" fill=\"currentColor\" font-style=\"italic\" font-size=\"13\">x</text><text x=\"176\" y=\"12.0\" fill=\"currentColor\" font-style=\"italic\" font-size=\"13\">y</text><text x=\"176\" y=\"192\" fill=\"currentColor\" font-style=\"italic\" text-anchor=\"end\">O</text><text x=\"30\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−10</text><text x=\"176\" y=\"334\" fill=\"currentColor\" text-anchor=\"end\">−10</text><text x=\"60\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−8</text><text x=\"176\" y=\"304\" fill=\"currentColor\" text-anchor=\"end\">−8</text><text x=\"90\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−6</text><text x=\"176\" y=\"274\" fill=\"currentColor\" text-anchor=\"end\">−6</text><text x=\"120\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−4</text><text x=\"176\" y=\"244\" fill=\"currentColor\" text-anchor=\"end\">−4</text><text x=\"150\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">−2</text><text x=\"176\" y=\"214\" fill=\"currentColor\" text-anchor=\"end\">−2</text><text x=\"210\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"176\" y=\"154\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"240\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"176\" y=\"124\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"270\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"176\" y=\"94\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"300\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"176\" y=\"64\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"330\" y=\"193\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"176\" y=\"34\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"30.0\" y1=\"195.0\" x2=\"330.0\" y2=\"45.0\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"120\" r=\"3.5\" fill=\"currentColor\"/></svg>",
+    "alt": "A line in the xy-plane, graphed on a grid from −10 to 10 on each axis, passing through the points (0, 4), marked with a dot, and (-8, 0), and increasing from left to right."
+   },
+   "choices": [
+    "\\(5x - Ry = -40\\)",
+    "\\(5x + Ry = -40\\)",
+    "\\(Rx - 5y = -40\\)",
+    "\\(Rx + 5y = 40\\)"
+   ],
+   "answer": "A",
+   "explanation": "The line passes through \\((0, 4)\\) and \\((-8, 0)\\). Its slope is \\(\\frac{0 - 4}{-8 - 0} = \\frac{1}{2}\\), and its \\(y\\)-intercept is \\((0, 4)\\), so the line is \\(y = \\frac{1}{2}x + 4\\). Rearranging gives \\(x - 2y = -8\\). Multiplying both sides by \\(5\\) gives \\(5x - 10y = -40\\), which matches choice A, \\(5x - Ry = -40\\), with \\(R = 10\\), a positive constant. Choice B is incorrect: its graph passes through \\((-8, 0)\\), but for a positive \\(R\\) its \\(y\\)-intercept \\(\\frac{-40}{R}\\) would be negative, and the graph's \\(y\\)-intercept is positive. Choice C is incorrect: its graph passes through \\((0, 8)\\), not \\((0, 4)\\). Choice D is incorrect: its graph passes through \\((0, 8)\\), not \\((0, 4)\\)."
+  },
+  {
+   "id": "pt2-m1-q26-v5",
+   "family": "pt2-m1-q26",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q26",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A 120.0-gram sample of bronze is 15.0% tin by mass. The sample was made by melting together two pieces of different bronze alloys. The first piece was 10.0% tin by mass and the second piece was 25.0% tin by mass. What was the mass, in grams, of the tin in the first piece?",
+   "choices": [
+    "8.0",
+    "10.0",
+    "40.0",
+    "80.0"
+   ],
+   "answer": "A",
+   "explanation": "Let \\(x\\) be the mass, in grams, of the first piece and \\(y\\) the mass of the second piece. The total mass gives \\(x + y = 120.0\\). The total mass of tin is \\(0.15(120.0) = 18.0\\) grams, and the first and second pieces contribute \\(0.1x\\) and \\(0.25y\\) grams, so \\(0.1x + 0.25y = 18.0\\). Substituting \\(x = 120.0 - y\\): \\(0.1(120.0 - y) + 0.25y = 18.0\\), so \\(12.0 + 0.15y = 18.0\\), giving \\(0.15y = 6.0\\) and \\(y = 40.0\\). Then \\(x = 80.0\\). The mass of the tin in the first piece is \\(0.1(80.0) = 8.0\\) grams. Choice B is the mass of the tin in the second piece, not the mass of the tin in the first piece. Choice C is the total mass of the second piece, not the mass of the tin in the first piece. Choice D is the total mass of the first piece, not the mass of the tin in the first piece."
+  },
+  {
+   "id": "pt2-m1-q26-v6",
+   "family": "pt2-m1-q26",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q26",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "An 80.0-gram sample of brass is 70.0% copper by mass. The sample was created by combining two pieces of different brass alloys. The first piece was 64.0% copper by mass and the second piece was 88.0% copper by mass. What was the mass, in grams, of the copper in the first piece?",
+   "choices": [
+    "17.6",
+    "20.0",
+    "38.4",
+    "60.0"
+   ],
+   "answer": "C",
+   "explanation": "Let \\(x\\) be the mass, in grams, of the first piece and \\(y\\) the mass of the second piece. The total mass gives \\(x + y = 80.0\\). The total mass of copper is \\(0.7(80.0) = 56.0\\) grams, and the first and second pieces contribute \\(0.64x\\) and \\(0.88y\\) grams, so \\(0.64x + 0.88y = 56.0\\). Substituting \\(x = 80.0 - y\\): \\(0.64(80.0 - y) + 0.88y = 56.0\\), so \\(51.2 + 0.24y = 56.0\\), giving \\(0.24y = 4.8\\) and \\(y = 20.0\\). Then \\(x = 60.0\\). The mass of the copper in the first piece is \\(0.64(60.0) = 38.4\\) grams. Choice A is the mass of the copper in the second piece, not the mass of the copper in the first piece. Choice B is the total mass of the second piece, not the mass of the copper in the first piece. Choice D is the total mass of the first piece, not the mass of the copper in the first piece."
+  },
+  {
+   "id": "pt2-m1-q26-v7",
+   "family": "pt2-m1-q26",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q26",
+   "domain": "algebra",
+   "skill": "alg-systems",
+   "difficulty": 3,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A food company makes a 150.0-kilogram batch of trail mix that is 40.0% peanuts by mass by combining two other mixes. The first mix is 25.0% peanuts by mass and the second mix is 50.0% peanuts by mass. What is the mass, in kilograms, of the peanuts that come from the second mix?",
+   "choices": [
+    "60.0",
+    "45.0",
+    "15.0",
+    "90.0"
+   ],
+   "answer": "B",
+   "explanation": "Let \\(x\\) be the mass, in kilograms, of the first mix and \\(y\\) the mass of the second mix. The total mass gives \\(x + y = 150.0\\). The total mass of peanuts is \\(0.4(150.0) = 60.0\\) kilograms, and the first and second mixes contribute \\(0.25x\\) and \\(0.5y\\) kilograms, so \\(0.25x + 0.5y = 60.0\\). Substituting \\(x = 150.0 - y\\): \\(0.25(150.0 - y) + 0.5y = 60.0\\), so \\(37.5 + 0.25y = 60.0\\), giving \\(0.25y = 22.5\\) and \\(y = 90.0\\). Then \\(x = 60.0\\). The mass of the peanuts in the second mix is \\(0.5(90.0) = 45.0\\) kilograms. Choice A is the total mass of the first mix, not the mass of the peanuts in the second mix. Choice C is the mass of the peanuts in the first mix, not the mass of the peanuts in the second mix. Choice D is the total mass of the second mix, not the mass of the peanuts in the second mix."
+  },
+  {
+   "id": "pt2-m1-q27-v5",
+   "family": "pt2-m1-q27",
+   "variant": 5,
+   "source": "Variant of Practice Test 2 · Module 1 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "The product of two positive integers is 377. If the first integer is 3 greater than twice the second integer, what is the smaller of the two integers?",
+   "answer": [
+    "13"
+   ],
+   "explanation": "Let \\(x\\) be the first integer and \\(y\\) the second. Then \\(x = 2y + 3\\) and \\(xy = 377\\). Substituting gives \\((2y + 3)y = 377\\), or \\(2y^2 + 3y - 377 = 0\\). This factors as \\((2y + 29)(y - 13) = 0\\), so \\(y = -\\frac{29}{2}\\) or \\(y = 13\\). Since \\(y\\) is a positive integer, \\(y = 13\\), and then \\(x = 377 \\div 13 = 29\\). The two integers are 29 and 13, so the smaller integer is 13."
+  },
+  {
+   "id": "pt2-m1-q27-v6",
+   "family": "pt2-m1-q27",
+   "variant": 6,
+   "source": "Variant of Practice Test 2 · Module 1 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "The product of two positive integers is 848. If the first integer is 5 greater than three times the second integer, what is the smaller of the two integers?",
+   "answer": [
+    "16"
+   ],
+   "explanation": "Let \\(x\\) be the first integer and \\(y\\) the second. Then \\(x = 3y + 5\\) and \\(xy = 848\\). Substituting gives \\((3y + 5)y = 848\\), or \\(3y^2 + 5y - 848 = 0\\). This factors as \\((3y + 53)(y - 16) = 0\\), so \\(y = -\\frac{53}{3}\\) or \\(y = 16\\). Since \\(y\\) is a positive integer, \\(y = 16\\), and then \\(x = 848 \\div 16 = 53\\). The two integers are 53 and 16, so the smaller integer is 16."
+  },
+  {
+   "id": "pt2-m1-q27-v7",
+   "family": "pt2-m1-q27",
+   "variant": 7,
+   "source": "Variant of Practice Test 2 · Module 1 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "The product of two positive integers is 330. If the first integer is 29 less than twice the second integer, what is the smaller of the two integers?",
+   "answer": [
+    "15"
+   ],
+   "explanation": "Let \\(x\\) be the first integer and \\(y\\) the second. Then \\(x = 2y - 29\\) and \\(xy = 330\\). Substituting gives \\((2y - 29)y = 330\\), or \\(2y^2 - 29y - 330 = 0\\). This factors as \\((2y + 15)(y - 22) = 0\\), so \\(y = -\\frac{15}{2}\\) or \\(y = 22\\). Since \\(y\\) is a positive integer, \\(y = 22\\), and then \\(x = 330 \\div 22 = 15\\). The two integers are 15 and 22, so the smaller integer is 15."
+  }
+ ]
+}
