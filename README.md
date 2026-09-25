@@ -5,6 +5,7 @@ A practice app for PSAT/NMSQT math that serves one question at a time and uses s
 - **Practice:** one question at a time, multiple choice or typed answer (student-produced response, like the real test). There's a pace timer (1:35 per question on the real test), a reference sheet, and a link to the Desmos test calculator. After each answer the student sees the explanation and rates how it felt, and that rating sets when the concept comes back.
 - **Progress:** accuracy, day streak, median time, a daily practice chart, and a status for each of the 19 official PSAT math skills (Not started, Relearning, Shaky, Building, Solid).
 - **Log:** every answer with time, rating and mode. Click a row to see the question, the student's answer, and the explanation.
+- **Motivation:** confetti on correct answers (bigger for streaks and milestones), a streak counter, a daily goal ring (5–30 questions, set on the Progress page), "Comeback!" when a missed concept is conquered, skill level-ups, and 20 badges. Short encouraging notes follow a miss. Confetti is skipped when the device asks for reduced motion.
 - **Pick up any time:** progress is saved after every answer. Reopening the app resumes where the student left off, including a question that was on screen.
 - **Out of questions:** when every loaded question has been used (or a due concept has no unused versions left), the app tells the student more questions need to be loaded and lists which concepts need them.
 

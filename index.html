@@ -230,6 +230,30 @@ table.skills td.n{font-family:var(--mono);font-size:13px;white-space:nowrap}
 .logdetail .you{font-size:13.5px;margin:8px 0}
 .empty{padding:28px 20px;text-align:center;color:var(--ink-3)}
 .loading{padding:60px 20px;text-align:center;color:var(--ink-3)}
+/* motivators */
+#confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:50}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,16px);opacity:0;z-index:60;background:var(--ink);color:var(--paper);padding:12px 20px;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,.25);font-size:14px;max-width:min(92vw,440px);text-align:center;transition:opacity .25s,transform .25s;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast b{display:block;font:700 20px/1.25 var(--display);color:var(--pencil)}
+.goal{display:inline-flex;align-items:center;gap:7px}
+.goal svg{width:22px;height:22px;flex:none}
+.goal.done b{color:var(--good)}
+.streak{display:inline-flex;align-items:center;gap:6px;padding:2px 10px;border-radius:999px;background:var(--pencil-soft);color:var(--pencil-ink);font-weight:700;font-size:12.5px}
+.streak svg{width:12px;height:12px}
+.cheer{margin-top:10px;font-size:14px;color:var(--ink-2)}
+.cheer b{color:var(--ink)}
+.badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.badge{padding:12px 14px;display:flex;gap:12px;align-items:center}
+.badge .medal{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--pencil-soft);color:var(--pencil-ink);border:2px solid var(--pencil);font:700 12px var(--mono);flex:none}
+.badge.locked{opacity:.5}
+.badge.locked .medal{background:var(--rule-2);color:var(--ink-3);border-color:var(--rule)}
+.badge b{display:block;font-size:13.5px;line-height:1.3}
+.badge span{font-size:12px;color:var(--ink-3)}
+.goalpick{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px;font-size:13.5px;color:var(--ink-2)}
+.goalpick button{border:1.5px solid var(--rule);background:var(--paper);border-radius:8px;padding:4px 12px;font:600 13px var(--mono)}
+.goalpick button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+@keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.15)}100%{transform:scale(1)}}
+.verdict.good .mark{animation:pop .35s ease-out}
 @media (max-width:520px){
   .q{padding:18px 16px 20px}
   .prompt{font-size:16px}
@@ -257,6 +281,8 @@ table.skills td.n{font-family:var(--mono);font-size:13px;white-space:nowrap}
   <section id="view-progress" hidden></section>
   <section id="view-log" hidden></section>
 </main>
+<canvas id="confetti" aria-hidden="true"></canvas>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 window.MathJax = {
@@ -342,6 +368,7 @@ function fmtIn(ms) {
   return "in " + Math.round(h / 24) + " days";
 }
 const CHECK = '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const FLAME = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1c.4 2-1.8 3-1.8 5.2A1.8 1.8 0 0 0 6 8c1 0 1.7-.8 1.6-1.9.9.7 1.4 1.7 1.4 2.6A3 3 0 0 1 6 11.5 3.2 3.2 0 0 1 2.8 8.3C2.8 5.2 6 4 6 1z" fill="currentColor"/></svg>';
 const CROSS = '<svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
 
 /* ------------------------------------------------------------------ */
@@ -398,7 +425,7 @@ const famHead = fid => BANK.fam[fid][0];
 /* ------------------------------------------------------------------ */
 let store, S, LOG = [];
 function freshState() {
-  return { v: 1, created: Date.now(), counter: 0, logCount: 0, sinceNew: 0, fams: {}, cur: null, pend: null, lastFid: null, lastSkill: null };
+  return { v: 1, created: Date.now(), counter: 0, logCount: 0, sinceNew: 0, fams: {}, cur: null, pend: null, lastFid: null, lastSkill: null, goal: 10, streak: 0, best: 0, badges: {} };
 }
 async function loadLog() {
   const n = Math.ceil((S.logCount || 0) / LOG_CHUNK);
@@ -596,8 +623,13 @@ function stripHtml() {
   const answered = LOG.length;
   const today = LOG.filter(e => dayKey(e.t) === dayKey(Date.now()));
   const tc = today.filter(e => e.ok).length;
+  const g = S.goal || 10, frac = Math.min(1, today.length / g), done = today.length >= g;
+  const R = 9, C = 2 * Math.PI * R;
+  const ring = `<svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="${R}" fill="none" stroke="var(--rule)" stroke-width="3"/><circle cx="11" cy="11" r="${R}" fill="none" stroke="${done ? "var(--good)" : "var(--accent)"}" stroke-width="3" stroke-linecap="round" stroke-dasharray="${(C * frac).toFixed(2)} ${C.toFixed(2)}" transform="rotate(-90 11 11)"/></svg>`;
   return `<div class="strip">
-    <span>Today <b>${today.length}</b> answered · <b>${today.length ? Math.round(100 * tc / today.length) + "%" : "—"}</b> correct</span>
+    <span class="goal${done ? " done" : ""}" title="Daily goal: ${g} questions">${ring}<span>Today <b>${today.length}</b>/${g}${done ? " · goal reached" : ""}</span></span>
+    <span><b>${today.length ? Math.round(100 * tc / today.length) + "%" : "—"}</b> correct today</span>
+    ${(S.streak || 0) >= 2 ? `<span class="streak">${FLAME}${S.streak} in a row</span>` : ""}
     <span>All time <b>${answered}</b></span>
     <span class="sp">
       <a class="tool" href="https://www.desmos.com/testing/cb-digital-sat/graphing" target="_blank" rel="noopener">Desmos calculator ↗</a>
@@ -735,8 +767,14 @@ function submitAnswer(q, mode) {
   S.logCount = LOG.length;
   S.pend = { qid: q.id, mode, resp: selected, ok, secs, prev, rating, logIdx, counter: S.counter - 1 };
   S.cur = null;
+  const cele = celebrate(q, mode, ok, prev);
+  S.pend.praise = cele.praise; S.pend.cheer = cele.cheer;
   persist(logIdx);
   restoreAnswered(q);
+  const mark = $(".verdict .mark");
+  if (cele.burst) confetti(cele.burst, mark);
+  toastQueue.forEach(clearTimeout); toastQueue = cele.msgs.map((m, i) => setTimeout(() => toast(m[0], m[1]), i * 2600));
+  const strip = V.practice.querySelector(".strip"); if (strip) strip.outerHTML = stripHtml();
 }
 
 function restoreAnswered(q) {
@@ -759,7 +797,8 @@ function restoreAnswered(q) {
     ? [["guess", "I guessed", "Show me this again soon"], ["hard", "Hard", "Got it, with effort"], ["good", "Good", "Solid, some thought"], ["easy", "Easy", "Knew it right away"]]
     : [["miss", "Didn't know how", "Show me a new version soon"], ["slip", "Careless mistake", "I knew the method"]];
   $("#fb").innerHTML = `<div class="fb">
-    <div class="verdict ${p.ok ? "good" : "bad"}"><span class="mark">${p.ok ? CHECK : CROSS}</span><div>${p.ok ? "Correct" : "Not quite"}<div class="sub">${right} You took ${fmtSecs(p.secs)}${p.secs > PACE ? ", slower than the 1:35 test pace" : ""}.</div></div></div>
+    <div class="verdict ${p.ok ? "good" : "bad"}"><span class="mark">${p.ok ? CHECK : CROSS}</span><div>${p.ok ? (p.praise || "Correct") : "Not quite"}<div class="sub">${right} You took ${fmtSecs(p.secs)}${p.secs > PACE ? ", slower than the 1:35 test pace" : ""}.</div></div></div>
+    ${!p.ok && p.cheer ? `<div class="cheer">${p.cheer}</div>` : ""}
     <div class="expl prompt" id="expl">${wrapTables(q.explanation)}</div>
     <div class="rate">
       <h3>${p.ok ? "How did that feel?" : "What happened?"}</h3>
@@ -815,12 +854,146 @@ document.addEventListener("keydown", e => {
 });
 
 /* ------------------------------------------------------------------ */
+/* Motivators: confetti, streaks, daily goal, milestones, badges       */
+/* ------------------------------------------------------------------ */
+const PRAISE = ["Correct", "Nice work", "Nailed it", "That's it", "Right on", "Exactly", "Well done", "Spot on"];
+const CHEERS = [
+  "Misses are useful. They tell the app what to bring back, and a fresh version is coming soon.",
+  "Every mistake you fix now is a point you keep on test day.",
+  "Read the explanation closely. You'll get another shot at this concept in a few questions.",
+  "Tough one. Hard questions are where the biggest gains are.",
+  "Good attempt. Spot the step that went wrong in the explanation, then try the next one.",
+];
+const BADGES = [
+  ["first", "1", "First question", "Answered your first question"],
+  ["n10", "10", "10 questions", "Answered 10 questions"],
+  ["n25", "25", "25 questions", "Answered 25 questions"],
+  ["n50", "50", "50 questions", "Answered 50 questions"],
+  ["n100", "100", "Century", "Answered 100 questions"],
+  ["n250", "250", "250 questions", "Answered 250 questions"],
+  ["n500", "500", "500 questions", "Answered 500 questions"],
+  ["s5", "5×", "Hot streak", "5 correct in a row"],
+  ["s10", "10×", "On fire", "10 correct in a row"],
+  ["s20", "20×", "Unstoppable", "20 correct in a row"],
+  ["goal", "✓", "Goal getter", "Reached your daily goal"],
+  ["d3", "3d", "3-day streak", "Practiced 3 days in a row"],
+  ["d7", "7d", "Week streak", "Practiced 7 days in a row"],
+  ["d14", "14d", "Two-week streak", "Practiced 14 days in a row"],
+  ["d30", "30d", "Month streak", "Practiced 30 days in a row"],
+  ["comeback", "↺", "Comeback", "Got a missed concept right"],
+  ["hard", "H", "Hard hitter", "Got a harder question right"],
+  ["pace", "1:35", "Test pace", "10 correct answers under 1:35"],
+  ["solid1", "S", "First solid skill", "A skill reached Solid"],
+  ["solid5", "S5", "Five solid skills", "Five skills reached Solid"],
+];
+const BADGE = Object.fromEntries(BADGES.map(b => [b[0], b]));
+function award(id) {
+  if (S.badges[id]) return false;
+  S.badges[id] = Date.now();
+  return true;
+}
+function celebrate(q, mode, ok, prev) {
+  const msgs = [];
+  let burst = 0;
+  const badge = id => { if (award(id)) { const b = BADGE[id]; msgs.push(["Badge earned: " + b[2], b[3], 1]); burst = Math.max(burst, 140); } };
+  const solidBefore = Object.values(skillStatsFrom(LOG.slice(0, -1))).filter(o => o.status === "solid").length;
+  if (ok) {
+    S.streak = (S.streak || 0) + 1;
+    S.best = Math.max(S.best || 0, S.streak);
+    burst = 45;
+    if (prev && prev.lapses > 0 && (prev.st === "learn" || prev.parked)) { msgs.push(["Comeback!", "You cracked a concept you missed earlier.", 3]); burst = 110; badge("comeback"); }
+    if (q.difficulty === 3) badge("hard");
+    if ([3, 5, 10, 15, 20, 25, 30, 40, 50].includes(S.streak)) {
+      msgs.push([S.streak + " in a row!", S.streak >= 10 ? "You're locked in." : "Keep the streak going.", 2]);
+      burst = Math.max(burst, S.streak >= 5 ? 160 : 90);
+    }
+    if (S.streak === 5) badge("s5"); if (S.streak === 10) badge("s10"); if (S.streak === 20) badge("s20");
+    if (LOG.filter(e => e.ok && e.s > 0 && e.s <= PACE).length >= 10) badge("pace");
+  } else {
+    S.streak = 0;
+  }
+  const n = LOG.length;
+  if (n === 1) badge("first");
+  const mile = { 10: "n10", 25: "n25", 50: "n50", 100: "n100", 250: "n250", 500: "n500" }[n];
+  if (mile) { msgs.push([n + " questions answered!", "Every one of them counts.", 4]); burst = Math.max(burst, 170); badge(mile); }
+  const todayN = LOG.filter(e => dayKey(e.t) === dayKey(Date.now())).length;
+  if (todayN === (S.goal || 10)) { msgs.push(["Daily goal reached!", `${todayN} questions today. Anything more is a bonus.`, 6]); burst = 200; badge("goal"); }
+  if (todayN === 1) {
+    const d = streakDays();
+    if (d >= 2) msgs.push([d + "-day streak!", "You showed up again. That's how scores go up.", 5]);
+    if (d >= 2) burst = Math.max(burst, d >= 3 ? 150 : 60);
+    if (d === 3) badge("d3"); if (d === 7) badge("d7"); if (d === 14) badge("d14"); if (d === 30) badge("d30");
+  }
+  const st = skillStatsFrom(LOG);
+  const solidNow = Object.values(st).filter(o => o.status === "solid").length;
+  if (solidNow > solidBefore && st[q.skill].status === "solid") {
+    msgs.push(["Skill level-up!", SKILLS[q.skill][1] + " is now Solid.", 5]); burst = Math.max(burst, 180);
+    if (solidNow >= 1) badge("solid1"); if (solidNow >= 5) badge("solid5");
+  }
+  // Order: most important message first; drop duplicates of the same title
+  const seen = new Set();
+  return {
+    burst,
+    msgs: msgs.sort((a, b) => b[2] - a[2]).filter(m => !seen.has(m[0]) && seen.add(m[0])).slice(0, 2),
+    praise: ok ? PRAISE[Math.floor(Math.random() * PRAISE.length)] : null,
+    cheer: ok ? null : CHEERS[Math.floor(Math.random() * CHEERS.length)],
+  };
+}
+
+let toastTimer, toastQueue = [];
+function toast(title, sub) {
+  const t = $("#toast");
+  t.innerHTML = `<b>${esc(title)}</b>${sub ? esc(sub) : ""}`;
+  t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove("show"), 2500);
+}
+
+let confettiRun = 0;
+function confetti(count, fromEl) {
+  if (!count) return;
+  try { if (matchMedia("(prefers-reduced-motion: reduce)").matches) return; } catch (e) {}
+  const c = $("#confetti"), ctx = c.getContext("2d");
+  const dpr = Math.min(2, window.devicePixelRatio || 1), W = innerWidth, H = innerHeight;
+  c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  const cs = getComputedStyle(document.documentElement);
+  const cols = ["--accent", "--pencil", "--good", "--bad"].map(v => cs.getPropertyValue(v).trim()).concat(["#8B5CF6", "#EC4899"]);
+  const parts = [];
+  const big = count >= 120;
+  let ox = W / 2, oy = H / 2;
+  if (fromEl) { const r = fromEl.getBoundingClientRect(); if (r.width && r.bottom > 0 && r.top < H) { ox = r.left + r.width / 2; oy = r.top + r.height / 2; } }
+  for (let i = 0; i < count; i++) {
+    let x, y, a, sp;
+    if (big && i % 2 === 0) { const left = i % 4 === 0; x = left ? 0 : W; y = H * 0.85; a = left ? -Math.PI / 3 + (Math.random() - .5) * .6 : -2 * Math.PI / 3 + (Math.random() - .5) * .6; sp = 12 + Math.random() * 9; }
+    else { x = ox; y = oy; a = -Math.PI / 2 + (Math.random() - .5) * 2.2; sp = 4 + Math.random() * (big ? 11 : 7); }
+    parts.push({ x, y, vx: Math.cos(a) * sp, vy: Math.sin(a) * sp, w: 5 + Math.random() * 6, h: 3 + Math.random() * 5, r: Math.random() * 6, vr: (Math.random() - .5) * .35, col: cols[i % cols.length], life: 0 });
+  }
+  const run = ++confettiRun;
+  const start = performance.now();
+  const step = now => {
+    if (run !== confettiRun) return;
+    ctx.clearRect(0, 0, W, H);
+    let alive = 0;
+    for (const p of parts) {
+      p.vy += 0.28; p.vx *= 0.985; p.vy *= 0.985; p.x += p.vx; p.y += p.vy; p.r += p.vr;
+      if (p.y > H + 20) continue;
+      alive++;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.fillStyle = p.col;
+      ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h * Math.abs(Math.cos(p.r * 1.7)) + 1); ctx.restore();
+    }
+    if (alive && now - start < 4500) requestAnimationFrame(step); else ctx.clearRect(0, 0, W, H);
+  };
+  requestAnimationFrame(step);
+}
+
+/* ------------------------------------------------------------------ */
 /* Progress view                                                       */
 /* ------------------------------------------------------------------ */
-function skillStats() {
+function skillStats() { return skillStatsFrom(LOG); }
+function skillStatsFrom(log) {
   const out = {};
   for (const k in SKILLS) out[k] = { n: 0, c: 0, recent: [], fams: 0, started: 0, learning: 0, left: 0 };
-  for (const e of LOG) { const o = out[e.sk]; if (!o) continue; o.n++; if (e.ok) o.c++; o.recent.push(e.ok); }
+  for (const e of log) { const o = out[e.sk]; if (!o) continue; o.n++; if (e.ok) o.c++; o.recent.push(e.ok); }
   for (const f of BANK.famOrder) {
     const o = out[famHead(f).skill]; o.fams++; o.left += unseen(f).length;
     if (S.fams[f]) { o.started++; if (S.fams[f].st === "learn") o.learning++; }
@@ -856,11 +1029,16 @@ function renderProgress() {
     <div class="card tile"><div class="k">Answered</div><div class="v">${n}</div><div class="s">${c} correct</div></div>
     <div class="card tile"><div class="k">Accuracy</div><div class="v">${n ? Math.round(100 * l50 / last50.length) + "%" : "—"}</div><div class="s">last ${last50.length || 0} questions</div></div>
     <div class="card tile"><div class="k">Day streak</div><div class="v">${streakDays()}</div><div class="s">days in a row</div></div>
+    <div class="card tile"><div class="k">Best run</div><div class="v">${S.best || 0}</div><div class="s">correct in a row</div></div>
     <div class="card tile"><div class="k">Median time</div><div class="v">${med != null ? fmtSecs(med) : "—"}</div><div class="s">test pace 1:35</div></div>
     <div class="card tile"><div class="k">Concepts</div><div class="v">${startedFams}<span style="font-size:16px;color:var(--ink-3)">/${totalFams}</span></div><div class="s">${due} due for review</div></div>
   </div>`;
 
-  html += `<h2 class="sec">Daily practice</h2><div class="card chartcard" id="chart"><h3>Questions answered per day</h3><div class="cap">Last 21 days. Hover a bar for accuracy.</div><div id="chartsvg"></div></div>`;
+  html += `<h2 class="sec">Daily practice</h2><div class="card chartcard" id="chart"><h3>Questions answered per day</h3><div class="cap">Last 21 days. Hover a bar for accuracy.</div><div id="chartsvg"></div>
+    <div class="goalpick"><span>Daily goal</span>${[5, 10, 15, 20, 30].map(g => `<button data-goal="${g}" aria-pressed="${(S.goal || 10) === g}">${g}</button>`).join("")}<span class="muted">questions</span></div></div>`;
+  const earned = BADGES.filter(b => S.badges[b[0]]).length;
+  html += `<h2 class="sec">Badges <span class="muted" style="font:500 14px var(--body)">${earned} of ${BADGES.length}</span></h2><div class="badges">${BADGES.map(([id, m, t, d]) => { const got = S.badges[id];
+    return `<div class="card badge${got ? "" : " locked"}"><span class="medal">${esc(m)}</span><div><b>${esc(t)}</b><span>${got ? "Earned " + new Date(got).toLocaleDateString([], { month: "short", day: "numeric" }) : esc(d)}</span></div></div>`; }).join("")}</div>`;
 
   html += `<h2 class="sec">Skills</h2>`;
   for (const d in DOMAINS) {
@@ -882,6 +1060,7 @@ function renderProgress() {
   </div>`;
   V.progress.innerHTML = html;
   drawChart();
+  V.progress.querySelectorAll("[data-goal]").forEach(b => b.onclick = () => { S.goal = +b.dataset.goal; persist(); renderProgress(); });
 }
 
 function drawChart() {
@@ -969,6 +1148,7 @@ document.querySelectorAll("nav.tabs button").forEach(b => b.onclick = () => show
     if (!BANK.famOrder.length) { V.practice.innerHTML = `<div class="card notice"><h2>No questions loaded</h2><p>The question bank is empty. Ask for PSAT math questions to be loaded.</p></div>`; return; }
     S = (await store.getState()) || freshState();
     S.fams = S.fams || {};
+    S.goal = S.goal || 10; S.streak = S.streak || 0; S.best = S.best || 0; S.badges = S.badges || {};
     await loadLog();
     if (store.kind === "db") setChip("", "Saved to your account");
     else setChip("local", "Saved on this device only");
