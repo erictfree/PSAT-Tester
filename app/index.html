@@ -840,7 +840,7 @@ function renderProgress() {
   for (const d in DOMAINS) {
     const ks = Object.keys(SKILLS).filter(k => SKILLS[k][0] === d);
     const dn = ks.reduce((a, k) => a + st[k].n, 0), dc = ks.reduce((a, k) => a + st[k].c, 0);
-    html += `<div class="card dom-block"><div style="padding:14px 16px 4px" class="dom-head"><h3>${DOMAINS[d]}</h3><span>${dn ? Math.round(100 * dc / dn) + "% correct over " + dn + " questions" : "Not started"}</span></div>
+    html += `<div class="card dom-block"><div style="padding:14px 16px 4px" class="dom-head"><h3>${DOMAINS[d]}</h3><span>${dn ? Math.round(100 * dc / dn) + "% correct over " + dn + (dn === 1 ? " question" : " questions") : "Not started"}</span></div>
     <div class="tblx"><table class="skills"><thead><tr><th>Skill</th><th>Status</th><th>Accuracy</th><th>Concepts</th><th>Unused</th></tr></thead><tbody>
     ${ks.map(k => { const o = st[k]; const pct = o.n ? Math.round(100 * o.c / o.n) : null;
       return `<tr><td>${esc(SKILLS[k][1])}</td><td><span class="st ${o.status}"><i></i>${STATUS[o.status]}</span></td>
@@ -885,7 +885,7 @@ function drawChart() {
       const d = days[+r.dataset.i];
       tip.textContent = `${new Date(d.t).toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" })}: ${d.n} answered${d.n ? `, ${Math.round(100 * d.c / d.n)}% correct` : ""}`;
       const rb = r.getBoundingClientRect(), cb = card.getBoundingClientRect();
-      tip.style.left = clamp(rb.left - cb.left + rb.width / 2, 80, cb.width - 80) + "px"; tip.style.top = (rb.top - cb.top + (y(0) - y(Math.max(d.n, 0))) * 0 + 10) + "px";
+      tip.style.left = clamp(rb.left - cb.left + rb.width / 2, 80, cb.width - 80) + "px"; tip.style.top = (rb.top - cb.top + 10) + "px";
       tip.hidden = false;
     });
     r.addEventListener("mouseleave", () => tip.hidden = true);
