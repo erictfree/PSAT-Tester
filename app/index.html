@@ -444,10 +444,17 @@ function schedule(prev, q, correct, rating, now) {
     f.lapses++;
     f.D = clamp(f.D + (slip ? 0.5 : 1.5), 1, 10);
     f.S = Math.max(1, (f.S || 1) * (slip ? 0.7 : 0.4));
-    f.st = "learn"; f.dueN = S.counter + 1 + (slip ? 5 : 3); f.due = 0;
+    f.miss = (f.miss || 0) + 1;
+    if (f.miss >= 3) {
+      // Three misses in a row: park it until tomorrow instead of burning more versions today.
+      f.st = "review"; f.S = 1; f.due = now + 20 * 3600000; f.dueN = null; f.miss = 0; f.parked = true;
+      return f;
+    }
+    f.st = "learn"; f.dueN = S.counter + 1 + (slip ? 5 : 3); f.due = 0; f.parked = false;
     return f;
   }
   f.c++;
+  f.miss = 0; f.parked = false;
   if (rating === "guess") {
     f.D = clamp(f.D + 1, 1, 10);
     f.S = Math.max(1, (f.S || 1) * 0.6);
@@ -764,6 +771,7 @@ function drawNextInfo(q) {
   const left = unseen(q.family).length;
   let txt;
   if (f.st === "learn") txt = `This concept comes back after ${Math.max(1, f.dueN - S.counter)} other question${f.dueN - S.counter === 1 ? "" : "s"}, as a new version.`;
+  else if (f.parked) txt = `That's three misses in a row on this concept, so it's set aside until tomorrow. Read the explanation carefully; a fresh version will be waiting.`;
   else txt = `Next review of this concept: ${fmtIn(f.due - Date.now())}.`;
   txt += left ? ` ${left} unused version${left === 1 ? "" : "s"} left.` : ` No unused versions left. Ask for more questions for this concept.`;
   $("#nextinfo").textContent = txt;

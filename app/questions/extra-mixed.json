@@ -190,7 +190,7 @@
    "answer": [
     "12"
    ],
-   "explanation": "Let \\(k\\) be the number of pop songs added. Then there are \\(18+k\\) pop songs out of \\(48+k\\) total, so \\(\\frac{18+k}{48+k}=\\frac{1}{2}\\). Cross-multiplying gives \\(2(18+k)=1(48+k)\\), or \\(36+2k=48+1k\\). So \\(1k=12\\) and \\(k=12\\). Check: \\(\\frac{30}{60}=\\frac{1}{2}\\). A common mistake is to set \\(\\frac{18+k}{30}\\) equal to the probability, comparing pop songs to rock songs only instead of to the total."
+   "explanation": "Let \\(k\\) be the number of pop songs added. Then there are \\(18+k\\) pop songs out of \\(48+k\\) total, so \\(\\frac{18+k}{48+k}=\\frac{1}{2}\\). Cross-multiplying gives \\(2(18+k)=48+k\\), or \\(36+2k=48+k\\). So \\(k=12\\). Check: \\(\\frac{30}{60}=\\frac{1}{2}\\). A common mistake is to set \\(\\frac{18+k}{30}\\) equal to the probability, comparing pop songs to rock songs only instead of to the total."
   },
   {
    "id": "extra-prob-02-v2",
@@ -379,11 +379,11 @@
    "difficulty": 3,
    "inContext": false,
    "type": "spr",
-   "prompt": "In right triangle \\(JKL\\), angle \\(L\\) is the right angle. The measure of angle \\(J\\) is \\((5x-12)^\\circ\\) and the measure of angle \\(K\\) is \\((x+18)^\\circ\\). Given that \\(\\sin J=\\cos K\\), what is the value of \\(x\\)?",
+   "prompt": "If \\(\\sin((5x-12)^\\circ)=\\cos((x+18)^\\circ)\\) and \\(0<5x-12<90\\), what is the value of \\(x\\)?",
    "answer": [
     "14"
    ],
-   "explanation": "The acute angles of a right triangle are complementary, so their measures add to \\(90^\\circ\\) (this is also why \\(\\sin J=\\cos K\\)). So \\((5x-12)+(x+18)=90\\), which simplifies to \\(6x+6=90\\). Then \\(6x=84\\) and \\(x=14\\). Check: the angles measure \\(58^\\circ\\) and \\(32^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
+   "explanation": "For acute angles, \\(\\sin A=\\cos B\\) exactly when \\(A+B=90^\\circ\\), since the sine of an angle equals the cosine of its complement. So \\((5x-12)+(x+18)=90\\), which simplifies to \\(6x+6=90\\). Then \\(6x=84\\) and \\(x=14\\). Check: the angles measure \\(58^\\circ\\) and \\(32^\\circ\\), which add to \\(90^\\circ\\). Setting the two expressions equal to each other is a common mistake; the angles are complementary, not equal."
   },
   {
    "id": "extra-trig-01-v6",

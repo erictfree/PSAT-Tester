@@ -1,10 +1,18 @@
 {
  "packs": [
   "pt2-m1-a.json",
+  "pt2-m1-a-more.json",
   "pt2-m1-b.json",
+  "pt2-m1-b-more.json",
   "pt2-m1-c.json",
+  "pt2-m1-c-more.json",
   "pt2-m2-a.json",
+  "pt2-m2-a-more.json",
   "pt2-m2-b.json",
-  "pt2-m2-c.json"
+  "pt2-m2-b-more.json",
+  "pt2-m2-c.json",
+  "pt2-m2-c-more.json",
+  "extra-psda.json",
+  "extra-mixed.json"
  ]
 }
