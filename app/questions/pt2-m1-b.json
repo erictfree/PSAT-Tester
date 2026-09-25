@@ -1,0 +1,904 @@
+{
+ "questions": [
+  {
+   "id": "pt2-m1-q10",
+   "family": "pt2-m1-q10",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q10",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "img": "img/pt2-m1-q10.png",
+    "alt": "Coordinate plane with a solid line through (0, −6) and (9, 0); the region on and above the line is shaded."
+   },
+   "prompt": "The shaded region shown represents the solutions to which inequality?",
+   "choices": [
+    "\\(y \\ge \\frac{2}{3}x - 6\\)",
+    "\\(y \\ge \\frac{2}{3}x + 6\\)",
+    "\\(y \\ge \\frac{2}{3}x - 9\\)",
+    "\\(y \\ge \\frac{2}{3}x + 9\\)"
+   ],
+   "answer": "A",
+   "explanation": "The boundary line passes through \\((0, -6)\\) and \\((9, 0)\\). Its slope is \\(m = \\frac{0 - (-6)}{9 - 0} = \\frac{6}{9} = \\frac{2}{3}\\), and its \\(y\\)-intercept is \\((0, -6)\\), so \\(b = -6\\). The boundary line is \\(y = \\frac{2}{3}x - 6\\). The shaded region is all points on and above this line, so it represents \\(y \\ge \\frac{2}{3}x - 6\\). Choice B uses a \\(y\\)-intercept of \\((0, 6)\\), not \\((0, -6)\\). Choices C and D use a \\(y\\)-intercept of \\((0, -9)\\) or \\((0, 9)\\), confusing the \\(x\\)-intercept with the \\(y\\)-intercept."
+  },
+  {
+   "id": "pt2-m1-q10-v1",
+   "family": "pt2-m1-q10",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q10",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 332\" fill=\"none\" stroke=\"none\"><polygon points=\"26.0,306.0 306.0,306.0 306.0,239.3 26.0,52.7\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><g stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"><line x1=\"26\" y1=\"306\" x2=\"26\" y2=\"26\"/><line x1=\"46\" y1=\"306\" x2=\"46\" y2=\"26\"/><line x1=\"66\" y1=\"306\" x2=\"66\" y2=\"26\"/><line x1=\"86\" y1=\"306\" x2=\"86\" y2=\"26\"/><line x1=\"106\" y1=\"306\" x2=\"106\" y2=\"26\"/><line x1=\"126\" y1=\"306\" x2=\"126\" y2=\"26\"/><line x1=\"146\" y1=\"306\" x2=\"146\" y2=\"26\"/><line x1=\"166\" y1=\"306\" x2=\"166\" y2=\"26\"/><line x1=\"186\" y1=\"306\" x2=\"186\" y2=\"26\"/><line x1=\"206\" y1=\"306\" x2=\"206\" y2=\"26\"/><line x1=\"226\" y1=\"306\" x2=\"226\" y2=\"26\"/><line x1=\"246\" y1=\"306\" x2=\"246\" y2=\"26\"/><line x1=\"266\" y1=\"306\" x2=\"266\" y2=\"26\"/><line x1=\"286\" y1=\"306\" x2=\"286\" y2=\"26\"/><line x1=\"306\" y1=\"306\" x2=\"306\" y2=\"26\"/><line x1=\"26\" y1=\"306\" x2=\"306\" y2=\"306\"/><line x1=\"26\" y1=\"286\" x2=\"306\" y2=\"286\"/><line x1=\"26\" y1=\"266\" x2=\"306\" y2=\"266\"/><line x1=\"26\" y1=\"246\" x2=\"306\" y2=\"246\"/><line x1=\"26\" y1=\"226\" x2=\"306\" y2=\"226\"/><line x1=\"26\" y1=\"206\" x2=\"306\" y2=\"206\"/><line x1=\"26\" y1=\"186\" x2=\"306\" y2=\"186\"/><line x1=\"26\" y1=\"166\" x2=\"306\" y2=\"166\"/><line x1=\"26\" y1=\"146\" x2=\"306\" y2=\"146\"/><line x1=\"26\" y1=\"126\" x2=\"306\" y2=\"126\"/><line x1=\"26\" y1=\"106\" x2=\"306\" y2=\"106\"/><line x1=\"26\" y1=\"86\" x2=\"306\" y2=\"86\"/><line x1=\"26\" y1=\"66\" x2=\"306\" y2=\"66\"/><line x1=\"26\" y1=\"46\" x2=\"306\" y2=\"46\"/><line x1=\"26\" y1=\"26\" x2=\"306\" y2=\"26\"/></g><g stroke=\"currentColor\" stroke-width=\"1.6\"><line x1=\"20\" y1=\"186\" x2=\"316\" y2=\"186\"/><line x1=\"106\" y1=\"300\" x2=\"106\" y2=\"16\"/></g><polygon points=\"320,186 312,182 312,190\" fill=\"currentColor\"/><polygon points=\"106,12 102,20 110,20\" fill=\"currentColor\"/><g fill=\"currentColor\" font-size=\"11\" font-family=\"serif\"><text x=\"26\" y=\"199\" text-anchor=\"middle\">−4</text><text x=\"66\" y=\"199\" text-anchor=\"middle\">−2</text><text x=\"146\" y=\"199\" text-anchor=\"middle\">2</text><text x=\"186\" y=\"199\" text-anchor=\"middle\">4</text><text x=\"226\" y=\"199\" text-anchor=\"middle\">6</text><text x=\"266\" y=\"199\" text-anchor=\"middle\">8</text><text x=\"306\" y=\"199\" text-anchor=\"middle\">10</text><text x=\"102\" y=\"310\" text-anchor=\"end\">−6</text><text x=\"102\" y=\"270\" text-anchor=\"end\">−4</text><text x=\"102\" y=\"230\" text-anchor=\"end\">−2</text><text x=\"102\" y=\"150\" text-anchor=\"end\">2</text><text x=\"102\" y=\"110\" text-anchor=\"end\">4</text><text x=\"102\" y=\"70\" text-anchor=\"end\">6</text><text x=\"102\" y=\"30\" text-anchor=\"end\">8</text><text x=\"102\" y=\"199\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"324\" y=\"190\" font-style=\"italic\">x</text><text x=\"113\" y=\"14\" font-style=\"italic\">y</text></g><line x1=\"26.0\" y1=\"52.7\" x2=\"306.0\" y2=\"239.3\" stroke=\"currentColor\" stroke-width=\"2.6\"/></svg>",
+    "alt": "Coordinate plane with a solid line through (0, 4) and (6, 0); the region on and below the line is shaded."
+   },
+   "prompt": "The shaded region shown represents the solutions to which inequality?",
+   "choices": [
+    "\\(y \\le -\\frac{2}{3}x - 4\\)",
+    "\\(y \\le -\\frac{2}{3}x + 6\\)",
+    "\\(y \\le -\\frac{2}{3}x + 4\\)",
+    "\\(y \\le -\\frac{2}{3}x - 6\\)"
+   ],
+   "answer": "C",
+   "explanation": "The boundary line passes through \\((0, 4)\\) and \\((6, 0)\\). Its slope is \\(m = \\frac{0 - 4}{6 - 0} = -\\frac{2}{3}\\), and its \\(y\\)-intercept is \\((0, 4)\\), so \\(b = 4\\). The boundary line is \\(y = -\\frac{2}{3}x + 4\\). The shaded region is the set of points on and below this line, so it represents \\(y \\le -\\frac{2}{3}x + 4\\). Choice A is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, -4)\\), not \\((0, 4)\\) (sign error). Choice B is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, 6)\\); the value 6 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept. Choice D is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, -6)\\); the value 6 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept."
+  },
+  {
+   "id": "pt2-m1-q10-v2",
+   "family": "pt2-m1-q10",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q10",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 332\" fill=\"none\" stroke=\"none\"><polygon points=\"306.0,86.0 306.0,26.0 26.0,26.0 26.0,296.0\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><g stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"><line x1=\"26\" y1=\"306\" x2=\"26\" y2=\"26\"/><line x1=\"46\" y1=\"306\" x2=\"46\" y2=\"26\"/><line x1=\"66\" y1=\"306\" x2=\"66\" y2=\"26\"/><line x1=\"86\" y1=\"306\" x2=\"86\" y2=\"26\"/><line x1=\"106\" y1=\"306\" x2=\"106\" y2=\"26\"/><line x1=\"126\" y1=\"306\" x2=\"126\" y2=\"26\"/><line x1=\"146\" y1=\"306\" x2=\"146\" y2=\"26\"/><line x1=\"166\" y1=\"306\" x2=\"166\" y2=\"26\"/><line x1=\"186\" y1=\"306\" x2=\"186\" y2=\"26\"/><line x1=\"206\" y1=\"306\" x2=\"206\" y2=\"26\"/><line x1=\"226\" y1=\"306\" x2=\"226\" y2=\"26\"/><line x1=\"246\" y1=\"306\" x2=\"246\" y2=\"26\"/><line x1=\"266\" y1=\"306\" x2=\"266\" y2=\"26\"/><line x1=\"286\" y1=\"306\" x2=\"286\" y2=\"26\"/><line x1=\"306\" y1=\"306\" x2=\"306\" y2=\"26\"/><line x1=\"26\" y1=\"306\" x2=\"306\" y2=\"306\"/><line x1=\"26\" y1=\"286\" x2=\"306\" y2=\"286\"/><line x1=\"26\" y1=\"266\" x2=\"306\" y2=\"266\"/><line x1=\"26\" y1=\"246\" x2=\"306\" y2=\"246\"/><line x1=\"26\" y1=\"226\" x2=\"306\" y2=\"226\"/><line x1=\"26\" y1=\"206\" x2=\"306\" y2=\"206\"/><line x1=\"26\" y1=\"186\" x2=\"306\" y2=\"186\"/><line x1=\"26\" y1=\"166\" x2=\"306\" y2=\"166\"/><line x1=\"26\" y1=\"146\" x2=\"306\" y2=\"146\"/><line x1=\"26\" y1=\"126\" x2=\"306\" y2=\"126\"/><line x1=\"26\" y1=\"106\" x2=\"306\" y2=\"106\"/><line x1=\"26\" y1=\"86\" x2=\"306\" y2=\"86\"/><line x1=\"26\" y1=\"66\" x2=\"306\" y2=\"66\"/><line x1=\"26\" y1=\"46\" x2=\"306\" y2=\"46\"/><line x1=\"26\" y1=\"26\" x2=\"306\" y2=\"26\"/></g><g stroke=\"currentColor\" stroke-width=\"1.6\"><line x1=\"20\" y1=\"146\" x2=\"316\" y2=\"146\"/><line x1=\"146\" y1=\"300\" x2=\"146\" y2=\"16\"/></g><polygon points=\"320,146 312,142 312,150\" fill=\"currentColor\"/><polygon points=\"146,12 142,20 150,20\" fill=\"currentColor\"/><g fill=\"currentColor\" font-size=\"11\" font-family=\"serif\"><text x=\"26\" y=\"159\" text-anchor=\"middle\">−6</text><text x=\"66\" y=\"159\" text-anchor=\"middle\">−4</text><text x=\"106\" y=\"159\" text-anchor=\"middle\">−2</text><text x=\"186\" y=\"159\" text-anchor=\"middle\">2</text><text x=\"226\" y=\"159\" text-anchor=\"middle\">4</text><text x=\"266\" y=\"159\" text-anchor=\"middle\">6</text><text x=\"306\" y=\"159\" text-anchor=\"middle\">8</text><text x=\"142\" y=\"310\" text-anchor=\"end\">−8</text><text x=\"142\" y=\"270\" text-anchor=\"end\">−6</text><text x=\"142\" y=\"230\" text-anchor=\"end\">−4</text><text x=\"142\" y=\"190\" text-anchor=\"end\">−2</text><text x=\"142\" y=\"110\" text-anchor=\"end\">2</text><text x=\"142\" y=\"70\" text-anchor=\"end\">4</text><text x=\"142\" y=\"30\" text-anchor=\"end\">6</text><text x=\"142\" y=\"159\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"324\" y=\"150\" font-style=\"italic\">x</text><text x=\"153\" y=\"14\" font-style=\"italic\">y</text></g><line x1=\"26.0\" y1=\"296.0\" x2=\"306.0\" y2=\"86.0\" stroke=\"currentColor\" stroke-width=\"2.6\"/></svg>",
+    "alt": "Coordinate plane with a solid line through (0, −3) and (4, 0); the region on and above the line is shaded."
+   },
+   "prompt": "The shaded region shown represents the solutions to which inequality?",
+   "choices": [
+    "\\(y \\ge \\frac{3}{4}x + 3\\)",
+    "\\(y \\ge \\frac{3}{4}x - 4\\)",
+    "\\(y \\ge \\frac{3}{4}x + 4\\)",
+    "\\(y \\ge \\frac{3}{4}x - 3\\)"
+   ],
+   "answer": "D",
+   "explanation": "The boundary line passes through \\((0, -3)\\) and \\((4, 0)\\). Its slope is \\(m = \\frac{0 - (-3)}{4 - 0} = \\frac{3}{4}\\), and its \\(y\\)-intercept is \\((0, -3)\\), so \\(b = -3\\). The boundary line is \\(y = \\frac{3}{4}x - 3\\). The shaded region is the set of points on and above this line, so it represents \\(y \\ge \\frac{3}{4}x - 3\\). Choice A is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, 3)\\), not \\((0, -3)\\) (sign error). Choice B is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, -4)\\); the value 4 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept. Choice C is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, 4)\\); the value 4 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept."
+  },
+  {
+   "id": "pt2-m1-q10-v3",
+   "family": "pt2-m1-q10",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q10",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 386 372\" fill=\"none\" stroke=\"none\"><polygon points=\"26.0,346.0 346.0,346.0 346.0,74.0 26.0,330.0\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><g stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"><line x1=\"26\" y1=\"346\" x2=\"26\" y2=\"26\"/><line x1=\"46\" y1=\"346\" x2=\"46\" y2=\"26\"/><line x1=\"66\" y1=\"346\" x2=\"66\" y2=\"26\"/><line x1=\"86\" y1=\"346\" x2=\"86\" y2=\"26\"/><line x1=\"106\" y1=\"346\" x2=\"106\" y2=\"26\"/><line x1=\"126\" y1=\"346\" x2=\"126\" y2=\"26\"/><line x1=\"146\" y1=\"346\" x2=\"146\" y2=\"26\"/><line x1=\"166\" y1=\"346\" x2=\"166\" y2=\"26\"/><line x1=\"186\" y1=\"346\" x2=\"186\" y2=\"26\"/><line x1=\"206\" y1=\"346\" x2=\"206\" y2=\"26\"/><line x1=\"226\" y1=\"346\" x2=\"226\" y2=\"26\"/><line x1=\"246\" y1=\"346\" x2=\"246\" y2=\"26\"/><line x1=\"266\" y1=\"346\" x2=\"266\" y2=\"26\"/><line x1=\"286\" y1=\"346\" x2=\"286\" y2=\"26\"/><line x1=\"306\" y1=\"346\" x2=\"306\" y2=\"26\"/><line x1=\"326\" y1=\"346\" x2=\"326\" y2=\"26\"/><line x1=\"346\" y1=\"346\" x2=\"346\" y2=\"26\"/><line x1=\"26\" y1=\"346\" x2=\"346\" y2=\"346\"/><line x1=\"26\" y1=\"326\" x2=\"346\" y2=\"326\"/><line x1=\"26\" y1=\"306\" x2=\"346\" y2=\"306\"/><line x1=\"26\" y1=\"286\" x2=\"346\" y2=\"286\"/><line x1=\"26\" y1=\"266\" x2=\"346\" y2=\"266\"/><line x1=\"26\" y1=\"246\" x2=\"346\" y2=\"246\"/><line x1=\"26\" y1=\"226\" x2=\"346\" y2=\"226\"/><line x1=\"26\" y1=\"206\" x2=\"346\" y2=\"206\"/><line x1=\"26\" y1=\"186\" x2=\"346\" y2=\"186\"/><line x1=\"26\" y1=\"166\" x2=\"346\" y2=\"166\"/><line x1=\"26\" y1=\"146\" x2=\"346\" y2=\"146\"/><line x1=\"26\" y1=\"126\" x2=\"346\" y2=\"126\"/><line x1=\"26\" y1=\"106\" x2=\"346\" y2=\"106\"/><line x1=\"26\" y1=\"86\" x2=\"346\" y2=\"86\"/><line x1=\"26\" y1=\"66\" x2=\"346\" y2=\"66\"/><line x1=\"26\" y1=\"46\" x2=\"346\" y2=\"46\"/><line x1=\"26\" y1=\"26\" x2=\"346\" y2=\"26\"/></g><g stroke=\"currentColor\" stroke-width=\"1.6\"><line x1=\"20\" y1=\"106\" x2=\"356\" y2=\"106\"/><line x1=\"106\" y1=\"340\" x2=\"106\" y2=\"16\"/></g><polygon points=\"360,106 352,102 352,110\" fill=\"currentColor\"/><polygon points=\"106,12 102,20 110,20\" fill=\"currentColor\"/><g fill=\"currentColor\" font-size=\"11\" font-family=\"serif\"><text x=\"26\" y=\"119\" text-anchor=\"middle\">−4</text><text x=\"66\" y=\"119\" text-anchor=\"middle\">−2</text><text x=\"146\" y=\"119\" text-anchor=\"middle\">2</text><text x=\"186\" y=\"119\" text-anchor=\"middle\">4</text><text x=\"226\" y=\"119\" text-anchor=\"middle\">6</text><text x=\"266\" y=\"119\" text-anchor=\"middle\">8</text><text x=\"306\" y=\"119\" text-anchor=\"middle\">10</text><text x=\"346\" y=\"119\" text-anchor=\"middle\">12</text><text x=\"102\" y=\"350\" text-anchor=\"end\">−12</text><text x=\"102\" y=\"310\" text-anchor=\"end\">−10</text><text x=\"102\" y=\"270\" text-anchor=\"end\">−8</text><text x=\"102\" y=\"230\" text-anchor=\"end\">−6</text><text x=\"102\" y=\"190\" text-anchor=\"end\">−4</text><text x=\"102\" y=\"150\" text-anchor=\"end\">−2</text><text x=\"102\" y=\"70\" text-anchor=\"end\">2</text><text x=\"102\" y=\"30\" text-anchor=\"end\">4</text><text x=\"102\" y=\"119\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"364\" y=\"110\" font-style=\"italic\">x</text><text x=\"113\" y=\"14\" font-style=\"italic\">y</text></g><line x1=\"26.0\" y1=\"330.0\" x2=\"346.0\" y2=\"74.0\" stroke=\"currentColor\" stroke-width=\"2.6\"/></svg>",
+    "alt": "Coordinate plane with a solid line through (0, −8) and (10, 0); the region on and below the line is shaded."
+   },
+   "prompt": "The shaded region shown represents the solutions to which inequality?",
+   "choices": [
+    "\\(y \\le \\frac{4}{5}x + 8\\)",
+    "\\(y \\le \\frac{4}{5}x - 8\\)",
+    "\\(y \\le \\frac{4}{5}x - 10\\)",
+    "\\(y \\le \\frac{4}{5}x + 10\\)"
+   ],
+   "answer": "B",
+   "explanation": "The boundary line passes through \\((0, -8)\\) and \\((10, 0)\\). Its slope is \\(m = \\frac{0 - (-8)}{10 - 0} = \\frac{4}{5}\\), and its \\(y\\)-intercept is \\((0, -8)\\), so \\(b = -8\\). The boundary line is \\(y = \\frac{4}{5}x - 8\\). The shaded region is the set of points on and below this line, so it represents \\(y \\le \\frac{4}{5}x - 8\\). Choice A is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, 8)\\), not \\((0, -8)\\) (sign error). Choice C is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, -10)\\); the value 10 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept. Choice D is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, 10)\\); the value 10 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept."
+  },
+  {
+   "id": "pt2-m1-q10-v4",
+   "family": "pt2-m1-q10",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q10",
+   "domain": "algebra",
+   "skill": "alg-inequalities",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 306 372\" fill=\"none\" stroke=\"none\"><polygon points=\"266.0,346.0 266.0,346.0 266.0,26.0 52.7,26.0\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><g stroke=\"currentColor\" stroke-opacity=\"0.25\" stroke-width=\"1\"><line x1=\"26\" y1=\"346\" x2=\"26\" y2=\"26\"/><line x1=\"46\" y1=\"346\" x2=\"46\" y2=\"26\"/><line x1=\"66\" y1=\"346\" x2=\"66\" y2=\"26\"/><line x1=\"86\" y1=\"346\" x2=\"86\" y2=\"26\"/><line x1=\"106\" y1=\"346\" x2=\"106\" y2=\"26\"/><line x1=\"126\" y1=\"346\" x2=\"126\" y2=\"26\"/><line x1=\"146\" y1=\"346\" x2=\"146\" y2=\"26\"/><line x1=\"166\" y1=\"346\" x2=\"166\" y2=\"26\"/><line x1=\"186\" y1=\"346\" x2=\"186\" y2=\"26\"/><line x1=\"206\" y1=\"346\" x2=\"206\" y2=\"26\"/><line x1=\"226\" y1=\"346\" x2=\"226\" y2=\"26\"/><line x1=\"246\" y1=\"346\" x2=\"246\" y2=\"26\"/><line x1=\"266\" y1=\"346\" x2=\"266\" y2=\"26\"/><line x1=\"26\" y1=\"346\" x2=\"266\" y2=\"346\"/><line x1=\"26\" y1=\"326\" x2=\"266\" y2=\"326\"/><line x1=\"26\" y1=\"306\" x2=\"266\" y2=\"306\"/><line x1=\"26\" y1=\"286\" x2=\"266\" y2=\"286\"/><line x1=\"26\" y1=\"266\" x2=\"266\" y2=\"266\"/><line x1=\"26\" y1=\"246\" x2=\"266\" y2=\"246\"/><line x1=\"26\" y1=\"226\" x2=\"266\" y2=\"226\"/><line x1=\"26\" y1=\"206\" x2=\"266\" y2=\"206\"/><line x1=\"26\" y1=\"186\" x2=\"266\" y2=\"186\"/><line x1=\"26\" y1=\"166\" x2=\"266\" y2=\"166\"/><line x1=\"26\" y1=\"146\" x2=\"266\" y2=\"146\"/><line x1=\"26\" y1=\"126\" x2=\"266\" y2=\"126\"/><line x1=\"26\" y1=\"106\" x2=\"266\" y2=\"106\"/><line x1=\"26\" y1=\"86\" x2=\"266\" y2=\"86\"/><line x1=\"26\" y1=\"66\" x2=\"266\" y2=\"66\"/><line x1=\"26\" y1=\"46\" x2=\"266\" y2=\"46\"/><line x1=\"26\" y1=\"26\" x2=\"266\" y2=\"26\"/></g><g stroke=\"currentColor\" stroke-width=\"1.6\"><line x1=\"20\" y1=\"226\" x2=\"276\" y2=\"226\"/><line x1=\"106\" y1=\"340\" x2=\"106\" y2=\"16\"/></g><polygon points=\"280,226 272,222 272,230\" fill=\"currentColor\"/><polygon points=\"106,12 102,20 110,20\" fill=\"currentColor\"/><g fill=\"currentColor\" font-size=\"11\" font-family=\"serif\"><text x=\"26\" y=\"239\" text-anchor=\"middle\">−4</text><text x=\"66\" y=\"239\" text-anchor=\"middle\">−2</text><text x=\"146\" y=\"239\" text-anchor=\"middle\">2</text><text x=\"186\" y=\"239\" text-anchor=\"middle\">4</text><text x=\"226\" y=\"239\" text-anchor=\"middle\">6</text><text x=\"266\" y=\"239\" text-anchor=\"middle\">8</text><text x=\"102\" y=\"350\" text-anchor=\"end\">−6</text><text x=\"102\" y=\"310\" text-anchor=\"end\">−4</text><text x=\"102\" y=\"270\" text-anchor=\"end\">−2</text><text x=\"102\" y=\"190\" text-anchor=\"end\">2</text><text x=\"102\" y=\"150\" text-anchor=\"end\">4</text><text x=\"102\" y=\"110\" text-anchor=\"end\">6</text><text x=\"102\" y=\"70\" text-anchor=\"end\">8</text><text x=\"102\" y=\"30\" text-anchor=\"end\">10</text><text x=\"102\" y=\"239\" text-anchor=\"end\" font-style=\"italic\">O</text><text x=\"284\" y=\"230\" font-style=\"italic\">x</text><text x=\"113\" y=\"14\" font-style=\"italic\">y</text></g><line x1=\"52.7\" y1=\"26.0\" x2=\"266.0\" y2=\"346.0\" stroke=\"currentColor\" stroke-width=\"2.6\"/></svg>",
+    "alt": "Coordinate plane with a solid line through (0, 6) and (4, 0); the region on and above the line is shaded."
+   },
+   "prompt": "The shaded region shown represents the solutions to which inequality?",
+   "choices": [
+    "\\(y \\ge -\\frac{3}{2}x + 6\\)",
+    "\\(y \\ge -\\frac{3}{2}x - 6\\)",
+    "\\(y \\ge -\\frac{3}{2}x + 4\\)",
+    "\\(y \\ge -\\frac{3}{2}x - 4\\)"
+   ],
+   "answer": "A",
+   "explanation": "The boundary line passes through \\((0, 6)\\) and \\((4, 0)\\). Its slope is \\(m = \\frac{0 - 6}{4 - 0} = -\\frac{3}{2}\\), and its \\(y\\)-intercept is \\((0, 6)\\), so \\(b = 6\\). The boundary line is \\(y = -\\frac{3}{2}x + 6\\). The shaded region is the set of points on and above this line, so it represents \\(y \\ge -\\frac{3}{2}x + 6\\). Choice B is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, -6)\\), not \\((0, 6)\\) (sign error). Choice C is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, 4)\\); the value 4 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept. Choice D is incorrect: its boundary line has a \\(y\\)-intercept of \\((0, -4)\\); the value 4 comes from the \\(x\\)-intercept, not the \\(y\\)-intercept."
+  },
+  {
+   "id": "pt2-m1-q11",
+   "family": "pt2-m1-q11",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q11",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In triangle \\(ABC\\), \\(AB = 4{,}680\\) millimeters (mm) and \\(BC = 4{,}680\\) mm. Which statement is sufficient to prove that triangle \\(ABC\\) is equilateral?",
+   "choices": [
+    "\\(AC = 4{,}680\\) mm",
+    "\\(AC = 468\\) mm",
+    "\\(AC = 46.8\\) mm",
+    "\\(AC = 4.68\\) mm"
+   ],
+   "answer": "A",
+   "explanation": "A triangle is equilateral when all three sides have the same length. Since \\(AB = BC = 4{,}680\\) mm, the triangle is equilateral exactly when \\(AC = 4{,}680\\) mm as well. The other choices are 4,680 mm divided by a power of 10 (a place-value slip), so they would make \\(AC\\) shorter than the other two sides, and the triangle would not be equilateral."
+  },
+  {
+   "id": "pt2-m1-q11-v1",
+   "family": "pt2-m1-q11",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q11",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In triangle \\(DEF\\), \\(DE = 7{,}290\\) centimeters (cm) and \\(EF = 7{,}290\\) cm. Which statement is sufficient to prove that triangle \\(DEF\\) is equilateral?",
+   "choices": [
+    "\\(DF = 729\\) cm",
+    "\\(DF = 72.9\\) cm",
+    "\\(DF = 7{,}290\\) cm",
+    "\\(DF = 7.29\\) cm"
+   ],
+   "answer": "C",
+   "explanation": "A triangle is equilateral when all three sides have the same length. Since \\(DE = EF = 7{,}290\\) cm, the triangle is equilateral exactly when \\(DF = 7{,}290\\) cm as well. The other choices are 7,290 cm divided by a power of 10 (a place-value slip), so they would make \\(DF\\) shorter than the other two sides, and the triangle would not be equilateral."
+  },
+  {
+   "id": "pt2-m1-q11-v2",
+   "family": "pt2-m1-q11",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q11",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In triangle \\(JKL\\), \\(JK = 5{,}160\\) inches (in) and \\(KL = 5{,}160\\) in. Which statement is sufficient to prove that triangle \\(JKL\\) is equilateral?",
+   "choices": [
+    "\\(JL = 51.6\\) in",
+    "\\(JL = 516\\) in",
+    "\\(JL = 5.16\\) in",
+    "\\(JL = 5{,}160\\) in"
+   ],
+   "answer": "D",
+   "explanation": "A triangle is equilateral when all three sides have the same length. Since \\(JK = KL = 5{,}160\\) in, the triangle is equilateral exactly when \\(JL = 5{,}160\\) in as well. The other choices are 5,160 in divided by a power of 10 (a place-value slip), so they would make \\(JL\\) shorter than the other two sides, and the triangle would not be equilateral."
+  },
+  {
+   "id": "pt2-m1-q11-v3",
+   "family": "pt2-m1-q11",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q11",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In triangle \\(PQR\\), \\(PQ = 2{,}940\\) meters (m) and \\(QR = 2{,}940\\) m. Which statement is sufficient to prove that triangle \\(PQR\\) is equilateral?",
+   "choices": [
+    "\\(PR = 294\\) m",
+    "\\(PR = 2{,}940\\) m",
+    "\\(PR = 29.4\\) m",
+    "\\(PR = 2.94\\) m"
+   ],
+   "answer": "B",
+   "explanation": "A triangle is equilateral when all three sides have the same length. Since \\(PQ = QR = 2{,}940\\) m, the triangle is equilateral exactly when \\(PR = 2{,}940\\) m as well. The other choices are 2,940 m divided by a power of 10 (a place-value slip), so they would make \\(PR\\) shorter than the other two sides, and the triangle would not be equilateral."
+  },
+  {
+   "id": "pt2-m1-q11-v4",
+   "family": "pt2-m1-q11",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q11",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "In triangle \\(XYZ\\), \\(XY = 8{,}370\\) feet (ft) and \\(YZ = 8{,}370\\) ft. Which statement is sufficient to prove that triangle \\(XYZ\\) is equilateral?",
+   "choices": [
+    "\\(XZ = 8{,}370\\) ft",
+    "\\(XZ = 837\\) ft",
+    "\\(XZ = 83.7\\) ft",
+    "\\(XZ = 8.37\\) ft"
+   ],
+   "answer": "A",
+   "explanation": "A triangle is equilateral when all three sides have the same length. Since \\(XY = YZ = 8{,}370\\) ft, the triangle is equilateral exactly when \\(XZ = 8{,}370\\) ft as well. The other choices are 8,370 ft divided by a power of 10 (a place-value slip), so they would make \\(XZ\\) shorter than the other two sides, and the triangle would not be equilateral."
+  },
+  {
+   "id": "pt2-m1-q12",
+   "family": "pt2-m1-q12",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(P(t) = 24.8(1.036)^t\\)</p>The function \\(P\\) gives the predicted population, in millions, of a certain country for the period from 1984 to 2018, where \\(t\\) is the number of years after 1984. According to the model, what is the best interpretation of the statement &ldquo;\\(P(8)\\) is approximately equal to 32.91&rdquo;?",
+   "choices": [
+    "In 1984, the predicted population of this country was approximately 8 million.",
+    "In 1984, the predicted population of this country was approximately 32.91 million.",
+    "8 years after 1984, the predicted population of this country was approximately 32.91 million.",
+    "32.91 years after 1984, the predicted population of this country was approximately 8 million."
+   ],
+   "answer": "C",
+   "explanation": "\\(P(8)\\) is the value of \\(P(t)\\) when \\(t = 8\\). Since \\(t\\) is the number of years after 1984 and \\(P(t)\\) is the predicted population in millions, &ldquo;\\(P(8) \\approx 32.91\\)&rdquo; means that 8 years after 1984, the predicted population was approximately 32.91 million. Choices A and B are about 1984 (\\(t = 0\\)), when the predicted population was \\(P(0) = 24.8\\) million. Choice D swaps the roles of the input and the output."
+  },
+  {
+   "id": "pt2-m1-q12-v1",
+   "family": "pt2-m1-q12",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(B(h) = 450(1.25)^h\\)</p>The function \\(B\\) gives the predicted number of bacteria in a laboratory culture \\(h\\) hours after a scientist began observing it, for \\(0 \\le h \\le 10\\). According to the model, what is the best interpretation of the statement &ldquo;\\(B(6)\\) is approximately equal to 1,717&rdquo;?",
+   "choices": [
+    "6 hours after the scientist began observing the culture, the predicted number of bacteria was approximately 1,717.",
+    "When the scientist began observing the culture, the predicted number of bacteria was approximately 6.",
+    "When the scientist began observing the culture, the predicted number of bacteria was approximately 1,717.",
+    "1,717 hours after the scientist began observing the culture, the predicted number of bacteria was approximately 6."
+   ],
+   "answer": "A",
+   "explanation": "\\(B(6)\\) is the value of \\(B(h)\\) when \\(h = 6\\). The input \\(h\\) is hours since observation began and the output is the predicted number of bacteria, so &ldquo;\\(B(6) \\approx 1{,}717\\)&rdquo; means that 6 hours after observation began, the predicted number of bacteria was about 1,717. Choices B and C describe the start of observation (\\(h = 0\\)), when the model predicts \\(B(0) = 450\\) bacteria. Choice D swaps the input and the output."
+  },
+  {
+   "id": "pt2-m1-q12-v2",
+   "family": "pt2-m1-q12",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(T(x) = 12.6(0.982)^x\\)</p>The function \\(T\\) gives the predicted population, in thousands, of a small town for the period from 1990 to 2020, where \\(x\\) is the number of years after 1990. According to the model, what is the best interpretation of the statement &ldquo;\\(T(15)\\) is approximately equal to 9.59&rdquo;?",
+   "choices": [
+    "In 1990, the predicted population of the town was approximately 15 thousand.",
+    "9.59 years after 1990, the predicted population of the town was approximately 15 thousand.",
+    "In 1990, the predicted population of the town was approximately 9.59 thousand.",
+    "15 years after 1990, the predicted population of the town was approximately 9.59 thousand."
+   ],
+   "answer": "D",
+   "explanation": "\\(T(15)\\) is the value of \\(T(x)\\) when \\(x = 15\\). Since \\(x\\) is the number of years after 1990 and \\(T(x)\\) is the predicted population in thousands, &ldquo;\\(T(15) \\approx 9.59\\)&rdquo; means that 15 years after 1990 (in 2005), the predicted population was about 9.59 thousand. Choices A and C describe 1990 (\\(x = 0\\)), when the model gives \\(T(0) = 12.6\\) thousand. Choice B swaps the input and the output."
+  },
+  {
+   "id": "pt2-m1-q12-v3",
+   "family": "pt2-m1-q12",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(A(n) = 2{,}400(1.045)^n\\)</p>The function \\(A\\) gives the predicted balance, in dollars, of a savings account for the period from 2010 to 2030, where \\(n\\) is the number of years after 2010. According to the model, what is the best interpretation of the statement &ldquo;\\(A(10)\\) is approximately equal to 3,727&rdquo;?",
+   "choices": [
+    "In 2010, the predicted balance of the account was approximately $10.",
+    "10 years after 2010, the predicted balance of the account was approximately $3,727.",
+    "3,727 years after 2010, the predicted balance of the account was approximately $10.",
+    "In 2010, the predicted balance of the account was approximately $3,727."
+   ],
+   "answer": "B",
+   "explanation": "\\(A(10)\\) is the value of \\(A(n)\\) when \\(n = 10\\). Since \\(n\\) is the number of years after 2010 and \\(A(n)\\) is the predicted balance in dollars, &ldquo;\\(A(10) \\approx 3{,}727\\)&rdquo; means that 10 years after 2010 (in 2020), the predicted balance was about $3,727. Choices A and D describe 2010 (\\(n = 0\\)), when the balance was \\(A(0) = 2{,}400\\) dollars. Choice C swaps the input and the output."
+  },
+  {
+   "id": "pt2-m1-q12-v4",
+   "family": "pt2-m1-q12",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q12",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(C(t) = 80(0.75)^t\\)</p>The function \\(C\\) gives the predicted concentration of a medication, in milligrams per liter, in a patient's bloodstream \\(t\\) hours after the medication was given, for \\(0 \\le t \\le 12\\). According to the model, what is the best interpretation of the statement &ldquo;\\(C(4)\\) is approximately equal to 25.31&rdquo;?",
+   "choices": [
+    "4 hours after the medication was given, the predicted concentration was approximately 25.31 milligrams per liter.",
+    "When the medication was given, the predicted concentration was approximately 4 milligrams per liter.",
+    "25.31 hours after the medication was given, the predicted concentration was approximately 4 milligrams per liter.",
+    "When the medication was given, the predicted concentration was approximately 25.31 milligrams per liter."
+   ],
+   "answer": "A",
+   "explanation": "\\(C(4)\\) is the value of \\(C(t)\\) when \\(t = 4\\). The input \\(t\\) is hours since the medication was given and the output is the predicted concentration in milligrams per liter, so &ldquo;\\(C(4) \\approx 25.31\\)&rdquo; means that 4 hours after the medication was given, the predicted concentration was about 25.31 milligrams per liter. Choices B and D describe \\(t = 0\\), when the concentration was \\(C(0) = 80\\) milligrams per liter. Choice C swaps the input and the output."
+  },
+  {
+   "id": "pt2-m1-q13",
+   "family": "pt2-m1-q13",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "A right circular cylinder has a volume of 377 cubic centimeters. The area of the base of the cylinder is 13 square centimeters. What is the height, in centimeters, of the cylinder?",
+   "answer": [
+    "29"
+   ],
+   "explanation": "The volume of a right circular cylinder is \\(V = \\pi r^2 h\\), where \\(\\pi r^2\\) is the area of the circular base. Substituting \\(V = 377\\) and \\(\\pi r^2 = 13\\) gives \\(377 = 13h\\). Dividing both sides by 13 gives \\(h = 29\\). The height is 29 centimeters."
+  },
+  {
+   "id": "pt2-m1-q13-v1",
+   "family": "pt2-m1-q13",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A water tank is shaped like a right circular cylinder. The tank has a volume of 504 cubic feet, and the area of its circular base is 24 square feet. What is the height, in feet, of the tank?",
+   "answer": [
+    "21"
+   ],
+   "explanation": "The volume of a right circular cylinder is \\(V = \\pi r^2 h\\), where \\(\\pi r^2\\) is the area of the circular base. Substituting \\(V = 504\\) and \\(\\pi r^2 = 24\\) gives \\(504 = 24h\\). Dividing both sides by 24 gives \\(h = 21\\). The height is 21 feet."
+  },
+  {
+   "id": "pt2-m1-q13-v2",
+   "family": "pt2-m1-q13",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A candle is shaped like a right circular cylinder. The candle has a volume of 342 cubic centimeters, and the area of its base is 19 square centimeters. What is the height, in centimeters, of the candle?",
+   "answer": [
+    "18"
+   ],
+   "explanation": "The volume of a right circular cylinder is \\(V = \\pi r^2 h\\), where \\(\\pi r^2\\) is the area of the circular base. Substituting \\(V = 342\\) and \\(\\pi r^2 = 19\\) gives \\(342 = 19h\\). Dividing both sides by 19 gives \\(h = 18\\). The height is 18 centimeters."
+  },
+  {
+   "id": "pt2-m1-q13-v3",
+   "family": "pt2-m1-q13",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "A right circular cylinder has a volume of 391 cubic inches. The area of the base of the cylinder is 17 square inches. What is the height, in inches, of the cylinder?",
+   "answer": [
+    "23"
+   ],
+   "explanation": "The volume of a right circular cylinder is \\(V = \\pi r^2 h\\), where \\(\\pi r^2\\) is the area of the circular base. Substituting \\(V = 391\\) and \\(\\pi r^2 = 17\\) gives \\(391 = 17h\\). Dividing both sides by 17 gives \\(h = 23\\). The height is 23 inches."
+  },
+  {
+   "id": "pt2-m1-q13-v4",
+   "family": "pt2-m1-q13",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q13",
+   "domain": "geometry",
+   "skill": "geo-area-volume",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "A grain silo is shaped like a right circular cylinder. The silo has a volume of 1,155 cubic meters, and the area of its base is 35 square meters. What is the height, in meters, of the silo?",
+   "answer": [
+    "33"
+   ],
+   "explanation": "The volume of a right circular cylinder is \\(V = \\pi r^2 h\\), where \\(\\pi r^2\\) is the area of the circular base. Substituting \\(V = 1{,}155\\) and \\(\\pi r^2 = 35\\) gives \\(1{,}155 = 35h\\). Dividing both sides by 35 gives \\(h = 33\\). The height is 33 meters."
+  },
+  {
+   "id": "pt2-m1-q14",
+   "family": "pt2-m1-q14",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q14",
+   "domain": "psda",
+   "skill": "psda-one-var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "The list gives the mass, in grams, of 5 alpine marmots.<p style=\"text-align:center\">4,010; 4,010; 3,030; 4,050; 3,050</p>What is the mean mass, in grams, of these 5 alpine marmots?",
+   "answer": [
+    "3630"
+   ],
+   "explanation": "The mean is the sum of the values divided by the number of values. The sum is \\(4{,}010 + 4{,}010 + 3{,}030 + 4{,}050 + 3{,}050 = 18{,}150\\). There are 5 values, so the mean is \\(\\frac{18{,}150}{5} = 3{,}630\\) grams."
+  },
+  {
+   "id": "pt2-m1-q14-v1",
+   "family": "pt2-m1-q14",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q14",
+   "domain": "psda",
+   "skill": "psda-one-var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "The list gives the mass, in grams, of 5 red foxes.<p style=\"text-align:center\">5,120; 5,120; 4,080; 5,160; 4,070</p>What is the mean mass, in grams, of these 5 red foxes?",
+   "answer": [
+    "4710"
+   ],
+   "explanation": "The mean is the sum of the values divided by the number of values. The sum is \\(5{,}120 + 5{,}120 + 4{,}080 + 5{,}160 + 4{,}070 = 23{,}550\\). There are 5 values, so the mean is \\(\\frac{23{,}550}{5} = 4{,}710\\) grams."
+  },
+  {
+   "id": "pt2-m1-q14-v2",
+   "family": "pt2-m1-q14",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q14",
+   "domain": "psda",
+   "skill": "psda-one-var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "The list gives the height, in centimeters, of 6 sunflowers in a garden.<p style=\"text-align:center\">182; 176; 190; 176; 168; 194</p>What is the mean height, in centimeters, of these 6 sunflowers?",
+   "answer": [
+    "181"
+   ],
+   "explanation": "The mean is the sum of the values divided by the number of values. The sum is \\(182 + 176 + 190 + 176 + 168 + 194 = 1{,}086\\). There are 6 values, so the mean is \\(\\frac{1{,}086}{6} = 181\\) centimeters."
+  },
+  {
+   "id": "pt2-m1-q14-v3",
+   "family": "pt2-m1-q14",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q14",
+   "domain": "psda",
+   "skill": "psda-one-var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "The list gives the distance, in meters, of 5 javelin throws by an athlete.<p style=\"text-align:center\">62; 58; 71; 58; 66</p>What is the mean distance, in meters, of these 5 throws?",
+   "answer": [
+    "63"
+   ],
+   "explanation": "The mean is the sum of the values divided by the number of values. The sum is \\(62 + 58 + 71 + 58 + 66 = 315\\). There are 5 values, so the mean is \\(\\frac{315}{5} = 63\\) meters."
+  },
+  {
+   "id": "pt2-m1-q14-v4",
+   "family": "pt2-m1-q14",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q14",
+   "domain": "psda",
+   "skill": "psda-one-var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "The list gives the mass, in kilograms, of 5 harbor seals.<p style=\"text-align:center\">86; 94; 79; 94; 102</p>What is the mean mass, in kilograms, of these 5 harbor seals?",
+   "answer": [
+    "91"
+   ],
+   "explanation": "The mean is the sum of the values divided by the number of values. The sum is \\(86 + 94 + 79 + 94 + 102 = 455\\). There are 5 values, so the mean is \\(\\frac{455}{5} = 91\\) kilograms."
+  },
+  {
+   "id": "pt2-m1-q15",
+   "family": "pt2-m1-q15",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x = 3\\)<br>\\(y = (15 - x)^2\\)</p>A solution to the given system of equations is \\((x, y)\\). What is the value of \\(xy\\)?",
+   "choices": [
+    "\\(432\\)",
+    "\\(54\\)",
+    "\\(45\\)",
+    "\\(18\\)"
+   ],
+   "answer": "A",
+   "explanation": "Substitute \\(x = 3\\) into the second equation: \\(y = (15 - 3)^2 = (12)^2 = 144\\). Then \\(xy = (3)(144) = 432\\). Choice B is \\(3(15 + 3)\\), choice C is \\(3 \\cdot 15\\), and choice D is \\(15 + 3\\); none of these squares \\(15 - x\\) correctly or multiplies by \\(x\\)."
+  },
+  {
+   "id": "pt2-m1-q15-v1",
+   "family": "pt2-m1-q15",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x = 4\\)<br>\\(y = (11 - x)^2\\)</p>A solution to the given system of equations is \\((x, y)\\). What is the value of \\(xy\\)?",
+   "choices": [
+    "\\(900\\)",
+    "\\(196\\)",
+    "\\(53\\)",
+    "\\(28\\)"
+   ],
+   "answer": "B",
+   "explanation": "Substitute \\(x = 4\\) into the second equation: \\(y = (11 - 4)^2 = (7)^2 = 49\\). Then \\(xy = (4)(49) = 196\\). Choice A comes from computing \\((11 + 4)^2 = 225\\) instead of \\((11 - 4)^2\\). Choice C is \\(x + y\\) instead of \\(xy\\). Choice D is \\(4(11 - 4)\\), which forgets to square."
+  },
+  {
+   "id": "pt2-m1-q15-v2",
+   "family": "pt2-m1-q15",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x = 5\\)<br>\\(y = (x - 9)^2\\)</p>A solution to the given system of equations is \\((x, y)\\). What is the value of \\(xy\\)?",
+   "choices": [
+    "\\(-20\\)",
+    "\\(16\\)",
+    "\\(21\\)",
+    "\\(80\\)"
+   ],
+   "answer": "D",
+   "explanation": "Substitute \\(x = 5\\) into the second equation: \\(y = (5 - 9)^2 = (-4)^2 = 16\\). Then \\(xy = (5)(16) = 80\\). Choice A is \\(5(5 - 9)\\), which forgets to square. Choice B is just the value of \\(y\\). Choice C is \\(x + y\\) instead of \\(xy\\)."
+  },
+  {
+   "id": "pt2-m1-q15-v3",
+   "family": "pt2-m1-q15",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x = 2\\)<br>\\(y = (20 - x)^2\\)</p>A solution to the given system of equations is \\((x, y)\\). What is the value of \\(xy\\)?",
+   "choices": [
+    "\\(36\\)",
+    "\\(324\\)",
+    "\\(648\\)",
+    "\\(968\\)"
+   ],
+   "answer": "C",
+   "explanation": "Substitute \\(x = 2\\) into the second equation: \\(y = (20 - 2)^2 = (18)^2 = 324\\). Then \\(xy = (2)(324) = 648\\). Choice A is \\(2(20 - 2)\\), which forgets to square. Choice B is just the value of \\(y\\). Choice D comes from computing \\((20 + 2)^2 = 484\\) instead of \\((20 - 2)^2\\)."
+  },
+  {
+   "id": "pt2-m1-q15-v4",
+   "family": "pt2-m1-q15",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q15",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x = 6\\)<br>\\(y = (13 - x)^2\\)</p>A solution to the given system of equations is \\((x, y)\\). What is the value of \\(xy\\)?",
+   "choices": [
+    "\\(294\\)",
+    "\\(55\\)",
+    "\\(49\\)",
+    "\\(42\\)"
+   ],
+   "answer": "A",
+   "explanation": "Substitute \\(x = 6\\) into the second equation: \\(y = (13 - 6)^2 = (7)^2 = 49\\). Then \\(xy = (6)(49) = 294\\). Choice B is \\(x + y\\) instead of \\(xy\\). Choice C is just the value of \\(y\\). Choice D is \\(6(13 - 6)\\), which forgets to square."
+  },
+  {
+   "id": "pt2-m1-q16",
+   "family": "pt2-m1-q16",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q16",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "img": "img/pt2-m1-q16.png",
+    "alt": "Right triangle ABC with the right angle at C. Hypotenuse AB is labeled 42 and leg AC is labeled 41. Note: Figure not drawn to scale."
+   },
+   "prompt": "What is the value of \\(\\cos A\\) in the triangle shown?",
+   "choices": [
+    "\\(\\frac{42}{41}\\)",
+    "\\(\\frac{41}{42}\\)",
+    "\\(\\frac{1}{42}\\)",
+    "\\(\\frac{1}{41}\\)"
+   ],
+   "answer": "B",
+   "explanation": "The cosine of an acute angle in a right triangle is the length of the leg adjacent to the angle divided by the length of the hypotenuse. In the triangle shown, the leg adjacent to angle \\(A\\) has length 41 and the hypotenuse (the side opposite the right angle) has length 42. So \\(\\cos A = \\frac{41}{42}\\). Choice A is the reciprocal, \\(\\frac{1}{\\cos A}\\) (hypotenuse over adjacent leg). Choice C puts 1 over the hypotenuse instead of using the adjacent leg over the hypotenuse. Choice D puts 1 over the adjacent leg instead of using the adjacent leg over the hypotenuse."
+  },
+  {
+   "id": "pt2-m1-q16-v1",
+   "family": "pt2-m1-q16",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q16",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 310\" fill=\"none\"><polygon points=\"30,250 330,250 330,40\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"316.0,250.0 316.0,236.0 330.0,236.0\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"12\" y=\"258\" font-style=\"italic\" font-size=\"18\">P</text><text x=\"338\" y=\"266\" font-style=\"italic\" font-size=\"18\">Q</text><text x=\"336\" y=\"36\" font-style=\"italic\" font-size=\"18\">R</text><text x=\"165\" y=\"278\" font-size=\"22\" text-anchor=\"middle\">35</text><text x=\"160\" y=\"132\" font-size=\"22\" text-anchor=\"middle\">37</text></g><text x=\"190.0\" y=\"304\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-family=\"serif\">Note: Figure not drawn to scale.</text></svg>",
+    "alt": "Right triangle PQR with the right angle at Q. Hypotenuse PR is labeled 37 and leg PQ is labeled 35. Note: Figure not drawn to scale."
+   },
+   "prompt": "What is the value of \\(\\cos P\\) in the triangle shown?",
+   "choices": [
+    "\\(\\frac{37}{35}\\)",
+    "\\(\\frac{1}{37}\\)",
+    "\\(\\frac{1}{35}\\)",
+    "\\(\\frac{35}{37}\\)"
+   ],
+   "answer": "D",
+   "explanation": "The cosine of an acute angle in a right triangle is the length of the leg adjacent to the angle divided by the length of the hypotenuse. In the triangle shown, the leg adjacent to angle \\(P\\) has length 35 and the hypotenuse (the side opposite the right angle) has length 37. So \\(\\cos P = \\frac{35}{37}\\). Choice A is the reciprocal, \\(\\frac{1}{\\cos P}\\) (hypotenuse over adjacent leg). Choice B puts 1 over the hypotenuse instead of using the adjacent leg over the hypotenuse. Choice C puts 1 over the adjacent leg instead of using the adjacent leg over the hypotenuse."
+  },
+  {
+   "id": "pt2-m1-q16-v2",
+   "family": "pt2-m1-q16",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q16",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 320\" fill=\"none\"><polygon points=\"40,260 40,50 340,50\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"40.0,64.0 54.0,64.0 54.0,50.0\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"20\" y=\"270\" font-style=\"italic\" font-size=\"18\">D</text><text x=\"20\" y=\"50\" font-style=\"italic\" font-size=\"18\">E</text><text x=\"348\" y=\"56\" font-style=\"italic\" font-size=\"18\">F</text><text x=\"190\" y=\"38\" font-size=\"22\" text-anchor=\"middle\">21</text><text x=\"205\" y=\"175\" font-size=\"22\" text-anchor=\"middle\">29</text></g><text x=\"190.0\" y=\"314\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-family=\"serif\">Note: Figure not drawn to scale.</text></svg>",
+    "alt": "Right triangle DEF with the right angle at E. Hypotenuse DF is labeled 29 and leg EF is labeled 21. Note: Figure not drawn to scale."
+   },
+   "prompt": "What is the value of \\(\\cos F\\) in the triangle shown?",
+   "choices": [
+    "\\(\\frac{21}{29}\\)",
+    "\\(\\frac{29}{21}\\)",
+    "\\(\\frac{1}{21}\\)",
+    "\\(\\frac{1}{29}\\)"
+   ],
+   "answer": "A",
+   "explanation": "The cosine of an acute angle in a right triangle is the length of the leg adjacent to the angle divided by the length of the hypotenuse. In the triangle shown, the leg adjacent to angle \\(F\\) has length 21 and the hypotenuse (the side opposite the right angle) has length 29. So \\(\\cos F = \\frac{21}{29}\\). Choice B is the reciprocal, \\(\\frac{1}{\\cos F}\\) (hypotenuse over adjacent leg). Choice C puts 1 over the adjacent leg instead of using the adjacent leg over the hypotenuse. Choice D puts 1 over the hypotenuse instead of using the adjacent leg over the hypotenuse."
+  },
+  {
+   "id": "pt2-m1-q16-v3",
+   "family": "pt2-m1-q16",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q16",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 310\" fill=\"none\"><polygon points=\"60,40 350,250 60,250\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"60.0,236.0 74.0,236.0 74.0,250.0\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"54\" y=\"30\" font-style=\"italic\" font-size=\"18\">J</text><text x=\"358\" y=\"260\" font-style=\"italic\" font-size=\"18\">K</text><text x=\"38\" y=\"262\" font-style=\"italic\" font-size=\"18\">L</text><text x=\"205\" y=\"278\" font-size=\"22\" text-anchor=\"middle\">45</text><text x=\"222\" y=\"132\" font-size=\"22\" text-anchor=\"middle\">53</text></g><text x=\"195.0\" y=\"304\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-family=\"serif\">Note: Figure not drawn to scale.</text></svg>",
+    "alt": "Right triangle JKL with the right angle at L. Hypotenuse JK is labeled 53 and leg KL is labeled 45. Note: Figure not drawn to scale."
+   },
+   "prompt": "What is the value of \\(\\cos K\\) in the triangle shown?",
+   "choices": [
+    "\\(\\frac{1}{53}\\)",
+    "\\(\\frac{53}{45}\\)",
+    "\\(\\frac{45}{53}\\)",
+    "\\(\\frac{1}{45}\\)"
+   ],
+   "answer": "C",
+   "explanation": "The cosine of an acute angle in a right triangle is the length of the leg adjacent to the angle divided by the length of the hypotenuse. In the triangle shown, the leg adjacent to angle \\(K\\) has length 45 and the hypotenuse (the side opposite the right angle) has length 53. So \\(\\cos K = \\frac{45}{53}\\). Choice A puts 1 over the hypotenuse instead of using the adjacent leg over the hypotenuse. Choice B is the reciprocal, \\(\\frac{1}{\\cos K}\\) (hypotenuse over adjacent leg). Choice D puts 1 over the adjacent leg instead of using the adjacent leg over the hypotenuse."
+  },
+  {
+   "id": "pt2-m1-q16-v4",
+   "family": "pt2-m1-q16",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q16",
+   "domain": "geometry",
+   "skill": "geo-right-trig",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 310\" fill=\"none\"><polygon points=\"50,40 50,250 330,250\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\"/><polyline points=\"50.0,236.0 64.0,236.0 64.0,250.0\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"/><g fill=\"currentColor\" font-family=\"serif\"><text x=\"42\" y=\"30\" font-style=\"italic\" font-size=\"18\">X</text><text x=\"28\" y=\"262\" font-style=\"italic\" font-size=\"18\">Y</text><text x=\"338\" y=\"260\" font-style=\"italic\" font-size=\"18\">Z</text><text x=\"30\" y=\"152\" font-size=\"22\" text-anchor=\"middle\">60</text><text x=\"210\" y=\"132\" font-size=\"22\" text-anchor=\"middle\">61</text></g><text x=\"190.0\" y=\"304\" font-size=\"15\" text-anchor=\"middle\" fill=\"currentColor\" font-family=\"serif\">Note: Figure not drawn to scale.</text></svg>",
+    "alt": "Right triangle XYZ with the right angle at Y. Hypotenuse XZ is labeled 61 and leg XY is labeled 60. Note: Figure not drawn to scale."
+   },
+   "prompt": "What is the value of \\(\\cos X\\) in the triangle shown?",
+   "choices": [
+    "\\(\\frac{61}{60}\\)",
+    "\\(\\frac{60}{61}\\)",
+    "\\(\\frac{1}{61}\\)",
+    "\\(\\frac{1}{60}\\)"
+   ],
+   "answer": "B",
+   "explanation": "The cosine of an acute angle in a right triangle is the length of the leg adjacent to the angle divided by the length of the hypotenuse. In the triangle shown, the leg adjacent to angle \\(X\\) has length 60 and the hypotenuse (the side opposite the right angle) has length 61. So \\(\\cos X = \\frac{60}{61}\\). Choice A is the reciprocal, \\(\\frac{1}{\\cos X}\\) (hypotenuse over adjacent leg). Choice C puts 1 over the hypotenuse instead of using the adjacent leg over the hypotenuse. Choice D puts 1 over the adjacent leg instead of using the adjacent leg over the hypotenuse."
+  },
+  {
+   "id": "pt2-m1-q17",
+   "family": "pt2-m1-q17",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q17",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "A circle has a radius of 43 meters. What is the area, in square meters, of the circle?",
+   "choices": [
+    "\\(\\frac{43\\pi}{2}\\)",
+    "\\(43\\pi\\)",
+    "\\(86\\pi\\)",
+    "\\(1{,}849\\pi\\)"
+   ],
+   "answer": "D",
+   "explanation": "The area of a circle is \\(A = \\pi r^2\\). Substituting \\(r = 43\\) gives \\(A = \\pi(43)^2 = 1{,}849\\pi\\) square meters. Choice A is the area of a circle with radius \\(\\sqrt{\\frac{43}{2}}\\), choice B is the area of a circle with radius \\(\\sqrt{43}\\), and choice C is the circumference, \\(2\\pi r\\)."
+  },
+  {
+   "id": "pt2-m1-q17-v1",
+   "family": "pt2-m1-q17",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q17",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A circular tabletop has a radius of 17 inches. What is the area, in square inches, of the tabletop?",
+   "choices": [
+    "\\(17\\pi\\)",
+    "\\(34\\pi\\)",
+    "\\(289\\pi\\)",
+    "\\(1{,}156\\pi\\)"
+   ],
+   "answer": "C",
+   "explanation": "The area of a circle is \\(A = \\pi r^2\\). Substituting \\(r = 17\\) gives \\(A = \\pi(17)^2 = 289\\pi\\) square inches. Choice A is \\(\\pi r\\), which forgets to square the radius. Choice B is the circumference, \\(2\\pi r\\). Choice D uses the diameter, 34, in place of the radius: \\(\\pi(34)^2 = 1{,}156\\pi\\)."
+  },
+  {
+   "id": "pt2-m1-q17-v2",
+   "family": "pt2-m1-q17",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q17",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A circular garden has a radius of 24 feet. What is the area, in square feet, of the garden?",
+   "choices": [
+    "\\(576\\pi\\)",
+    "\\(48\\pi\\)",
+    "\\(24\\pi\\)",
+    "\\(12\\pi\\)"
+   ],
+   "answer": "A",
+   "explanation": "The area of a circle is \\(A = \\pi r^2\\). Substituting \\(r = 24\\) gives \\(A = \\pi(24)^2 = 576\\pi\\) square feet. Choice B is the circumference, \\(2\\pi r\\). Choice C is \\(\\pi r\\), which forgets to square the radius. Choice D is \\(\\frac{\\pi r}{2}\\)."
+  },
+  {
+   "id": "pt2-m1-q17-v3",
+   "family": "pt2-m1-q17",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q17",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "A circle has a radius of 36 centimeters. What is the area, in square centimeters, of the circle?",
+   "choices": [
+    "\\(5{,}184\\pi\\)",
+    "\\(1{,}296\\pi\\)",
+    "\\(72\\pi\\)",
+    "\\(36\\pi\\)"
+   ],
+   "answer": "B",
+   "explanation": "The area of a circle is \\(A = \\pi r^2\\). Substituting \\(r = 36\\) gives \\(A = \\pi(36)^2 = 1{,}296\\pi\\) square centimeters. Choice A uses the diameter, 72, in place of the radius: \\(\\pi(72)^2 = 5{,}184\\pi\\). Choice C is the circumference, \\(2\\pi r\\). Choice D is \\(\\pi r\\), which forgets to square the radius."
+  },
+  {
+   "id": "pt2-m1-q17-v4",
+   "family": "pt2-m1-q17",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q17",
+   "domain": "geometry",
+   "skill": "geo-circles",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A circular pond has a radius of 53 yards. What is the area, in square yards, of the pond?",
+   "choices": [
+    "\\(\\frac{53\\pi}{2}\\)",
+    "\\(53\\pi\\)",
+    "\\(106\\pi\\)",
+    "\\(2{,}809\\pi\\)"
+   ],
+   "answer": "D",
+   "explanation": "The area of a circle is \\(A = \\pi r^2\\). Substituting \\(r = 53\\) gives \\(A = \\pi(53)^2 = 2{,}809\\pi\\) square yards. Choice A is \\(\\frac{\\pi r}{2}\\), choice B is \\(\\pi r\\) (the radius was not squared), and choice C is the circumference, \\(2\\pi r\\)."
+  },
+  {
+   "id": "pt2-m1-q18",
+   "family": "pt2-m1-q18",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 1 · Q18",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "An object has a mass of 168 grams and a volume of 24 cubic centimeters. What is the density, in grams per cubic centimeter, of the object?",
+   "choices": [
+    "7",
+    "144",
+    "192",
+    "4,032"
+   ],
+   "answer": "A",
+   "explanation": "Density is mass divided by volume. The density is \\(\\frac{168\\text{ grams}}{24\\text{ cubic centimeters}} = 7\\) grams per cubic centimeter. Choice B is \\(168 - 24\\), choice C is \\(168 + 24\\), and choice D is \\(168 \\times 24\\); none of these divides mass by volume."
+  },
+  {
+   "id": "pt2-m1-q18-v1",
+   "family": "pt2-m1-q18",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 1 · Q18",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A sample of a metal has a mass of 312 grams and a volume of 39 cubic centimeters. What is the density, in grams per cubic centimeter, of the sample?",
+   "choices": [
+    "12,168",
+    "351",
+    "273",
+    "8"
+   ],
+   "answer": "D",
+   "explanation": "Density is mass divided by volume. The density is \\(\\frac{312\\text{ grams}}{39\\text{ cubic centimeters}} = 8\\) grams per cubic centimeter. Choice A is \\(312 \\times 39\\), choice B is \\(312 + 39\\), and choice C is \\(312 - 39\\); none of these divides mass by volume."
+  },
+  {
+   "id": "pt2-m1-q18-v2",
+   "family": "pt2-m1-q18",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 1 · Q18",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A block of stone has a mass of 234 grams and a volume of 26 cubic centimeters. What is the density, in grams per cubic centimeter, of the block?",
+   "choices": [
+    "\\(\\frac{1}{9}\\)",
+    "9",
+    "208",
+    "260"
+   ],
+   "answer": "B",
+   "explanation": "Density is mass divided by volume. The density is \\(\\frac{234\\text{ grams}}{26\\text{ cubic centimeters}} = 9\\) grams per cubic centimeter. Choice A is volume divided by mass, \\(\\frac{26}{234}\\), which is upside down. Choice C is \\(234 - 26\\) and choice D is \\(234 + 26\\)."
+  },
+  {
+   "id": "pt2-m1-q18-v3",
+   "family": "pt2-m1-q18",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 1 · Q18",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A glass paperweight has a mass of 450 grams and a volume of 25 cubic centimeters. What is the density, in grams per cubic centimeter, of the paperweight?",
+   "choices": [
+    "11,250",
+    "425",
+    "18",
+    "\\(\\frac{1}{18}\\)"
+   ],
+   "answer": "C",
+   "explanation": "Density is mass divided by volume. The density is \\(\\frac{450\\text{ grams}}{25\\text{ cubic centimeters}} = 18\\) grams per cubic centimeter. Choice A is \\(450 \\times 25\\), choice B is \\(450 - 25\\), and choice D is volume divided by mass, \\(\\frac{25}{450}\\), which is upside down."
+  },
+  {
+   "id": "pt2-m1-q18-v4",
+   "family": "pt2-m1-q18",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 1 · Q18",
+   "domain": "psda",
+   "skill": "psda-ratios",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "mc",
+   "prompt": "A block of ice has a mass of 460 kilograms and a volume of 0.5 cubic meters. What is the density, in kilograms per cubic meter, of the block of ice?",
+   "choices": [
+    "230",
+    "459.5",
+    "460.5",
+    "920"
+   ],
+   "answer": "D",
+   "explanation": "Density is mass divided by volume. The density is \\(\\frac{460\\text{ kilograms}}{0.5\\text{ cubic meters}} = 920\\) kilograms per cubic meter. Choice A is \\(460 \\times 0.5\\), which multiplies instead of divides. Choice B is \\(460 - 0.5\\) and choice C is \\(460 + 0.5\\)."
+  }
+ ]
+}

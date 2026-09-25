@@ -1,0 +1,895 @@
+{
+ "questions": [
+  {
+   "id": "pt2-m2-q19",
+   "family": "pt2-m2-q19",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q19",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(x=8a(b+9)\\)</p><p>The given equation relates the positive numbers \\(a\\), \\(b\\), and \\(x\\). Which equation correctly expresses \\(a\\) in terms of \\(b\\) and \\(x\\)?</p>",
+   "choices": [
+    "\\(a=\\frac{x}{8}-(b+9)\\)",
+    "\\(a=\\frac{x}{8(b+9)}\\)",
+    "\\(a=\\frac{8(b+9)}{x}\\)",
+    "\\(a=8x(b+9)\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>To isolate \\(a\\), divide both sides of the equation by \\(8(b+9)\\). Because \\(b\\) is positive, \\(b+9\\) is not zero, so this division is allowed. This gives \\(\\frac{x}{8(b+9)}=a\\), or \\(a=\\frac{x}{8(b+9)}\\).</p><p>\\(a=\\frac{x}{8}-(b+9)\\) subtracts \\((b+9)\\) instead of dividing by it; it is equivalent to \\(x=8(a+b+9)\\). \\(a=\\frac{8(b+9)}{x}\\) is the reciprocal of the correct expression; it is equivalent to \\(x=\\frac{8(b+9)}{a}\\). \\(a=8x(b+9)\\) multiplies instead of dividing; it is equivalent to \\(x=\\frac{a}{8(b+9)}\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q19-v1",
+   "family": "pt2-m2-q19",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q19",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(y=5c(d+4)\\)</p><p>The given equation relates the positive numbers \\(c\\), \\(d\\), and \\(y\\). Which equation correctly expresses \\(c\\) in terms of \\(d\\) and \\(y\\)?</p>",
+   "choices": [
+    "\\(c=\\frac{y}{5}-(d+4)\\)",
+    "\\(c=\\frac{5(d+4)}{y}\\)",
+    "\\(c=\\frac{y}{5(d+4)}\\)",
+    "\\(c=5y(d+4)\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>To isolate \\(c\\), divide both sides of the equation by \\(5(d+4)\\). Because \\(d\\) is positive, \\(d+4\\) is not zero, so this division is allowed. This gives \\(\\frac{y}{5(d+4)}=c\\), or \\(c=\\frac{y}{5(d+4)}\\).</p><p>\\(c=\\frac{y}{5}-(d+4)\\) subtracts \\((d+4)\\) instead of dividing by it; it is equivalent to \\(y=5(c+d+4)\\). \\(c=\\frac{5(d+4)}{y}\\) is the reciprocal of the correct expression; it is equivalent to \\(y=\\frac{5(d+4)}{c}\\). \\(c=5y(d+4)\\) multiplies instead of dividing; it is equivalent to \\(y=\\frac{c}{5(d+4)}\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q19-v2",
+   "family": "pt2-m2-q19",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q19",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(m=12k(n+7)\\)</p><p>The given equation relates the positive numbers \\(k\\), \\(n\\), and \\(m\\). Which equation correctly expresses \\(k\\) in terms of \\(n\\) and \\(m\\)?</p>",
+   "choices": [
+    "\\(k=\\frac{m}{12(n+7)}\\)",
+    "\\(k=\\frac{m}{12}-(n+7)\\)",
+    "\\(k=\\frac{12(n+7)}{m}\\)",
+    "\\(k=12m(n+7)\\)"
+   ],
+   "answer": "A",
+   "explanation": "<p>To isolate \\(k\\), divide both sides of the equation by \\(12(n+7)\\). Because \\(n\\) is positive, \\(n+7\\) is not zero, so this division is allowed. This gives \\(\\frac{m}{12(n+7)}=k\\), or \\(k=\\frac{m}{12(n+7)}\\).</p><p>\\(k=\\frac{m}{12}-(n+7)\\) subtracts \\((n+7)\\) instead of dividing by it; it is equivalent to \\(m=12(k+n+7)\\). \\(k=\\frac{12(n+7)}{m}\\) is the reciprocal of the correct expression; it is equivalent to \\(m=\\frac{12(n+7)}{k}\\). \\(k=12m(n+7)\\) multiplies instead of dividing; it is equivalent to \\(m=\\frac{k}{12(n+7)}\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q19-v3",
+   "family": "pt2-m2-q19",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q19",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(w=3h(g+15)\\)</p><p>The given equation relates the positive numbers \\(h\\), \\(g\\), and \\(w\\). Which equation correctly expresses \\(h\\) in terms of \\(g\\) and \\(w\\)?</p>",
+   "choices": [
+    "\\(h=\\frac{w}{3}-(g+15)\\)",
+    "\\(h=\\frac{3(g+15)}{w}\\)",
+    "\\(h=3w(g+15)\\)",
+    "\\(h=\\frac{w}{3(g+15)}\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>To isolate \\(h\\), divide both sides of the equation by \\(3(g+15)\\). Because \\(g\\) is positive, \\(g+15\\) is not zero, so this division is allowed. This gives \\(\\frac{w}{3(g+15)}=h\\), or \\(h=\\frac{w}{3(g+15)}\\).</p><p>\\(h=\\frac{w}{3}-(g+15)\\) subtracts \\((g+15)\\) instead of dividing by it; it is equivalent to \\(w=3(h+g+15)\\). \\(h=\\frac{3(g+15)}{w}\\) is the reciprocal of the correct expression; it is equivalent to \\(w=\\frac{3(g+15)}{h}\\). \\(h=3w(g+15)\\) multiplies instead of dividing; it is equivalent to \\(w=\\frac{h}{3(g+15)}\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q19-v4",
+   "family": "pt2-m2-q19",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q19",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(T=6q(s+11)\\)</p><p>The given equation relates the positive numbers \\(q\\), \\(s\\), and \\(T\\). Which equation correctly expresses \\(q\\) in terms of \\(s\\) and \\(T\\)?</p>",
+   "choices": [
+    "\\(q=\\frac{T}{6(s+11)}\\)",
+    "\\(q=\\frac{T}{6}-(s+11)\\)",
+    "\\(q=\\frac{6(s+11)}{T}\\)",
+    "\\(q=6T(s+11)\\)"
+   ],
+   "answer": "A",
+   "explanation": "<p>To isolate \\(q\\), divide both sides of the equation by \\(6(s+11)\\). Because \\(s\\) is positive, \\(s+11\\) is not zero, so this division is allowed. This gives \\(\\frac{T}{6(s+11)}=q\\), or \\(q=\\frac{T}{6(s+11)}\\).</p><p>\\(q=\\frac{T}{6}-(s+11)\\) subtracts \\((s+11)\\) instead of dividing by it; it is equivalent to \\(T=6(q+s+11)\\). \\(q=\\frac{6(s+11)}{T}\\) is the reciprocal of the correct expression; it is equivalent to \\(T=\\frac{6(s+11)}{q}\\). \\(q=6T(s+11)\\) multiplies instead of dividing; it is equivalent to \\(T=\\frac{q}{6(s+11)}\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q20",
+   "family": "pt2-m2-q20",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q20",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>Line \\(j\\) is shown in the \\(xy\\)-plane. Line \\(k\\) (not shown) is parallel to line \\(j\\). What is the slope of line \\(k\\)?</p>",
+   "figure": {
+    "img": "img/pt2-m2-q20.png",
+    "alt": "A grid in the xy-plane showing line j, which passes through the marked points (0, 5) and (1, 9)."
+   },
+   "answer": [
+    "4"
+   ],
+   "explanation": "<p>Parallel lines have equal slopes, so the slope of line \\(k\\) equals the slope of line \\(j\\). The graph shows that line \\(j\\) passes through the marked points \\((0,5)\\) and \\((1,9)\\). Using \\(\\frac{y_2-y_1}{x_2-x_1}\\), the slope of line \\(j\\) is \\(\\frac{9-5}{1-0}=4\\). Therefore the slope of line \\(k\\) is also \\(4\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q20-v1",
+   "family": "pt2-m2-q20",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q20",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>Line \\(m\\) is shown in the \\(xy\\)-plane. Line \\(n\\) (not shown) is parallel to line \\(m\\). What is the slope of line \\(n\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 292 372\" font-family=\"serif\" font-size=\"11\"><line x1=\"26\" y1=\"346\" x2=\"26\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"46\" y1=\"346\" x2=\"46\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"66\" y1=\"346\" x2=\"66\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"86\" y1=\"346\" x2=\"86\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"106\" y1=\"346\" x2=\"106\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"126\" y1=\"346\" x2=\"126\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"146\" y1=\"346\" x2=\"146\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"166\" y1=\"346\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"186\" y1=\"346\" x2=\"186\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"206\" y1=\"346\" x2=\"206\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"226\" y1=\"346\" x2=\"226\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"246\" y1=\"346\" x2=\"246\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"266\" y1=\"346\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"346\" x2=\"266\" y2=\"346\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"326\" x2=\"266\" y2=\"326\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"306\" x2=\"266\" y2=\"306\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"286\" x2=\"266\" y2=\"286\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"266\" x2=\"266\" y2=\"266\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"246\" x2=\"266\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"226\" x2=\"266\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"206\" x2=\"266\" y2=\"206\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"186\" x2=\"266\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"166\" x2=\"266\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"146\" x2=\"266\" y2=\"146\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"126\" x2=\"266\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"106\" x2=\"266\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"86\" x2=\"266\" y2=\"86\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"66\" x2=\"266\" y2=\"66\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"26\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"18\" y1=\"226\" x2=\"278\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"146\" y1=\"354\" x2=\"146\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M280 226 l-7 -3.5 v7 z\" fill=\"currentColor\"/><path d=\"M146 12 l-3.5 7 h7 z\" fill=\"currentColor\"/><text x=\"284\" y=\"230\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"152\" y=\"16\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"135\" y=\"239\" fill=\"currentColor\" font-style=\"italic\">O</text><text x=\"26\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−6</text><text x=\"66\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−4</text><text x=\"106\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−2</text><text x=\"186\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"226\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"266\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"142\" y=\"350\" fill=\"currentColor\" text-anchor=\"end\">−6</text><text x=\"142\" y=\"310\" fill=\"currentColor\" text-anchor=\"end\">−4</text><text x=\"142\" y=\"270\" fill=\"currentColor\" text-anchor=\"end\">−2</text><text x=\"142\" y=\"190\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"142\" y=\"150\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"142\" y=\"110\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"142\" y=\"70\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"142\" y=\"30\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"132.7\" y1=\"346.0\" x2=\"239.3\" y2=\"26.0\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"146\" cy=\"306\" r=\"4\" fill=\"currentColor\"/><circle cx=\"186\" cy=\"186\" r=\"4\" fill=\"currentColor\"/></svg>",
+    "alt": "A grid in the xy-plane showing line m, which passes through the marked points (0, -4) and (2, 2)."
+   },
+   "answer": [
+    "3"
+   ],
+   "explanation": "<p>Parallel lines have equal slopes, so the slope of line \\(n\\) equals the slope of line \\(m\\). The graph shows that line \\(m\\) passes through the marked points \\((0,-4)\\) and \\((2,2)\\). Using \\(\\frac{y_2-y_1}{x_2-x_1}\\), the slope of line \\(m\\) is \\(\\frac{2-(-4)}{2-0}=\\frac{6}{2}=3\\). Therefore the slope of line \\(n\\) is also \\(3\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q20-v2",
+   "family": "pt2-m2-q20",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q20",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>Line \\(p\\) is shown in the \\(xy\\)-plane. Line \\(q\\) (not shown) is parallel to line \\(p\\). What is the slope of line \\(q\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 292 372\" font-family=\"serif\" font-size=\"11\"><line x1=\"26\" y1=\"346\" x2=\"26\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"46\" y1=\"346\" x2=\"46\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"66\" y1=\"346\" x2=\"66\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"86\" y1=\"346\" x2=\"86\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"106\" y1=\"346\" x2=\"106\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"126\" y1=\"346\" x2=\"126\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"146\" y1=\"346\" x2=\"146\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"166\" y1=\"346\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"186\" y1=\"346\" x2=\"186\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"206\" y1=\"346\" x2=\"206\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"226\" y1=\"346\" x2=\"226\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"246\" y1=\"346\" x2=\"246\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"266\" y1=\"346\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"346\" x2=\"266\" y2=\"346\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"326\" x2=\"266\" y2=\"326\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"306\" x2=\"266\" y2=\"306\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"286\" x2=\"266\" y2=\"286\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"266\" x2=\"266\" y2=\"266\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"246\" x2=\"266\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"226\" x2=\"266\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"206\" x2=\"266\" y2=\"206\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"186\" x2=\"266\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"166\" x2=\"266\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"146\" x2=\"266\" y2=\"146\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"126\" x2=\"266\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"106\" x2=\"266\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"86\" x2=\"266\" y2=\"86\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"66\" x2=\"266\" y2=\"66\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"26\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"18\" y1=\"226\" x2=\"278\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"146\" y1=\"354\" x2=\"146\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M280 226 l-7 -3.5 v7 z\" fill=\"currentColor\"/><path d=\"M146 12 l-3.5 7 h7 z\" fill=\"currentColor\"/><text x=\"284\" y=\"230\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"152\" y=\"16\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"135\" y=\"239\" fill=\"currentColor\" font-style=\"italic\">O</text><text x=\"26\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−6</text><text x=\"66\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−4</text><text x=\"106\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−2</text><text x=\"186\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"226\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"266\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"142\" y=\"350\" fill=\"currentColor\" text-anchor=\"end\">−6</text><text x=\"142\" y=\"310\" fill=\"currentColor\" text-anchor=\"end\">−4</text><text x=\"142\" y=\"270\" fill=\"currentColor\" text-anchor=\"end\">−2</text><text x=\"142\" y=\"190\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"142\" y=\"150\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"142\" y=\"110\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"142\" y=\"70\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"142\" y=\"30\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"114.0\" y1=\"26.0\" x2=\"242.0\" y2=\"346.0\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"146\" cy=\"106\" r=\"4\" fill=\"currentColor\"/><circle cx=\"186\" cy=\"206\" r=\"4\" fill=\"currentColor\"/></svg>",
+    "alt": "A grid in the xy-plane showing line p, which passes through the marked points (0, 6) and (2, 1)."
+   },
+   "answer": [
+    "-5/2",
+    "-2.5"
+   ],
+   "explanation": "<p>Parallel lines have equal slopes, so the slope of line \\(q\\) equals the slope of line \\(p\\). The graph shows that line \\(p\\) passes through the marked points \\((0,6)\\) and \\((2,1)\\). Using \\(\\frac{y_2-y_1}{x_2-x_1}\\), the slope of line \\(p\\) is \\(\\frac{1-6}{2-0}=-\\frac{5}{2}\\). Therefore the slope of line \\(q\\) is also \\(-\\frac{5}{2}\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q20-v3",
+   "family": "pt2-m2-q20",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q20",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>Line \\(r\\) is shown in the \\(xy\\)-plane. Line \\(t\\) (not shown) is parallel to line \\(r\\). What is the slope of line \\(t\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 292 372\" font-family=\"serif\" font-size=\"11\"><line x1=\"26\" y1=\"346\" x2=\"26\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"46\" y1=\"346\" x2=\"46\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"66\" y1=\"346\" x2=\"66\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"86\" y1=\"346\" x2=\"86\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"106\" y1=\"346\" x2=\"106\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"126\" y1=\"346\" x2=\"126\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"146\" y1=\"346\" x2=\"146\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"166\" y1=\"346\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"186\" y1=\"346\" x2=\"186\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"206\" y1=\"346\" x2=\"206\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"226\" y1=\"346\" x2=\"226\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"246\" y1=\"346\" x2=\"246\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"266\" y1=\"346\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"346\" x2=\"266\" y2=\"346\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"326\" x2=\"266\" y2=\"326\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"306\" x2=\"266\" y2=\"306\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"286\" x2=\"266\" y2=\"286\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"266\" x2=\"266\" y2=\"266\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"246\" x2=\"266\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"226\" x2=\"266\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"206\" x2=\"266\" y2=\"206\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"186\" x2=\"266\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"166\" x2=\"266\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"146\" x2=\"266\" y2=\"146\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"126\" x2=\"266\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"106\" x2=\"266\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"86\" x2=\"266\" y2=\"86\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"66\" x2=\"266\" y2=\"66\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"26\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"18\" y1=\"226\" x2=\"278\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"146\" y1=\"354\" x2=\"146\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M280 226 l-7 -3.5 v7 z\" fill=\"currentColor\"/><path d=\"M146 12 l-3.5 7 h7 z\" fill=\"currentColor\"/><text x=\"284\" y=\"230\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"152\" y=\"16\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"135\" y=\"239\" fill=\"currentColor\" font-style=\"italic\">O</text><text x=\"26\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−6</text><text x=\"66\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−4</text><text x=\"106\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−2</text><text x=\"186\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"226\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"266\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"142\" y=\"350\" fill=\"currentColor\" text-anchor=\"end\">−6</text><text x=\"142\" y=\"310\" fill=\"currentColor\" text-anchor=\"end\">−4</text><text x=\"142\" y=\"270\" fill=\"currentColor\" text-anchor=\"end\">−2</text><text x=\"142\" y=\"190\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"142\" y=\"150\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"142\" y=\"110\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"142\" y=\"70\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"142\" y=\"30\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"26.0\" y1=\"266.0\" x2=\"266.0\" y2=\"106.0\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"146\" cy=\"186\" r=\"4\" fill=\"currentColor\"/><circle cx=\"206\" cy=\"146\" r=\"4\" fill=\"currentColor\"/></svg>",
+    "alt": "A grid in the xy-plane showing line r, which passes through the marked points (0, 2) and (3, 4)."
+   },
+   "answer": [
+    "2/3",
+    ".6666",
+    ".6667",
+    "0.6666",
+    "0.6667"
+   ],
+   "explanation": "<p>Parallel lines have equal slopes, so the slope of line \\(t\\) equals the slope of line \\(r\\). The graph shows that line \\(r\\) passes through the marked points \\((0,2)\\) and \\((3,4)\\). Using \\(\\frac{y_2-y_1}{x_2-x_1}\\), the slope of line \\(r\\) is \\(\\frac{4-2}{3-0}=\\frac{2}{3}\\). Therefore the slope of line \\(t\\) is also \\(\\frac{2}{3}\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q20-v4",
+   "family": "pt2-m2-q20",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q20",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 2,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p>Line \\(a\\) is shown in the \\(xy\\)-plane. Line \\(b\\) (not shown) is parallel to line \\(a\\). What is the slope of line \\(b\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 292 372\" font-family=\"serif\" font-size=\"11\"><line x1=\"26\" y1=\"346\" x2=\"26\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"46\" y1=\"346\" x2=\"46\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"66\" y1=\"346\" x2=\"66\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"86\" y1=\"346\" x2=\"86\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"106\" y1=\"346\" x2=\"106\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"126\" y1=\"346\" x2=\"126\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"146\" y1=\"346\" x2=\"146\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"166\" y1=\"346\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"186\" y1=\"346\" x2=\"186\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"206\" y1=\"346\" x2=\"206\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"226\" y1=\"346\" x2=\"226\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"246\" y1=\"346\" x2=\"246\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"266\" y1=\"346\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"346\" x2=\"266\" y2=\"346\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"326\" x2=\"266\" y2=\"326\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"306\" x2=\"266\" y2=\"306\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"286\" x2=\"266\" y2=\"286\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"266\" x2=\"266\" y2=\"266\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"246\" x2=\"266\" y2=\"246\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"226\" x2=\"266\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"206\" x2=\"266\" y2=\"206\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"186\" x2=\"266\" y2=\"186\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"166\" x2=\"266\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"146\" x2=\"266\" y2=\"146\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"126\" x2=\"266\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"106\" x2=\"266\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"86\" x2=\"266\" y2=\"86\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"66\" x2=\"266\" y2=\"66\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"26\" y1=\"26\" x2=\"266\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"0.5\" opacity=\"0.45\"/><line x1=\"18\" y1=\"226\" x2=\"278\" y2=\"226\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"146\" y1=\"354\" x2=\"146\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M280 226 l-7 -3.5 v7 z\" fill=\"currentColor\"/><path d=\"M146 12 l-3.5 7 h7 z\" fill=\"currentColor\"/><text x=\"284\" y=\"230\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"152\" y=\"16\" fill=\"currentColor\" font-style=\"italic\">y</text><text x=\"135\" y=\"239\" fill=\"currentColor\" font-style=\"italic\">O</text><text x=\"26\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−6</text><text x=\"66\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−4</text><text x=\"106\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">−2</text><text x=\"186\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"226\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"266\" y=\"240\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"142\" y=\"350\" fill=\"currentColor\" text-anchor=\"end\">−6</text><text x=\"142\" y=\"310\" fill=\"currentColor\" text-anchor=\"end\">−4</text><text x=\"142\" y=\"270\" fill=\"currentColor\" text-anchor=\"end\">−2</text><text x=\"142\" y=\"190\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"142\" y=\"150\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"142\" y=\"110\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"142\" y=\"70\" fill=\"currentColor\" text-anchor=\"end\">8</text><text x=\"142\" y=\"30\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"118.0\" y1=\"26.0\" x2=\"182.0\" y2=\"346.0\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"146\" cy=\"166\" r=\"4\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"266\" r=\"4\" fill=\"currentColor\"/></svg>",
+    "alt": "A grid in the xy-plane showing line a, which passes through the marked points (0, 3) and (1, -2)."
+   },
+   "answer": [
+    "-5"
+   ],
+   "explanation": "<p>Parallel lines have equal slopes, so the slope of line \\(b\\) equals the slope of line \\(a\\). The graph shows that line \\(a\\) passes through the marked points \\((0,3)\\) and \\((1,-2)\\). Using \\(\\frac{y_2-y_1}{x_2-x_1}\\), the slope of line \\(a\\) is \\(\\frac{-2-3}{1-0}=-5\\). Therefore the slope of line \\(b\\) is also \\(-5\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q21",
+   "family": "pt2-m2-q21",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q21",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "<p>A line segment that has a length of 115 centimeters (cm) is divided into three parts. One part is 47 cm long. The other two parts have lengths that are equal to each other. What is the length, in cm, of one of the other two parts of equal length?</p>",
+   "answer": [
+    "34"
+   ],
+   "explanation": "<p>Let \\(x\\) represent the length, in cm, of each of the two equal parts. The three parts add up to the total, so \\(47+x+x=115\\), or \\(47+2x=115\\). Subtracting 47 from each side gives \\(2x=68\\), and dividing each side by 2 gives \\(x=34\\). So each of the two equal parts is 34 cm.</p><p>A common mistake is to stop at 68; that is the combined length of the two equal parts, not one of them.</p>"
+  },
+  {
+   "id": "pt2-m2-q21-v1",
+   "family": "pt2-m2-q21",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q21",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "<p>A carpenter cuts a board that is 208 inches long into three pieces. One piece is 64 inches long, and the other two pieces are the same length as each other. What is the length, in inches, of one of the two pieces of equal length?</p>",
+   "answer": [
+    "72"
+   ],
+   "explanation": "<p>Let \\(x\\) represent the length, in inches, of each of the two equal pieces. The three parts add up to the total, so \\(64+x+x=208\\), or \\(64+2x=208\\). Subtracting 64 from each side gives \\(2x=144\\), and dividing each side by 2 gives \\(x=72\\). So each of the two equal parts is 72 inches.</p><p>A common mistake is to stop at 144; that is the combined length of the two equal parts, not one of them.</p>"
+  },
+  {
+   "id": "pt2-m2-q21-v2",
+   "family": "pt2-m2-q21",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q21",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "<p>A 150-kilometer (km) bicycle race is divided into three stages. One stage is 38 km long. The other two stages have distances that are equal to each other. What is the distance, in km, of one of the other two stages?</p>",
+   "answer": [
+    "56"
+   ],
+   "explanation": "<p>Let \\(x\\) represent the distance, in km, of each of the two equal stages. The three parts add up to the total, so \\(38+x+x=150\\), or \\(38+2x=150\\). Subtracting 38 from each side gives \\(2x=112\\), and dividing each side by 2 gives \\(x=56\\). So each of the two equal parts is 56 km.</p><p>A common mistake is to stop at 112; that is the combined length of the two equal parts, not one of them.</p>"
+  },
+  {
+   "id": "pt2-m2-q21-v3",
+   "family": "pt2-m2-q21",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q21",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "<p>Priya hiked a total of 58 miles over three days. She hiked 19 miles on the first day, and she hiked the same number of miles on the second day as on the third day. How many miles did she hike on the second day?</p>",
+   "answer": [
+    "39/2",
+    "19.5"
+   ],
+   "explanation": "<p>Let \\(x\\) represent the number of miles she hiked on each of the second and third days. The three parts add up to the total, so \\(19+x+x=58\\), or \\(19+2x=58\\). Subtracting 19 from each side gives \\(2x=39\\), and dividing each side by 2 gives \\(x=\\frac{39}{2}\\) (or 19.5). So each of the two equal parts is 19.5 miles.</p><p>A common mistake is to stop at 39; that is the combined length of the two equal parts, not one of them.</p>"
+  },
+  {
+   "id": "pt2-m2-q21-v4",
+   "family": "pt2-m2-q21",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q21",
+   "domain": "algebra",
+   "skill": "alg-linear-1var",
+   "difficulty": 2,
+   "inContext": true,
+   "type": "spr",
+   "prompt": "<p>A 90-minute exam is divided into three sections. The reading section is 36 minutes long. The other two sections are equal in length. How many minutes long is one of the other two sections?</p>",
+   "answer": [
+    "27"
+   ],
+   "explanation": "<p>Let \\(x\\) represent the length, in minutes, of each of the two equal sections. The three parts add up to the total, so \\(36+x+x=90\\), or \\(36+2x=90\\). Subtracting 36 from each side gives \\(2x=54\\), and dividing each side by 2 gives \\(x=27\\). So each of the two equal parts is 27 minutes.</p><p>A common mistake is to stop at 54; that is the combined length of the two equal parts, not one of them.</p>"
+  },
+  {
+   "id": "pt2-m2-q22",
+   "family": "pt2-m2-q22",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q22",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(p(x)+57=x^2\\)</p><p>The given equation relates the value of \\(x\\) and its corresponding value of \\(p(x)\\) for the function \\(p\\). What is the minimum value of the function \\(p\\)?</p>",
+   "choices": [
+    "\\(-3249\\)",
+    "\\(-57\\)",
+    "\\(57\\)",
+    "\\(3249\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>Subtracting 57 from both sides gives \\(p(x)=x^2-57\\). This is in the form \\(p(x)=a(x-r)^2+s\\) with \\(a=1>0\\), \\(r=0\\) and \\(s=-57\\); when \\(a>0\\), the minimum value is \\(s\\). Because \\(x^2\\) is never negative and equals 0 when \\(x=0\\), the smallest value of \\(p(x)\\) is \\(-57\\).</p><p>Wrong choices: \\(-3249\\) results from squaring 57; \\(57\\) has the wrong sign (moving \\(+57\\) to the other side changes its sign); \\(3249\\) results from squaring 57.</p>"
+  },
+  {
+   "id": "pt2-m2-q22-v1",
+   "family": "pt2-m2-q22",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q22",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(g(x)-38=x^2\\)</p><p>The given equation relates the value of \\(x\\) and its corresponding value of \\(g(x)\\) for the function \\(g\\). What is the minimum value of the function \\(g\\)?</p>",
+   "choices": [
+    "\\(-1444\\)",
+    "\\(-38\\)",
+    "\\(38\\)",
+    "\\(1444\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>Adding 38 to both sides gives \\(g(x)=x^2+38\\). This is in the form \\(g(x)=a(x-r)^2+s\\) with \\(a=1>0\\), \\(r=0\\) and \\(s=38\\); when \\(a>0\\), the minimum value is \\(s\\). Because \\(x^2\\) is never negative and equals 0 when \\(x=0\\), the smallest value of \\(g(x)\\) is \\(38\\).</p><p>Wrong choices: \\(-1444\\) results from squaring 38; \\(-38\\) has the wrong sign (moving \\(-38\\) to the other side changes its sign); \\(1444\\) results from squaring 38.</p>"
+  },
+  {
+   "id": "pt2-m2-q22-v2",
+   "family": "pt2-m2-q22",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q22",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(h(x)+72=x^2\\)</p><p>The given equation relates the value of \\(x\\) and its corresponding value of \\(h(x)\\) for the function \\(h\\). What is the minimum value of the function \\(h\\)?</p>",
+   "choices": [
+    "\\(-5184\\)",
+    "\\(-72\\)",
+    "\\(72\\)",
+    "\\(5184\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>Subtracting 72 from both sides gives \\(h(x)=x^2-72\\). This is in the form \\(h(x)=a(x-r)^2+s\\) with \\(a=1>0\\), \\(r=0\\) and \\(s=-72\\); when \\(a>0\\), the minimum value is \\(s\\). Because \\(x^2\\) is never negative and equals 0 when \\(x=0\\), the smallest value of \\(h(x)\\) is \\(-72\\).</p><p>Wrong choices: \\(-5184\\) results from squaring 72; \\(72\\) has the wrong sign (moving \\(+72\\) to the other side changes its sign); \\(5184\\) results from squaring 72.</p>"
+  },
+  {
+   "id": "pt2-m2-q22-v3",
+   "family": "pt2-m2-q22",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q22",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(f(x)+44=(x-3)^2\\)</p><p>The given equation relates the value of \\(x\\) and its corresponding value of \\(f(x)\\) for the function \\(f\\). What is the minimum value of the function \\(f\\)?</p>",
+   "choices": [
+    "\\(-44\\)",
+    "\\(-3\\)",
+    "\\(3\\)",
+    "\\(44\\)"
+   ],
+   "answer": "A",
+   "explanation": "<p>Subtracting 44 from both sides gives \\(f(x)=(x-3)^2-44\\). This is in the form \\(f(x)=a(x-r)^2+s\\) with \\(a=1>0\\), \\(r=3\\) and \\(s=-44\\); when \\(a>0\\), the minimum value is \\(s\\). Because \\((x-3)^2\\) is never negative and equals 0 when \\(x=3\\), the smallest value of \\(f(x)\\) is \\(-44\\).</p><p>Wrong choices: \\(-3\\) comes from misreading \\((x-3)^2\\) as a shift to \\(x=-3\\), not the minimum value; \\(3\\) is the value of \\(x\\) where the minimum occurs, not the minimum value; \\(44\\) has the wrong sign (moving \\(+44\\) to the other side changes its sign).</p>"
+  },
+  {
+   "id": "pt2-m2-q22-v4",
+   "family": "pt2-m2-q22",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q22",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(k(x)-29=x^2\\)</p><p>The given equation relates the value of \\(x\\) and its corresponding value of \\(k(x)\\) for the function \\(k\\). What is the minimum value of the function \\(k\\)?</p>",
+   "choices": [
+    "\\(-841\\)",
+    "\\(-29\\)",
+    "\\(0\\)",
+    "\\(29\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>Adding 29 to both sides gives \\(k(x)=x^2+29\\). This is in the form \\(k(x)=a(x-r)^2+s\\) with \\(a=1>0\\), \\(r=0\\) and \\(s=29\\); when \\(a>0\\), the minimum value is \\(s\\). Because \\(x^2\\) is never negative and equals 0 when \\(x=0\\), the smallest value of \\(k(x)\\) is \\(29\\).</p><p>Wrong choices: \\(-841\\) results from squaring 29; \\(-29\\) has the wrong sign (moving \\(-29\\) to the other side changes its sign); \\(0\\) is the minimum of \\(x^2\\), not of \\(k(x)\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q23",
+   "family": "pt2-m2-q23",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q23",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<table><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(-18\\)</td><td>\\(-48\\)</td></tr><tr><td>\\(7\\)</td><td>\\(52\\)</td></tr></table><p>The table shows two values of \\(x\\) and their corresponding values of \\(y\\). In the \\(xy\\)-plane, the graph of the linear equation representing this relationship passes through the point \\(\\left(\\frac{1}{7},a\\right)\\). What is the value of \\(a\\)?</p>",
+   "choices": [
+    "\\(-\\frac{4}{11}\\)",
+    "\\(-\\frac{4}{77}\\)",
+    "\\(\\frac{4}{7}\\)",
+    "\\(\\frac{172}{7}\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>Write the relationship as \\(y=mx+b\\). The slope is \\(m=\\frac{52-(-48)}{7-(-18)}=\\frac{100}{25}=4\\). Substituting the point \\((-18,-48)\\): \\(-48=4(-18)+b\\), so \\(-48=-72+b\\) and \\(b=24\\). The equation is \\(y=4x+24\\).</p><p>Substituting \\(\\frac{1}{7}\\) for \\(x\\) and \\(a\\) for \\(y\\): \\(a=4\\left(\\frac{1}{7}\\right)+24=\\frac{4}{7}+24=\\frac{172}{7}\\).</p><p>The other choices come from errors such as leaving out the \\(y\\)-intercept, making a sign error in the slope or the intercept, or substituting the wrong \\(x\\)-value.</p>"
+  },
+  {
+   "id": "pt2-m2-q23-v1",
+   "family": "pt2-m2-q23",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q23",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<table><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(-6\\)</td><td>\\(-25\\)</td></tr><tr><td>\\(4\\)</td><td>\\(5\\)</td></tr></table><p>The table shows two values of \\(x\\) and their corresponding values of \\(y\\). In the \\(xy\\)-plane, the graph of the linear equation representing this relationship passes through the point \\(\\left(\\frac{2}{5},c\\right)\\). What is the value of \\(c\\)?</p>",
+   "choices": [
+    "\\(-\\frac{41}{5}\\)",
+    "\\(-\\frac{29}{5}\\)",
+    "\\(\\frac{6}{5}\\)",
+    "\\(\\frac{29}{5}\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>Write the relationship as \\(y=mx+b\\). The slope is \\(m=\\frac{5-(-25)}{4-(-6)}=\\frac{30}{10}=3\\). Substituting the point \\((-6,-25)\\): \\(-25=3(-6)+b\\), so \\(-25=-18+b\\) and \\(b=-7\\). The equation is \\(y=3x-7\\).</p><p>Substituting \\(\\frac{2}{5}\\) for \\(x\\) and \\(c\\) for \\(y\\): \\(c=3\\left(\\frac{2}{5}\\right)-7=\\frac{6}{5}-7=-\\frac{29}{5}\\).</p><p>The other choices come from errors such as leaving out the \\(y\\)-intercept, making a sign error in the slope or the intercept, or substituting the wrong \\(x\\)-value.</p>"
+  },
+  {
+   "id": "pt2-m2-q23-v2",
+   "family": "pt2-m2-q23",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q23",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<table><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(-10\\)</td><td>\\(34\\)</td></tr><tr><td>\\(6\\)</td><td>\\(-14\\)</td></tr></table><p>The table shows two values of \\(x\\) and their corresponding values of \\(y\\). In the \\(xy\\)-plane, the graph of the linear equation representing this relationship passes through the point \\(\\left(\\frac{1}{9},t\\right)\\). What is the value of \\(t\\)?</p>",
+   "choices": [
+    "\\(-\\frac{11}{3}\\)",
+    "\\(-\\frac{1}{3}\\)",
+    "\\(\\frac{11}{3}\\)",
+    "\\(\\frac{13}{3}\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>Write the relationship as \\(y=mx+b\\). The slope is \\(m=\\frac{-14-34}{6-(-10)}=\\frac{-48}{16}=-3\\). Substituting the point \\((-10,34)\\): \\(34=-3(-10)+b\\), so \\(34=30+b\\) and \\(b=4\\). The equation is \\(y=-3x+4\\).</p><p>Substituting \\(\\frac{1}{9}\\) for \\(x\\) and \\(t\\) for \\(y\\): \\(t=-3\\left(\\frac{1}{9}\\right)+4=-\\frac{1}{3}+4=\\frac{11}{3}\\).</p><p>The other choices come from errors such as leaving out the \\(y\\)-intercept, making a sign error in the slope or the intercept, or substituting the wrong \\(x\\)-value.</p>"
+  },
+  {
+   "id": "pt2-m2-q23-v3",
+   "family": "pt2-m2-q23",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q23",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<table><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(-12\\)</td><td>\\(-17\\)</td></tr><tr><td>\\(8\\)</td><td>\\(33\\)</td></tr></table><p>The table shows two values of \\(x\\) and their corresponding values of \\(y\\). In the \\(xy\\)-plane, the graph of the linear equation representing this relationship passes through the point \\(\\left(\\frac{1}{5},d\\right)\\). What is the value of \\(d\\)?</p>",
+   "choices": [
+    "\\(\\frac{1}{2}\\)",
+    "\\(\\frac{25}{2}\\)",
+    "\\(\\frac{27}{2}\\)",
+    "\\(\\frac{51}{2}\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>Write the relationship as \\(y=mx+b\\). The slope is \\(m=\\frac{33-(-17)}{8-(-12)}=\\frac{50}{20}=\\frac{5}{2}\\). Substituting the point \\((-12,-17)\\): \\(-17=\\frac{5}{2}(-12)+b\\), so \\(-17=-30+b\\) and \\(b=13\\). The equation is \\(y=\\frac{5}{2}x+13\\).</p><p>Substituting \\(\\frac{1}{5}\\) for \\(x\\) and \\(d\\) for \\(y\\): \\(d=\\frac{5}{2}\\left(\\frac{1}{5}\\right)+13=\\frac{1}{2}+13=\\frac{27}{2}\\).</p><p>The other choices come from errors such as leaving out the \\(y\\)-intercept, making a sign error in the slope or the intercept, or substituting the wrong \\(x\\)-value.</p>"
+  },
+  {
+   "id": "pt2-m2-q23-v4",
+   "family": "pt2-m2-q23",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q23",
+   "domain": "algebra",
+   "skill": "alg-linear-func",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<table><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(-15\\)</td><td>\\(62\\)</td></tr><tr><td>\\(5\\)</td><td>\\(-18\\)</td></tr></table><p>The table shows two values of \\(x\\) and their corresponding values of \\(y\\). In the \\(xy\\)-plane, the graph of the linear equation representing this relationship passes through the point \\(\\left(\\frac{5}{6},w\\right)\\). What is the value of \\(w\\)?</p>",
+   "choices": [
+    "\\(-\\frac{16}{3}\\)",
+    "\\(-\\frac{10}{3}\\)",
+    "\\(-\\frac{4}{3}\\)",
+    "\\(\\frac{16}{3}\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>Write the relationship as \\(y=mx+b\\). The slope is \\(m=\\frac{-18-62}{5-(-15)}=\\frac{-80}{20}=-4\\). Substituting the point \\((-15,62)\\): \\(62=-4(-15)+b\\), so \\(62=60+b\\) and \\(b=2\\). The equation is \\(y=-4x+2\\).</p><p>Substituting \\(\\frac{5}{6}\\) for \\(x\\) and \\(w\\) for \\(y\\): \\(w=-4\\left(\\frac{5}{6}\\right)+2=-\\frac{10}{3}+2=-\\frac{4}{3}\\).</p><p>The other choices come from errors such as leaving out the \\(y\\)-intercept, making a sign error in the slope or the intercept, or substituting the wrong \\(x\\)-value.</p>"
+  },
+  {
+   "id": "pt2-m2-q24",
+   "family": "pt2-m2-q24",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q24",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(y=576^{(2x+2)}\\)</p><p>The graph of the given equation in the \\(xy\\)-plane has a \\(y\\)-intercept of \\((r,s)\\). Which of the following equivalent equations displays the value of \\(s\\) as a constant, a coefficient, or the base?</p>",
+   "choices": [
+    "\\(y=331{,}776^{(x+1)}\\)",
+    "\\(y=24^{(4x+4)}\\)",
+    "\\(y=\\frac{1}{24}(24)^{(4x+5)}\\)",
+    "\\(y=\\frac{1}{576}(576)^{(2x+3)}\\)"
+   ],
+   "answer": "A",
+   "explanation": "<p>The \\(y\\)-intercept is where \\(x=0\\). Substituting 0 for \\(x\\) gives \\(y=576^{2}=331{,}776\\), so \\(r=0\\) and \\(s=331{,}776\\).</p><p>Since \\(576^{(2x+2)}=576^{2(x+1)}=(576^{2})^{(x+1)}\\), the equation \\(y=331{,}776^{(x+1)}\\) is equivalent and shows \\(331{,}776\\) as its base.</p><p>The other choices (\\(y=24^{(4x+4)}\\), \\(y=\\frac{1}{24}(24)^{(4x+5)}\\), \\(y=\\frac{1}{576}(576)^{(2x+3)}\\)) are also equivalent to the given equation, but none of them shows \\(331{,}776\\) as a constant, coefficient, or base.</p>"
+  },
+  {
+   "id": "pt2-m2-q24-v1",
+   "family": "pt2-m2-q24",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q24",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(y=49^{(3x+3)}\\)</p><p>The graph of the given equation in the \\(xy\\)-plane has a \\(y\\)-intercept of \\((r,s)\\). Which of the following equivalent equations displays the value of \\(s\\) as a constant, a coefficient, or the base?</p>",
+   "choices": [
+    "\\(y=7^{(6x+6)}\\)",
+    "\\(y=\\frac{1}{7}(7)^{(6x+7)}\\)",
+    "\\(y=117{,}649^{(x+1)}\\)",
+    "\\(y=\\frac{1}{49}(49)^{(3x+4)}\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>The \\(y\\)-intercept is where \\(x=0\\). Substituting 0 for \\(x\\) gives \\(y=49^{3}=117{,}649\\), so \\(r=0\\) and \\(s=117{,}649\\).</p><p>Since \\(49^{(3x+3)}=49^{3(x+1)}=(49^{3})^{(x+1)}\\), the equation \\(y=117{,}649^{(x+1)}\\) is equivalent and shows \\(117{,}649\\) as its base.</p><p>The other choices (\\(y=7^{(6x+6)}\\), \\(y=\\frac{1}{7}(7)^{(6x+7)}\\), \\(y=\\frac{1}{49}(49)^{(3x+4)}\\)) are also equivalent to the given equation, but none of them shows \\(117{,}649\\) as a constant, coefficient, or base.</p>"
+  },
+  {
+   "id": "pt2-m2-q24-v2",
+   "family": "pt2-m2-q24",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q24",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(y=25^{(2x+3)}\\)</p><p>The graph of the given equation in the \\(xy\\)-plane has a \\(y\\)-intercept of \\((r,s)\\). Which of the following equivalent equations displays the value of \\(s\\) as a constant, a coefficient, or the base?</p>",
+   "choices": [
+    "\\(y=5^{(4x+6)}\\)",
+    "\\(y=15{,}625(625)^{x}\\)",
+    "\\(y=\\frac{1}{5}(5)^{(4x+7)}\\)",
+    "\\(y=25(25)^{(2x+2)}\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>The \\(y\\)-intercept is where \\(x=0\\). Substituting 0 for \\(x\\) gives \\(y=25^{3}=15{,}625\\), so \\(r=0\\) and \\(s=15{,}625\\).</p><p>Since \\(25^{(2x+3)}=25^{3}\\cdot 25^{2x}=25^{3}\\cdot(25^{2})^{x}\\), and \\(25^{2}=625\\), the equation \\(y=15{,}625(625)^{x}\\) is equivalent and shows \\(15{,}625\\) as its coefficient.</p><p>The other choices (\\(y=5^{(4x+6)}\\), \\(y=\\frac{1}{5}(5)^{(4x+7)}\\), \\(y=25(25)^{(2x+2)}\\)) are also equivalent to the given equation, but none of them shows \\(15{,}625\\) as a constant, coefficient, or base.</p>"
+  },
+  {
+   "id": "pt2-m2-q24-v3",
+   "family": "pt2-m2-q24",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q24",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(y=81^{(2x+2)}\\)</p><p>The graph of the given equation in the \\(xy\\)-plane has a \\(y\\)-intercept of \\((r,s)\\). Which of the following equivalent equations displays the value of \\(s\\) as a constant, a coefficient, or the base?</p>",
+   "choices": [
+    "\\(y=6{,}561^{(x+1)}\\)",
+    "\\(y=9^{(4x+4)}\\)",
+    "\\(y=3^{(8x+8)}\\)",
+    "\\(y=\\frac{1}{81}(81)^{(2x+3)}\\)"
+   ],
+   "answer": "A",
+   "explanation": "<p>The \\(y\\)-intercept is where \\(x=0\\). Substituting 0 for \\(x\\) gives \\(y=81^{2}=6{,}561\\), so \\(r=0\\) and \\(s=6{,}561\\).</p><p>Since \\(81^{(2x+2)}=81^{2(x+1)}=(81^{2})^{(x+1)}\\), the equation \\(y=6{,}561^{(x+1)}\\) is equivalent and shows \\(6{,}561\\) as its base.</p><p>The other choices (\\(y=9^{(4x+4)}\\), \\(y=3^{(8x+8)}\\), \\(y=\\frac{1}{81}(81)^{(2x+3)}\\)) are also equivalent to the given equation, but none of them shows \\(6{,}561\\) as a constant, coefficient, or base.</p>"
+  },
+  {
+   "id": "pt2-m2-q24-v4",
+   "family": "pt2-m2-q24",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q24",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p style=\"text-align:center\">\\(y=16^{(3x+2)}\\)</p><p>The graph of the given equation in the \\(xy\\)-plane has a \\(y\\)-intercept of \\((r,s)\\). Which of the following equivalent equations displays the value of \\(s\\) as a constant, a coefficient, or the base?</p>",
+   "choices": [
+    "\\(y=2^{(12x+8)}\\)",
+    "\\(y=4^{(6x+4)}\\)",
+    "\\(y=\\frac{1}{16}(16)^{(3x+3)}\\)",
+    "\\(y=256(4{,}096)^{x}\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>The \\(y\\)-intercept is where \\(x=0\\). Substituting 0 for \\(x\\) gives \\(y=16^{2}=256\\), so \\(r=0\\) and \\(s=256\\).</p><p>Since \\(16^{(3x+2)}=16^{2}\\cdot 16^{3x}=16^{2}\\cdot(16^{3})^{x}\\), and \\(16^{3}=4{,}096\\), the equation \\(y=256(4{,}096)^{x}\\) is equivalent and shows \\(256\\) as its coefficient.</p><p>The other choices (\\(y=2^{(12x+8)}\\), \\(y=4^{(6x+4)}\\), \\(y=\\frac{1}{16}(16)^{(3x+3)}\\)) are also equivalent to the given equation, but none of them shows \\(256\\) as a constant, coefficient, or base.</p>"
+  },
+  {
+   "id": "pt2-m2-q25",
+   "family": "pt2-m2-q25",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q25",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>If \\(k-x\\) is a factor of the expression \\(-x^2+\\frac{1}{29}nk^2\\), where \\(n\\) and \\(k\\) are constants and \\(k>0\\), what is the value of \\(n\\)?</p>",
+   "choices": [
+    "\\(-29\\)",
+    "\\(-\\frac{1}{29}\\)",
+    "\\(\\frac{1}{29}\\)",
+    "\\(29\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>If \\(k-x\\) is a factor of a polynomial in \\(x\\), then the polynomial equals 0 when \\(k-x\\) equals 0, that is, when \\(x=k\\). Substituting \\(k\\) for \\(x\\) gives \\(-k^2+\\frac{1}{29}nk^2=0\\). Because \\(k>0\\), \\(k^2\\neq 0\\), so dividing by \\(k^2\\) gives \\(-1+\\frac{1}{29}n=0\\). Solving, \\(n=29\\).</p><p>Check: with \\(n=29\\), the expression becomes \\(-x^2+k^2\\), a difference of squares that has \\(k-x\\) as a factor. Each other choice leaves a nonzero value when \\(x=k\\), so \\(k-x\\) would not be a factor.</p>"
+  },
+  {
+   "id": "pt2-m2-q25-v1",
+   "family": "pt2-m2-q25",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q25",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>If \\(x-k\\) is a factor of the expression \\(4x^2-\\frac{1}{9}nk^2\\), where \\(n\\) and \\(k\\) are constants and \\(k>0\\), what is the value of \\(n\\)?</p>",
+   "choices": [
+    "\\(\\frac{4}{9}\\)",
+    "\\(4\\)",
+    "\\(36\\)",
+    "\\(-36\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>If \\(x-k\\) is a factor of a polynomial in \\(x\\), then the polynomial equals 0 when \\(x-k\\) equals 0, that is, when \\(x=k\\). Substituting \\(k\\) for \\(x\\) gives \\(4k^2-\\frac{1}{9}nk^2=0\\). Because \\(k>0\\), \\(k^2\\neq 0\\), so dividing by \\(k^2\\) gives \\(4-\\frac{1}{9}n=0\\). Solving, \\(n=36\\).</p><p>Check: with \\(n=36\\), the expression becomes \\(4x^2-4k^2\\), a difference of squares that has \\(x-k\\) as a factor. Each other choice leaves a nonzero value when \\(x=k\\), so \\(x-k\\) would not be a factor.</p>"
+  },
+  {
+   "id": "pt2-m2-q25-v2",
+   "family": "pt2-m2-q25",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q25",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>If \\(2k-x\\) is a factor of the expression \\(-x^2+\\frac{1}{12}nk^2\\), where \\(n\\) and \\(k\\) are constants and \\(k>0\\), what is the value of \\(n\\)?</p>",
+   "choices": [
+    "\\(\\frac{1}{48}\\)",
+    "\\(12\\)",
+    "\\(24\\)",
+    "\\(48\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>If \\(2k-x\\) is a factor of a polynomial in \\(x\\), then the polynomial equals 0 when \\(2k-x\\) equals 0, that is, when \\(x=2k\\). Substituting \\(2k\\) for \\(x\\) gives \\(-\\left(2k\\right)^2+\\frac{1}{12}nk^2=0\\), which simplifies to \\(-4k^2+\\frac{1}{12}nk^2=0\\). Because \\(k>0\\), \\(k^2\\neq 0\\), so dividing by \\(k^2\\) gives \\(-4+\\frac{1}{12}n=0\\). Solving, \\(n=48\\).</p><p>Check: with \\(n=48\\), the expression becomes \\(-x^2+4k^2\\), a difference of squares that has \\(2k-x\\) as a factor. Each other choice leaves a nonzero value when \\(x=2k\\), so \\(2k-x\\) would not be a factor.</p>"
+  },
+  {
+   "id": "pt2-m2-q25-v3",
+   "family": "pt2-m2-q25",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q25",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>If \\(x+k\\) is a factor of the expression \\(25x^2-\\frac{1}{5}nk^2\\), where \\(n\\) and \\(k\\) are constants and \\(k>0\\), what is the value of \\(n\\)?</p>",
+   "choices": [
+    "\\(5\\)",
+    "\\(125\\)",
+    "\\(-125\\)",
+    "\\(\\frac{1}{125}\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>If \\(x+k\\) is a factor of a polynomial in \\(x\\), then the polynomial equals 0 when \\(x+k\\) equals 0, that is, when \\(x=-k\\). Substituting \\(-k\\) for \\(x\\) gives \\(25\\left(-k\\right)^2-\\frac{1}{5}nk^2=0\\), which simplifies to \\(25k^2-\\frac{1}{5}nk^2=0\\). Because \\(k>0\\), \\(k^2\\neq 0\\), so dividing by \\(k^2\\) gives \\(25-\\frac{1}{5}n=0\\). Solving, \\(n=125\\).</p><p>Check: with \\(n=125\\), the expression becomes \\(25x^2-25k^2\\), a difference of squares that has \\(x+k\\) as a factor. Each other choice leaves a nonzero value when \\(x=-k\\), so \\(x+k\\) would not be a factor.</p>"
+  },
+  {
+   "id": "pt2-m2-q25-v4",
+   "family": "pt2-m2-q25",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q25",
+   "domain": "advanced",
+   "skill": "adv-equivalent",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>If \\(k-3x\\) is a factor of the expression \\(-x^2+\\frac{1}{2}nk^2\\), where \\(n\\) and \\(k\\) are constants and \\(k>0\\), what is the value of \\(n\\)?</p>",
+   "choices": [
+    "\\(\\frac{2}{9}\\)",
+    "\\(\\frac{9}{2}\\)",
+    "\\(18\\)",
+    "\\(-\\frac{2}{9}\\)"
+   ],
+   "answer": "A",
+   "explanation": "<p>If \\(k-3x\\) is a factor of a polynomial in \\(x\\), then the polynomial equals 0 when \\(k-3x\\) equals 0, that is, when \\(x=\\frac{k}{3}\\). Substituting \\(\\frac{k}{3}\\) for \\(x\\) gives \\(-\\left(\\frac{k}{3}\\right)^2+\\frac{1}{2}nk^2=0\\), which simplifies to \\(-\\frac{1}{9}k^2+\\frac{1}{2}nk^2=0\\). Because \\(k>0\\), \\(k^2\\neq 0\\), so dividing by \\(k^2\\) gives \\(-\\frac{1}{9}+\\frac{1}{2}n=0\\). Solving, \\(n=\\frac{2}{9}\\).</p><p>Check: with \\(n=\\frac{2}{9}\\), the expression becomes \\(-x^2+\\frac{1}{9}k^2\\), a difference of squares that has \\(k-3x\\) as a factor. Each other choice leaves a nonzero value when \\(x=\\frac{k}{3}\\), so \\(k-3x\\) would not be a factor.</p>"
+  },
+  {
+   "id": "pt2-m2-q26",
+   "family": "pt2-m2-q26",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q26",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>Note: Figure not drawn to scale.</p><p>In the figure, \\(\\overline{LQ}\\) intersects \\(\\overline{MP}\\) at point \\(R\\), and \\(\\overline{LM}\\) is parallel to \\(\\overline{PQ}\\). The lengths of \\(\\overline{MR}\\), \\(\\overline{LR}\\), and \\(\\overline{RP}\\) are 6, 7, and 11, respectively. What is the length of \\(\\overline{LQ}\\)?</p>",
+   "figure": {
+    "img": "img/pt2-m2-q26.png",
+    "alt": "Segments LQ and MP cross at point R. Segment LM joins L and M above line LQ on the left, and segment PQ joins P and Q below it on the right, forming two triangles LMR and QPR that meet at R."
+   },
+   "choices": [
+    "\\(\\frac{119}{11}\\)",
+    "\\(\\frac{77}{6}\\)",
+    "\\(\\frac{113}{6}\\)",
+    "\\(\\frac{119}{6}\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>Angles \\(MRL\\) and \\(PRQ\\) are vertical angles, so they are congruent. Because \\(\\overline{LM}\\) is parallel to \\(\\overline{PQ}\\), alternate interior angles \\(MLR\\) and \\(PQR\\) are congruent. So triangle \\(LMR\\) is similar to triangle \\(QPR\\), with \\(LR\\) corresponding to \\(QR\\) and \\(MR\\) corresponding to \\(PR\\).</p><p>Therefore \\(\\frac{RQ}{LR}=\\frac{RP}{MR}\\), so \\(\\frac{RQ}{7}=\\frac{11}{6}\\) and \\(RQ=7\\cdot\\frac{11}{6}=\\frac{77}{6}\\). Then \\(LQ=LR+RQ=7+\\frac{77}{6}=\\frac{119}{6}\\).</p><p>\\(\\frac{119}{11}\\) comes from setting up the proportion upside down; \\(\\frac{77}{6}\\) is the length of \\(\\overline{RQ}\\), not \\(\\overline{LQ}\\); \\(\\frac{113}{6}\\) adds \\(MR\\) instead of \\(LR\\) to \\(RQ\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q26-v1",
+   "family": "pt2-m2-q26",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q26",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>In the figure, \\(\\overline{AE}\\) intersects \\(\\overline{BD}\\) at point \\(C\\), and \\(\\overline{AB}\\) is parallel to \\(\\overline{DE}\\). The lengths of \\(\\overline{BC}\\), \\(\\overline{AC}\\), and \\(\\overline{CD}\\) are 4, 5, and 9, respectively. What is the length of \\(\\overline{AE}\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 348 207\" font-family=\"serif\" font-size=\"15\" font-style=\"italic\"><line x1=\"24.0\" y1=\"72.8\" x2=\"324.0\" y2=\"72.8\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"60.9\" y1=\"24.0\" x2=\"240.9\" y2=\"182.7\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"24.0\" y1=\"72.8\" x2=\"60.9\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"240.9\" y1=\"182.7\" x2=\"324.0\" y2=\"72.8\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"10.0\" y=\"77.8\" fill=\"currentColor\">A</text><text x=\"55.9\" y=\"16.0\" fill=\"currentColor\">B</text><text x=\"122.3\" y=\"66.8\" fill=\"currentColor\">C</text><text x=\"235.9\" y=\"200.7\" fill=\"currentColor\">D</text><text x=\"330.0\" y=\"77.8\" fill=\"currentColor\">E</text></svg>",
+    "alt": "Segments AE and BD cross at point C. Segment AB joins A and B on one side, and segment DE joins D and E on the other, forming triangles ABC and EDC that meet at C."
+   },
+   "choices": [
+    "\\(\\frac{65}{9}\\)",
+    "\\(\\frac{45}{4}\\)",
+    "\\(\\frac{61}{4}\\)",
+    "\\(\\frac{65}{4}\\)"
+   ],
+   "answer": "D",
+   "explanation": "<p>Angles \\(BCA\\) and \\(DCE\\) are vertical angles, so they are congruent. Because \\(\\overline{AB}\\) is parallel to \\(\\overline{DE}\\), alternate interior angles \\(BAC\\) and \\(DEC\\) are congruent. So triangle \\(ABC\\) is similar to triangle \\(EDC\\), with \\(AC\\) corresponding to \\(EC\\) and \\(BC\\) corresponding to \\(DC\\).</p><p>Therefore \\(\\frac{CE}{AC}=\\frac{CD}{BC}\\), so \\(\\frac{CE}{5}=\\frac{9}{4}\\) and \\(CE=5\\cdot\\frac{9}{4}=\\frac{45}{4}\\). Then \\(AE=AC+CE=5+\\frac{45}{4}=\\frac{65}{4}\\).</p><p>\\(\\frac{65}{9}\\) comes from setting up the proportion upside down; \\(\\frac{45}{4}\\) is the length of \\(\\overline{CE}\\), not \\(\\overline{AE}\\); \\(\\frac{61}{4}\\) adds \\(BC\\) instead of \\(AC\\) to \\(CE\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q26-v2",
+   "family": "pt2-m2-q26",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q26",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>In the figure, \\(\\overline{SW}\\) intersects \\(\\overline{TV}\\) at point \\(U\\), and \\(\\overline{ST}\\) is parallel to \\(\\overline{VW}\\). The lengths of \\(\\overline{TU}\\), \\(\\overline{SU}\\), and \\(\\overline{UV}\\) are 8, 3, and 5, respectively. What is the length of \\(\\overline{SW}\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 163 348\" font-family=\"serif\" font-size=\"15\" font-style=\"italic\"><line x1=\"24.0\" y1=\"208.6\" x2=\"139.5\" y2=\"208.6\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"52.4\" y1=\"24.0\" x2=\"121.7\" y2=\"324.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"24.0\" y1=\"208.6\" x2=\"52.4\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"121.7\" y1=\"324.0\" x2=\"139.5\" y2=\"208.6\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"10.0\" y=\"213.6\" fill=\"currentColor\">S</text><text x=\"47.4\" y=\"16.0\" fill=\"currentColor\">T</text><text x=\"101.1\" y=\"202.6\" fill=\"currentColor\">U</text><text x=\"116.7\" y=\"342.0\" fill=\"currentColor\">V</text><text x=\"145.5\" y=\"213.6\" fill=\"currentColor\">W</text></svg>",
+    "alt": "Segments SW and TV cross at point U. Segment ST joins S and T on one side, and segment VW joins V and W on the other, forming triangles STU and WVU that meet at U."
+   },
+   "choices": [
+    "\\(\\frac{15}{8}\\)",
+    "\\(\\frac{39}{8}\\)",
+    "\\(\\frac{39}{5}\\)",
+    "\\(\\frac{79}{8}\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>Angles \\(TUS\\) and \\(VUW\\) are vertical angles, so they are congruent. Because \\(\\overline{ST}\\) is parallel to \\(\\overline{VW}\\), alternate interior angles \\(TSU\\) and \\(VWU\\) are congruent. So triangle \\(STU\\) is similar to triangle \\(WVU\\), with \\(SU\\) corresponding to \\(WU\\) and \\(TU\\) corresponding to \\(VU\\).</p><p>Therefore \\(\\frac{UW}{SU}=\\frac{UV}{TU}\\), so \\(\\frac{UW}{3}=\\frac{5}{8}\\) and \\(UW=3\\cdot\\frac{5}{8}=\\frac{15}{8}\\). Then \\(SW=SU+UW=3+\\frac{15}{8}=\\frac{39}{8}\\).</p><p>\\(\\frac{15}{8}\\) is the length of \\(\\overline{UW}\\), not \\(\\overline{SW}\\); \\(\\frac{39}{5}\\) comes from setting up the proportion upside down; \\(\\frac{79}{8}\\) adds \\(TU\\) instead of \\(SU\\) to \\(UW\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q26-v3",
+   "family": "pt2-m2-q26",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q26",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>In the figure, \\(\\overline{FK}\\) intersects \\(\\overline{GJ}\\) at point \\(H\\), and \\(\\overline{FG}\\) is parallel to \\(\\overline{JK}\\). The lengths of \\(\\overline{GH}\\), \\(\\overline{FH}\\), and \\(\\overline{HJ}\\) are 10, 6, and 7, respectively. What is the length of \\(\\overline{FK}\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 241 348\" font-family=\"serif\" font-size=\"15\" font-style=\"italic\"><line x1=\"24.0\" y1=\"200.5\" x2=\"216.9\" y2=\"200.5\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"69.4\" y1=\"24.0\" x2=\"185.2\" y2=\"324.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"24.0\" y1=\"200.5\" x2=\"69.4\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"185.2\" y1=\"324.0\" x2=\"216.9\" y2=\"200.5\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"10.0\" y=\"205.5\" fill=\"currentColor\">F</text><text x=\"64.4\" y=\"16.0\" fill=\"currentColor\">G</text><text x=\"143.5\" y=\"194.5\" fill=\"currentColor\">H</text><text x=\"180.2\" y=\"342.0\" fill=\"currentColor\">J</text><text x=\"222.9\" y=\"205.5\" fill=\"currentColor\">K</text></svg>",
+    "alt": "Segments FK and GJ cross at point H. Segment FG joins F and G on one side, and segment JK joins J and K on the other, forming triangles FGH and KJH that meet at H."
+   },
+   "choices": [
+    "\\(\\frac{21}{5}\\)",
+    "\\(\\frac{51}{5}\\)",
+    "\\(\\frac{71}{5}\\)",
+    "\\(\\frac{102}{7}\\)"
+   ],
+   "answer": "B",
+   "explanation": "<p>Angles \\(GHF\\) and \\(JHK\\) are vertical angles, so they are congruent. Because \\(\\overline{FG}\\) is parallel to \\(\\overline{JK}\\), alternate interior angles \\(GFH\\) and \\(JKH\\) are congruent. So triangle \\(FGH\\) is similar to triangle \\(KJH\\), with \\(FH\\) corresponding to \\(KH\\) and \\(GH\\) corresponding to \\(JH\\).</p><p>Therefore \\(\\frac{HK}{FH}=\\frac{HJ}{GH}\\), so \\(\\frac{HK}{6}=\\frac{7}{10}\\) and \\(HK=6\\cdot\\frac{7}{10}=\\frac{21}{5}\\). Then \\(FK=FH+HK=6+\\frac{21}{5}=\\frac{51}{5}\\).</p><p>\\(\\frac{21}{5}\\) is the length of \\(\\overline{HK}\\), not \\(\\overline{FK}\\); \\(\\frac{71}{5}\\) adds \\(GH\\) instead of \\(FH\\) to \\(HK\\); \\(\\frac{102}{7}\\) comes from setting up the proportion upside down.</p>"
+  },
+  {
+   "id": "pt2-m2-q26-v4",
+   "family": "pt2-m2-q26",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q26",
+   "domain": "geometry",
+   "skill": "geo-lines-angles",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "mc",
+   "prompt": "<p>In the figure, \\(\\overline{DH}\\) intersects \\(\\overline{EG}\\) at point \\(F\\), and \\(\\overline{DE}\\) is parallel to \\(\\overline{GH}\\). The lengths of \\(\\overline{EF}\\), \\(\\overline{DF}\\), and \\(\\overline{FG}\\) are 9, 4, and 15, respectively. What is the length of \\(\\overline{DH}\\)?</p>",
+   "figure": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 186 348\" font-family=\"serif\" font-size=\"15\" font-style=\"italic\"><line x1=\"24.0\" y1=\"136.5\" x2=\"162.3\" y2=\"136.5\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"44.8\" y1=\"24.0\" x2=\"127.8\" y2=\"324.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"24.0\" y1=\"136.5\" x2=\"44.8\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"127.8\" y1=\"324.0\" x2=\"162.3\" y2=\"136.5\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"10.0\" y=\"141.5\" fill=\"currentColor\">D</text><text x=\"39.8\" y=\"16.0\" fill=\"currentColor\">E</text><text x=\"81.9\" y=\"130.5\" fill=\"currentColor\">F</text><text x=\"122.8\" y=\"342.0\" fill=\"currentColor\">G</text><text x=\"168.3\" y=\"141.5\" fill=\"currentColor\">H</text></svg>",
+    "alt": "Segments DH and EG cross at point F. Segment DE joins D and E on one side, and segment GH joins G and H on the other, forming triangles DEF and HGF that meet at F."
+   },
+   "choices": [
+    "\\(\\frac{32}{5}\\)",
+    "\\(\\frac{20}{3}\\)",
+    "\\(\\frac{32}{3}\\)",
+    "\\(\\frac{47}{3}\\)"
+   ],
+   "answer": "C",
+   "explanation": "<p>Angles \\(EFD\\) and \\(GFH\\) are vertical angles, so they are congruent. Because \\(\\overline{DE}\\) is parallel to \\(\\overline{GH}\\), alternate interior angles \\(EDF\\) and \\(GHF\\) are congruent. So triangle \\(DEF\\) is similar to triangle \\(HGF\\), with \\(DF\\) corresponding to \\(HF\\) and \\(EF\\) corresponding to \\(GF\\).</p><p>Therefore \\(\\frac{FH}{DF}=\\frac{FG}{EF}\\), so \\(\\frac{FH}{4}=\\frac{15}{9}\\) and \\(FH=4\\cdot\\frac{15}{9}=\\frac{20}{3}\\). Then \\(DH=DF+FH=4+\\frac{20}{3}=\\frac{32}{3}\\).</p><p>\\(\\frac{32}{5}\\) comes from setting up the proportion upside down; \\(\\frac{20}{3}\\) is the length of \\(\\overline{FH}\\), not \\(\\overline{DH}\\); \\(\\frac{47}{3}\\) adds \\(EF\\) instead of \\(DF\\) to \\(FH\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q27",
+   "family": "pt2-m2-q27",
+   "variant": 0,
+   "source": "PSAT/NMSQT Practice Test 2 · Math Module 2 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(5(x+7)=15(x-17)(x+7)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
+   "answer": [
+    "31/3",
+    "10.33"
+   ],
+   "explanation": "<p>Subtract \\(5(x+7)\\) from each side: \\(0=15(x-17)(x+7)-5(x+7)\\). Factor out the common factor \\((x+7)\\): \\(0=(x+7)\\left(15(x-17)-5\\right)\\), which simplifies to \\(0=(x+7)(15x-260)\\).</p><p>A product is 0 when a factor is 0, so \\(x=-7\\) or \\(x=\\frac{52}{3}\\). The sum of the solutions is \\(-7+\\left(\\frac{52}{3}\\right)=\\frac{31}{3}\\). Examples of ways to enter a correct answer: 31/3, 10.33.</p><p>Watch out: dividing both sides by \\((x+7)\\) at the start loses the solution \\(x=-7\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q27-v1",
+   "family": "pt2-m2-q27",
+   "variant": 1,
+   "source": "Variant of Practice Test 2 · Module 2 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(4(x-5)=12(x-9)(x-5)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
+   "answer": [
+    "43/3",
+    "14.33"
+   ],
+   "explanation": "<p>Subtract \\(4(x-5)\\) from each side: \\(0=12(x-9)(x-5)-4(x-5)\\). Factor out the common factor \\((x-5)\\): \\(0=(x-5)\\left(12(x-9)-4\\right)\\), which simplifies to \\(0=(x-5)(12x-112)\\).</p><p>A product is 0 when a factor is 0, so \\(x=5\\) or \\(x=\\frac{28}{3}\\). The sum of the solutions is \\(5+\\left(\\frac{28}{3}\\right)=\\frac{43}{3}\\). Examples of ways to enter a correct answer: 43/3, 14.33.</p><p>Watch out: dividing both sides by \\((x-5)\\) at the start loses the solution \\(x=5\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q27-v2",
+   "family": "pt2-m2-q27",
+   "variant": 2,
+   "source": "Variant of Practice Test 2 · Module 2 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(6(x+2)=18(x-11)(x+2)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
+   "answer": [
+    "28/3",
+    "9.333"
+   ],
+   "explanation": "<p>Subtract \\(6(x+2)\\) from each side: \\(0=18(x-11)(x+2)-6(x+2)\\). Factor out the common factor \\((x+2)\\): \\(0=(x+2)\\left(18(x-11)-6\\right)\\), which simplifies to \\(0=(x+2)(18x-204)\\).</p><p>A product is 0 when a factor is 0, so \\(x=-2\\) or \\(x=\\frac{34}{3}\\). The sum of the solutions is \\(-2+\\left(\\frac{34}{3}\\right)=\\frac{28}{3}\\). Examples of ways to enter a correct answer: 28/3, 9.333.</p><p>Watch out: dividing both sides by \\((x+2)\\) at the start loses the solution \\(x=-2\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q27-v3",
+   "family": "pt2-m2-q27",
+   "variant": 3,
+   "source": "Variant of Practice Test 2 · Module 2 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(7(x-4)=14(x+6)(x-4)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
+   "answer": [
+    "-3/2",
+    "-1.5"
+   ],
+   "explanation": "<p>Subtract \\(7(x-4)\\) from each side: \\(0=14(x+6)(x-4)-7(x-4)\\). Factor out the common factor \\((x-4)\\): \\(0=(x-4)\\left(14(x+6)-7\\right)\\), which simplifies to \\(0=(x-4)(14x+77)\\).</p><p>A product is 0 when a factor is 0, so \\(x=4\\) or \\(x=-\\frac{11}{2}\\). The sum of the solutions is \\(4+\\left(-\\frac{11}{2}\\right)=-\\frac{3}{2}\\). Examples of ways to enter a correct answer: -3/2, -1.5.</p><p>Watch out: dividing both sides by \\((x-4)\\) at the start loses the solution \\(x=4\\).</p>"
+  },
+  {
+   "id": "pt2-m2-q27-v4",
+   "family": "pt2-m2-q27",
+   "variant": 4,
+   "source": "Variant of Practice Test 2 · Module 2 · Q27",
+   "domain": "advanced",
+   "skill": "adv-nonlinear-eq",
+   "difficulty": 3,
+   "inContext": false,
+   "type": "spr",
+   "prompt": "<p style=\"text-align:center\">\\(2(x-3)=10(x+1)(x-3)\\)</p><p>What is the sum of the solutions to the given equation?</p>",
+   "answer": [
+    "11/5",
+    "2.2"
+   ],
+   "explanation": "<p>Subtract \\(2(x-3)\\) from each side: \\(0=10(x+1)(x-3)-2(x-3)\\). Factor out the common factor \\((x-3)\\): \\(0=(x-3)\\left(10(x+1)-2\\right)\\), which simplifies to \\(0=(x-3)(10x+8)\\).</p><p>A product is 0 when a factor is 0, so \\(x=3\\) or \\(x=-\\frac{4}{5}\\). The sum of the solutions is \\(3+\\left(-\\frac{4}{5}\\right)=\\frac{11}{5}\\). Examples of ways to enter a correct answer: 11/5, 2.2.</p><p>Watch out: dividing both sides by \\((x-3)\\) at the start loses the solution \\(x=3\\).</p>"
+  }
+ ]
+}
