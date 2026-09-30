@@ -243,6 +243,10 @@ table.skills td.n{font-family:var(--mono);font-size:13px;white-space:nowrap}
 .goalpick{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px;font-size:13.5px;color:var(--ink-2)}
 .goalpick button{border:1.5px solid var(--rule);background:var(--paper);border-radius:8px;padding:4px 12px;font:600 13px var(--mono)}
 .goalpick button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.export{padding:18px 20px}
+.export p{margin:0 0 12px;color:var(--ink-2);font-size:14px;max-width:62ch}
+.export .row{display:flex;gap:10px;flex-wrap:wrap}
+.btn.small{padding:8px 14px;font-size:14px}
 @keyframes pop{0%{transform:scale(.6)}60%{transform:scale(1.15)}100%{transform:scale(1)}}
 .verdict.good .mark{animation:pop .35s ease-out}
 @media (max-width:520px){
@@ -1049,7 +1053,13 @@ function renderProgress() {
     ${b.blocked.length ? `<p style="margin:0;color:var(--bad)"><b>${b.blocked.length} concept${b.blocked.length === 1 ? " is" : "s are"} due but out of versions.</b> Ask for more questions to be loaded.</p>` : ""}
     ${b.lowFams.length ? `<p style="margin:6px 0 0" class="muted">${b.lowFams.length} started concept${b.lowFams.length === 1 ? " has" : "s have"} one or no unused versions left.</p>` : ""}
   </div>`;
+  html += `<h2 class="sec">Export your data</h2><div class="card export">
+    <p>Download a copy of your practice history. Exporting only reads your data; it never changes your progress.</p>
+    <div class="row"><button class="btn small" id="exp-csv">Answer log (CSV)</button><button class="btn ghost small" id="exp-json">Full backup (JSON)</button></div>
+  </div>`;
   V.progress.innerHTML = html;
+  $("#exp-csv").onclick = () => exportData("csv");
+  $("#exp-json").onclick = () => exportData("json");
   drawChart();
   V.progress.querySelectorAll("[data-goal]").forEach(b => b.onclick = () => { S.goal = +b.dataset.goal; persist(); renderProgress(); });
 }
@@ -1097,7 +1107,8 @@ function renderLog() {
   const RT = { guess: "Guessed", hard: "Hard", good: "Good", easy: "Easy", miss: "Didn't know how", slip: "Careless mistake" };
   V.log.innerHTML = `<div class="logtools"><h2>Practice log</h2>
     <label class="muted" for="logf" style="font-size:13px">Show</label>
-    <select id="logf"><option value="all">All questions</option><option value="missed">Missed only</option>${Object.entries(DOMAINS).map(([k, v]) => `<option value="${k}">${v}</option>`).join("")}</select></div>
+    <select id="logf"><option value="all">All questions</option><option value="missed">Missed only</option>${Object.entries(DOMAINS).map(([k, v]) => `<option value="${k}">${v}</option>`).join("")}</select>
+    <button class="tool" id="logexp">Export CSV</button></div>
     <div class="card">${rows.length ? rows.map(({ e, i }) => { const q = BANK.byId[e.q];
       return `<div class="logrow"><button data-i="${i}" aria-expanded="${openRow === i}">
         <span class="res ${e.ok ? "good" : "bad"}" aria-label="${e.ok ? "Correct" : "Missed"}">${e.ok ? CHECK : CROSS}</span>
@@ -1106,6 +1117,7 @@ function renderLog() {
       </button>${openRow === i ? `<div class="logdetail" id="logdetail"></div>` : ""}</div>`; }).join("") : `<div class="empty">No questions answered yet. Your history will show up here.</div>`}</div>`;
   $("#logf").value = logFilter;
   $("#logf").onchange = e => { logFilter = e.target.value; openRow = null; renderLog(); };
+  $("#logexp").onclick = () => exportData("csv");
   V.log.querySelectorAll(".logrow>button").forEach(b => b.onclick = () => { const i = +b.dataset.i; openRow = openRow === i ? null : i; renderLog(); });
   const det = $("#logdetail");
   if (det) {
@@ -1118,6 +1130,71 @@ function renderLog() {
       <div class="expl">${wrapTables(q.explanation)}</div>`;
     typeset(det);
   }
+}
+
+/* ------------------------------------------------------------------ */
+/* Export (read-only: builds files from copies, never writes back)     */
+/* ------------------------------------------------------------------ */
+async function readSnapshot() {
+  // Re-read what is saved so the export matches storage, without touching S or LOG.
+  try {
+    const st = await store.getState();
+    if (st) {
+      const n = Math.ceil((st.logCount || 0) / LOG_CHUNK);
+      const log = (await Promise.all(Array.from({ length: n }, (_, i) => store.getLog(i)))).flat();
+      if (log.length >= LOG.length) return { state: clone(st), log: clone(log) };
+    }
+  } catch (e) {}
+  return { state: clone(S), log: clone(LOG) };
+}
+function csvCell(v) {
+  const t = v == null ? "" : String(v);
+  return /[",\n\r]/.test(t) ? '"' + t.replace(/"/g, '""') + '"' : t;
+}
+function stamp(t) {
+  const d = new Date(t);
+  return dayKey(t) + " " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+}
+function buildCsv(log) {
+  const RT = { guess: "Guessed", hard: "Hard", good: "Good", easy: "Easy", miss: "Didn't know how", slip: "Careless mistake" };
+  const head = ["Date", "Question ID", "Source", "Domain", "Skill", "Difficulty", "Mode", "Your answer", "Correct answer", "Result", "Seconds", "Rating"];
+  const rows = log.map(e => {
+    const q = BANK.byId[e.q], sk = SKILLS[e.sk];
+    return [stamp(e.t), e.q, q ? q.source : "", sk ? DOMAINS[sk[0]] : "", sk ? sk[1] : e.sk, DIFF[e.d] || "",
+      (MODE_LABEL[e.m] || ["", e.m])[1], e.r, q ? answerText(q) : "", e.ok ? "Correct" : "Missed", e.s, RT[e.rt] || e.rt || ""];
+  });
+  return "﻿" + [head, ...rows].map(r => r.map(csvCell).join(",")).join("\r\n") + "\r\n";
+}
+let dlNs;
+async function saveFile(filename, text) {
+  if (dlNs === undefined) {
+    try { dlNs = window.claude && window.claude.use ? await window.claude.use("downloads") : null; } catch (e) { dlNs = null; }
+  }
+  if (dlNs) {
+    try { await dlNs.save({ filename, data: text }); toast("Export saved", filename); }
+    catch (e) { if (!e || e.code !== "declined") toast("Couldn't save the file", (e && e.message) || "Try again in a moment."); }
+    return;
+  }
+  if (!window.claude) {
+    const url = URL.createObjectURL(new Blob([text], { type: filename.endsWith(".csv") ? "text/csv;charset=utf-8" : "application/json" }));
+    const a = document.createElement("a");
+    a.href = url; a.download = filename; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+    toast("Export downloaded", filename);
+    return;
+  }
+  try { await navigator.clipboard.writeText(text); toast("Copied to clipboard", "Downloads aren't available here. Paste into a text file."); }
+  catch (e) { toast("Export isn't available here", "Open the app in a browser to download your data."); }
+}
+async function exportData(kind) {
+  const snap = await readSnapshot();
+  const day = dayKey(Date.now());
+  if (kind === "csv") {
+    if (!snap.log.length) { toast("Nothing to export yet", "Answer a question first."); return; }
+    return saveFile(`psat-math-log-${day}.csv`, buildCsv(snap.log));
+  }
+  const backup = { app: "PSAT Math Coach", exportedAt: new Date().toISOString(), questionsLoaded: Object.keys(BANK.byId).length, state: snap.state, log: snap.log };
+  return saveFile(`psat-math-backup-${day}.json`, JSON.stringify(backup, null, 1));
 }
 
 /* ------------------------------------------------------------------ */
